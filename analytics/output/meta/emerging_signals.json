@@ -42,8 +42,8 @@
       "sample_size": 7,
       "sample_sufficient": true,
       "patch_adjustment": {
-        "type": "nerf",
-        "summary": "Reduced base energy regen and ultimate cooldown increased."
+        "type": "unchanged",
+        "summary": "No direct patch changes noted."
       }
     },
     {
@@ -132,8 +132,8 @@
       "sample_size": 14,
       "sample_sufficient": true,
       "patch_adjustment": {
-        "type": "buff",
-        "summary": "Attack speed scaling increased."
+        "type": "unchanged",
+        "summary": "No direct patch changes noted."
       }
     }
   ]

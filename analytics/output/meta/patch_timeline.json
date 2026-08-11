@@ -1,22 +1,32 @@
 {
   "data": [
     {
+      "patch_id": "patch-2.1.95",
+      "version": "2.1.95",
+      "official_name": "Patch 2.1.95",
+      "release_date": "2026-08-04",
+      "season": 35,
+      "source_url": "https://liquipedia.net/mobilelegends/Patch_2.1.95",
+      "status": "archived",
+      "changelog_file": "patches/changelogs/patch_2_1_95.json"
+    },
+    {
       "patch_id": "patch-1.8.44",
       "version": "1.8.44",
-      "official_name": "M5 World Championship Patch",
-      "release_date": "2023-11-21",
+      "official_name": "Patch 1.8.44",
+      "release_date": "2023-12-20",
       "season": 30,
-      "source_url": "https://mobile-legends.fandom.com/wiki/Patch_Notes_1.8.44",
+      "source_url": "https://liquipedia.net/mobilelegends/Patch_1.8.44",
       "status": "archived",
       "changelog_file": "patches/changelogs/patch_1_8_44.json"
     },
     {
       "patch_id": "patch-1.8.30",
       "version": "1.8.30",
-      "official_name": "M5 Qualification Patch",
-      "release_date": "2023-10-17",
+      "official_name": "Patch 1.8.30",
+      "release_date": "2023-11-07",
       "season": 30,
-      "source_url": "https://mobile-legends.fandom.com/wiki/Patch_Notes_1.8.30",
+      "source_url": "https://liquipedia.net/mobilelegends/Patch_1.8.30",
       "status": "archived",
       "changelog_file": "patches/changelogs/patch_1_8_30.json"
     }

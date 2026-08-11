@@ -1,0 +1,294 @@
+{
+  "patch_id": "patch-1.8.30",
+  "version": "1.8.30",
+  "release_date": "2023-11-07",
+  "previous_version": "1.8.22",
+  "next_version": "1.8.30B",
+  "source": {
+    "name": "Liquipedia",
+    "url": "https://liquipedia.net/mobilelegends/Patch_1.8.30",
+    "retrieved_at": "2026-08-11T07:44:26Z",
+    "content_hash": "sha256:3320a23718004705a1a034da06ca4bcca9db6c9ff48bc9113bffe8330c7e33e1"
+  },
+  "hero_adjustments": [
+    {
+      "hero_id": "h_unknown",
+      "hero_name": "Moskov",
+      "type": "adjustment",
+      "summary": "Pursuer & Finisher",
+      "details": "Attributes\n\nPhysical Attack Growth: 15.5 → 12.5\n\nBase HP: 2455 → 2255\n\n\n\nPassive - {{ai|Moskov|Spear of Quiescence"
+    },
+    {
+      "hero_id": "h_unknown",
+      "hero_name": "Masha",
+      "type": "adjustment",
+      "summary": "As the only hero with 3 HP bars, Masha lacks the appropriate skills and strength when facing other heroes. We're making her more aggressive by differentiating her 3 HP bars and making each skill cast count, while allowing her to enter and exit the fight at will under certain conditions. In the meantime, players will have to be more careful with the timing of each skill cast (especially with only one HP bar left) as she has lost some of her durability advantages. We're also adding the Jungle as her secondary position and changing her default Battle Setup. (Masha needs equipment to provide extra Attack Speed and HP Regen rather than Defense.)",
+      "details": "Attributes \n\nBasic Attack Speed: 1.05 → 0.96\n\nAttack Speed Growth/Level: 1% → 3.5%\n\nBase Hybrid Defense: 10 → 15\n\n\nPassive - {{ai|Masha|Ancient Strength}} \n\nRemoved Effect: Attack Speed increases with"
+    },
+    {
+      "hero_id": "h_unknown",
+      "hero_name": "Argus",
+      "type": "adjustment",
+      "summary": "Experimental Adjustments: Argus's current gameplay is a bit too bland. His Ultimate seems to be both offensive and defensive, but in fact, it's difficult to achieve the desired effect. The Curse Damage of Meteoric Sword constitutes a lot of his strength, but it doesn't match his style of spamming Basic Attack. So we decided to redesign Argus's skill set and combat experience. As well as his early to mid game laning ability.",
+      "details": "Passive - {{ai|Argus|Warmonger}} \n\nHP Regen: 65 + 40% Total Physical Attack → 200 + 10% Total Physical Attack\n\nExtra Physical Damage: 155 + 100% Total Physical Attack → 200 + 100% Total Physical Attac"
+    },
+    {
+      "hero_id": "h_unknown",
+      "hero_name": "Joy",
+      "type": "adjustment",
+      "summary": "Experimental adjustments: We wanted to make it easier for Joy's opponents to deal with her, while at the same time making her less difficult to play. Joy's enemy can now interrupt her Skill 2 with CCs. Joy should now look for the right time to enter the fight. But she still has options if her Skill 2 is interrupted.",
+      "details": "Skill 2 - {{ai|Joy|Meow, Rhythm of Joy!}} \n\nRemoved Effect: Immune to control effects during \"Beat Time!\"\n\nCooldown: 12-9s → 8s at all levels\n\n\nUltimate - {{ai|Joy|Ha, Electrifying Beats!}} \n\nHer Ulti"
+    },
+    {
+      "hero_id": "h_unknown",
+      "hero_name": "Roger",
+      "type": "adjustment",
+      "summary": "We want to emphasize Roger's tactical significance and performance, as most of the time he just dominates the game in the wolf form when the team is leading in Gold. So, we've balanced the difference in damage output between his human and the wolf forms. Roger's human form is now stronger at lowering enemies' HP while his wolf form is stronger at finishing them off.",
+      "details": "Passive - {{ai|Roger|Full Moon Curse}} \n\nRevamped Passive: In human form, Roger's Basic Attack and skills deal additional damage equal to 5% of the target's current HP; in wolf form, Roger's Basic Att"
+    },
+    {
+      "hero_id": "h_unknown",
+      "hero_name": "Khaleed",
+      "type": "adjustment",
+      "summary": "We're making Khaleed's skills easier to use.",
+      "details": "Skill 1 - {{ai|Khaleed|Desert Tornado}} \n\nThe skill will now cast 3 times with or without hitting a target.\n\nSlightly increased the dash speed.\n\nBase Damage: 180-480 + 125% Physical Attack → 200-525 +"
+    },
+    {
+      "hero_id": "h_unknown",
+      "hero_name": "Alucard",
+      "type": "adjustment",
+      "summary": "We want to bridge the gap between Alucard's damage against single and multiple enemies, and improve his sustained damage without Ultimate.",
+      "details": "Passive - {{ai|Alucard|Pursuit}} \n\nRemoved Effect: Deals increased damage when hitting only one hero.\n\n\nSkill 2 - {{ai|Alucard|Whirling Smash}} \n\nBase Damage: 320-420 → 345-570\n\nCooldown: 5s at all le"
+    },
+    {
+      "hero_id": "h_unknown",
+      "hero_name": "Chang'e",
+      "type": "adjustment",
+      "summary": "We want Chang'e to be able to deal good damage without high Passive stacks, and enhance her ability to slow the enemies at the same time.",
+      "details": "Passive - {{ai|Chang'e|Trouble Maker}} \n\nRemoved the damage increase effect. Slows the target by 1% per stack, up to 20%.\n\n\nSkill 1 - {{ai|Chang'e|Starmoon Shockwave}} \n\nDamage: 300-450 + 120% Magic P"
+    },
+    {
+      "hero_id": "h_unknown",
+      "hero_name": "Tigreal",
+      "type": "adjustment",
+      "summary": "Tigreal is a Tank hero with one of the best chain control combos in the game, and we tried to make it easier for his opponents to deal with his Ultimate. But it seems we made it too easy. So, we'll adjust his Ultimate - it can still be interrupted, but only by enemy heroes who are not affected by his Ultimate.",
+      "details": "Skill 2 - {{ai|Tigreal|Sacred Hammer}} \n\nCooldown: 12.5-10s → 16-13s\n\n\nUltimate - {{ai|Tigreal|Implosion}} \n\nCooldown: 45-37s → 55-45s\n\nNew Effect: The first pull also stuns enemies, but it can't be u"
+    },
+    {
+      "hero_id": "h_unknown",
+      "hero_name": "Harith",
+      "type": "adjustment",
+      "summary": "Experimental adjustments: Harith's Passive does not work well against the high level CCs. So, we've changed it to enhance Harith's survivability.",
+      "details": "Passive - {{ai|Harith|Key Insight}} \n\nRevamped Effect: According to the number of nearby enemy heroes, Harith gains up to 45% Resilience → up to 35% Hybrid Lifesteal.\n\n\nUltimate - {{ai|Harith|Zaman Fo"
+    },
+    {
+      "hero_id": "h_unknown",
+      "hero_name": "Minsitthar",
+      "type": "adjustment",
+      "summary": "We want Minsitthar to connect his Spear of Glory to following attacks more consistently. For example, use Spear of Glory + Ultimate as a great control combo; or use Spear of Glory + Shield Assault as a quick stun combo. (Enemy heroes can easily escape after being caught by Spear of Glory.)",
+      "details": "Skill 1 - {{ai|Minsitthar|Spear of Glory}} \n\nNew Effect: Minsitthar can cast other skills while retracting the spear."
+    },
+    {
+      "hero_id": "h_unknown",
+      "hero_name": "Guinevere",
+      "type": "adjustment",
+      "summary": "We'd like to make Guinevere's Skill 2 more \"reliable\" so that players can clearly see whether or not they've hit the target. We've noticed that in certain cases, the skill doesn't knock enemies airborne. We have also increased the control duration of her Ultimate to match its visual effects.",
+      "details": "Skill 2 - {{ai|Guinevere|Spatial Migration}} \n\nNew Effect: The first strike now briefly stuns the target hit (to better ensure that the second strike hits and knocks the target airborne).\n\n\nUltimate -"
+    },
+    {
+      "hero_id": "h_unknown",
+      "hero_name": "Yve",
+      "type": "adjustment",
+      "summary": "The nerf on Yve's lane-clearing ability and on the Ice Queen Wand were too much for Yve. We're giving back some of her slowing ability.",
+      "details": "Skill 2 - {{ai|Yve|Void Crystal}} \n\nSlow Effect: Initial 15%, up to 40% → Initial 25%, up to 50%\n\n\nUltimate - {{ai|Yve|Real World Manipulation}} \n\nSlow Effect from Swipe: 40% → 50%"
+    },
+    {
+      "hero_id": "h_unknown",
+      "hero_name": "Gusion",
+      "type": "adjustment",
+      "summary": "Most of Gusion's combos rely on him recalling his daggers, and we don't want Gusion players to go through a series of complicated maneuvers only to have the final step interrupted by factors beyond their control, making it all go to waste!",
+      "details": "Skill 1 - {{ai|Gusion|Sword Spike}} \n\nGusion is immune to control effects when he moves behind the marked target."
+    },
+    {
+      "hero_id": "h_unknown",
+      "hero_name": "Julian",
+      "type": "adjustment",
+      "summary": "Slightly increased the cast range to make the Skills 2-3-1 combo easier to use.",
+      "details": "Skill 3 - {{ai|Julian|Chain}} \n\nSlightly increased the cast range to match the range of his enhanced Skill 3."
+    },
+    {
+      "hero_id": "h_unknown",
+      "hero_name": "Cecilion",
+      "type": "adjustment",
+      "summary": "Cecilion's damage output has decreased since the revamp of Lightning Truncheon. We'll make up for that in this patch.",
+      "details": "Skill 1 - {{ai|Cecilion|Bat Impact}} \n\nPath Damage Bonus from Max Mana: 5% → 7%\n\nEnd Damage Bonus from Max Mana: 10% → 14%"
+    },
+    {
+      "hero_id": "h_unknown",
+      "hero_name": "Arlott",
+      "type": "adjustment",
+      "summary": "The buff from the last patch didn't meet our expectations. We'll continue to buff their damage.",
+      "details": "Skill 2 - {{ai|Arlott|Vengeance}} \n\nBase Damage: 110-310 → 135-335"
+    },
+    {
+      "hero_id": "h_unknown",
+      "hero_name": "Valentina",
+      "type": "adjustment",
+      "summary": "After several rounds of nerfs, Valentina's powerful Ultimate still makes her an irreplaceable choice in high-level matches and tournaments. This time around, we're increasing her Ultimate's cooldown once again in hopes of improving the use rate of other Mages in high-rank plays.",
+      "details": "Ultimate - {{ai|Valentina|I Am You}} \n\nCooldown: The stolen Ultimate's cooldown is 120%-100% → 120% (at all levels) of the target's cooldown"
+    },
+    {
+      "hero_id": "h_unknown",
+      "hero_name": "Nolan",
+      "type": "adjustment",
+      "summary": "Slightly nerfed Nolan's combos in early and mid game.",
+      "details": "Ultimate - {{ai|Nolan|Fracture}} \n\nCooldown: 20-16s → 35-25s\n\nBase Damage: 130-210 → 120-180"
+    },
+    {
+      "hero_id": "h_unknown",
+      "hero_name": "Thamuz",
+      "type": "adjustment",
+      "summary": "We're making Thamuz more mobile and slightly reducing his cooldowns.",
+      "details": "Skill 2 - {{ai|Thamuz|Chasm Trample}} \n\nCooldown: 11-8s → 8-6s\n\n\nUltimate - {{ai|Thamuz|Cauterant Inferno}} \n\nCooldown: 45-37s → 42-32s"
+    },
+    {
+      "hero_id": "h_unknown",
+      "hero_name": "Natan",
+      "type": "adjustment",
+      "summary": "Natan relies heavily on his Ultimate to deal damage. We're going to reduce the cooldown of his Ultimate slightly.",
+      "details": "Ultimate - {{ai|Natan|Entropy?}} \n\nCooldown: 38-28s → 34-26s"
+    },
+    {
+      "hero_id": "h_unknown",
+      "hero_name": "Lesley",
+      "type": "adjustment",
+      "summary": "The nerfs to Lesley and Berserker's Fury made Lesley too weak in late game. So we are buffing her early game abilities to bring forward her dominant phase.",
+      "details": "Passive - {{ai|Lesley|Lethal Shot}} \n\nBase Damage: 75 → 100\n\n\nSkill 1 - {{ai|Lesley|Master of Camouflage}} \n\nCooldown: 4-2.5s → 3.5-2.5s"
+    },
+    {
+      "hero_id": "h_unknown",
+      "hero_name": "Terizla",
+      "type": "adjustment",
+      "summary": "We want to keep Terizla's current style: Heavy, tanky, high damage, and strong control. So we're adjusting his mobility a bit.",
+      "details": "Skill 1 - {{ai|Terizla|Revenge Strike}} \n\nMovement Speed Increase: 25%-40% → 15%-40%"
+    },
+    {
+      "hero_id": "h_unknown",
+      "hero_name": "Fanny",
+      "type": "adjustment",
+      "summary": "The recent changes to the Jungling mechanics and equipment were a buff to Fanny, so we're nerfing her Passive to not make her too strong in the new meta.",
+      "details": "Passive - {{ai|Fanny|Air Superiority}} \n\nEnergy Restored Per Stack: 8 → 7"
+    },
+    {
+      "hero_id": "h_unknown",
+      "hero_name": "Mathilda",
+      "type": "adjustment",
+      "summary": "Mathilda's Ultimate now has more potential with the new 2nd strike option. We hope to give her opponent more ways to counter it.",
+      "details": "Skill 2 - {{ai|Mathilda|Guiding Wind}} \n\nCooldown: 12-11s → 13.5-11s\n\n\nUltimate - {{ai|Mathilda|Circling Eagle}} \n\nSlow Effect: 35% → 15%"
+    },
+    {
+      "hero_id": "h_unknown",
+      "hero_name": "Angela",
+      "type": "adjustment",
+      "summary": "We noticed that Angela was being used for Mid Lane in higher play and tournament matches. We feel that this will reduce the usage rate of Mage Heroes, so we are nerfing Angela's lane-clearing efficiency to make her less competitive and take longer to reach maximum speed.",
+      "details": "Passive - {{ai|Angela|Smart Heart}} \n\nEach stack increases the Movement Speed by 15%, up to 2 stacks → Each stack increases the Movement Speed by 7.5%, up to 4 stacks.\n\n\nSkill 1 - {{ai|Angela|Love Wav"
+    },
+    {
+      "hero_id": "h_unknown",
+      "hero_name": "Rafaela",
+      "type": "adjustment",
+      "summary": "We are making Rafaela less competitive for the Mid Lane position in higher play and tournament matches.",
+      "details": "Skill 1 - {{ai|Rafaela|Light of Retribution}} \n\nRemoved the damage bonus against Minions and Creeps."
+    },
+    {
+      "hero_id": "h_unknown",
+      "hero_name": "Irithel",
+      "type": "adjustment",
+      "summary": "Slightly nerfed Irithel's damage in mid-to-late game.",
+      "details": "Attributes\n\nPhysical Attack Growth: 11 → 8.5"
+    },
+    {
+      "hero_id": "h_unknown",
+      "hero_name": "Esmeralda",
+      "type": "adjustment",
+      "summary": "Slightly increased Esmeralda's survivability in the early game.",
+      "details": "Skill 1 - {{ai|Esmeralda|Frostmoon Shield}} \n\nBase Shield: 300-750 → 400-750"
+    },
+    {
+      "hero_id": "h_unknown",
+      "hero_name": "Ling",
+      "type": "adjustment",
+      "summary": "Slightly increased Ling's Crit Damage.",
+      "details": "Passive - {{ai|Ling|Cloud Walker}} \n\nCrit Damage: 140% → 150%"
+    },
+    {
+      "hero_id": "h_unknown",
+      "hero_name": "Baxia",
+      "type": "adjustment",
+      "summary": "The stun duration increase we introduced made Baxia's 1st Skill too good of an initiation skill in the early-to-mid game, so we're increasing its cooldown time.",
+      "details": "Skill 1 - {{ai|Baxia|Shield Unity}} \n\nCooldown: 15-12s → 18-15s"
+    }
+  ],
+  "equipment_adjustments": [
+    {
+      "item_name": "Lightning Truncheon",
+      "item_id": "lightning_truncheon",
+      "summary": "We want to give some Mages good mobility by enhancing this equipment, and remove the strong binding between this equipment and the Clock of Destiny.",
+      "details": "Unique Passive - Resonate\n\nNew Effect: When triggering the damage, increase Movement Speed by 30% for 2s.\n\nDamage: 35% Mana - 450 → 120% Magic Power"
+    },
+    {
+      "item_name": "Flask of the Oasis",
+      "item_id": "flask_of_the_oasis",
+      "summary": "Flask of the Oasis allowed some Support heroes to better protect their teammates, but it also made it difficult for some Assassin heroes to kill their targets. So we're nerfing the shield in the early to mid game while maintaining its power in the late game to give Assassin heroes a better chance.",
+      "details": "Unique Passive - Blessing\n\nShield: 660-1500 → 100-1500"
+    },
+    {
+      "item_name": "Favor",
+      "item_id": "favor",
+      "summary": "When combined, the new Support Emblem, Flask of the Oasis and the Favor blessing can give non-healer Support heroes an overpowered single healing ability, so we're slightly reducing the amount of HP restored with Favor.",
+      "details": "Regen: 300-750 → 240-600"
+    },
+    {
+      "item_name": "Weakness Finder",
+      "item_id": "weakness_finder",
+      "summary": "",
+      "details": "Basic Attacks slow enemies' Movement Speed by 90% and Attack Speed by 50% for 0.5s\n\nCooldown: 10s. Every Basic Attack reduces it by 1s, down to 3s"
+    },
+    {
+      "item_name": "Assassin Emblem",
+      "item_id": "assassin_emblem",
+      "summary": "",
+      "details": "Adaptive Penetration 16 → 14"
+    },
+    {
+      "item_name": "Wilderness Blessing",
+      "item_id": "wilderness_blessing",
+      "summary": "",
+      "details": "Movement Speed Boost 15% → 10%"
+    },
+    {
+      "item_name": "Master Assassin",
+      "item_id": "master_assassin",
+      "summary": "",
+      "details": "Damage Increase 5% → 7%"
+    },
+    {
+      "item_name": "Killing Spree",
+      "item_id": "killing_spree",
+      "summary": "",
+      "details": "Movement Speed Boost 15% → 20%"
+    },
+    {
+      "item_name": "Quantum Charge",
+      "item_id": "quantum_charge",
+      "summary": "",
+      "details": "Movement Speed Boost: 40% → 30%"
+    },
+    {
+      "item_name": "Impure Rage",
+      "item_id": "impure_rage",
+      "summary": "",
+      "details": "Damage: 50-260 → 44-240"
+    }
+  ]
+}

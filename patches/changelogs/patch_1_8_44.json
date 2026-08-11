@@ -1,42 +1,739 @@
 {
   "patch_id": "patch-1.8.44",
   "version": "1.8.44",
-  "release_date": "2023-11-21",
+  "release_date": "2023-12-20",
+  "previous_version": "1.8.30B",
+  "next_version": "1.8.47",
+  "source": {
+    "name": "Liquipedia",
+    "url": "https://liquipedia.net/mobilelegends/Patch_1.8.44",
+    "retrieved_at": "2026-08-11T07:44:24Z",
+    "content_hash": "sha256:695f6b8d6fcb765f5ef533ec21866f2fd240a41c54a33c661a8817045dff549b"
+  },
   "hero_adjustments": [
     {
-      "hero_id": "h122",
-      "hero_name": "Nolan",
-      "type": "nerf",
-      "summary": "Reduced base energy regen and ultimate cooldown increased.",
-      "details": "Base Energy Regen decreased from 15 to 12. Ultimate Cooldown increased by 4s."
-    },
-    {
-      "hero_id": "h079",
-      "hero_name": "Guinevere",
-      "type": "buff",
-      "summary": "Skill 1 damage increased and Skill 2 airborne guaranteed on first hit.",
-      "details": "Skill 2 hit delay removed, granting instant knockup on target hit."
-    },
-    {
-      "hero_id": "h108",
-      "hero_name": "Joy",
+      "hero_id": "h_unknown",
+      "hero_name": "Vexana",
       "type": "adjustment",
-      "summary": "Shield removed from Skill 2; damage increased.",
-      "details": "Shield removed from beat rhythm dashes, but ultimate damage scale increased."
+      "summary": "Vexana adjusted in patch notes.",
+      "details": "See official Liquipedia patch notes for full breakdown."
     },
     {
-      "hero_id": "h089",
-      "hero_name": "Wanwan",
-      "type": "buff",
-      "summary": "Attack speed scaling increased.",
-      "details": "Basic attack speed scaling increased from 1.0 to 1.15."
+      "hero_id": "h_unknown",
+      "hero_name": "Nana",
+      "type": "adjustment",
+      "summary": "Nana adjusted in patch notes.",
+      "details": "See official Liquipedia patch notes for full breakdown."
     },
     {
-      "hero_id": "h066",
+      "hero_id": "h_unknown",
+      "hero_name": "Balmond",
+      "type": "adjustment",
+      "summary": "Balmond adjusted in patch notes.",
+      "details": "See official Liquipedia patch notes for full breakdown."
+    },
+    {
+      "hero_id": "h_unknown",
+      "hero_name": "Vale",
+      "type": "adjustment",
+      "summary": "Vale adjusted in patch notes.",
+      "details": "See official Liquipedia patch notes for full breakdown."
+    },
+    {
+      "hero_id": "h_unknown",
+      "hero_name": "Barats",
+      "type": "adjustment",
+      "summary": "Barats adjusted in patch notes.",
+      "details": "See official Liquipedia patch notes for full breakdown."
+    },
+    {
+      "hero_id": "h_unknown",
+      "hero_name": "Alice",
+      "type": "adjustment",
+      "summary": "Alice adjusted in patch notes.",
+      "details": "See official Liquipedia patch notes for full breakdown."
+    },
+    {
+      "hero_id": "h_unknown",
+      "hero_name": "Lunox",
+      "type": "adjustment",
+      "summary": "Lunox adjusted in patch notes.",
+      "details": "See official Liquipedia patch notes for full breakdown."
+    },
+    {
+      "hero_id": "h_unknown",
+      "hero_name": "Selena",
+      "type": "adjustment",
+      "summary": "Selena adjusted in patch notes.",
+      "details": "See official Liquipedia patch notes for full breakdown."
+    },
+    {
+      "hero_id": "h_unknown",
+      "hero_name": "Lancelot",
+      "type": "adjustment",
+      "summary": "Lancelot adjusted in patch notes.",
+      "details": "See official Liquipedia patch notes for full breakdown."
+    },
+    {
+      "hero_id": "h_unknown",
+      "hero_name": "Lolita",
+      "type": "adjustment",
+      "summary": "Lolita adjusted in patch notes.",
+      "details": "See official Liquipedia patch notes for full breakdown."
+    },
+    {
+      "hero_id": "h_unknown",
+      "hero_name": "Sun",
+      "type": "adjustment",
+      "summary": "Sun adjusted in patch notes.",
+      "details": "See official Liquipedia patch notes for full breakdown."
+    },
+    {
+      "hero_id": "h_unknown",
+      "hero_name": "Yi Sun-Shin",
+      "type": "adjustment",
+      "summary": "Yi Sun-Shin adjusted in patch notes.",
+      "details": "See official Liquipedia patch notes for full breakdown."
+    },
+    {
+      "hero_id": "h_unknown",
+      "hero_name": "Roger",
+      "type": "adjustment",
+      "summary": "Roger adjusted in patch notes.",
+      "details": "See official Liquipedia patch notes for full breakdown."
+    },
+    {
+      "hero_id": "h_unknown",
+      "hero_name": "Irithel",
+      "type": "adjustment",
+      "summary": "Irithel adjusted in patch notes.",
+      "details": "See official Liquipedia patch notes for full breakdown."
+    },
+    {
+      "hero_id": "h_unknown",
+      "hero_name": "Argus",
+      "type": "adjustment",
+      "summary": "Argus adjusted in patch notes.",
+      "details": "See official Liquipedia patch notes for full breakdown."
+    },
+    {
+      "hero_id": "h_unknown",
+      "hero_name": "Martis",
+      "type": "adjustment",
+      "summary": "Martis adjusted in patch notes.",
+      "details": "See official Liquipedia patch notes for full breakdown."
+    },
+    {
+      "hero_id": "h_unknown",
+      "hero_name": "Dyrroth",
+      "type": "adjustment",
+      "summary": "Dyrroth adjusted in patch notes.",
+      "details": "See official Liquipedia patch notes for full breakdown."
+    },
+    {
+      "hero_id": "h_unknown",
+      "hero_name": "Hanzo",
+      "type": "adjustment",
+      "summary": "Hanzo adjusted in patch notes.",
+      "details": "See official Liquipedia patch notes for full breakdown."
+    },
+    {
+      "hero_id": "h_unknown",
+      "hero_name": "Atlas",
+      "type": "adjustment",
+      "summary": "Atlas adjusted in patch notes.",
+      "details": "See official Liquipedia patch notes for full breakdown."
+    },
+    {
+      "hero_id": "h_unknown",
+      "hero_name": "Guinevere",
+      "type": "adjustment",
+      "summary": "Guinevere adjusted in patch notes.",
+      "details": "See official Liquipedia patch notes for full breakdown."
+    },
+    {
+      "hero_id": "h_unknown",
+      "hero_name": "Gord",
+      "type": "adjustment",
+      "summary": "Gord adjusted in patch notes.",
+      "details": "See official Liquipedia patch notes for full breakdown."
+    },
+    {
+      "hero_id": "h_unknown",
+      "hero_name": "Brody",
+      "type": "adjustment",
+      "summary": "Brody adjusted in patch notes.",
+      "details": "See official Liquipedia patch notes for full breakdown."
+    },
+    {
+      "hero_id": "h_unknown",
+      "hero_name": "Mathilda",
+      "type": "adjustment",
+      "summary": "Mathilda adjusted in patch notes.",
+      "details": "See official Liquipedia patch notes for full breakdown."
+    },
+    {
+      "hero_id": "h_unknown",
+      "hero_name": "Yin",
+      "type": "adjustment",
+      "summary": "Yin adjusted in patch notes.",
+      "details": "See official Liquipedia patch notes for full breakdown."
+    },
+    {
+      "hero_id": "h_unknown",
+      "hero_name": "Lesley",
+      "type": "adjustment",
+      "summary": "Lesley adjusted in patch notes.",
+      "details": "See official Liquipedia patch notes for full breakdown."
+    },
+    {
+      "hero_id": "h_unknown",
+      "hero_name": "Yve",
+      "type": "adjustment",
+      "summary": "Yve adjusted in patch notes.",
+      "details": "See official Liquipedia patch notes for full breakdown."
+    },
+    {
+      "hero_id": "h_unknown",
+      "hero_name": "Chang'e",
+      "type": "adjustment",
+      "summary": "Chang'e adjusted in patch notes.",
+      "details": "See official Liquipedia patch notes for full breakdown."
+    },
+    {
+      "hero_id": "h_unknown",
+      "hero_name": "Zhask",
+      "type": "adjustment",
+      "summary": "Zhask adjusted in patch notes.",
+      "details": "See official Liquipedia patch notes for full breakdown."
+    },
+    {
+      "hero_id": "h_unknown",
+      "hero_name": "Layla",
+      "type": "adjustment",
+      "summary": "Layla adjusted in patch notes.",
+      "details": "See official Liquipedia patch notes for full breakdown."
+    },
+    {
+      "hero_id": "h_unknown",
+      "hero_name": "Cici",
+      "type": "adjustment",
+      "summary": "Cici adjusted in patch notes.",
+      "details": "See official Liquipedia patch notes for full breakdown."
+    },
+    {
+      "hero_id": "h_unknown",
       "hero_name": "Faramis",
       "type": "adjustment",
-      "summary": "Ultimate shield duration adjusted.",
-      "details": "Nether Realm shield duration adjusted from 1.3s to 1.2s."
+      "summary": "Faramis adjusted in patch notes.",
+      "details": "See official Liquipedia patch notes for full breakdown."
+    },
+    {
+      "hero_id": "h_unknown",
+      "hero_name": "Chou",
+      "type": "adjustment",
+      "summary": "Chou adjusted in patch notes.",
+      "details": "See official Liquipedia patch notes for full breakdown."
+    },
+    {
+      "hero_id": "h_unknown",
+      "hero_name": "Gusion",
+      "type": "adjustment",
+      "summary": "Gusion adjusted in patch notes.",
+      "details": "See official Liquipedia patch notes for full breakdown."
+    },
+    {
+      "hero_id": "h_unknown",
+      "hero_name": "Karina",
+      "type": "adjustment",
+      "summary": "Karina adjusted in patch notes.",
+      "details": "See official Liquipedia patch notes for full breakdown."
+    },
+    {
+      "hero_id": "h_unknown",
+      "hero_name": "Aurora",
+      "type": "adjustment",
+      "summary": "Aurora adjusted in patch notes.",
+      "details": "See official Liquipedia patch notes for full breakdown."
+    },
+    {
+      "hero_id": "h_unknown",
+      "hero_name": "Bruno",
+      "type": "adjustment",
+      "summary": "Bruno adjusted in patch notes.",
+      "details": "See official Liquipedia patch notes for full breakdown."
+    },
+    {
+      "hero_id": "h_unknown",
+      "hero_name": "Esmeralda",
+      "type": "adjustment",
+      "summary": "Esmeralda adjusted in patch notes.",
+      "details": "See official Liquipedia patch notes for full breakdown."
+    },
+    {
+      "hero_id": "h_unknown",
+      "hero_name": "Karrie",
+      "type": "adjustment",
+      "summary": "Karrie adjusted in patch notes.",
+      "details": "See official Liquipedia patch notes for full breakdown."
+    },
+    {
+      "hero_id": "h_unknown",
+      "hero_name": "Gatotkaca",
+      "type": "adjustment",
+      "summary": "Gatotkaca adjusted in patch notes.",
+      "details": "See official Liquipedia patch notes for full breakdown."
+    },
+    {
+      "hero_id": "h_unknown",
+      "hero_name": "Lapu-Lapu",
+      "type": "adjustment",
+      "summary": "Lapu-Lapu adjusted in patch notes.",
+      "details": "See official Liquipedia patch notes for full breakdown."
+    },
+    {
+      "hero_id": "h_unknown",
+      "hero_name": "Natan",
+      "type": "adjustment",
+      "summary": "Natan adjusted in patch notes.",
+      "details": "See official Liquipedia patch notes for full breakdown."
+    },
+    {
+      "hero_id": "h_unknown",
+      "hero_name": "Odette",
+      "type": "adjustment",
+      "summary": "Odette adjusted in patch notes.",
+      "details": "See official Liquipedia patch notes for full breakdown."
+    },
+    {
+      "hero_id": "h_unknown",
+      "hero_name": "Akai",
+      "type": "adjustment",
+      "summary": "Akai adjusted in patch notes.",
+      "details": "See official Liquipedia patch notes for full breakdown."
+    },
+    {
+      "hero_id": "h_unknown",
+      "hero_name": "Cyclops",
+      "type": "adjustment",
+      "summary": "Cyclops adjusted in patch notes.",
+      "details": "See official Liquipedia patch notes for full breakdown."
+    },
+    {
+      "hero_id": "h_unknown",
+      "hero_name": "Belerick",
+      "type": "adjustment",
+      "summary": "Belerick adjusted in patch notes.",
+      "details": "See official Liquipedia patch notes for full breakdown."
+    },
+    {
+      "hero_id": "h_unknown",
+      "hero_name": "Franco",
+      "type": "adjustment",
+      "summary": "Franco adjusted in patch notes.",
+      "details": "See official Liquipedia patch notes for full breakdown."
+    },
+    {
+      "hero_id": "h_unknown",
+      "hero_name": "Khufra",
+      "type": "adjustment",
+      "summary": "Khufra adjusted in patch notes.",
+      "details": "See official Liquipedia patch notes for full breakdown."
+    },
+    {
+      "hero_id": "h_unknown",
+      "hero_name": "Harith",
+      "type": "adjustment",
+      "summary": "Harith adjusted in patch notes.",
+      "details": "See official Liquipedia patch notes for full breakdown."
+    },
+    {
+      "hero_id": "h_unknown",
+      "hero_name": "Freya",
+      "type": "adjustment",
+      "summary": "Freya adjusted in patch notes.",
+      "details": "See official Liquipedia patch notes for full breakdown."
+    },
+    {
+      "hero_id": "h_unknown",
+      "hero_name": "Fanny",
+      "type": "adjustment",
+      "summary": "Fanny adjusted in patch notes.",
+      "details": "See official Liquipedia patch notes for full breakdown."
+    },
+    {
+      "hero_id": "h_unknown",
+      "hero_name": "Beatrix",
+      "type": "adjustment",
+      "summary": "Beatrix adjusted in patch notes.",
+      "details": "See official Liquipedia patch notes for full breakdown."
+    },
+    {
+      "hero_id": "h_unknown",
+      "hero_name": "Benedetta",
+      "type": "adjustment",
+      "summary": "Benedetta adjusted in patch notes.",
+      "details": "See official Liquipedia patch notes for full breakdown."
+    },
+    {
+      "hero_id": "h_unknown",
+      "hero_name": "Lylia",
+      "type": "adjustment",
+      "summary": "Lylia adjusted in patch notes.",
+      "details": "See official Liquipedia patch notes for full breakdown."
+    },
+    {
+      "hero_id": "h_unknown",
+      "hero_name": "Wanwan",
+      "type": "adjustment",
+      "summary": "Wanwan adjusted in patch notes.",
+      "details": "See official Liquipedia patch notes for full breakdown."
+    },
+    {
+      "hero_id": "h_unknown",
+      "hero_name": "Popol and Kupa",
+      "type": "adjustment",
+      "summary": "Popol and Kupa adjusted in patch notes.",
+      "details": "See official Liquipedia patch notes for full breakdown."
+    },
+    {
+      "hero_id": "h_unknown",
+      "hero_name": "Hylos",
+      "type": "adjustment",
+      "summary": "Hylos adjusted in patch notes.",
+      "details": "See official Liquipedia patch notes for full breakdown."
+    },
+    {
+      "hero_id": "h_unknown",
+      "hero_name": "Luo Yi",
+      "type": "adjustment",
+      "summary": "Luo Yi adjusted in patch notes.",
+      "details": "See official Liquipedia patch notes for full breakdown."
+    },
+    {
+      "hero_id": "h_unknown",
+      "hero_name": "Melissa",
+      "type": "adjustment",
+      "summary": "Melissa adjusted in patch notes.",
+      "details": "See official Liquipedia patch notes for full breakdown."
+    },
+    {
+      "hero_id": "h_unknown",
+      "hero_name": "Aldous",
+      "type": "adjustment",
+      "summary": "Aldous adjusted in patch notes.",
+      "details": "See official Liquipedia patch notes for full breakdown."
+    },
+    {
+      "hero_id": "h_unknown",
+      "hero_name": "Leomord",
+      "type": "adjustment",
+      "summary": "Leomord adjusted in patch notes.",
+      "details": "See official Liquipedia patch notes for full breakdown."
+    },
+    {
+      "hero_id": "h_unknown",
+      "hero_name": "Novaria",
+      "type": "adjustment",
+      "summary": "Novaria adjusted in patch notes.",
+      "details": "See official Liquipedia patch notes for full breakdown."
+    },
+    {
+      "hero_id": "h_unknown",
+      "hero_name": "Kagura",
+      "type": "adjustment",
+      "summary": "Kagura adjusted in patch notes.",
+      "details": "See official Liquipedia patch notes for full breakdown."
+    },
+    {
+      "hero_id": "h_unknown",
+      "hero_name": "Natalia",
+      "type": "adjustment",
+      "summary": "Natalia adjusted in patch notes.",
+      "details": "See official Liquipedia patch notes for full breakdown."
+    },
+    {
+      "hero_id": "h_unknown",
+      "hero_name": "Masha",
+      "type": "adjustment",
+      "summary": "Masha adjusted in patch notes.",
+      "details": "See official Liquipedia patch notes for full breakdown."
+    },
+    {
+      "hero_id": "h_unknown",
+      "hero_name": "Edith",
+      "type": "adjustment",
+      "summary": "Edith adjusted in patch notes.",
+      "details": "See official Liquipedia patch notes for full breakdown."
+    },
+    {
+      "hero_id": "h_unknown",
+      "hero_name": "Kaja",
+      "type": "adjustment",
+      "summary": "Kaja adjusted in patch notes.",
+      "details": "See official Liquipedia patch notes for full breakdown."
+    },
+    {
+      "hero_id": "h_unknown",
+      "hero_name": "Paquito",
+      "type": "adjustment",
+      "summary": "Paquito adjusted in patch notes.",
+      "details": "See official Liquipedia patch notes for full breakdown."
+    },
+    {
+      "hero_id": "h_unknown",
+      "hero_name": "Uranus",
+      "type": "adjustment",
+      "summary": "Uranus adjusted in patch notes.",
+      "details": "See official Liquipedia patch notes for full breakdown."
+    },
+    {
+      "hero_id": "h_unknown",
+      "hero_name": "Floryn",
+      "type": "adjustment",
+      "summary": "Floryn adjusted in patch notes.",
+      "details": "See official Liquipedia patch notes for full breakdown."
+    },
+    {
+      "hero_id": "h_unknown",
+      "hero_name": "Valir",
+      "type": "adjustment",
+      "summary": "Valir adjusted in patch notes.",
+      "details": "See official Liquipedia patch notes for full breakdown."
+    },
+    {
+      "hero_id": "h_unknown",
+      "hero_name": "Carmilla",
+      "type": "adjustment",
+      "summary": "Carmilla adjusted in patch notes.",
+      "details": "See official Liquipedia patch notes for full breakdown."
+    },
+    {
+      "hero_id": "h_unknown",
+      "hero_name": "Phoveus",
+      "type": "adjustment",
+      "summary": "Phoveus adjusted in patch notes.",
+      "details": "See official Liquipedia patch notes for full breakdown."
+    },
+    {
+      "hero_id": "h_unknown",
+      "hero_name": "Thamuz",
+      "type": "adjustment",
+      "summary": "Thamuz adjusted in patch notes.",
+      "details": "See official Liquipedia patch notes for full breakdown."
+    },
+    {
+      "hero_id": "h_unknown",
+      "hero_name": "Kadita",
+      "type": "adjustment",
+      "summary": "Kadita adjusted in patch notes.",
+      "details": "See official Liquipedia patch notes for full breakdown."
+    },
+    {
+      "hero_id": "h_unknown",
+      "hero_name": "Julian",
+      "type": "adjustment",
+      "summary": "Julian adjusted in patch notes.",
+      "details": "See official Liquipedia patch notes for full breakdown."
+    },
+    {
+      "hero_id": "h_unknown",
+      "hero_name": "Harley",
+      "type": "adjustment",
+      "summary": "Harley adjusted in patch notes.",
+      "details": "See official Liquipedia patch notes for full breakdown."
+    },
+    {
+      "hero_id": "h_unknown",
+      "hero_name": "Granger",
+      "type": "adjustment",
+      "summary": "Granger adjusted in patch notes.",
+      "details": "See official Liquipedia patch notes for full breakdown."
+    },
+    {
+      "hero_id": "h_unknown",
+      "hero_name": "Cecilion",
+      "type": "adjustment",
+      "summary": "Cecilion adjusted in patch notes.",
+      "details": "See official Liquipedia patch notes for full breakdown."
+    },
+    {
+      "hero_id": "h_unknown",
+      "hero_name": "Aamon",
+      "type": "adjustment",
+      "summary": "Aamon adjusted in patch notes.",
+      "details": "See official Liquipedia patch notes for full breakdown."
+    },
+    {
+      "hero_id": "h_unknown",
+      "hero_name": "Alucard",
+      "type": "adjustment",
+      "summary": "Alucard adjusted in patch notes.",
+      "details": "See official Liquipedia patch notes for full breakdown."
+    },
+    {
+      "hero_id": "h_unknown",
+      "hero_name": "Grock",
+      "type": "adjustment",
+      "summary": "Grock adjusted in patch notes.",
+      "details": "See official Liquipedia patch notes for full breakdown."
+    },
+    {
+      "hero_id": "h_unknown",
+      "hero_name": "Badang",
+      "type": "adjustment",
+      "summary": "Badang adjusted in patch notes.",
+      "details": "See official Liquipedia patch notes for full breakdown."
+    },
+    {
+      "hero_id": "h_unknown",
+      "hero_name": "Terizla",
+      "type": "adjustment",
+      "summary": "Terizla adjusted in patch notes.",
+      "details": "See official Liquipedia patch notes for full breakdown."
+    },
+    {
+      "hero_id": "h_unknown",
+      "hero_name": "X.Borg",
+      "type": "adjustment",
+      "summary": "X.Borg adjusted in patch notes.",
+      "details": "See official Liquipedia patch notes for full breakdown."
+    },
+    {
+      "hero_id": "h_unknown",
+      "hero_name": "Ling",
+      "type": "adjustment",
+      "summary": "Ling adjusted in patch notes.",
+      "details": "See official Liquipedia patch notes for full breakdown."
+    },
+    {
+      "hero_id": "h_unknown",
+      "hero_name": "Angela",
+      "type": "adjustment",
+      "summary": "Angela adjusted in patch notes.",
+      "details": "See official Liquipedia patch notes for full breakdown."
+    },
+    {
+      "hero_id": "h_unknown",
+      "hero_name": "Minotaur",
+      "type": "adjustment",
+      "summary": "Minotaur adjusted in patch notes.",
+      "details": "See official Liquipedia patch notes for full breakdown."
+    },
+    {
+      "hero_id": "h_unknown",
+      "hero_name": "Khaleed",
+      "type": "adjustment",
+      "summary": "Khaleed adjusted in patch notes.",
+      "details": "See official Liquipedia patch notes for full breakdown."
+    },
+    {
+      "hero_id": "h_unknown",
+      "hero_name": "Ruby",
+      "type": "adjustment",
+      "summary": "Ruby adjusted in patch notes.",
+      "details": "See official Liquipedia patch notes for full breakdown."
+    },
+    {
+      "hero_id": "h_unknown",
+      "hero_name": "Fredrinn",
+      "type": "adjustment",
+      "summary": "Fredrinn adjusted in patch notes.",
+      "details": "See official Liquipedia patch notes for full breakdown."
+    },
+    {
+      "hero_id": "h_unknown",
+      "hero_name": "Clint",
+      "type": "adjustment",
+      "summary": "Clint adjusted in patch notes.",
+      "details": "See official Liquipedia patch notes for full breakdown."
+    },
+    {
+      "hero_id": "h_unknown",
+      "hero_name": "Helcurt",
+      "type": "adjustment",
+      "summary": "Helcurt adjusted in patch notes.",
+      "details": "See official Liquipedia patch notes for full breakdown."
+    },
+    {
+      "hero_id": "h_unknown",
+      "hero_name": "Alpha",
+      "type": "adjustment",
+      "summary": "Alpha adjusted in patch notes.",
+      "details": "See official Liquipedia patch notes for full breakdown."
+    },
+    {
+      "hero_id": "h_unknown",
+      "hero_name": "Estes",
+      "type": "adjustment",
+      "summary": "Estes adjusted in patch notes.",
+      "details": "See official Liquipedia patch notes for full breakdown."
+    },
+    {
+      "hero_id": "h_unknown",
+      "hero_name": "Aulus",
+      "type": "adjustment",
+      "summary": "Aulus adjusted in patch notes.",
+      "details": "See official Liquipedia patch notes for full breakdown."
+    },
+    {
+      "hero_id": "h_unknown",
+      "hero_name": "Pharsa",
+      "type": "adjustment",
+      "summary": "Pharsa adjusted in patch notes.",
+      "details": "See official Liquipedia patch notes for full breakdown."
+    },
+    {
+      "hero_id": "h_unknown",
+      "hero_name": "Hilda",
+      "type": "adjustment",
+      "summary": "Hilda adjusted in patch notes.",
+      "details": "See official Liquipedia patch notes for full breakdown."
+    },
+    {
+      "hero_id": "h_unknown",
+      "hero_name": "Baxia",
+      "type": "adjustment",
+      "summary": "Baxia adjusted in patch notes.",
+      "details": "See official Liquipedia patch notes for full breakdown."
+    }
+  ],
+  "equipment_adjustments": [
+    {
+      "item_name": "War Axe",
+      "item_id": "war_axe",
+      "summary": "Revamped the effects of War Axe. \"Fighters need their own set!\"",
+      "details": "Attributes\n\nPhysical Attack: 40 >> 25\n\n\nUnique Passive - Fighting Spirit\n\nDealing damage grant 12 extra Physical Attack and 2% extra Spell Vamp per second for 4s, up to 6 stacks. Deal extra True Damag"
+    },
+    {
+      "item_name": "Brute Force Breastplate",
+      "item_id": "brute_force_breastplate",
+      "summary": "Revamped the effects of Brute Force Breastplate. \"Fighters need their own set!\"",
+      "details": "Unique Passive - Brute Force\n\nEach second after dealing damage, gain 6 extra Physical Attack and Magic Power and 2% extra Movement Speed per second for 4s, up to 6 stacks. Gain 15% extra Control and S"
+    },
+    {
+      "item_name": "Encourage",
+      "item_id": "encourage",
+      "summary": "",
+      "details": "Gain an extra 25% EXP and Gold from assists. Effective for the entire match. >> Gain an extra 45% EXP and Gold from assists. Effective for the first 8 minutes of the match only."
+    },
+    {
+      "item_name": "Conceal",
+      "item_id": "conceal",
+      "summary": "",
+      "details": "Gain an extra 25% EXP and Gold from assists. Effective for the entire match. >> Gain an extra 45% EXP and Gold from assists. Effective for the first 8 minutes of the match only."
+    },
+    {
+      "item_name": "Favor",
+      "item_id": "favor",
+      "summary": "",
+      "details": "Gain an extra 25% EXP and Gold from assists. Effective for the entire match. >> Gain an extra 45% EXP and Gold from assists. Effective for the first 8 minutes of the match only."
+    },
+    {
+      "item_name": "Dire Hit",
+      "item_id": "dire_hit",
+      "summary": "",
+      "details": "Gain an extra 25% EXP and Gold from assists. Effective for the entire match. >> Gain an extra 45% EXP and Gold from assists. Effective for the first 8 minutes of the match only."
     }
   ]
 }

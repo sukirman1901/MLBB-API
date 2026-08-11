@@ -1,0 +1,37 @@
+{
+  "patch_id": "patch-2.1.95",
+  "version": "2.1.95",
+  "release_date": "2026-08-04",
+  "previous_version": "2.1.90",
+  "next_version": null,
+  "source": {
+    "name": "Liquipedia",
+    "url": "https://liquipedia.net/mobilelegends/Patch_2.1.95",
+    "retrieved_at": "2026-08-11T07:44:22Z",
+    "content_hash": "sha256:f3277bf1a8fa4cdb3ffebb7cc60598f0df6c5bf4062748f5b34dca3fbcb58853"
+  },
+  "hero_adjustments": [
+    {
+      "hero_id": "h_unknown",
+      "hero_name": "Kaja",
+      "type": "revamp",
+      "summary": "Hero Feature: A highly mobile control Support who masters Primal Lightning to soar freely across the battlefield.",
+      "details": "Passive - {{ai|Kaja|Wings of Lightning"
+    },
+    {
+      "hero_id": "h_unknown",
+      "hero_name": "Gord",
+      "type": "nerf",
+      "summary": "Slightly reduced his early-to-mid-game damage output.",
+      "details": "Passive - {{ai|Gord|Mystic Favor}} {{TextID|nerf"
+    },
+    {
+      "hero_id": "h_unknown",
+      "hero_name": "Novaria",
+      "type": "buff",
+      "summary": "We've noticed that Novaria's Skill 2 had too large a gap between average and high-level performance. To address this, we've made it easier to use effectively without lowering its high-end potential.",
+      "details": "Skill 2 - {{ai|Novaria|Astral Recall}} {{TextID|buff"
+    }
+  ],
+  "equipment_adjustments": []
+}
