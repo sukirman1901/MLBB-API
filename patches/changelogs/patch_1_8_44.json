@@ -1,0 +1,42 @@
+{
+  "patch_id": "patch-1.8.44",
+  "version": "1.8.44",
+  "release_date": "2023-11-21",
+  "hero_adjustments": [
+    {
+      "hero_id": "h122",
+      "hero_name": "Nolan",
+      "type": "nerf",
+      "summary": "Reduced base energy regen and ultimate cooldown increased.",
+      "details": "Base Energy Regen decreased from 15 to 12. Ultimate Cooldown increased by 4s."
+    },
+    {
+      "hero_id": "h079",
+      "hero_name": "Guinevere",
+      "type": "buff",
+      "summary": "Skill 1 damage increased and Skill 2 airborne guaranteed on first hit.",
+      "details": "Skill 2 hit delay removed, granting instant knockup on target hit."
+    },
+    {
+      "hero_id": "h108",
+      "hero_name": "Joy",
+      "type": "adjustment",
+      "summary": "Shield removed from Skill 2; damage increased.",
+      "details": "Shield removed from beat rhythm dashes, but ultimate damage scale increased."
+    },
+    {
+      "hero_id": "h089",
+      "hero_name": "Wanwan",
+      "type": "buff",
+      "summary": "Attack speed scaling increased.",
+      "details": "Basic attack speed scaling increased from 1.0 to 1.15."
+    },
+    {
+      "hero_id": "h066",
+      "hero_name": "Faramis",
+      "type": "adjustment",
+      "summary": "Ultimate shield duration adjusted.",
+      "details": "Nether Realm shield duration adjusted from 1.3s to 1.2s."
+    }
+  ]
+}
