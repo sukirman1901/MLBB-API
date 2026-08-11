@@ -1,0 +1,94 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "MLBB Esports Competitive Analytics Schema",
+  "description": "Schema format for Hero Pools, Counter/Synergy Matrix, Draft Pick Engine, and In-Game Performance Tracking",
+  "type": "object",
+  "properties": {
+    "hero_analytics": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "hero_id": { "type": "string" },
+          "hero_name": { "type": "string" },
+          "lanes": { "type": "array", "items": { "type": "string" } },
+          "flex_index": { "type": "number", "description": "Flexibility rating across multiple roles (1-5)" },
+          "timing_windows": {
+            "type": "object",
+            "properties": {
+              "early_game_level1": { "type": "string", "enum": ["Weak", "Average", "Strong", "Dominant"] },
+              "ult_spike_level4": { "type": "string", "enum": ["Low", "Medium", "High", "Game-Changing"] },
+              "core_item_spike": { "type": "string", "description": "Key item for power spike e.g. Sky Piercer / Blade of Despair" },
+              "late_game_scaling": { "type": "string", "enum": ["Falls Off", "Stable", "Hyper Scaling"] }
+            }
+          },
+          "objective_control": {
+            "type": "object",
+            "properties": {
+              "turtle_contest": { "type": "number", "description": "Rating out of 10" },
+              "lord_burst": { "type": "number", "description": "Rating out of 10" },
+              "tower_push": { "type": "number", "description": "Rating out of 10" }
+            }
+          },
+          "crowd_control_profile": {
+            "type": "array",
+            "items": { "type": "string" },
+            "description": "e.g. Knockup, Suppression, Immobilize, Airborne, Slow"
+          }
+        }
+      }
+    },
+    "team_hero_pools": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "team_name": { "type": "string" },
+          "player_name": { "type": "string" },
+          "role": { "type": "string", "enum": ["EXP", "Jungle", "Mid", "Gold", "Roam"] },
+          "comfort_heroes": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "hero_name": { "type": "string" },
+                "winrate": { "type": "number" },
+                "games_played": { "type": "integer" },
+                "tier": { "type": "string", "enum": ["S", "A", "B", "Pocket Pick"] }
+              }
+            }
+          }
+        }
+      }
+    },
+    "draft_pick_rules": {
+      "type": "object",
+      "properties": {
+        "phase1_ban_priority": { "type": "array", "items": { "type": "string" } },
+        "phase1_pick_priority": { "type": "array", "items": { "type": "string" } },
+        "counter_matrix": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "target_hero": { "type": "string" },
+              "hard_counters": { "type": "array", "items": { "type": "string" } },
+              "soft_counters": { "type": "array", "items": { "type": "string" } },
+              "counter_itemization": { "type": "array", "items": { "type": "string" } }
+            }
+          }
+        }
+      }
+    },
+    "match_tracking": {
+      "type": "object",
+      "properties": {
+        "gold_diff_at_5min": { "type": "number" },
+        "gold_diff_at_10min": { "type": "number" },
+        "first_turtle_secured": { "type": "boolean" },
+        "first_tower_secured": { "type": "boolean" },
+        "rotation_pattern": { "type": "string", "description": "e.g. 1-3-1, 4-man gank gold lane, invades enemy jungle" }
+      }
+    }
+  }
+}
