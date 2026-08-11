@@ -1,0 +1,34 @@
+{
+  "data": [
+    {
+      "team_id": "team-blck",
+      "total_response_events": 32,
+      "overall_response_entropy": 4.6014,
+      "response_diversity_label": "HIGH_RESPONSE_DIVERSITY"
+    },
+    {
+      "team_id": "team-see-you-soon",
+      "total_response_events": 18,
+      "overall_response_entropy": 4.1699,
+      "response_diversity_label": "HIGH_RESPONSE_DIVERSITY"
+    },
+    {
+      "team_id": "team-ap.bren",
+      "total_response_events": 20,
+      "overall_response_entropy": 4.1219,
+      "response_diversity_label": "HIGH_RESPONSE_DIVERSITY"
+    },
+    {
+      "team_id": "team-devu",
+      "total_response_events": 14,
+      "overall_response_entropy": 3.4677,
+      "response_diversity_label": "HIGH_RESPONSE_DIVERSITY"
+    },
+    {
+      "team_id": "team-onic",
+      "total_response_events": 6,
+      "overall_response_entropy": 2.585,
+      "response_diversity_label": "HIGH_RESPONSE_DIVERSITY"
+    }
+  ]
+}

@@ -1,0 +1,673 @@
+{
+  "data": [
+    {
+      "group_id_matches": [
+        "match-m5-ko-06-g3",
+        "match-m5-ko-06-g4"
+      ],
+      "team_id": "team-ap.bren",
+      "opponent_pick_hero_id": "h086",
+      "response_ban_hero_id": "h019",
+      "response_ban_hero_name": "Minotaur",
+      "state_count": 2,
+      "sample_size_games": 2,
+      "sample_sufficient": false,
+      "pattern_confidence_label": "LOW_SAMPLE"
+    },
+    {
+      "group_id_matches": [
+        "match-m5-ko-07-g3",
+        "match-m5-ko-14-g1"
+      ],
+      "team_id": "team-onic",
+      "opponent_pick_hero_id": "h119",
+      "response_ban_hero_id": "h103",
+      "response_ban_hero_name": "Paquito",
+      "state_count": 2,
+      "sample_size_games": 2,
+      "sample_sufficient": false,
+      "pattern_confidence_label": "LOW_SAMPLE"
+    },
+    {
+      "group_id_matches": [
+        "match-m5-ko-08-g1",
+        "match-m5-ko-08-g2"
+      ],
+      "team_id": "team-fire-flux-esports",
+      "opponent_pick_hero_id": "h110",
+      "response_ban_hero_id": "h065",
+      "response_ban_hero_name": "Claude",
+      "state_count": 2,
+      "sample_size_games": 2,
+      "sample_sufficient": false,
+      "pattern_confidence_label": "LOW_SAMPLE"
+    },
+    {
+      "group_id_matches": [
+        "match-m5-ko-09-g1",
+        "match-m5-ko-09-g3"
+      ],
+      "team_id": "team-see-you-soon",
+      "opponent_pick_hero_id": "h055",
+      "response_ban_hero_id": "h087",
+      "response_ban_hero_name": "Baxia",
+      "state_count": 2,
+      "sample_size_games": 2,
+      "sample_sufficient": false,
+      "pattern_confidence_label": "LOW_SAMPLE"
+    },
+    {
+      "group_id_matches": [
+        "match-m5-ko-11-g2",
+        "match-m5-ko-11-g3"
+      ],
+      "team_id": "team-devu",
+      "opponent_pick_hero_id": "h110",
+      "response_ban_hero_id": "h062",
+      "response_ban_hero_name": "Kaja",
+      "state_count": 2,
+      "sample_size_games": 2,
+      "sample_sufficient": false,
+      "pattern_confidence_label": "LOW_SAMPLE"
+    },
+    {
+      "group_id_matches": [
+        "match-m5-ko-12-g1",
+        "match-m5-ko-12-g2"
+      ],
+      "team_id": "team-blck",
+      "opponent_pick_hero_id": "h076",
+      "response_ban_hero_id": "h121",
+      "response_ban_hero_name": "Ixia",
+      "state_count": 2,
+      "sample_size_games": 2,
+      "sample_sufficient": false,
+      "pattern_confidence_label": "LOW_SAMPLE"
+    },
+    {
+      "group_id_matches": [
+        "match-m5-ko-01-g1"
+      ],
+      "team_id": "team-fire-flux-esports",
+      "opponent_pick_hero_id": "h119",
+      "response_ban_hero_id": "h055",
+      "response_ban_hero_name": "Angela",
+      "state_count": 1,
+      "sample_size_games": 1,
+      "sample_sufficient": false,
+      "pattern_confidence_label": "LOW_SAMPLE"
+    },
+    {
+      "group_id_matches": [
+        "match-m5-ko-01-g2"
+      ],
+      "team_id": "team-fire-flux-esports",
+      "opponent_pick_hero_id": "h076",
+      "response_ban_hero_id": "h037",
+      "response_ban_hero_name": "Lapu-Lapu",
+      "state_count": 1,
+      "sample_size_games": 1,
+      "sample_sufficient": false,
+      "pattern_confidence_label": "LOW_SAMPLE"
+    },
+    {
+      "group_id_matches": [
+        "match-m5-ko-01-g3"
+      ],
+      "team_id": "team-fire-flux-esports",
+      "opponent_pick_hero_id": "h076",
+      "response_ban_hero_id": "h120",
+      "response_ban_hero_name": "Arlott",
+      "state_count": 1,
+      "sample_size_games": 1,
+      "sample_sufficient": false,
+      "pattern_confidence_label": "LOW_SAMPLE"
+    },
+    {
+      "group_id_matches": [
+        "match-m5-ko-01-g4"
+      ],
+      "team_id": "team-fire-flux-esports",
+      "opponent_pick_hero_id": "h076",
+      "response_ban_hero_id": "h012",
+      "response_ban_hero_name": "Bruno",
+      "state_count": 1,
+      "sample_size_games": 1,
+      "sample_sufficient": false,
+      "pattern_confidence_label": "LOW_SAMPLE"
+    },
+    {
+      "group_id_matches": [
+        "match-m5-ko-02-g1"
+      ],
+      "team_id": "team-onic",
+      "opponent_pick_hero_id": "h076",
+      "response_ban_hero_id": "h048",
+      "response_ban_hero_name": "Diggie",
+      "state_count": 1,
+      "sample_size_games": 1,
+      "sample_sufficient": false,
+      "pattern_confidence_label": "LOW_SAMPLE"
+    },
+    {
+      "group_id_matches": [
+        "match-m5-ko-02-g2"
+      ],
+      "team_id": "team-onic",
+      "opponent_pick_hero_id": "h086",
+      "response_ban_hero_id": "h048",
+      "response_ban_hero_name": "Diggie",
+      "state_count": 1,
+      "sample_size_games": 1,
+      "sample_sufficient": false,
+      "pattern_confidence_label": "LOW_SAMPLE"
+    },
+    {
+      "group_id_matches": [
+        "match-m5-ko-02-g3"
+      ],
+      "team_id": "team-onic",
+      "opponent_pick_hero_id": "h110",
+      "response_ban_hero_id": "h048",
+      "response_ban_hero_name": "Diggie",
+      "state_count": 1,
+      "sample_size_games": 1,
+      "sample_sufficient": false,
+      "pattern_confidence_label": "LOW_SAMPLE"
+    },
+    {
+      "group_id_matches": [
+        "match-m5-ko-02-g4"
+      ],
+      "team_id": "team-onic",
+      "opponent_pick_hero_id": "h110",
+      "response_ban_hero_id": "h106",
+      "response_ban_hero_name": "Phoveus",
+      "state_count": 1,
+      "sample_size_games": 1,
+      "sample_sufficient": false,
+      "pattern_confidence_label": "LOW_SAMPLE"
+    },
+    {
+      "group_id_matches": [
+        "match-m5-ko-02-g5"
+      ],
+      "team_id": "team-onic",
+      "opponent_pick_hero_id": "h086",
+      "response_ban_hero_id": "h106",
+      "response_ban_hero_name": "Phoveus",
+      "state_count": 1,
+      "sample_size_games": 1,
+      "sample_sufficient": false,
+      "pattern_confidence_label": "LOW_SAMPLE"
+    },
+    {
+      "group_id_matches": [
+        "match-m5-ko-03-g1"
+      ],
+      "team_id": "team-ap.bren",
+      "opponent_pick_hero_id": "h076",
+      "response_ban_hero_id": "h082",
+      "response_ban_hero_name": "Terizla",
+      "state_count": 1,
+      "sample_size_games": 1,
+      "sample_sufficient": false,
+      "pattern_confidence_label": "LOW_SAMPLE"
+    },
+    {
+      "group_id_matches": [
+        "match-m5-ko-03-g2"
+      ],
+      "team_id": "team-ap.bren",
+      "opponent_pick_hero_id": "h076",
+      "response_ban_hero_id": "h058",
+      "response_ban_hero_name": "Martis",
+      "state_count": 1,
+      "sample_size_games": 1,
+      "sample_sufficient": false,
+      "pattern_confidence_label": "LOW_SAMPLE"
+    },
+    {
+      "group_id_matches": [
+        "match-m5-ko-03-g3"
+      ],
+      "team_id": "team-ap.bren",
+      "opponent_pick_hero_id": "h055",
+      "response_ban_hero_id": "h100",
+      "response_ban_hero_name": "Brody",
+      "state_count": 1,
+      "sample_size_games": 1,
+      "sample_sufficient": false,
+      "pattern_confidence_label": "LOW_SAMPLE"
+    },
+    {
+      "group_id_matches": [
+        "match-m5-ko-03-g4"
+      ],
+      "team_id": "team-ap.bren",
+      "opponent_pick_hero_id": "h119",
+      "response_ban_hero_id": "h051",
+      "response_ban_hero_name": "Helcurt",
+      "state_count": 1,
+      "sample_size_games": 1,
+      "sample_sufficient": false,
+      "pattern_confidence_label": "LOW_SAMPLE"
+    },
+    {
+      "group_id_matches": [
+        "match-m5-ko-04-g1"
+      ],
+      "team_id": "team-geek-fam-id\n\t|substitutes={{playersubstitutions\n\t\t\t|{{substitution|in={{opponentplayer|caderaa",
+      "opponent_pick_hero_id": "h110",
+      "response_ban_hero_id": "h019",
+      "response_ban_hero_name": "Minotaur",
+      "state_count": 1,
+      "sample_size_games": 1,
+      "sample_sufficient": false,
+      "pattern_confidence_label": "LOW_SAMPLE"
+    },
+    {
+      "group_id_matches": [
+        "match-m5-ko-04-g2"
+      ],
+      "team_id": "team-geek-fam-id\n\t|substitutes={{playersubstitutions\n\t\t\t|{{substitution|in={{opponentplayer|caderaa",
+      "opponent_pick_hero_id": "h086",
+      "response_ban_hero_id": "h121",
+      "response_ban_hero_name": "Ixia",
+      "state_count": 1,
+      "sample_size_games": 1,
+      "sample_sufficient": false,
+      "pattern_confidence_label": "LOW_SAMPLE"
+    },
+    {
+      "group_id_matches": [
+        "match-m5-ko-04-g3"
+      ],
+      "team_id": "team-geek-fam-id\n\t|substitutes={{playersubstitutions\n\t\t\t|{{substitution|in={{opponentplayer|caderaa",
+      "opponent_pick_hero_id": "h110",
+      "response_ban_hero_id": "h048",
+      "response_ban_hero_name": "Diggie",
+      "state_count": 1,
+      "sample_size_games": 1,
+      "sample_sufficient": false,
+      "pattern_confidence_label": "LOW_SAMPLE"
+    },
+    {
+      "group_id_matches": [
+        "match-m5-ko-04-g4"
+      ],
+      "team_id": "team-geek-fam-id\n\t|substitutes={{playersubstitutions\n\t\t\t|{{substitution|in={{opponentplayer|caderaa",
+      "opponent_pick_hero_id": "h076",
+      "response_ban_hero_id": "h029",
+      "response_ban_hero_name": "Ruby",
+      "state_count": 1,
+      "sample_size_games": 1,
+      "sample_sufficient": false,
+      "pattern_confidence_label": "LOW_SAMPLE"
+    },
+    {
+      "group_id_matches": [
+        "match-m5-ko-04-g5"
+      ],
+      "team_id": "team-geek-fam-id\n\t|substitutes={{playersubstitutions\n\t\t\t|{{substitution|in={{opponentplayer|caderaa",
+      "opponent_pick_hero_id": "h076",
+      "response_ban_hero_id": "h019",
+      "response_ban_hero_name": "Minotaur",
+      "state_count": 1,
+      "sample_size_games": 1,
+      "sample_sufficient": false,
+      "pattern_confidence_label": "LOW_SAMPLE"
+    },
+    {
+      "group_id_matches": [
+        "match-m5-ko-05-g1"
+      ],
+      "team_id": "team-devu",
+      "opponent_pick_hero_id": "h023",
+      "response_ban_hero_id": "h019",
+      "response_ban_hero_name": "Minotaur",
+      "state_count": 1,
+      "sample_size_games": 1,
+      "sample_sufficient": false,
+      "pattern_confidence_label": "LOW_SAMPLE"
+    },
+    {
+      "group_id_matches": [
+        "match-m5-ko-05-g2"
+      ],
+      "team_id": "team-devu",
+      "opponent_pick_hero_id": "h110",
+      "response_ban_hero_id": "h102",
+      "response_ban_hero_name": "Mathilda",
+      "state_count": 1,
+      "sample_size_games": 1,
+      "sample_sufficient": false,
+      "pattern_confidence_label": "LOW_SAMPLE"
+    },
+    {
+      "group_id_matches": [
+        "match-m5-ko-05-g3"
+      ],
+      "team_id": "team-devu",
+      "opponent_pick_hero_id": "h119",
+      "response_ban_hero_id": "h086",
+      "response_ban_hero_name": "Lylia",
+      "state_count": 1,
+      "sample_size_games": 1,
+      "sample_sufficient": false,
+      "pattern_confidence_label": "LOW_SAMPLE"
+    },
+    {
+      "group_id_matches": [
+        "match-m5-ko-06-g1"
+      ],
+      "team_id": "team-ap.bren",
+      "opponent_pick_hero_id": "h110",
+      "response_ban_hero_id": "h082",
+      "response_ban_hero_name": "Terizla",
+      "state_count": 1,
+      "sample_size_games": 1,
+      "sample_sufficient": false,
+      "pattern_confidence_label": "LOW_SAMPLE"
+    },
+    {
+      "group_id_matches": [
+        "match-m5-ko-06-g2"
+      ],
+      "team_id": "team-ap.bren",
+      "opponent_pick_hero_id": "h086",
+      "response_ban_hero_id": "h103",
+      "response_ban_hero_name": "Paquito",
+      "state_count": 1,
+      "sample_size_games": 1,
+      "sample_sufficient": false,
+      "pattern_confidence_label": "LOW_SAMPLE"
+    },
+    {
+      "group_id_matches": [
+        "match-m5-ko-07-g1"
+      ],
+      "team_id": "team-onic",
+      "opponent_pick_hero_id": "h106",
+      "response_ban_hero_id": "h100",
+      "response_ban_hero_name": "Brody",
+      "state_count": 1,
+      "sample_size_games": 1,
+      "sample_sufficient": false,
+      "pattern_confidence_label": "LOW_SAMPLE"
+    },
+    {
+      "group_id_matches": [
+        "match-m5-ko-07-g2"
+      ],
+      "team_id": "team-onic",
+      "opponent_pick_hero_id": "h046",
+      "response_ban_hero_id": "h098",
+      "response_ban_hero_name": "Khaleed",
+      "state_count": 1,
+      "sample_size_games": 1,
+      "sample_sufficient": false,
+      "pattern_confidence_label": "LOW_SAMPLE"
+    },
+    {
+      "group_id_matches": [
+        "match-m5-ko-08-g3"
+      ],
+      "team_id": "team-fire-flux-esports",
+      "opponent_pick_hero_id": "h110",
+      "response_ban_hero_id": "h058",
+      "response_ban_hero_name": "Martis",
+      "state_count": 1,
+      "sample_size_games": 1,
+      "sample_sufficient": false,
+      "pattern_confidence_label": "LOW_SAMPLE"
+    },
+    {
+      "group_id_matches": [
+        "match-m5-ko-08-g4"
+      ],
+      "team_id": "team-fire-flux-esports",
+      "opponent_pick_hero_id": "h110",
+      "response_ban_hero_id": "h120",
+      "response_ban_hero_name": "Arlott",
+      "state_count": 1,
+      "sample_size_games": 1,
+      "sample_sufficient": false,
+      "pattern_confidence_label": "LOW_SAMPLE"
+    },
+    {
+      "group_id_matches": [
+        "match-m5-ko-09-g2"
+      ],
+      "team_id": "team-see-you-soon",
+      "opponent_pick_hero_id": "h086",
+      "response_ban_hero_id": "h055",
+      "response_ban_hero_name": "Angela",
+      "state_count": 1,
+      "sample_size_games": 1,
+      "sample_sufficient": false,
+      "pattern_confidence_label": "LOW_SAMPLE"
+    },
+    {
+      "group_id_matches": [
+        "match-m5-ko-10-g1"
+      ],
+      "team_id": "team-geek-fam-id",
+      "opponent_pick_hero_id": "h119",
+      "response_ban_hero_id": "h111",
+      "response_ban_hero_name": "Edith",
+      "state_count": 1,
+      "sample_size_games": 1,
+      "sample_sufficient": false,
+      "pattern_confidence_label": "LOW_SAMPLE"
+    },
+    {
+      "group_id_matches": [
+        "match-m5-ko-10-g2"
+      ],
+      "team_id": "team-geek-fam-id",
+      "opponent_pick_hero_id": "h110",
+      "response_ban_hero_id": "h111",
+      "response_ban_hero_name": "Edith",
+      "state_count": 1,
+      "sample_size_games": 1,
+      "sample_sufficient": false,
+      "pattern_confidence_label": "LOW_SAMPLE"
+    },
+    {
+      "group_id_matches": [
+        "match-m5-ko-10-g3"
+      ],
+      "team_id": "team-geek-fam-id",
+      "opponent_pick_hero_id": "h076",
+      "response_ban_hero_id": "h111",
+      "response_ban_hero_name": "Edith",
+      "state_count": 1,
+      "sample_size_games": 1,
+      "sample_sufficient": false,
+      "pattern_confidence_label": "LOW_SAMPLE"
+    },
+    {
+      "group_id_matches": [
+        "match-m5-ko-10-g4"
+      ],
+      "team_id": "team-geek-fam-id",
+      "opponent_pick_hero_id": "h023",
+      "response_ban_hero_id": "h111",
+      "response_ban_hero_name": "Edith",
+      "state_count": 1,
+      "sample_size_games": 1,
+      "sample_sufficient": false,
+      "pattern_confidence_label": "LOW_SAMPLE"
+    },
+    {
+      "group_id_matches": [
+        "match-m5-ko-11-g1"
+      ],
+      "team_id": "team-devu",
+      "opponent_pick_hero_id": "h075",
+      "response_ban_hero_id": "h006",
+      "response_ban_hero_name": "Tigreal",
+      "state_count": 1,
+      "sample_size_games": 1,
+      "sample_sufficient": false,
+      "pattern_confidence_label": "LOW_SAMPLE"
+    },
+    {
+      "group_id_matches": [
+        "match-m5-ko-11-g4"
+      ],
+      "team_id": "team-devu",
+      "opponent_pick_hero_id": "h110",
+      "response_ban_hero_id": "h037",
+      "response_ban_hero_name": "Lapu-Lapu",
+      "state_count": 1,
+      "sample_size_games": 1,
+      "sample_sufficient": false,
+      "pattern_confidence_label": "LOW_SAMPLE"
+    },
+    {
+      "group_id_matches": [
+        "match-m5-ko-11-g5"
+      ],
+      "team_id": "team-devu",
+      "opponent_pick_hero_id": "h075",
+      "response_ban_hero_id": "h037",
+      "response_ban_hero_name": "Lapu-Lapu",
+      "state_count": 1,
+      "sample_size_games": 1,
+      "sample_sufficient": false,
+      "pattern_confidence_label": "LOW_SAMPLE"
+    },
+    {
+      "group_id_matches": [
+        "match-m5-ko-12-g3"
+      ],
+      "team_id": "team-blck",
+      "opponent_pick_hero_id": "h086",
+      "response_ban_hero_id": "h019",
+      "response_ban_hero_name": "Minotaur",
+      "state_count": 1,
+      "sample_size_games": 1,
+      "sample_sufficient": false,
+      "pattern_confidence_label": "LOW_SAMPLE"
+    },
+    {
+      "group_id_matches": [
+        "match-m5-ko-13-g1"
+      ],
+      "team_id": "team-ap.bren",
+      "opponent_pick_hero_id": "h086",
+      "response_ban_hero_id": "h034",
+      "response_ban_hero_name": "Estes",
+      "state_count": 1,
+      "sample_size_games": 1,
+      "sample_sufficient": false,
+      "pattern_confidence_label": "LOW_SAMPLE"
+    },
+    {
+      "group_id_matches": [
+        "match-m5-ko-13-g2"
+      ],
+      "team_id": "team-ap.bren",
+      "opponent_pick_hero_id": "h110",
+      "response_ban_hero_id": "h121",
+      "response_ban_hero_name": "Ixia",
+      "state_count": 1,
+      "sample_size_games": 1,
+      "sample_sufficient": false,
+      "pattern_confidence_label": "LOW_SAMPLE"
+    },
+    {
+      "group_id_matches": [
+        "match-m5-ko-13-g3"
+      ],
+      "team_id": "team-ap.bren",
+      "opponent_pick_hero_id": "h110",
+      "response_ban_hero_id": "h098",
+      "response_ban_hero_name": "Khaleed",
+      "state_count": 1,
+      "sample_size_games": 1,
+      "sample_sufficient": false,
+      "pattern_confidence_label": "LOW_SAMPLE"
+    },
+    {
+      "group_id_matches": [
+        "match-m5-ko-14-g2"
+      ],
+      "team_id": "team-onic",
+      "opponent_pick_hero_id": "h110",
+      "response_ban_hero_id": "h087",
+      "response_ban_hero_name": "Baxia",
+      "state_count": 1,
+      "sample_size_games": 1,
+      "sample_sufficient": false,
+      "pattern_confidence_label": "LOW_SAMPLE"
+    },
+    {
+      "group_id_matches": [
+        "match-m5-ko-14-g3"
+      ],
+      "team_id": "team-onic",
+      "opponent_pick_hero_id": "h023",
+      "response_ban_hero_id": "h119",
+      "response_ban_hero_name": "Novaria",
+      "state_count": 1,
+      "sample_size_games": 1,
+      "sample_sufficient": false,
+      "pattern_confidence_label": "LOW_SAMPLE"
+    },
+    {
+      "group_id_matches": [
+        "match-m5-ko-14-g4"
+      ],
+      "team_id": "team-onic",
+      "opponent_pick_hero_id": "h055",
+      "response_ban_hero_id": "h103",
+      "response_ban_hero_name": "Paquito",
+      "state_count": 1,
+      "sample_size_games": 1,
+      "sample_sufficient": false,
+      "pattern_confidence_label": "LOW_SAMPLE"
+    },
+    {
+      "group_id_matches": [
+        "match-m5-ko-14-g5"
+      ],
+      "team_id": "team-onic",
+      "opponent_pick_hero_id": "h086",
+      "response_ban_hero_id": "h017",
+      "response_ban_hero_name": "Fanny",
+      "state_count": 1,
+      "sample_size_games": 1,
+      "sample_sufficient": false,
+      "pattern_confidence_label": "LOW_SAMPLE"
+    },
+    {
+      "group_id_matches": [
+        "match-m5-ko-14-g6"
+      ],
+      "team_id": "team-onic",
+      "opponent_pick_hero_id": "h086",
+      "response_ban_hero_id": "h019",
+      "response_ban_hero_name": "Minotaur",
+      "state_count": 1,
+      "sample_size_games": 1,
+      "sample_sufficient": false,
+      "pattern_confidence_label": "LOW_SAMPLE"
+    },
+    {
+      "group_id_matches": [
+        "match-m5-ko-14-g7"
+      ],
+      "team_id": "team-onic",
+      "opponent_pick_hero_id": "h076",
+      "response_ban_hero_id": "h072",
+      "response_ban_hero_name": "Thamuz",
+      "state_count": 1,
+      "sample_size_games": 1,
+      "sample_sufficient": false,
+      "pattern_confidence_label": "LOW_SAMPLE"
+    }
+  ]
+}

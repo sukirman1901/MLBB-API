@@ -1,0 +1,1906 @@
+{
+  "data": [
+    {
+      "team_id": "team-fire-flux-esports",
+      "total_first_pick_games": 8,
+      "total_first_ban_games": 8,
+      "first_pick_preferences": [
+        {
+          "hero_id": "h082",
+          "hero_name": "Terizla",
+          "pick_count": 3,
+          "sample_size_games": 3,
+          "pick_rate": 0.375,
+          "observed_win_rate": 0.3333
+        },
+        {
+          "hero_id": "h037",
+          "hero_name": "Lapu-Lapu",
+          "pick_count": 2,
+          "sample_size_games": 2,
+          "pick_rate": 0.25,
+          "observed_win_rate": 0.0
+        },
+        {
+          "hero_id": "h098",
+          "hero_name": "Khaleed",
+          "pick_count": 1,
+          "sample_size_games": 1,
+          "pick_rate": 0.125,
+          "observed_win_rate": 0.0
+        },
+        {
+          "hero_id": "h072",
+          "hero_name": "Thamuz",
+          "pick_count": 1,
+          "sample_size_games": 1,
+          "pick_rate": 0.125,
+          "observed_win_rate": 0.0
+        },
+        {
+          "hero_id": "h104",
+          "hero_name": "Gloo",
+          "pick_count": 1,
+          "sample_size_games": 1,
+          "pick_rate": 0.125,
+          "observed_win_rate": 1.0
+        }
+      ],
+      "first_ban_preferences": [
+        {
+          "hero_id": "h089",
+          "hero_name": "Wanwan",
+          "ban_count": 7,
+          "sample_size_games": 7,
+          "ban_rate": 0.875
+        },
+        {
+          "hero_id": "h048",
+          "hero_name": "Diggie",
+          "ban_count": 1,
+          "sample_size_games": 1,
+          "ban_rate": 0.125
+        }
+      ],
+      "alternative_responses": {}
+    },
+    {
+      "team_id": "team-onic",
+      "total_first_pick_games": 15,
+      "total_first_ban_games": 15,
+      "first_pick_preferences": [
+        {
+          "hero_id": "h082",
+          "hero_name": "Terizla",
+          "pick_count": 8,
+          "sample_size_games": 8,
+          "pick_rate": 0.5333,
+          "observed_win_rate": 0.75
+        },
+        {
+          "hero_id": "h098",
+          "hero_name": "Khaleed",
+          "pick_count": 2,
+          "sample_size_games": 2,
+          "pick_rate": 0.1333,
+          "observed_win_rate": 0.5
+        },
+        {
+          "hero_id": "h120",
+          "hero_name": "Arlott",
+          "pick_count": 1,
+          "sample_size_games": 1,
+          "pick_rate": 0.0667,
+          "observed_win_rate": 0.0
+        },
+        {
+          "hero_id": "h095",
+          "hero_name": "Yu Zhong",
+          "pick_count": 1,
+          "sample_size_games": 1,
+          "pick_rate": 0.0667,
+          "observed_win_rate": 0.0
+        },
+        {
+          "hero_id": "h117",
+          "hero_name": "Fredrinn",
+          "pick_count": 1,
+          "sample_size_games": 1,
+          "pick_rate": 0.0667,
+          "observed_win_rate": 0.0
+        },
+        {
+          "hero_id": "h103",
+          "hero_name": "Paquito",
+          "pick_count": 1,
+          "sample_size_games": 1,
+          "pick_rate": 0.0667,
+          "observed_win_rate": 1.0
+        },
+        {
+          "hero_id": "h106",
+          "hero_name": "Phoveus",
+          "pick_count": 1,
+          "sample_size_games": 1,
+          "pick_rate": 0.0667,
+          "observed_win_rate": 1.0
+        }
+      ],
+      "first_ban_preferences": [
+        {
+          "hero_id": "h076",
+          "hero_name": "Faramis",
+          "ban_count": 5,
+          "sample_size_games": 5,
+          "ban_rate": 0.3333
+        },
+        {
+          "hero_id": "h080",
+          "hero_name": "Guinevere",
+          "ban_count": 4,
+          "sample_size_games": 4,
+          "ban_rate": 0.2667
+        },
+        {
+          "hero_id": "h102",
+          "hero_name": "Mathilda",
+          "ban_count": 4,
+          "sample_size_games": 4,
+          "ban_rate": 0.2667
+        },
+        {
+          "hero_id": "h117",
+          "hero_name": "Fredrinn",
+          "ban_count": 1,
+          "sample_size_games": 1,
+          "ban_rate": 0.0667
+        },
+        {
+          "hero_id": "h089",
+          "hero_name": "Wanwan",
+          "ban_count": 1,
+          "sample_size_games": 1,
+          "ban_rate": 0.0667
+        }
+      ],
+      "alternative_responses": {
+        "h110": {
+          "opponent_hero_name": "Valentina",
+          "distinct_responses": 2,
+          "response_entropy": 1.0,
+          "response_diversity_label": "MEDIUM_RESPONSE_DIVERSITY",
+          "observed_responses": [
+            {
+              "hero_id": "h085",
+              "hero_name": "Dyrroth",
+              "count": 1,
+              "sample_size_games": 1,
+              "response_rate": 0.5,
+              "wins": 1,
+              "losses": 0,
+              "observed_win_rate": 1.0,
+              "sample_sufficient": false,
+              "pattern_confidence_label": "LOW_SAMPLE"
+            },
+            {
+              "hero_id": "h059",
+              "hero_name": "Uranus",
+              "count": 1,
+              "sample_size_games": 1,
+              "response_rate": 0.5,
+              "wins": 1,
+              "losses": 0,
+              "observed_win_rate": 1.0,
+              "sample_sufficient": false,
+              "pattern_confidence_label": "LOW_SAMPLE"
+            }
+          ]
+        },
+        "h102": {
+          "opponent_hero_name": "Mathilda",
+          "distinct_responses": 1,
+          "response_entropy": 0.0,
+          "response_diversity_label": "LOW_RESPONSE_DIVERSITY",
+          "observed_responses": [
+            {
+              "hero_id": "h089",
+              "hero_name": "Wanwan",
+              "count": 1,
+              "sample_size_games": 1,
+              "response_rate": 1.0,
+              "wins": 1,
+              "losses": 0,
+              "observed_win_rate": 1.0,
+              "sample_sufficient": false,
+              "pattern_confidence_label": "LOW_SAMPLE"
+            }
+          ]
+        },
+        "h119": {
+          "opponent_hero_name": "Novaria",
+          "distinct_responses": 1,
+          "response_entropy": 0.0,
+          "response_diversity_label": "LOW_RESPONSE_DIVERSITY",
+          "observed_responses": [
+            {
+              "hero_id": "h117",
+              "hero_name": "Fredrinn",
+              "count": 1,
+              "sample_size_games": 1,
+              "response_rate": 1.0,
+              "wins": 1,
+              "losses": 0,
+              "observed_win_rate": 1.0,
+              "sample_sufficient": false,
+              "pattern_confidence_label": "LOW_SAMPLE"
+            }
+          ]
+        },
+        "h055": {
+          "opponent_hero_name": "Angela",
+          "distinct_responses": 1,
+          "response_entropy": 0.0,
+          "response_diversity_label": "LOW_RESPONSE_DIVERSITY",
+          "observed_responses": [
+            {
+              "hero_id": "h065",
+              "hero_name": "Claude",
+              "count": 1,
+              "sample_size_games": 1,
+              "response_rate": 1.0,
+              "wins": 1,
+              "losses": 0,
+              "observed_win_rate": 1.0,
+              "sample_sufficient": false,
+              "pattern_confidence_label": "LOW_SAMPLE"
+            }
+          ]
+        },
+        "h006": {
+          "opponent_hero_name": "Tigreal",
+          "distinct_responses": 1,
+          "response_entropy": 0.0,
+          "response_diversity_label": "LOW_RESPONSE_DIVERSITY",
+          "observed_responses": [
+            {
+              "hero_id": "h012",
+              "hero_name": "Bruno",
+              "count": 1,
+              "sample_size_games": 1,
+              "response_rate": 1.0,
+              "wins": 1,
+              "losses": 0,
+              "observed_win_rate": 1.0,
+              "sample_sufficient": false,
+              "pattern_confidence_label": "LOW_SAMPLE"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "team_id": "team-ap.bren",
+      "total_first_pick_games": 11,
+      "total_first_ban_games": 11,
+      "first_pick_preferences": [
+        {
+          "hero_id": "h103",
+          "hero_name": "Paquito",
+          "pick_count": 4,
+          "sample_size_games": 4,
+          "pick_rate": 0.3636,
+          "observed_win_rate": 1.0
+        },
+        {
+          "hero_id": "h098",
+          "hero_name": "Khaleed",
+          "pick_count": 2,
+          "sample_size_games": 2,
+          "pick_rate": 0.1818,
+          "observed_win_rate": 0.5
+        },
+        {
+          "hero_id": "h097",
+          "hero_name": "Benedetta",
+          "pick_count": 1,
+          "sample_size_games": 1,
+          "pick_rate": 0.0909,
+          "observed_win_rate": 1.0
+        },
+        {
+          "hero_id": "h085",
+          "hero_name": "Dyrroth",
+          "pick_count": 1,
+          "sample_size_games": 1,
+          "pick_rate": 0.0909,
+          "observed_win_rate": 1.0
+        },
+        {
+          "hero_id": "h082",
+          "hero_name": "Terizla",
+          "pick_count": 1,
+          "sample_size_games": 1,
+          "pick_rate": 0.0909,
+          "observed_win_rate": 0.0
+        },
+        {
+          "hero_id": "h106",
+          "hero_name": "Phoveus",
+          "pick_count": 1,
+          "sample_size_games": 1,
+          "pick_rate": 0.0909,
+          "observed_win_rate": 1.0
+        },
+        {
+          "hero_id": "h104",
+          "hero_name": "Gloo",
+          "pick_count": 1,
+          "sample_size_games": 1,
+          "pick_rate": 0.0909,
+          "observed_win_rate": 1.0
+        }
+      ],
+      "first_ban_preferences": [
+        {
+          "hero_id": "h089",
+          "hero_name": "Wanwan",
+          "ban_count": 5,
+          "sample_size_games": 5,
+          "ban_rate": 0.4545
+        },
+        {
+          "hero_id": "h087",
+          "hero_name": "Baxia",
+          "ban_count": 3,
+          "sample_size_games": 3,
+          "ban_rate": 0.2727
+        },
+        {
+          "hero_id": "h106",
+          "hero_name": "Phoveus",
+          "ban_count": 2,
+          "sample_size_games": 2,
+          "ban_rate": 0.1818
+        },
+        {
+          "hero_id": "h062",
+          "hero_name": "Kaja",
+          "ban_count": 1,
+          "sample_size_games": 1,
+          "ban_rate": 0.0909
+        }
+      ],
+      "alternative_responses": {
+        "h086": {
+          "opponent_hero_name": "Lylia",
+          "distinct_responses": 1,
+          "response_entropy": 0.0,
+          "response_diversity_label": "LOW_RESPONSE_DIVERSITY",
+          "observed_responses": [
+            {
+              "hero_id": "h098",
+              "hero_name": "Khaleed",
+              "count": 1,
+              "sample_size_games": 1,
+              "response_rate": 1.0,
+              "wins": 0,
+              "losses": 1,
+              "observed_win_rate": 0.0,
+              "sample_sufficient": false,
+              "pattern_confidence_label": "LOW_SAMPLE"
+            }
+          ]
+        },
+        "h006": {
+          "opponent_hero_name": "Tigreal",
+          "distinct_responses": 2,
+          "response_entropy": 1.0,
+          "response_diversity_label": "MEDIUM_RESPONSE_DIVERSITY",
+          "observed_responses": [
+            {
+              "hero_id": "h013",
+              "hero_name": "Clint",
+              "count": 1,
+              "sample_size_games": 1,
+              "response_rate": 0.5,
+              "wins": 0,
+              "losses": 1,
+              "observed_win_rate": 0.0,
+              "sample_sufficient": false,
+              "pattern_confidence_label": "LOW_SAMPLE"
+            },
+            {
+              "hero_id": "h100",
+              "hero_name": "Brody",
+              "count": 1,
+              "sample_size_games": 1,
+              "response_rate": 0.5,
+              "wins": 1,
+              "losses": 0,
+              "observed_win_rate": 1.0,
+              "sample_sufficient": false,
+              "pattern_confidence_label": "LOW_SAMPLE"
+            }
+          ]
+        },
+        "h119": {
+          "opponent_hero_name": "Novaria",
+          "distinct_responses": 1,
+          "response_entropy": 0.0,
+          "response_diversity_label": "LOW_RESPONSE_DIVERSITY",
+          "observed_responses": [
+            {
+              "hero_id": "h120",
+              "hero_name": "Arlott",
+              "count": 2,
+              "sample_size_games": 2,
+              "response_rate": 1.0,
+              "wins": 0,
+              "losses": 2,
+              "observed_win_rate": 0.0,
+              "sample_sufficient": false,
+              "pattern_confidence_label": "LOW_SAMPLE"
+            }
+          ]
+        },
+        "h044": {
+          "opponent_hero_name": "Grock",
+          "distinct_responses": 2,
+          "response_entropy": 1.0,
+          "response_diversity_label": "MEDIUM_RESPONSE_DIVERSITY",
+          "observed_responses": [
+            {
+              "hero_id": "h065",
+              "hero_name": "Claude",
+              "count": 1,
+              "sample_size_games": 1,
+              "response_rate": 0.5,
+              "wins": 0,
+              "losses": 1,
+              "observed_win_rate": 0.0,
+              "sample_sufficient": false,
+              "pattern_confidence_label": "LOW_SAMPLE"
+            },
+            {
+              "hero_id": "h089",
+              "hero_name": "Wanwan",
+              "count": 1,
+              "sample_size_games": 1,
+              "response_rate": 0.5,
+              "wins": 0,
+              "losses": 1,
+              "observed_win_rate": 0.0,
+              "sample_sufficient": false,
+              "pattern_confidence_label": "LOW_SAMPLE"
+            }
+          ]
+        },
+        "h056": {
+          "opponent_hero_name": "Gusion",
+          "distinct_responses": 1,
+          "response_entropy": 0.0,
+          "response_diversity_label": "LOW_RESPONSE_DIVERSITY",
+          "observed_responses": [
+            {
+              "hero_id": "h120",
+              "hero_name": "Arlott",
+              "count": 1,
+              "sample_size_games": 1,
+              "response_rate": 1.0,
+              "wins": 0,
+              "losses": 1,
+              "observed_win_rate": 0.0,
+              "sample_sufficient": false,
+              "pattern_confidence_label": "LOW_SAMPLE"
+            }
+          ]
+        },
+        "h080": {
+          "opponent_hero_name": "Guinevere",
+          "distinct_responses": 1,
+          "response_entropy": 0.0,
+          "response_diversity_label": "LOW_RESPONSE_DIVERSITY",
+          "observed_responses": [
+            {
+              "hero_id": "h012",
+              "hero_name": "Bruno",
+              "count": 1,
+              "sample_size_games": 1,
+              "response_rate": 1.0,
+              "wins": 0,
+              "losses": 1,
+              "observed_win_rate": 0.0,
+              "sample_sufficient": false,
+              "pattern_confidence_label": "LOW_SAMPLE"
+            }
+          ]
+        },
+        "h110": {
+          "opponent_hero_name": "Valentina",
+          "distinct_responses": 1,
+          "response_entropy": 0.0,
+          "response_diversity_label": "LOW_RESPONSE_DIVERSITY",
+          "observed_responses": [
+            {
+              "hero_id": "h072",
+              "hero_name": "Thamuz",
+              "count": 2,
+              "sample_size_games": 2,
+              "response_rate": 1.0,
+              "wins": 2,
+              "losses": 0,
+              "observed_win_rate": 1.0,
+              "sample_sufficient": false,
+              "pattern_confidence_label": "LOW_SAMPLE"
+            }
+          ]
+        },
+        "h023": {
+          "opponent_hero_name": "Gord",
+          "distinct_responses": 1,
+          "response_entropy": 0.0,
+          "response_diversity_label": "LOW_RESPONSE_DIVERSITY",
+          "observed_responses": [
+            {
+              "hero_id": "h103",
+              "hero_name": "Paquito",
+              "count": 1,
+              "sample_size_games": 1,
+              "response_rate": 1.0,
+              "wins": 0,
+              "losses": 1,
+              "observed_win_rate": 0.0,
+              "sample_sufficient": false,
+              "pattern_confidence_label": "LOW_SAMPLE"
+            }
+          ]
+        },
+        "h029": {
+          "opponent_hero_name": "Ruby",
+          "distinct_responses": 1,
+          "response_entropy": 0.0,
+          "response_diversity_label": "LOW_RESPONSE_DIVERSITY",
+          "observed_responses": [
+            {
+              "hero_id": "h012",
+              "hero_name": "Bruno",
+              "count": 1,
+              "sample_size_games": 1,
+              "response_rate": 1.0,
+              "wins": 0,
+              "losses": 1,
+              "observed_win_rate": 0.0,
+              "sample_sufficient": false,
+              "pattern_confidence_label": "LOW_SAMPLE"
+            }
+          ]
+        },
+        "h076": {
+          "opponent_hero_name": "Faramis",
+          "distinct_responses": 2,
+          "response_entropy": 1.0,
+          "response_diversity_label": "MEDIUM_RESPONSE_DIVERSITY",
+          "observed_responses": [
+            {
+              "hero_id": "h037",
+              "hero_name": "Lapu-Lapu",
+              "count": 1,
+              "sample_size_games": 1,
+              "response_rate": 0.5,
+              "wins": 1,
+              "losses": 0,
+              "observed_win_rate": 1.0,
+              "sample_sufficient": false,
+              "pattern_confidence_label": "LOW_SAMPLE"
+            },
+            {
+              "hero_id": "h072",
+              "hero_name": "Thamuz",
+              "count": 1,
+              "sample_size_games": 1,
+              "response_rate": 0.5,
+              "wins": 0,
+              "losses": 1,
+              "observed_win_rate": 0.0,
+              "sample_sufficient": false,
+              "pattern_confidence_label": "LOW_SAMPLE"
+            }
+          ]
+        },
+        "h026": {
+          "opponent_hero_name": "Chou",
+          "distinct_responses": 1,
+          "response_entropy": 0.0,
+          "response_diversity_label": "LOW_RESPONSE_DIVERSITY",
+          "observed_responses": [
+            {
+              "hero_id": "h100",
+              "hero_name": "Brody",
+              "count": 1,
+              "sample_size_games": 1,
+              "response_rate": 1.0,
+              "wins": 1,
+              "losses": 0,
+              "observed_win_rate": 1.0,
+              "sample_sufficient": false,
+              "pattern_confidence_label": "LOW_SAMPLE"
+            }
+          ]
+        },
+        "h062": {
+          "opponent_hero_name": "Kaja",
+          "distinct_responses": 1,
+          "response_entropy": 0.0,
+          "response_diversity_label": "LOW_RESPONSE_DIVERSITY",
+          "observed_responses": [
+            {
+              "hero_id": "h089",
+              "hero_name": "Wanwan",
+              "count": 1,
+              "sample_size_games": 1,
+              "response_rate": 1.0,
+              "wins": 1,
+              "losses": 0,
+              "observed_win_rate": 1.0,
+              "sample_sufficient": false,
+              "pattern_confidence_label": "LOW_SAMPLE"
+            }
+          ]
+        },
+        "h019": {
+          "opponent_hero_name": "Minotaur",
+          "distinct_responses": 1,
+          "response_entropy": 0.0,
+          "response_diversity_label": "LOW_RESPONSE_DIVERSITY",
+          "observed_responses": [
+            {
+              "hero_id": "h065",
+              "hero_name": "Claude",
+              "count": 1,
+              "sample_size_games": 1,
+              "response_rate": 1.0,
+              "wins": 0,
+              "losses": 1,
+              "observed_win_rate": 0.0,
+              "sample_sufficient": false,
+              "pattern_confidence_label": "LOW_SAMPLE"
+            }
+          ]
+        },
+        "h101": {
+          "opponent_hero_name": "Yve",
+          "distinct_responses": 1,
+          "response_entropy": 0.0,
+          "response_diversity_label": "LOW_RESPONSE_DIVERSITY",
+          "observed_responses": [
+            {
+              "hero_id": "h098",
+              "hero_name": "Khaleed",
+              "count": 1,
+              "sample_size_games": 1,
+              "response_rate": 1.0,
+              "wins": 1,
+              "losses": 0,
+              "observed_win_rate": 1.0,
+              "sample_sufficient": false,
+              "pattern_confidence_label": "LOW_SAMPLE"
+            }
+          ]
+        },
+        "h075": {
+          "opponent_hero_name": "Kadita",
+          "distinct_responses": 1,
+          "response_entropy": 0.0,
+          "response_diversity_label": "LOW_RESPONSE_DIVERSITY",
+          "observed_responses": [
+            {
+              "hero_id": "h100",
+              "hero_name": "Brody",
+              "count": 1,
+              "sample_size_games": 1,
+              "response_rate": 1.0,
+              "wins": 1,
+              "losses": 0,
+              "observed_win_rate": 1.0,
+              "sample_sufficient": false,
+              "pattern_confidence_label": "LOW_SAMPLE"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "team_id": "team-geek-fam-id\n\t|substitutes={{playersubstitutions\n\t\t\t|{{substitution|in={{opponentplayer|caderaa",
+      "total_first_pick_games": 5,
+      "total_first_ban_games": 5,
+      "first_pick_preferences": [
+        {
+          "hero_id": "h037",
+          "hero_name": "Lapu-Lapu",
+          "pick_count": 2,
+          "sample_size_games": 2,
+          "pick_rate": 0.4,
+          "observed_win_rate": 0.0
+        },
+        {
+          "hero_id": "h095",
+          "hero_name": "Yu Zhong",
+          "pick_count": 1,
+          "sample_size_games": 1,
+          "pick_rate": 0.2,
+          "observed_win_rate": 1.0
+        },
+        {
+          "hero_id": "h085",
+          "hero_name": "Dyrroth",
+          "pick_count": 1,
+          "sample_size_games": 1,
+          "pick_rate": 0.2,
+          "observed_win_rate": 1.0
+        },
+        {
+          "hero_id": "h120",
+          "hero_name": "Arlott",
+          "pick_count": 1,
+          "sample_size_games": 1,
+          "pick_rate": 0.2,
+          "observed_win_rate": 1.0
+        }
+      ],
+      "first_ban_preferences": [
+        {
+          "hero_id": "h122",
+          "hero_name": "Nolan",
+          "ban_count": 4,
+          "sample_size_games": 4,
+          "ban_rate": 0.8
+        },
+        {
+          "hero_id": "h089",
+          "hero_name": "Wanwan",
+          "ban_count": 1,
+          "sample_size_games": 1,
+          "ban_rate": 0.2
+        }
+      ],
+      "alternative_responses": {}
+    },
+    {
+      "team_id": "team-devu",
+      "total_first_pick_games": 8,
+      "total_first_ban_games": 8,
+      "first_pick_preferences": [
+        {
+          "hero_id": "h082",
+          "hero_name": "Terizla",
+          "pick_count": 5,
+          "sample_size_games": 5,
+          "pick_rate": 0.625,
+          "observed_win_rate": 0.4
+        },
+        {
+          "hero_id": "h120",
+          "hero_name": "Arlott",
+          "pick_count": 1,
+          "sample_size_games": 1,
+          "pick_rate": 0.125,
+          "observed_win_rate": 0.0
+        },
+        {
+          "hero_id": "h085",
+          "hero_name": "Dyrroth",
+          "pick_count": 1,
+          "sample_size_games": 1,
+          "pick_rate": 0.125,
+          "observed_win_rate": 0.0
+        },
+        {
+          "hero_id": "h095",
+          "hero_name": "Yu Zhong",
+          "pick_count": 1,
+          "sample_size_games": 1,
+          "pick_rate": 0.125,
+          "observed_win_rate": 1.0
+        }
+      ],
+      "first_ban_preferences": [
+        {
+          "hero_id": "h118",
+          "hero_name": "Joy",
+          "ban_count": 4,
+          "sample_size_games": 4,
+          "ban_rate": 0.5
+        },
+        {
+          "hero_id": "h080",
+          "hero_name": "Guinevere",
+          "ban_count": 1,
+          "sample_size_games": 1,
+          "ban_rate": 0.125
+        },
+        {
+          "hero_id": "h017",
+          "hero_name": "Fanny",
+          "ban_count": 1,
+          "sample_size_games": 1,
+          "ban_rate": 0.125
+        },
+        {
+          "hero_id": "h047",
+          "hero_name": "Lancelot",
+          "ban_count": 1,
+          "sample_size_games": 1,
+          "ban_rate": 0.125
+        },
+        {
+          "hero_id": "h055",
+          "hero_name": "Angela",
+          "ban_count": 1,
+          "sample_size_games": 1,
+          "ban_rate": 0.125
+        }
+      ],
+      "alternative_responses": {
+        "h086": {
+          "opponent_hero_name": "Lylia",
+          "distinct_responses": 2,
+          "response_entropy": 1.0,
+          "response_diversity_label": "MEDIUM_RESPONSE_DIVERSITY",
+          "observed_responses": [
+            {
+              "hero_id": "h082",
+              "hero_name": "Terizla",
+              "count": 1,
+              "sample_size_games": 1,
+              "response_rate": 0.5,
+              "wins": 1,
+              "losses": 0,
+              "observed_win_rate": 1.0,
+              "sample_sufficient": false,
+              "pattern_confidence_label": "LOW_SAMPLE"
+            },
+            {
+              "hero_id": "h103",
+              "hero_name": "Paquito",
+              "count": 1,
+              "sample_size_games": 1,
+              "response_rate": 0.5,
+              "wins": 0,
+              "losses": 1,
+              "observed_win_rate": 0.0,
+              "sample_sufficient": false,
+              "pattern_confidence_label": "LOW_SAMPLE"
+            }
+          ]
+        },
+        "h111": {
+          "opponent_hero_name": "Edith",
+          "distinct_responses": 1,
+          "response_entropy": 0.0,
+          "response_diversity_label": "LOW_RESPONSE_DIVERSITY",
+          "observed_responses": [
+            {
+              "hero_id": "h100",
+              "hero_name": "Brody",
+              "count": 1,
+              "sample_size_games": 1,
+              "response_rate": 1.0,
+              "wins": 1,
+              "losses": 0,
+              "observed_win_rate": 1.0,
+              "sample_sufficient": false,
+              "pattern_confidence_label": "LOW_SAMPLE"
+            }
+          ]
+        },
+        "h006": {
+          "opponent_hero_name": "Tigreal",
+          "distinct_responses": 3,
+          "response_entropy": 1.5849,
+          "response_diversity_label": "MEDIUM_RESPONSE_DIVERSITY",
+          "observed_responses": [
+            {
+              "hero_id": "h012",
+              "hero_name": "Bruno",
+              "count": 1,
+              "sample_size_games": 1,
+              "response_rate": 0.3333,
+              "wins": 0,
+              "losses": 1,
+              "observed_win_rate": 0.0,
+              "sample_sufficient": false,
+              "pattern_confidence_label": "LOW_SAMPLE"
+            },
+            {
+              "hero_id": "h105",
+              "hero_name": "Beatrix",
+              "count": 1,
+              "sample_size_games": 1,
+              "response_rate": 0.3333,
+              "wins": 1,
+              "losses": 0,
+              "observed_win_rate": 1.0,
+              "sample_sufficient": false,
+              "pattern_confidence_label": "LOW_SAMPLE"
+            },
+            {
+              "hero_id": "h100",
+              "hero_name": "Brody",
+              "count": 1,
+              "sample_size_games": 1,
+              "response_rate": 0.3333,
+              "wins": 0,
+              "losses": 1,
+              "observed_win_rate": 0.0,
+              "sample_sufficient": false,
+              "pattern_confidence_label": "LOW_SAMPLE"
+            }
+          ]
+        },
+        "h110": {
+          "opponent_hero_name": "Valentina",
+          "distinct_responses": 2,
+          "response_entropy": 0.8113,
+          "response_diversity_label": "LOW_RESPONSE_DIVERSITY",
+          "observed_responses": [
+            {
+              "hero_id": "h082",
+              "hero_name": "Terizla",
+              "count": 3,
+              "sample_size_games": 3,
+              "response_rate": 0.75,
+              "wins": 0,
+              "losses": 3,
+              "observed_win_rate": 0.0,
+              "sample_sufficient": false,
+              "pattern_confidence_label": "LOW_SAMPLE"
+            },
+            {
+              "hero_id": "h085",
+              "hero_name": "Dyrroth",
+              "count": 1,
+              "sample_size_games": 1,
+              "response_rate": 0.25,
+              "wins": 1,
+              "losses": 0,
+              "observed_win_rate": 1.0,
+              "sample_sufficient": false,
+              "pattern_confidence_label": "LOW_SAMPLE"
+            }
+          ]
+        },
+        "h035": {
+          "opponent_hero_name": "Hilda",
+          "distinct_responses": 1,
+          "response_entropy": 0.0,
+          "response_diversity_label": "LOW_RESPONSE_DIVERSITY",
+          "observed_responses": [
+            {
+              "hero_id": "h012",
+              "hero_name": "Bruno",
+              "count": 1,
+              "sample_size_games": 1,
+              "response_rate": 1.0,
+              "wins": 1,
+              "losses": 0,
+              "observed_win_rate": 1.0,
+              "sample_sufficient": false,
+              "pattern_confidence_label": "LOW_SAMPLE"
+            }
+          ]
+        },
+        "h119": {
+          "opponent_hero_name": "Novaria",
+          "distinct_responses": 1,
+          "response_entropy": 0.0,
+          "response_diversity_label": "LOW_RESPONSE_DIVERSITY",
+          "observed_responses": [
+            {
+              "hero_id": "h059",
+              "hero_name": "Uranus",
+              "count": 1,
+              "sample_size_games": 1,
+              "response_rate": 1.0,
+              "wins": 1,
+              "losses": 0,
+              "observed_win_rate": 1.0,
+              "sample_sufficient": false,
+              "pattern_confidence_label": "LOW_SAMPLE"
+            }
+          ]
+        },
+        "h034": {
+          "opponent_hero_name": "Estes",
+          "distinct_responses": 1,
+          "response_entropy": 0.0,
+          "response_diversity_label": "LOW_RESPONSE_DIVERSITY",
+          "observed_responses": [
+            {
+              "hero_id": "h100",
+              "hero_name": "Brody",
+              "count": 1,
+              "sample_size_games": 1,
+              "response_rate": 1.0,
+              "wins": 0,
+              "losses": 1,
+              "observed_win_rate": 0.0,
+              "sample_sufficient": false,
+              "pattern_confidence_label": "LOW_SAMPLE"
+            }
+          ]
+        },
+        "h014": {
+          "opponent_hero_name": "Rafaela",
+          "distinct_responses": 1,
+          "response_entropy": 0.0,
+          "response_diversity_label": "LOW_RESPONSE_DIVERSITY",
+          "observed_responses": [
+            {
+              "hero_id": "h121",
+              "hero_name": "Ixia",
+              "count": 1,
+              "sample_size_games": 1,
+              "response_rate": 1.0,
+              "wins": 0,
+              "losses": 1,
+              "observed_win_rate": 0.0,
+              "sample_sufficient": false,
+              "pattern_confidence_label": "LOW_SAMPLE"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "team_id": "team-see-you-soon",
+      "total_first_pick_games": 3,
+      "total_first_ban_games": 3,
+      "first_pick_preferences": [
+        {
+          "hero_id": "h095",
+          "hero_name": "Yu Zhong",
+          "pick_count": 2,
+          "sample_size_games": 2,
+          "pick_rate": 0.6667,
+          "observed_win_rate": 1.0
+        },
+        {
+          "hero_id": "h120",
+          "hero_name": "Arlott",
+          "pick_count": 1,
+          "sample_size_games": 1,
+          "pick_rate": 0.3333,
+          "observed_win_rate": 1.0
+        }
+      ],
+      "first_ban_preferences": [
+        {
+          "hero_id": "h089",
+          "hero_name": "Wanwan",
+          "ban_count": 2,
+          "sample_size_games": 2,
+          "ban_rate": 0.6667
+        },
+        {
+          "hero_id": "h122",
+          "hero_name": "Nolan",
+          "ban_count": 1,
+          "sample_size_games": 1,
+          "ban_rate": 0.3333
+        }
+      ],
+      "alternative_responses": {
+        "h119": {
+          "opponent_hero_name": "Novaria",
+          "distinct_responses": 2,
+          "response_entropy": 1.0,
+          "response_diversity_label": "MEDIUM_RESPONSE_DIVERSITY",
+          "observed_responses": [
+            {
+              "hero_id": "h085",
+              "hero_name": "Dyrroth",
+              "count": 1,
+              "sample_size_games": 1,
+              "response_rate": 0.5,
+              "wins": 0,
+              "losses": 1,
+              "observed_win_rate": 0.0,
+              "sample_sufficient": false,
+              "pattern_confidence_label": "LOW_SAMPLE"
+            },
+            {
+              "hero_id": "h082",
+              "hero_name": "Terizla",
+              "count": 1,
+              "sample_size_games": 1,
+              "response_rate": 0.5,
+              "wins": 1,
+              "losses": 0,
+              "observed_win_rate": 1.0,
+              "sample_sufficient": false,
+              "pattern_confidence_label": "LOW_SAMPLE"
+            }
+          ]
+        },
+        "h120": {
+          "opponent_hero_name": "Arlott",
+          "distinct_responses": 2,
+          "response_entropy": 1.0,
+          "response_diversity_label": "MEDIUM_RESPONSE_DIVERSITY",
+          "observed_responses": [
+            {
+              "hero_id": "h065",
+              "hero_name": "Claude",
+              "count": 1,
+              "sample_size_games": 1,
+              "response_rate": 0.5,
+              "wins": 0,
+              "losses": 1,
+              "observed_win_rate": 0.0,
+              "sample_sufficient": false,
+              "pattern_confidence_label": "LOW_SAMPLE"
+            },
+            {
+              "hero_id": "h012",
+              "hero_name": "Bruno",
+              "count": 1,
+              "sample_size_games": 1,
+              "response_rate": 0.5,
+              "wins": 0,
+              "losses": 1,
+              "observed_win_rate": 0.0,
+              "sample_sufficient": false,
+              "pattern_confidence_label": "LOW_SAMPLE"
+            }
+          ]
+        },
+        "h006": {
+          "opponent_hero_name": "Tigreal",
+          "distinct_responses": 2,
+          "response_entropy": 1.0,
+          "response_diversity_label": "MEDIUM_RESPONSE_DIVERSITY",
+          "observed_responses": [
+            {
+              "hero_id": "h089",
+              "hero_name": "Wanwan",
+              "count": 1,
+              "sample_size_games": 1,
+              "response_rate": 0.5,
+              "wins": 1,
+              "losses": 0,
+              "observed_win_rate": 1.0,
+              "sample_sufficient": false,
+              "pattern_confidence_label": "LOW_SAMPLE"
+            },
+            {
+              "hero_id": "h040",
+              "hero_name": "Karrie",
+              "count": 1,
+              "sample_size_games": 1,
+              "response_rate": 0.5,
+              "wins": 0,
+              "losses": 1,
+              "observed_win_rate": 0.0,
+              "sample_sufficient": false,
+              "pattern_confidence_label": "LOW_SAMPLE"
+            }
+          ]
+        },
+        "h046": {
+          "opponent_hero_name": "Odette",
+          "distinct_responses": 1,
+          "response_entropy": 0.0,
+          "response_diversity_label": "LOW_RESPONSE_DIVERSITY",
+          "observed_responses": [
+            {
+              "hero_id": "h082",
+              "hero_name": "Terizla",
+              "count": 1,
+              "sample_size_games": 1,
+              "response_rate": 1.0,
+              "wins": 0,
+              "losses": 1,
+              "observed_win_rate": 0.0,
+              "sample_sufficient": false,
+              "pattern_confidence_label": "LOW_SAMPLE"
+            }
+          ]
+        },
+        "h076": {
+          "opponent_hero_name": "Faramis",
+          "distinct_responses": 1,
+          "response_entropy": 0.0,
+          "response_diversity_label": "LOW_RESPONSE_DIVERSITY",
+          "observed_responses": [
+            {
+              "hero_id": "h085",
+              "hero_name": "Dyrroth",
+              "count": 1,
+              "sample_size_games": 1,
+              "response_rate": 1.0,
+              "wins": 0,
+              "losses": 1,
+              "observed_win_rate": 0.0,
+              "sample_sufficient": false,
+              "pattern_confidence_label": "LOW_SAMPLE"
+            }
+          ]
+        },
+        "h110": {
+          "opponent_hero_name": "Valentina",
+          "distinct_responses": 2,
+          "response_entropy": 1.0,
+          "response_diversity_label": "MEDIUM_RESPONSE_DIVERSITY",
+          "observed_responses": [
+            {
+              "hero_id": "h037",
+              "hero_name": "Lapu-Lapu",
+              "count": 1,
+              "sample_size_games": 1,
+              "response_rate": 0.5,
+              "wins": 1,
+              "losses": 0,
+              "observed_win_rate": 1.0,
+              "sample_sufficient": false,
+              "pattern_confidence_label": "LOW_SAMPLE"
+            },
+            {
+              "hero_id": "h085",
+              "hero_name": "Dyrroth",
+              "count": 1,
+              "sample_size_games": 1,
+              "response_rate": 0.5,
+              "wins": 0,
+              "losses": 1,
+              "observed_win_rate": 0.0,
+              "sample_sufficient": false,
+              "pattern_confidence_label": "LOW_SAMPLE"
+            }
+          ]
+        },
+        "h062": {
+          "opponent_hero_name": "Kaja",
+          "distinct_responses": 1,
+          "response_entropy": 0.0,
+          "response_diversity_label": "LOW_RESPONSE_DIVERSITY",
+          "observed_responses": [
+            {
+              "hero_id": "h012",
+              "hero_name": "Bruno",
+              "count": 1,
+              "sample_size_games": 1,
+              "response_rate": 1.0,
+              "wins": 1,
+              "losses": 0,
+              "observed_win_rate": 1.0,
+              "sample_sufficient": false,
+              "pattern_confidence_label": "LOW_SAMPLE"
+            }
+          ]
+        },
+        "h086": {
+          "opponent_hero_name": "Lylia",
+          "distinct_responses": 2,
+          "response_entropy": 1.0,
+          "response_diversity_label": "MEDIUM_RESPONSE_DIVERSITY",
+          "observed_responses": [
+            {
+              "hero_id": "h037",
+              "hero_name": "Lapu-Lapu",
+              "count": 1,
+              "sample_size_games": 1,
+              "response_rate": 0.5,
+              "wins": 1,
+              "losses": 0,
+              "observed_win_rate": 1.0,
+              "sample_sufficient": false,
+              "pattern_confidence_label": "LOW_SAMPLE"
+            },
+            {
+              "hero_id": "h095",
+              "hero_name": "Yu Zhong",
+              "count": 1,
+              "sample_size_games": 1,
+              "response_rate": 0.5,
+              "wins": 0,
+              "losses": 1,
+              "observed_win_rate": 0.0,
+              "sample_sufficient": false,
+              "pattern_confidence_label": "LOW_SAMPLE"
+            }
+          ]
+        },
+        "h019": {
+          "opponent_hero_name": "Minotaur",
+          "distinct_responses": 2,
+          "response_entropy": 1.0,
+          "response_diversity_label": "MEDIUM_RESPONSE_DIVERSITY",
+          "observed_responses": [
+            {
+              "hero_id": "h089",
+              "hero_name": "Wanwan",
+              "count": 1,
+              "sample_size_games": 1,
+              "response_rate": 0.5,
+              "wins": 1,
+              "losses": 0,
+              "observed_win_rate": 1.0,
+              "sample_sufficient": false,
+              "pattern_confidence_label": "LOW_SAMPLE"
+            },
+            {
+              "hero_id": "h065",
+              "hero_name": "Claude",
+              "count": 1,
+              "sample_size_games": 1,
+              "response_rate": 0.5,
+              "wins": 0,
+              "losses": 1,
+              "observed_win_rate": 0.0,
+              "sample_sufficient": false,
+              "pattern_confidence_label": "LOW_SAMPLE"
+            }
+          ]
+        },
+        "h055": {
+          "opponent_hero_name": "Angela",
+          "distinct_responses": 1,
+          "response_entropy": 0.0,
+          "response_diversity_label": "LOW_RESPONSE_DIVERSITY",
+          "observed_responses": [
+            {
+              "hero_id": "h089",
+              "hero_name": "Wanwan",
+              "count": 1,
+              "sample_size_games": 1,
+              "response_rate": 1.0,
+              "wins": 0,
+              "losses": 1,
+              "observed_win_rate": 0.0,
+              "sample_sufficient": false,
+              "pattern_confidence_label": "LOW_SAMPLE"
+            }
+          ]
+        },
+        "h023": {
+          "opponent_hero_name": "Gord",
+          "distinct_responses": 1,
+          "response_entropy": 0.0,
+          "response_diversity_label": "LOW_RESPONSE_DIVERSITY",
+          "observed_responses": [
+            {
+              "hero_id": "h120",
+              "hero_name": "Arlott",
+              "count": 1,
+              "sample_size_games": 1,
+              "response_rate": 1.0,
+              "wins": 0,
+              "losses": 1,
+              "observed_win_rate": 0.0,
+              "sample_sufficient": false,
+              "pattern_confidence_label": "LOW_SAMPLE"
+            }
+          ]
+        },
+        "h048": {
+          "opponent_hero_name": "Diggie",
+          "distinct_responses": 1,
+          "response_entropy": 0.0,
+          "response_diversity_label": "LOW_RESPONSE_DIVERSITY",
+          "observed_responses": [
+            {
+              "hero_id": "h012",
+              "hero_name": "Bruno",
+              "count": 1,
+              "sample_size_games": 1,
+              "response_rate": 1.0,
+              "wins": 0,
+              "losses": 1,
+              "observed_win_rate": 0.0,
+              "sample_sufficient": false,
+              "pattern_confidence_label": "LOW_SAMPLE"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "team_id": "team-geek-fam-id",
+      "total_first_pick_games": 4,
+      "total_first_ban_games": 4,
+      "first_pick_preferences": [
+        {
+          "hero_id": "h037",
+          "hero_name": "Lapu-Lapu",
+          "pick_count": 3,
+          "sample_size_games": 3,
+          "pick_rate": 0.75,
+          "observed_win_rate": 0.3333
+        },
+        {
+          "hero_id": "h120",
+          "hero_name": "Arlott",
+          "pick_count": 1,
+          "sample_size_games": 1,
+          "pick_rate": 0.25,
+          "observed_win_rate": 0.0
+        }
+      ],
+      "first_ban_preferences": [
+        {
+          "hero_id": "h080",
+          "hero_name": "Guinevere",
+          "ban_count": 2,
+          "sample_size_games": 2,
+          "ban_rate": 0.5
+        },
+        {
+          "hero_id": "h110",
+          "hero_name": "Valentina",
+          "ban_count": 2,
+          "sample_size_games": 2,
+          "ban_rate": 0.5
+        }
+      ],
+      "alternative_responses": {}
+    },
+    {
+      "team_id": "team-blck",
+      "total_first_pick_games": 3,
+      "total_first_ban_games": 3,
+      "first_pick_preferences": [
+        {
+          "hero_id": "h103",
+          "hero_name": "Paquito",
+          "pick_count": 2,
+          "sample_size_games": 2,
+          "pick_rate": 0.6667,
+          "observed_win_rate": 1.0
+        },
+        {
+          "hero_id": "h098",
+          "hero_name": "Khaleed",
+          "pick_count": 1,
+          "sample_size_games": 1,
+          "pick_rate": 0.3333,
+          "observed_win_rate": 1.0
+        }
+      ],
+      "first_ban_preferences": [
+        {
+          "hero_id": "h122",
+          "hero_name": "Nolan",
+          "ban_count": 3,
+          "sample_size_games": 3,
+          "ban_rate": 1.0
+        }
+      ],
+      "alternative_responses": {
+        "h086": {
+          "opponent_hero_name": "Lylia",
+          "distinct_responses": 3,
+          "response_entropy": 1.371,
+          "response_diversity_label": "MEDIUM_RESPONSE_DIVERSITY",
+          "observed_responses": [
+            {
+              "hero_id": "h098",
+              "hero_name": "Khaleed",
+              "count": 3,
+              "sample_size_games": 3,
+              "response_rate": 0.6,
+              "wins": 3,
+              "losses": 0,
+              "observed_win_rate": 1.0,
+              "sample_sufficient": false,
+              "pattern_confidence_label": "LOW_SAMPLE"
+            },
+            {
+              "hero_id": "h082",
+              "hero_name": "Terizla",
+              "count": 1,
+              "sample_size_games": 1,
+              "response_rate": 0.2,
+              "wins": 0,
+              "losses": 1,
+              "observed_win_rate": 0.0,
+              "sample_sufficient": false,
+              "pattern_confidence_label": "LOW_SAMPLE"
+            },
+            {
+              "hero_id": "h111",
+              "hero_name": "Edith",
+              "count": 1,
+              "sample_size_games": 1,
+              "response_rate": 0.2,
+              "wins": 1,
+              "losses": 0,
+              "observed_win_rate": 1.0,
+              "sample_sufficient": false,
+              "pattern_confidence_label": "LOW_SAMPLE"
+            }
+          ]
+        },
+        "h078": {
+          "opponent_hero_name": "Khufra",
+          "distinct_responses": 1,
+          "response_entropy": 0.0,
+          "response_diversity_label": "LOW_RESPONSE_DIVERSITY",
+          "observed_responses": [
+            {
+              "hero_id": "h012",
+              "hero_name": "Bruno",
+              "count": 1,
+              "sample_size_games": 1,
+              "response_rate": 1.0,
+              "wins": 1,
+              "losses": 0,
+              "observed_win_rate": 1.0,
+              "sample_sufficient": false,
+              "pattern_confidence_label": "LOW_SAMPLE"
+            }
+          ]
+        },
+        "h110": {
+          "opponent_hero_name": "Valentina",
+          "distinct_responses": 2,
+          "response_entropy": 0.9183,
+          "response_diversity_label": "LOW_RESPONSE_DIVERSITY",
+          "observed_responses": [
+            {
+              "hero_id": "h120",
+              "hero_name": "Arlott",
+              "count": 2,
+              "sample_size_games": 2,
+              "response_rate": 0.6667,
+              "wins": 0,
+              "losses": 2,
+              "observed_win_rate": 0.0,
+              "sample_sufficient": false,
+              "pattern_confidence_label": "LOW_SAMPLE"
+            },
+            {
+              "hero_id": "h111",
+              "hero_name": "Edith",
+              "count": 1,
+              "sample_size_games": 1,
+              "response_rate": 0.3333,
+              "wins": 0,
+              "losses": 1,
+              "observed_win_rate": 0.0,
+              "sample_sufficient": false,
+              "pattern_confidence_label": "LOW_SAMPLE"
+            }
+          ]
+        },
+        "h062": {
+          "opponent_hero_name": "Kaja",
+          "distinct_responses": 3,
+          "response_entropy": 1.5849,
+          "response_diversity_label": "MEDIUM_RESPONSE_DIVERSITY",
+          "observed_responses": [
+            {
+              "hero_id": "h012",
+              "hero_name": "Bruno",
+              "count": 1,
+              "sample_size_games": 1,
+              "response_rate": 0.3333,
+              "wins": 0,
+              "losses": 1,
+              "observed_win_rate": 0.0,
+              "sample_sufficient": false,
+              "pattern_confidence_label": "LOW_SAMPLE"
+            },
+            {
+              "hero_id": "h065",
+              "hero_name": "Claude",
+              "count": 1,
+              "sample_size_games": 1,
+              "response_rate": 0.3333,
+              "wins": 0,
+              "losses": 1,
+              "observed_win_rate": 0.0,
+              "sample_sufficient": false,
+              "pattern_confidence_label": "LOW_SAMPLE"
+            },
+            {
+              "hero_id": "h040",
+              "hero_name": "Karrie",
+              "count": 1,
+              "sample_size_games": 1,
+              "response_rate": 0.3333,
+              "wins": 1,
+              "losses": 0,
+              "observed_win_rate": 1.0,
+              "sample_sufficient": false,
+              "pattern_confidence_label": "LOW_SAMPLE"
+            }
+          ]
+        },
+        "h075": {
+          "opponent_hero_name": "Kadita",
+          "distinct_responses": 1,
+          "response_entropy": 0.0,
+          "response_diversity_label": "LOW_RESPONSE_DIVERSITY",
+          "observed_responses": [
+            {
+              "hero_id": "h103",
+              "hero_name": "Paquito",
+              "count": 1,
+              "sample_size_games": 1,
+              "response_rate": 1.0,
+              "wins": 0,
+              "losses": 1,
+              "observed_win_rate": 0.0,
+              "sample_sufficient": false,
+              "pattern_confidence_label": "LOW_SAMPLE"
+            }
+          ]
+        },
+        "h019": {
+          "opponent_hero_name": "Minotaur",
+          "distinct_responses": 2,
+          "response_entropy": 0.9183,
+          "response_diversity_label": "LOW_RESPONSE_DIVERSITY",
+          "observed_responses": [
+            {
+              "hero_id": "h065",
+              "hero_name": "Claude",
+              "count": 2,
+              "sample_size_games": 2,
+              "response_rate": 0.6667,
+              "wins": 1,
+              "losses": 1,
+              "observed_win_rate": 0.5,
+              "sample_sufficient": false,
+              "pattern_confidence_label": "LOW_SAMPLE"
+            },
+            {
+              "hero_id": "h040",
+              "hero_name": "Karrie",
+              "count": 1,
+              "sample_size_games": 1,
+              "response_rate": 0.3333,
+              "wins": 1,
+              "losses": 0,
+              "observed_win_rate": 1.0,
+              "sample_sufficient": false,
+              "pattern_confidence_label": "LOW_SAMPLE"
+            }
+          ]
+        },
+        "h076": {
+          "opponent_hero_name": "Faramis",
+          "distinct_responses": 4,
+          "response_entropy": 1.9219,
+          "response_diversity_label": "MEDIUM_RESPONSE_DIVERSITY",
+          "observed_responses": [
+            {
+              "hero_id": "h082",
+              "hero_name": "Terizla",
+              "count": 2,
+              "sample_size_games": 2,
+              "response_rate": 0.4,
+              "wins": 2,
+              "losses": 0,
+              "observed_win_rate": 1.0,
+              "sample_sufficient": false,
+              "pattern_confidence_label": "LOW_SAMPLE"
+            },
+            {
+              "hero_id": "h120",
+              "hero_name": "Arlott",
+              "count": 1,
+              "sample_size_games": 1,
+              "response_rate": 0.2,
+              "wins": 1,
+              "losses": 0,
+              "observed_win_rate": 1.0,
+              "sample_sufficient": false,
+              "pattern_confidence_label": "LOW_SAMPLE"
+            },
+            {
+              "hero_id": "h111",
+              "hero_name": "Edith",
+              "count": 1,
+              "sample_size_games": 1,
+              "response_rate": 0.2,
+              "wins": 0,
+              "losses": 1,
+              "observed_win_rate": 0.0,
+              "sample_sufficient": false,
+              "pattern_confidence_label": "LOW_SAMPLE"
+            },
+            {
+              "hero_id": "h103",
+              "hero_name": "Paquito",
+              "count": 1,
+              "sample_size_games": 1,
+              "response_rate": 0.2,
+              "wins": 0,
+              "losses": 1,
+              "observed_win_rate": 0.0,
+              "sample_sufficient": false,
+              "pattern_confidence_label": "LOW_SAMPLE"
+            }
+          ]
+        },
+        "h102": {
+          "opponent_hero_name": "Mathilda",
+          "distinct_responses": 2,
+          "response_entropy": 0.9183,
+          "response_diversity_label": "LOW_RESPONSE_DIVERSITY",
+          "observed_responses": [
+            {
+              "hero_id": "h065",
+              "hero_name": "Claude",
+              "count": 2,
+              "sample_size_games": 2,
+              "response_rate": 0.6667,
+              "wins": 1,
+              "losses": 1,
+              "observed_win_rate": 0.5,
+              "sample_sufficient": false,
+              "pattern_confidence_label": "LOW_SAMPLE"
+            },
+            {
+              "hero_id": "h105",
+              "hero_name": "Beatrix",
+              "count": 1,
+              "sample_size_games": 1,
+              "response_rate": 0.3333,
+              "wins": 0,
+              "losses": 1,
+              "observed_win_rate": 0.0,
+              "sample_sufficient": false,
+              "pattern_confidence_label": "LOW_SAMPLE"
+            }
+          ]
+        },
+        "h068": {
+          "opponent_hero_name": "Lunox",
+          "distinct_responses": 1,
+          "response_entropy": 0.0,
+          "response_diversity_label": "LOW_RESPONSE_DIVERSITY",
+          "observed_responses": [
+            {
+              "hero_id": "h111",
+              "hero_name": "Edith",
+              "count": 1,
+              "sample_size_games": 1,
+              "response_rate": 1.0,
+              "wins": 1,
+              "losses": 0,
+              "observed_win_rate": 1.0,
+              "sample_sufficient": false,
+              "pattern_confidence_label": "LOW_SAMPLE"
+            }
+          ]
+        },
+        "h006": {
+          "opponent_hero_name": "Tigreal",
+          "distinct_responses": 2,
+          "response_entropy": 1.0,
+          "response_diversity_label": "MEDIUM_RESPONSE_DIVERSITY",
+          "observed_responses": [
+            {
+              "hero_id": "h040",
+              "hero_name": "Karrie",
+              "count": 1,
+              "sample_size_games": 1,
+              "response_rate": 0.5,
+              "wins": 0,
+              "losses": 1,
+              "observed_win_rate": 0.0,
+              "sample_sufficient": false,
+              "pattern_confidence_label": "LOW_SAMPLE"
+            },
+            {
+              "hero_id": "h012",
+              "hero_name": "Bruno",
+              "count": 1,
+              "sample_size_games": 1,
+              "response_rate": 0.5,
+              "wins": 1,
+              "losses": 0,
+              "observed_win_rate": 1.0,
+              "sample_sufficient": false,
+              "pattern_confidence_label": "LOW_SAMPLE"
+            }
+          ]
+        },
+        "h029": {
+          "opponent_hero_name": "Ruby",
+          "distinct_responses": 1,
+          "response_entropy": 0.0,
+          "response_diversity_label": "LOW_RESPONSE_DIVERSITY",
+          "observed_responses": [
+            {
+              "hero_id": "h089",
+              "hero_name": "Wanwan",
+              "count": 1,
+              "sample_size_games": 1,
+              "response_rate": 1.0,
+              "wins": 0,
+              "losses": 1,
+              "observed_win_rate": 0.0,
+              "sample_sufficient": false,
+              "pattern_confidence_label": "LOW_SAMPLE"
+            }
+          ]
+        },
+        "h044": {
+          "opponent_hero_name": "Grock",
+          "distinct_responses": 1,
+          "response_entropy": 0.0,
+          "response_diversity_label": "LOW_RESPONSE_DIVERSITY",
+          "observed_responses": [
+            {
+              "hero_id": "h121",
+              "hero_name": "Ixia",
+              "count": 1,
+              "sample_size_games": 1,
+              "response_rate": 1.0,
+              "wins": 1,
+              "losses": 0,
+              "observed_win_rate": 1.0,
+              "sample_sufficient": false,
+              "pattern_confidence_label": "LOW_SAMPLE"
+            }
+          ]
+        },
+        "h120": {
+          "opponent_hero_name": "Arlott",
+          "distinct_responses": 2,
+          "response_entropy": 1.0,
+          "response_diversity_label": "MEDIUM_RESPONSE_DIVERSITY",
+          "observed_responses": [
+            {
+              "hero_id": "h012",
+              "hero_name": "Bruno",
+              "count": 1,
+              "sample_size_games": 1,
+              "response_rate": 0.5,
+              "wins": 1,
+              "losses": 0,
+              "observed_win_rate": 1.0,
+              "sample_sufficient": false,
+              "pattern_confidence_label": "LOW_SAMPLE"
+            },
+            {
+              "hero_id": "h065",
+              "hero_name": "Claude",
+              "count": 1,
+              "sample_size_games": 1,
+              "response_rate": 0.5,
+              "wins": 0,
+              "losses": 1,
+              "observed_win_rate": 0.0,
+              "sample_sufficient": false,
+              "pattern_confidence_label": "LOW_SAMPLE"
+            }
+          ]
+        },
+        "h119": {
+          "opponent_hero_name": "Novaria",
+          "distinct_responses": 1,
+          "response_entropy": 0.0,
+          "response_diversity_label": "LOW_RESPONSE_DIVERSITY",
+          "observed_responses": [
+            {
+              "hero_id": "h120",
+              "hero_name": "Arlott",
+              "count": 1,
+              "sample_size_games": 1,
+              "response_rate": 1.0,
+              "wins": 0,
+              "losses": 1,
+              "observed_win_rate": 0.0,
+              "sample_sufficient": false,
+              "pattern_confidence_label": "LOW_SAMPLE"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

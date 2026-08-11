@@ -1,0 +1,1718 @@
+{
+  "data": [
+    {
+      "group_id_matches": [
+        "match-m5-ko-06-g1",
+        "match-m5-ko-06-g2",
+        "match-m5-ko-06-g3",
+        "match-m5-ko-06-g4"
+      ],
+      "team_id": "team-geek-fam-id\n\t\t|substitutes={{playersubstitutions\n\t\t\t|{{substitution|in={{opponentplayer|caderaa",
+      "opponent_pick_hero_id": "h102",
+      "opponent_pick_hero_name": "Mathilda",
+      "response_pick_hero_id": "h012",
+      "response_pick_hero_name": "Bruno",
+      "state_count": 4,
+      "sample_size_games": 4,
+      "wins": 1,
+      "losses": 3,
+      "observed_win_rate": 0.25,
+      "sample_sufficient": false,
+      "pattern_confidence_label": "LOW_SAMPLE"
+    },
+    {
+      "group_id_matches": [
+        "match-m5-ko-02-g1",
+        "match-m5-ko-08-g4",
+        "match-m5-ko-10-g3"
+      ],
+      "team_id": "team-blck",
+      "opponent_pick_hero_id": "h086",
+      "opponent_pick_hero_name": "Lylia",
+      "response_pick_hero_id": "h098",
+      "response_pick_hero_name": "Khaleed",
+      "state_count": 3,
+      "sample_size_games": 3,
+      "wins": 3,
+      "losses": 0,
+      "observed_win_rate": 1.0,
+      "sample_sufficient": false,
+      "pattern_confidence_label": "LOW_SAMPLE"
+    },
+    {
+      "group_id_matches": [
+        "match-m5-ko-12-g1",
+        "match-m5-ko-12-g2",
+        "match-m5-ko-12-g3"
+      ],
+      "team_id": "team-devu",
+      "opponent_pick_hero_id": "h110",
+      "opponent_pick_hero_name": "Valentina",
+      "response_pick_hero_id": "h082",
+      "response_pick_hero_name": "Terizla",
+      "state_count": 3,
+      "sample_size_games": 3,
+      "wins": 0,
+      "losses": 3,
+      "observed_win_rate": 0.0,
+      "sample_sufficient": false,
+      "pattern_confidence_label": "LOW_SAMPLE"
+    },
+    {
+      "group_id_matches": [
+        "match-m5-ko-02-g3",
+        "match-m5-ko-08-g3"
+      ],
+      "team_id": "team-blck",
+      "opponent_pick_hero_id": "h019",
+      "opponent_pick_hero_name": "Minotaur",
+      "response_pick_hero_id": "h065",
+      "response_pick_hero_name": "Claude",
+      "state_count": 2,
+      "sample_size_games": 2,
+      "wins": 1,
+      "losses": 1,
+      "observed_win_rate": 0.5,
+      "sample_sufficient": false,
+      "pattern_confidence_label": "LOW_SAMPLE"
+    },
+    {
+      "group_id_matches": [
+        "match-m5-ko-02-g4",
+        "match-m5-ko-13-g1"
+      ],
+      "team_id": "team-blck",
+      "opponent_pick_hero_id": "h102",
+      "opponent_pick_hero_name": "Mathilda",
+      "response_pick_hero_id": "h065",
+      "response_pick_hero_name": "Claude",
+      "state_count": 2,
+      "sample_size_games": 2,
+      "wins": 1,
+      "losses": 1,
+      "observed_win_rate": 0.5,
+      "sample_sufficient": false,
+      "pattern_confidence_label": "LOW_SAMPLE"
+    },
+    {
+      "group_id_matches": [
+        "match-m5-ko-02-g5",
+        "match-m5-ko-10-g1"
+      ],
+      "team_id": "team-blck",
+      "opponent_pick_hero_id": "h110",
+      "opponent_pick_hero_name": "Valentina",
+      "response_pick_hero_id": "h120",
+      "response_pick_hero_name": "Arlott",
+      "state_count": 2,
+      "sample_size_games": 2,
+      "wins": 0,
+      "losses": 2,
+      "observed_win_rate": 0.0,
+      "sample_sufficient": false,
+      "pattern_confidence_label": "LOW_SAMPLE"
+    },
+    {
+      "group_id_matches": [
+        "match-m5-ko-04-g3",
+        "match-m5-ko-09-g2"
+      ],
+      "team_id": "team-burmese-ghouls",
+      "opponent_pick_hero_id": "h019",
+      "opponent_pick_hero_name": "Minotaur",
+      "response_pick_hero_id": "h012",
+      "response_pick_hero_name": "Bruno",
+      "state_count": 2,
+      "sample_size_games": 2,
+      "wins": 1,
+      "losses": 1,
+      "observed_win_rate": 0.5,
+      "sample_sufficient": false,
+      "pattern_confidence_label": "LOW_SAMPLE"
+    },
+    {
+      "group_id_matches": [
+        "match-m5-ko-07-g2",
+        "match-m5-ko-14-g5"
+      ],
+      "team_id": "team-ap.bren",
+      "opponent_pick_hero_id": "h119",
+      "opponent_pick_hero_name": "Novaria",
+      "response_pick_hero_id": "h120",
+      "response_pick_hero_name": "Arlott",
+      "state_count": 2,
+      "sample_size_games": 2,
+      "wins": 0,
+      "losses": 2,
+      "observed_win_rate": 0.0,
+      "sample_sufficient": false,
+      "pattern_confidence_label": "LOW_SAMPLE"
+    },
+    {
+      "group_id_matches": [
+        "match-m5-ko-10-g2",
+        "match-m5-ko-10-g4"
+      ],
+      "team_id": "team-blck",
+      "opponent_pick_hero_id": "h076",
+      "opponent_pick_hero_name": "Faramis",
+      "response_pick_hero_id": "h082",
+      "response_pick_hero_name": "Terizla",
+      "state_count": 2,
+      "sample_size_games": 2,
+      "wins": 2,
+      "losses": 0,
+      "observed_win_rate": 1.0,
+      "sample_sufficient": false,
+      "pattern_confidence_label": "LOW_SAMPLE"
+    },
+    {
+      "group_id_matches": [
+        "match-m5-ko-14-g1",
+        "match-m5-ko-14-g4"
+      ],
+      "team_id": "team-ap.bren",
+      "opponent_pick_hero_id": "h110",
+      "opponent_pick_hero_name": "Valentina",
+      "response_pick_hero_id": "h072",
+      "response_pick_hero_name": "Thamuz",
+      "state_count": 2,
+      "sample_size_games": 2,
+      "wins": 2,
+      "losses": 0,
+      "observed_win_rate": 1.0,
+      "sample_sufficient": false,
+      "pattern_confidence_label": "LOW_SAMPLE"
+    },
+    {
+      "group_id_matches": [
+        "match-m5-ko-01-g1"
+      ],
+      "team_id": "team-devu",
+      "opponent_pick_hero_id": "h086",
+      "opponent_pick_hero_name": "Lylia",
+      "response_pick_hero_id": "h082",
+      "response_pick_hero_name": "Terizla",
+      "state_count": 1,
+      "sample_size_games": 1,
+      "wins": 1,
+      "losses": 0,
+      "observed_win_rate": 1.0,
+      "sample_sufficient": false,
+      "pattern_confidence_label": "LOW_SAMPLE"
+    },
+    {
+      "group_id_matches": [
+        "match-m5-ko-01-g1"
+      ],
+      "team_id": "team-devu",
+      "opponent_pick_hero_id": "h111",
+      "opponent_pick_hero_name": "Edith",
+      "response_pick_hero_id": "h100",
+      "response_pick_hero_name": "Brody",
+      "state_count": 1,
+      "sample_size_games": 1,
+      "wins": 1,
+      "losses": 0,
+      "observed_win_rate": 1.0,
+      "sample_sufficient": false,
+      "pattern_confidence_label": "LOW_SAMPLE"
+    },
+    {
+      "group_id_matches": [
+        "match-m5-ko-01-g2"
+      ],
+      "team_id": "team-devu",
+      "opponent_pick_hero_id": "h086",
+      "opponent_pick_hero_name": "Lylia",
+      "response_pick_hero_id": "h103",
+      "response_pick_hero_name": "Paquito",
+      "state_count": 1,
+      "sample_size_games": 1,
+      "wins": 0,
+      "losses": 1,
+      "observed_win_rate": 0.0,
+      "sample_sufficient": false,
+      "pattern_confidence_label": "LOW_SAMPLE"
+    },
+    {
+      "group_id_matches": [
+        "match-m5-ko-01-g2"
+      ],
+      "team_id": "team-devu",
+      "opponent_pick_hero_id": "h006",
+      "opponent_pick_hero_name": "Tigreal",
+      "response_pick_hero_id": "h012",
+      "response_pick_hero_name": "Bruno",
+      "state_count": 1,
+      "sample_size_games": 1,
+      "wins": 0,
+      "losses": 1,
+      "observed_win_rate": 0.0,
+      "sample_sufficient": false,
+      "pattern_confidence_label": "LOW_SAMPLE"
+    },
+    {
+      "group_id_matches": [
+        "match-m5-ko-01-g3"
+      ],
+      "team_id": "team-devu",
+      "opponent_pick_hero_id": "h110",
+      "opponent_pick_hero_name": "Valentina",
+      "response_pick_hero_id": "h085",
+      "response_pick_hero_name": "Dyrroth",
+      "state_count": 1,
+      "sample_size_games": 1,
+      "wins": 1,
+      "losses": 0,
+      "observed_win_rate": 1.0,
+      "sample_sufficient": false,
+      "pattern_confidence_label": "LOW_SAMPLE"
+    },
+    {
+      "group_id_matches": [
+        "match-m5-ko-01-g3"
+      ],
+      "team_id": "team-devu",
+      "opponent_pick_hero_id": "h035",
+      "opponent_pick_hero_name": "Hilda",
+      "response_pick_hero_id": "h012",
+      "response_pick_hero_name": "Bruno",
+      "state_count": 1,
+      "sample_size_games": 1,
+      "wins": 1,
+      "losses": 0,
+      "observed_win_rate": 1.0,
+      "sample_sufficient": false,
+      "pattern_confidence_label": "LOW_SAMPLE"
+    },
+    {
+      "group_id_matches": [
+        "match-m5-ko-01-g4"
+      ],
+      "team_id": "team-devu",
+      "opponent_pick_hero_id": "h119",
+      "opponent_pick_hero_name": "Novaria",
+      "response_pick_hero_id": "h059",
+      "response_pick_hero_name": "Uranus",
+      "state_count": 1,
+      "sample_size_games": 1,
+      "wins": 1,
+      "losses": 0,
+      "observed_win_rate": 1.0,
+      "sample_sufficient": false,
+      "pattern_confidence_label": "LOW_SAMPLE"
+    },
+    {
+      "group_id_matches": [
+        "match-m5-ko-01-g4"
+      ],
+      "team_id": "team-devu",
+      "opponent_pick_hero_id": "h006",
+      "opponent_pick_hero_name": "Tigreal",
+      "response_pick_hero_id": "h105",
+      "response_pick_hero_name": "Beatrix",
+      "state_count": 1,
+      "sample_size_games": 1,
+      "wins": 1,
+      "losses": 0,
+      "observed_win_rate": 1.0,
+      "sample_sufficient": false,
+      "pattern_confidence_label": "LOW_SAMPLE"
+    },
+    {
+      "group_id_matches": [
+        "match-m5-ko-02-g1"
+      ],
+      "team_id": "team-blck",
+      "opponent_pick_hero_id": "h078",
+      "opponent_pick_hero_name": "Khufra",
+      "response_pick_hero_id": "h012",
+      "response_pick_hero_name": "Bruno",
+      "state_count": 1,
+      "sample_size_games": 1,
+      "wins": 1,
+      "losses": 0,
+      "observed_win_rate": 1.0,
+      "sample_sufficient": false,
+      "pattern_confidence_label": "LOW_SAMPLE"
+    },
+    {
+      "group_id_matches": [
+        "match-m5-ko-02-g2"
+      ],
+      "team_id": "team-blck",
+      "opponent_pick_hero_id": "h110",
+      "opponent_pick_hero_name": "Valentina",
+      "response_pick_hero_id": "h111",
+      "response_pick_hero_name": "Edith",
+      "state_count": 1,
+      "sample_size_games": 1,
+      "wins": 0,
+      "losses": 1,
+      "observed_win_rate": 0.0,
+      "sample_sufficient": false,
+      "pattern_confidence_label": "LOW_SAMPLE"
+    },
+    {
+      "group_id_matches": [
+        "match-m5-ko-02-g2"
+      ],
+      "team_id": "team-blck",
+      "opponent_pick_hero_id": "h062",
+      "opponent_pick_hero_name": "Kaja",
+      "response_pick_hero_id": "h012",
+      "response_pick_hero_name": "Bruno",
+      "state_count": 1,
+      "sample_size_games": 1,
+      "wins": 0,
+      "losses": 1,
+      "observed_win_rate": 0.0,
+      "sample_sufficient": false,
+      "pattern_confidence_label": "LOW_SAMPLE"
+    },
+    {
+      "group_id_matches": [
+        "match-m5-ko-02-g3"
+      ],
+      "team_id": "team-blck",
+      "opponent_pick_hero_id": "h075",
+      "opponent_pick_hero_name": "Kadita",
+      "response_pick_hero_id": "h103",
+      "response_pick_hero_name": "Paquito",
+      "state_count": 1,
+      "sample_size_games": 1,
+      "wins": 0,
+      "losses": 1,
+      "observed_win_rate": 0.0,
+      "sample_sufficient": false,
+      "pattern_confidence_label": "LOW_SAMPLE"
+    },
+    {
+      "group_id_matches": [
+        "match-m5-ko-02-g4"
+      ],
+      "team_id": "team-blck",
+      "opponent_pick_hero_id": "h076",
+      "opponent_pick_hero_name": "Faramis",
+      "response_pick_hero_id": "h120",
+      "response_pick_hero_name": "Arlott",
+      "state_count": 1,
+      "sample_size_games": 1,
+      "wins": 1,
+      "losses": 0,
+      "observed_win_rate": 1.0,
+      "sample_sufficient": false,
+      "pattern_confidence_label": "LOW_SAMPLE"
+    },
+    {
+      "group_id_matches": [
+        "match-m5-ko-02-g5"
+      ],
+      "team_id": "team-blck",
+      "opponent_pick_hero_id": "h062",
+      "opponent_pick_hero_name": "Kaja",
+      "response_pick_hero_id": "h065",
+      "response_pick_hero_name": "Claude",
+      "state_count": 1,
+      "sample_size_games": 1,
+      "wins": 0,
+      "losses": 1,
+      "observed_win_rate": 0.0,
+      "sample_sufficient": false,
+      "pattern_confidence_label": "LOW_SAMPLE"
+    },
+    {
+      "group_id_matches": [
+        "match-m5-ko-03-g1"
+      ],
+      "team_id": "team-see-you-soon",
+      "opponent_pick_hero_id": "h119",
+      "opponent_pick_hero_name": "Novaria",
+      "response_pick_hero_id": "h085",
+      "response_pick_hero_name": "Dyrroth",
+      "state_count": 1,
+      "sample_size_games": 1,
+      "wins": 0,
+      "losses": 1,
+      "observed_win_rate": 0.0,
+      "sample_sufficient": false,
+      "pattern_confidence_label": "LOW_SAMPLE"
+    },
+    {
+      "group_id_matches": [
+        "match-m5-ko-03-g1"
+      ],
+      "team_id": "team-see-you-soon",
+      "opponent_pick_hero_id": "h120",
+      "opponent_pick_hero_name": "Arlott",
+      "response_pick_hero_id": "h065",
+      "response_pick_hero_name": "Claude",
+      "state_count": 1,
+      "sample_size_games": 1,
+      "wins": 0,
+      "losses": 1,
+      "observed_win_rate": 0.0,
+      "sample_sufficient": false,
+      "pattern_confidence_label": "LOW_SAMPLE"
+    },
+    {
+      "group_id_matches": [
+        "match-m5-ko-03-g2"
+      ],
+      "team_id": "team-see-you-soon",
+      "opponent_pick_hero_id": "h119",
+      "opponent_pick_hero_name": "Novaria",
+      "response_pick_hero_id": "h082",
+      "response_pick_hero_name": "Terizla",
+      "state_count": 1,
+      "sample_size_games": 1,
+      "wins": 1,
+      "losses": 0,
+      "observed_win_rate": 1.0,
+      "sample_sufficient": false,
+      "pattern_confidence_label": "LOW_SAMPLE"
+    },
+    {
+      "group_id_matches": [
+        "match-m5-ko-03-g2"
+      ],
+      "team_id": "team-see-you-soon",
+      "opponent_pick_hero_id": "h006",
+      "opponent_pick_hero_name": "Tigreal",
+      "response_pick_hero_id": "h089",
+      "response_pick_hero_name": "Wanwan",
+      "state_count": 1,
+      "sample_size_games": 1,
+      "wins": 1,
+      "losses": 0,
+      "observed_win_rate": 1.0,
+      "sample_sufficient": false,
+      "pattern_confidence_label": "LOW_SAMPLE"
+    },
+    {
+      "group_id_matches": [
+        "match-m5-ko-03-g3"
+      ],
+      "team_id": "team-see-you-soon",
+      "opponent_pick_hero_id": "h046",
+      "opponent_pick_hero_name": "Odette",
+      "response_pick_hero_id": "h082",
+      "response_pick_hero_name": "Terizla",
+      "state_count": 1,
+      "sample_size_games": 1,
+      "wins": 0,
+      "losses": 1,
+      "observed_win_rate": 0.0,
+      "sample_sufficient": false,
+      "pattern_confidence_label": "LOW_SAMPLE"
+    },
+    {
+      "group_id_matches": [
+        "match-m5-ko-03-g3"
+      ],
+      "team_id": "team-see-you-soon",
+      "opponent_pick_hero_id": "h006",
+      "opponent_pick_hero_name": "Tigreal",
+      "response_pick_hero_id": "h040",
+      "response_pick_hero_name": "Karrie",
+      "state_count": 1,
+      "sample_size_games": 1,
+      "wins": 0,
+      "losses": 1,
+      "observed_win_rate": 0.0,
+      "sample_sufficient": false,
+      "pattern_confidence_label": "LOW_SAMPLE"
+    },
+    {
+      "group_id_matches": [
+        "match-m5-ko-03-g4"
+      ],
+      "team_id": "team-see-you-soon",
+      "opponent_pick_hero_id": "h076",
+      "opponent_pick_hero_name": "Faramis",
+      "response_pick_hero_id": "h085",
+      "response_pick_hero_name": "Dyrroth",
+      "state_count": 1,
+      "sample_size_games": 1,
+      "wins": 0,
+      "losses": 1,
+      "observed_win_rate": 0.0,
+      "sample_sufficient": false,
+      "pattern_confidence_label": "LOW_SAMPLE"
+    },
+    {
+      "group_id_matches": [
+        "match-m5-ko-03-g4"
+      ],
+      "team_id": "team-see-you-soon",
+      "opponent_pick_hero_id": "h120",
+      "opponent_pick_hero_name": "Arlott",
+      "response_pick_hero_id": "h012",
+      "response_pick_hero_name": "Bruno",
+      "state_count": 1,
+      "sample_size_games": 1,
+      "wins": 0,
+      "losses": 1,
+      "observed_win_rate": 0.0,
+      "sample_sufficient": false,
+      "pattern_confidence_label": "LOW_SAMPLE"
+    },
+    {
+      "group_id_matches": [
+        "match-m5-ko-04-g1"
+      ],
+      "team_id": "team-burmese-ghouls",
+      "opponent_pick_hero_id": "h076",
+      "opponent_pick_hero_name": "Faramis",
+      "response_pick_hero_id": "h059",
+      "response_pick_hero_name": "Uranus",
+      "state_count": 1,
+      "sample_size_games": 1,
+      "wins": 0,
+      "losses": 1,
+      "observed_win_rate": 0.0,
+      "sample_sufficient": false,
+      "pattern_confidence_label": "LOW_SAMPLE"
+    },
+    {
+      "group_id_matches": [
+        "match-m5-ko-04-g1"
+      ],
+      "team_id": "team-burmese-ghouls",
+      "opponent_pick_hero_id": "h006",
+      "opponent_pick_hero_name": "Tigreal",
+      "response_pick_hero_id": "h121",
+      "response_pick_hero_name": "Ixia",
+      "state_count": 1,
+      "sample_size_games": 1,
+      "wins": 0,
+      "losses": 1,
+      "observed_win_rate": 0.0,
+      "sample_sufficient": false,
+      "pattern_confidence_label": "LOW_SAMPLE"
+    },
+    {
+      "group_id_matches": [
+        "match-m5-ko-04-g2"
+      ],
+      "team_id": "team-burmese-ghouls",
+      "opponent_pick_hero_id": "h110",
+      "opponent_pick_hero_name": "Valentina",
+      "response_pick_hero_id": "h104",
+      "response_pick_hero_name": "Gloo",
+      "state_count": 1,
+      "sample_size_games": 1,
+      "wins": 1,
+      "losses": 0,
+      "observed_win_rate": 1.0,
+      "sample_sufficient": false,
+      "pattern_confidence_label": "LOW_SAMPLE"
+    },
+    {
+      "group_id_matches": [
+        "match-m5-ko-04-g2"
+      ],
+      "team_id": "team-burmese-ghouls",
+      "opponent_pick_hero_id": "h120",
+      "opponent_pick_hero_name": "Arlott",
+      "response_pick_hero_id": "h065",
+      "response_pick_hero_name": "Claude",
+      "state_count": 1,
+      "sample_size_games": 1,
+      "wins": 1,
+      "losses": 0,
+      "observed_win_rate": 1.0,
+      "sample_sufficient": false,
+      "pattern_confidence_label": "LOW_SAMPLE"
+    },
+    {
+      "group_id_matches": [
+        "match-m5-ko-04-g3"
+      ],
+      "team_id": "team-burmese-ghouls",
+      "opponent_pick_hero_id": "h076",
+      "opponent_pick_hero_name": "Faramis",
+      "response_pick_hero_id": "h082",
+      "response_pick_hero_name": "Terizla",
+      "state_count": 1,
+      "sample_size_games": 1,
+      "wins": 1,
+      "losses": 0,
+      "observed_win_rate": 1.0,
+      "sample_sufficient": false,
+      "pattern_confidence_label": "LOW_SAMPLE"
+    },
+    {
+      "group_id_matches": [
+        "match-m5-ko-04-g4"
+      ],
+      "team_id": "team-burmese-ghouls",
+      "opponent_pick_hero_id": "h101",
+      "opponent_pick_hero_name": "Yve",
+      "response_pick_hero_id": "h059",
+      "response_pick_hero_name": "Uranus",
+      "state_count": 1,
+      "sample_size_games": 1,
+      "wins": 0,
+      "losses": 1,
+      "observed_win_rate": 0.0,
+      "sample_sufficient": false,
+      "pattern_confidence_label": "LOW_SAMPLE"
+    },
+    {
+      "group_id_matches": [
+        "match-m5-ko-04-g4"
+      ],
+      "team_id": "team-burmese-ghouls",
+      "opponent_pick_hero_id": "h044",
+      "opponent_pick_hero_name": "Grock",
+      "response_pick_hero_id": "h065",
+      "response_pick_hero_name": "Claude",
+      "state_count": 1,
+      "sample_size_games": 1,
+      "wins": 0,
+      "losses": 1,
+      "observed_win_rate": 0.0,
+      "sample_sufficient": false,
+      "pattern_confidence_label": "LOW_SAMPLE"
+    },
+    {
+      "group_id_matches": [
+        "match-m5-ko-04-g5"
+      ],
+      "team_id": "team-burmese-ghouls",
+      "opponent_pick_hero_id": "h101",
+      "opponent_pick_hero_name": "Yve",
+      "response_pick_hero_id": "h104",
+      "response_pick_hero_name": "Gloo",
+      "state_count": 1,
+      "sample_size_games": 1,
+      "wins": 0,
+      "losses": 1,
+      "observed_win_rate": 0.0,
+      "sample_sufficient": false,
+      "pattern_confidence_label": "LOW_SAMPLE"
+    },
+    {
+      "group_id_matches": [
+        "match-m5-ko-04-g5"
+      ],
+      "team_id": "team-burmese-ghouls",
+      "opponent_pick_hero_id": "h029",
+      "opponent_pick_hero_name": "Ruby",
+      "response_pick_hero_id": "h012",
+      "response_pick_hero_name": "Bruno",
+      "state_count": 1,
+      "sample_size_games": 1,
+      "wins": 0,
+      "losses": 1,
+      "observed_win_rate": 0.0,
+      "sample_sufficient": false,
+      "pattern_confidence_label": "LOW_SAMPLE"
+    },
+    {
+      "group_id_matches": [
+        "match-m5-ko-05-g1"
+      ],
+      "team_id": "team-onic",
+      "opponent_pick_hero_id": "h110",
+      "opponent_pick_hero_name": "Valentina",
+      "response_pick_hero_id": "h085",
+      "response_pick_hero_name": "Dyrroth",
+      "state_count": 1,
+      "sample_size_games": 1,
+      "wins": 1,
+      "losses": 0,
+      "observed_win_rate": 1.0,
+      "sample_sufficient": false,
+      "pattern_confidence_label": "LOW_SAMPLE"
+    },
+    {
+      "group_id_matches": [
+        "match-m5-ko-05-g1"
+      ],
+      "team_id": "team-onic",
+      "opponent_pick_hero_id": "h102",
+      "opponent_pick_hero_name": "Mathilda",
+      "response_pick_hero_id": "h089",
+      "response_pick_hero_name": "Wanwan",
+      "state_count": 1,
+      "sample_size_games": 1,
+      "wins": 1,
+      "losses": 0,
+      "observed_win_rate": 1.0,
+      "sample_sufficient": false,
+      "pattern_confidence_label": "LOW_SAMPLE"
+    },
+    {
+      "group_id_matches": [
+        "match-m5-ko-05-g2"
+      ],
+      "team_id": "team-onic",
+      "opponent_pick_hero_id": "h119",
+      "opponent_pick_hero_name": "Novaria",
+      "response_pick_hero_id": "h117",
+      "response_pick_hero_name": "Fredrinn",
+      "state_count": 1,
+      "sample_size_games": 1,
+      "wins": 1,
+      "losses": 0,
+      "observed_win_rate": 1.0,
+      "sample_sufficient": false,
+      "pattern_confidence_label": "LOW_SAMPLE"
+    },
+    {
+      "group_id_matches": [
+        "match-m5-ko-05-g2"
+      ],
+      "team_id": "team-onic",
+      "opponent_pick_hero_id": "h055",
+      "opponent_pick_hero_name": "Angela",
+      "response_pick_hero_id": "h065",
+      "response_pick_hero_name": "Claude",
+      "state_count": 1,
+      "sample_size_games": 1,
+      "wins": 1,
+      "losses": 0,
+      "observed_win_rate": 1.0,
+      "sample_sufficient": false,
+      "pattern_confidence_label": "LOW_SAMPLE"
+    },
+    {
+      "group_id_matches": [
+        "match-m5-ko-05-g3"
+      ],
+      "team_id": "team-onic",
+      "opponent_pick_hero_id": "h110",
+      "opponent_pick_hero_name": "Valentina",
+      "response_pick_hero_id": "h059",
+      "response_pick_hero_name": "Uranus",
+      "state_count": 1,
+      "sample_size_games": 1,
+      "wins": 1,
+      "losses": 0,
+      "observed_win_rate": 1.0,
+      "sample_sufficient": false,
+      "pattern_confidence_label": "LOW_SAMPLE"
+    },
+    {
+      "group_id_matches": [
+        "match-m5-ko-05-g3"
+      ],
+      "team_id": "team-onic",
+      "opponent_pick_hero_id": "h006",
+      "opponent_pick_hero_name": "Tigreal",
+      "response_pick_hero_id": "h012",
+      "response_pick_hero_name": "Bruno",
+      "state_count": 1,
+      "sample_size_games": 1,
+      "wins": 1,
+      "losses": 0,
+      "observed_win_rate": 1.0,
+      "sample_sufficient": false,
+      "pattern_confidence_label": "LOW_SAMPLE"
+    },
+    {
+      "group_id_matches": [
+        "match-m5-ko-06-g1"
+      ],
+      "team_id": "team-geek-fam-id\n\t\t|substitutes={{playersubstitutions\n\t\t\t|{{substitution|in={{opponentplayer|caderaa",
+      "opponent_pick_hero_id": "h119",
+      "opponent_pick_hero_name": "Novaria",
+      "response_pick_hero_id": "h083",
+      "response_pick_hero_name": "X.Borg",
+      "state_count": 1,
+      "sample_size_games": 1,
+      "wins": 0,
+      "losses": 1,
+      "observed_win_rate": 0.0,
+      "sample_sufficient": false,
+      "pattern_confidence_label": "LOW_SAMPLE"
+    },
+    {
+      "group_id_matches": [
+        "match-m5-ko-06-g2"
+      ],
+      "team_id": "team-geek-fam-id\n\t\t|substitutes={{playersubstitutions\n\t\t\t|{{substitution|in={{opponentplayer|caderaa",
+      "opponent_pick_hero_id": "h110",
+      "opponent_pick_hero_name": "Valentina",
+      "response_pick_hero_id": "h098",
+      "response_pick_hero_name": "Khaleed",
+      "state_count": 1,
+      "sample_size_games": 1,
+      "wins": 1,
+      "losses": 0,
+      "observed_win_rate": 1.0,
+      "sample_sufficient": false,
+      "pattern_confidence_label": "LOW_SAMPLE"
+    },
+    {
+      "group_id_matches": [
+        "match-m5-ko-06-g3"
+      ],
+      "team_id": "team-geek-fam-id\n\t\t|substitutes={{playersubstitutions\n\t\t\t|{{substitution|in={{opponentplayer|caderaa",
+      "opponent_pick_hero_id": "h076",
+      "opponent_pick_hero_name": "Faramis",
+      "response_pick_hero_id": "h098",
+      "response_pick_hero_name": "Khaleed",
+      "state_count": 1,
+      "sample_size_games": 1,
+      "wins": 0,
+      "losses": 1,
+      "observed_win_rate": 0.0,
+      "sample_sufficient": false,
+      "pattern_confidence_label": "LOW_SAMPLE"
+    },
+    {
+      "group_id_matches": [
+        "match-m5-ko-06-g4"
+      ],
+      "team_id": "team-geek-fam-id\n\t\t|substitutes={{playersubstitutions\n\t\t\t|{{substitution|in={{opponentplayer|caderaa",
+      "opponent_pick_hero_id": "h076",
+      "opponent_pick_hero_name": "Faramis",
+      "response_pick_hero_id": "h095",
+      "response_pick_hero_name": "Yu Zhong",
+      "state_count": 1,
+      "sample_size_games": 1,
+      "wins": 0,
+      "losses": 1,
+      "observed_win_rate": 0.0,
+      "sample_sufficient": false,
+      "pattern_confidence_label": "LOW_SAMPLE"
+    },
+    {
+      "group_id_matches": [
+        "match-m5-ko-07-g1"
+      ],
+      "team_id": "team-ap.bren",
+      "opponent_pick_hero_id": "h086",
+      "opponent_pick_hero_name": "Lylia",
+      "response_pick_hero_id": "h098",
+      "response_pick_hero_name": "Khaleed",
+      "state_count": 1,
+      "sample_size_games": 1,
+      "wins": 0,
+      "losses": 1,
+      "observed_win_rate": 0.0,
+      "sample_sufficient": false,
+      "pattern_confidence_label": "LOW_SAMPLE"
+    },
+    {
+      "group_id_matches": [
+        "match-m5-ko-07-g1"
+      ],
+      "team_id": "team-ap.bren",
+      "opponent_pick_hero_id": "h006",
+      "opponent_pick_hero_name": "Tigreal",
+      "response_pick_hero_id": "h013",
+      "response_pick_hero_name": "Clint",
+      "state_count": 1,
+      "sample_size_games": 1,
+      "wins": 0,
+      "losses": 1,
+      "observed_win_rate": 0.0,
+      "sample_sufficient": false,
+      "pattern_confidence_label": "LOW_SAMPLE"
+    },
+    {
+      "group_id_matches": [
+        "match-m5-ko-07-g2"
+      ],
+      "team_id": "team-ap.bren",
+      "opponent_pick_hero_id": "h044",
+      "opponent_pick_hero_name": "Grock",
+      "response_pick_hero_id": "h065",
+      "response_pick_hero_name": "Claude",
+      "state_count": 1,
+      "sample_size_games": 1,
+      "wins": 0,
+      "losses": 1,
+      "observed_win_rate": 0.0,
+      "sample_sufficient": false,
+      "pattern_confidence_label": "LOW_SAMPLE"
+    },
+    {
+      "group_id_matches": [
+        "match-m5-ko-07-g3"
+      ],
+      "team_id": "team-ap.bren",
+      "opponent_pick_hero_id": "h056",
+      "opponent_pick_hero_name": "Gusion",
+      "response_pick_hero_id": "h120",
+      "response_pick_hero_name": "Arlott",
+      "state_count": 1,
+      "sample_size_games": 1,
+      "wins": 0,
+      "losses": 1,
+      "observed_win_rate": 0.0,
+      "sample_sufficient": false,
+      "pattern_confidence_label": "LOW_SAMPLE"
+    },
+    {
+      "group_id_matches": [
+        "match-m5-ko-07-g3"
+      ],
+      "team_id": "team-ap.bren",
+      "opponent_pick_hero_id": "h080",
+      "opponent_pick_hero_name": "Guinevere",
+      "response_pick_hero_id": "h012",
+      "response_pick_hero_name": "Bruno",
+      "state_count": 1,
+      "sample_size_games": 1,
+      "wins": 0,
+      "losses": 1,
+      "observed_win_rate": 0.0,
+      "sample_sufficient": false,
+      "pattern_confidence_label": "LOW_SAMPLE"
+    },
+    {
+      "group_id_matches": [
+        "match-m5-ko-08-g1"
+      ],
+      "team_id": "team-blck",
+      "opponent_pick_hero_id": "h068",
+      "opponent_pick_hero_name": "Lunox",
+      "response_pick_hero_id": "h111",
+      "response_pick_hero_name": "Edith",
+      "state_count": 1,
+      "sample_size_games": 1,
+      "wins": 1,
+      "losses": 0,
+      "observed_win_rate": 1.0,
+      "sample_sufficient": false,
+      "pattern_confidence_label": "LOW_SAMPLE"
+    },
+    {
+      "group_id_matches": [
+        "match-m5-ko-08-g1"
+      ],
+      "team_id": "team-blck",
+      "opponent_pick_hero_id": "h062",
+      "opponent_pick_hero_name": "Kaja",
+      "response_pick_hero_id": "h040",
+      "response_pick_hero_name": "Karrie",
+      "state_count": 1,
+      "sample_size_games": 1,
+      "wins": 1,
+      "losses": 0,
+      "observed_win_rate": 1.0,
+      "sample_sufficient": false,
+      "pattern_confidence_label": "LOW_SAMPLE"
+    },
+    {
+      "group_id_matches": [
+        "match-m5-ko-08-g2"
+      ],
+      "team_id": "team-blck",
+      "opponent_pick_hero_id": "h086",
+      "opponent_pick_hero_name": "Lylia",
+      "response_pick_hero_id": "h082",
+      "response_pick_hero_name": "Terizla",
+      "state_count": 1,
+      "sample_size_games": 1,
+      "wins": 0,
+      "losses": 1,
+      "observed_win_rate": 0.0,
+      "sample_sufficient": false,
+      "pattern_confidence_label": "LOW_SAMPLE"
+    },
+    {
+      "group_id_matches": [
+        "match-m5-ko-08-g2"
+      ],
+      "team_id": "team-blck",
+      "opponent_pick_hero_id": "h006",
+      "opponent_pick_hero_name": "Tigreal",
+      "response_pick_hero_id": "h040",
+      "response_pick_hero_name": "Karrie",
+      "state_count": 1,
+      "sample_size_games": 1,
+      "wins": 0,
+      "losses": 1,
+      "observed_win_rate": 0.0,
+      "sample_sufficient": false,
+      "pattern_confidence_label": "LOW_SAMPLE"
+    },
+    {
+      "group_id_matches": [
+        "match-m5-ko-08-g3"
+      ],
+      "team_id": "team-blck",
+      "opponent_pick_hero_id": "h086",
+      "opponent_pick_hero_name": "Lylia",
+      "response_pick_hero_id": "h111",
+      "response_pick_hero_name": "Edith",
+      "state_count": 1,
+      "sample_size_games": 1,
+      "wins": 1,
+      "losses": 0,
+      "observed_win_rate": 1.0,
+      "sample_sufficient": false,
+      "pattern_confidence_label": "LOW_SAMPLE"
+    },
+    {
+      "group_id_matches": [
+        "match-m5-ko-08-g4"
+      ],
+      "team_id": "team-blck",
+      "opponent_pick_hero_id": "h006",
+      "opponent_pick_hero_name": "Tigreal",
+      "response_pick_hero_id": "h012",
+      "response_pick_hero_name": "Bruno",
+      "state_count": 1,
+      "sample_size_games": 1,
+      "wins": 1,
+      "losses": 0,
+      "observed_win_rate": 1.0,
+      "sample_sufficient": false,
+      "pattern_confidence_label": "LOW_SAMPLE"
+    },
+    {
+      "group_id_matches": [
+        "match-m5-ko-09-g1"
+      ],
+      "team_id": "team-burmese-ghouls",
+      "opponent_pick_hero_id": "h110",
+      "opponent_pick_hero_name": "Valentina",
+      "response_pick_hero_id": "h082",
+      "response_pick_hero_name": "Terizla",
+      "state_count": 1,
+      "sample_size_games": 1,
+      "wins": 0,
+      "losses": 1,
+      "observed_win_rate": 0.0,
+      "sample_sufficient": false,
+      "pattern_confidence_label": "LOW_SAMPLE"
+    },
+    {
+      "group_id_matches": [
+        "match-m5-ko-09-g1"
+      ],
+      "team_id": "team-burmese-ghouls",
+      "opponent_pick_hero_id": "h006",
+      "opponent_pick_hero_name": "Tigreal",
+      "response_pick_hero_id": "h043",
+      "response_pick_hero_name": "Irithel",
+      "state_count": 1,
+      "sample_size_games": 1,
+      "wins": 0,
+      "losses": 1,
+      "observed_win_rate": 0.0,
+      "sample_sufficient": false,
+      "pattern_confidence_label": "LOW_SAMPLE"
+    },
+    {
+      "group_id_matches": [
+        "match-m5-ko-09-g2"
+      ],
+      "team_id": "team-burmese-ghouls",
+      "opponent_pick_hero_id": "h110",
+      "opponent_pick_hero_name": "Valentina",
+      "response_pick_hero_id": "h037",
+      "response_pick_hero_name": "Lapu-Lapu",
+      "state_count": 1,
+      "sample_size_games": 1,
+      "wins": 0,
+      "losses": 1,
+      "observed_win_rate": 0.0,
+      "sample_sufficient": false,
+      "pattern_confidence_label": "LOW_SAMPLE"
+    },
+    {
+      "group_id_matches": [
+        "match-m5-ko-09-g3"
+      ],
+      "team_id": "team-burmese-ghouls",
+      "opponent_pick_hero_id": "h110",
+      "opponent_pick_hero_name": "Valentina",
+      "response_pick_hero_id": "h120",
+      "response_pick_hero_name": "Arlott",
+      "state_count": 1,
+      "sample_size_games": 1,
+      "wins": 0,
+      "losses": 1,
+      "observed_win_rate": 0.0,
+      "sample_sufficient": false,
+      "pattern_confidence_label": "LOW_SAMPLE"
+    },
+    {
+      "group_id_matches": [
+        "match-m5-ko-09-g3"
+      ],
+      "team_id": "team-burmese-ghouls",
+      "opponent_pick_hero_id": "h026",
+      "opponent_pick_hero_name": "Chou",
+      "response_pick_hero_id": "h012",
+      "response_pick_hero_name": "Bruno",
+      "state_count": 1,
+      "sample_size_games": 1,
+      "wins": 0,
+      "losses": 1,
+      "observed_win_rate": 0.0,
+      "sample_sufficient": false,
+      "pattern_confidence_label": "LOW_SAMPLE"
+    },
+    {
+      "group_id_matches": [
+        "match-m5-ko-10-g1"
+      ],
+      "team_id": "team-blck",
+      "opponent_pick_hero_id": "h029",
+      "opponent_pick_hero_name": "Ruby",
+      "response_pick_hero_id": "h089",
+      "response_pick_hero_name": "Wanwan",
+      "state_count": 1,
+      "sample_size_games": 1,
+      "wins": 0,
+      "losses": 1,
+      "observed_win_rate": 0.0,
+      "sample_sufficient": false,
+      "pattern_confidence_label": "LOW_SAMPLE"
+    },
+    {
+      "group_id_matches": [
+        "match-m5-ko-10-g2"
+      ],
+      "team_id": "team-blck",
+      "opponent_pick_hero_id": "h044",
+      "opponent_pick_hero_name": "Grock",
+      "response_pick_hero_id": "h121",
+      "response_pick_hero_name": "Ixia",
+      "state_count": 1,
+      "sample_size_games": 1,
+      "wins": 1,
+      "losses": 0,
+      "observed_win_rate": 1.0,
+      "sample_sufficient": false,
+      "pattern_confidence_label": "LOW_SAMPLE"
+    },
+    {
+      "group_id_matches": [
+        "match-m5-ko-10-g3"
+      ],
+      "team_id": "team-blck",
+      "opponent_pick_hero_id": "h019",
+      "opponent_pick_hero_name": "Minotaur",
+      "response_pick_hero_id": "h040",
+      "response_pick_hero_name": "Karrie",
+      "state_count": 1,
+      "sample_size_games": 1,
+      "wins": 1,
+      "losses": 0,
+      "observed_win_rate": 1.0,
+      "sample_sufficient": false,
+      "pattern_confidence_label": "LOW_SAMPLE"
+    },
+    {
+      "group_id_matches": [
+        "match-m5-ko-10-g4"
+      ],
+      "team_id": "team-blck",
+      "opponent_pick_hero_id": "h120",
+      "opponent_pick_hero_name": "Arlott",
+      "response_pick_hero_id": "h012",
+      "response_pick_hero_name": "Bruno",
+      "state_count": 1,
+      "sample_size_games": 1,
+      "wins": 1,
+      "losses": 0,
+      "observed_win_rate": 1.0,
+      "sample_sufficient": false,
+      "pattern_confidence_label": "LOW_SAMPLE"
+    },
+    {
+      "group_id_matches": [
+        "match-m5-ko-11-g1"
+      ],
+      "team_id": "team-see-you-soon",
+      "opponent_pick_hero_id": "h110",
+      "opponent_pick_hero_name": "Valentina",
+      "response_pick_hero_id": "h037",
+      "response_pick_hero_name": "Lapu-Lapu",
+      "state_count": 1,
+      "sample_size_games": 1,
+      "wins": 1,
+      "losses": 0,
+      "observed_win_rate": 1.0,
+      "sample_sufficient": false,
+      "pattern_confidence_label": "LOW_SAMPLE"
+    },
+    {
+      "group_id_matches": [
+        "match-m5-ko-11-g1"
+      ],
+      "team_id": "team-see-you-soon",
+      "opponent_pick_hero_id": "h062",
+      "opponent_pick_hero_name": "Kaja",
+      "response_pick_hero_id": "h012",
+      "response_pick_hero_name": "Bruno",
+      "state_count": 1,
+      "sample_size_games": 1,
+      "wins": 1,
+      "losses": 0,
+      "observed_win_rate": 1.0,
+      "sample_sufficient": false,
+      "pattern_confidence_label": "LOW_SAMPLE"
+    },
+    {
+      "group_id_matches": [
+        "match-m5-ko-11-g2"
+      ],
+      "team_id": "team-see-you-soon",
+      "opponent_pick_hero_id": "h086",
+      "opponent_pick_hero_name": "Lylia",
+      "response_pick_hero_id": "h037",
+      "response_pick_hero_name": "Lapu-Lapu",
+      "state_count": 1,
+      "sample_size_games": 1,
+      "wins": 1,
+      "losses": 0,
+      "observed_win_rate": 1.0,
+      "sample_sufficient": false,
+      "pattern_confidence_label": "LOW_SAMPLE"
+    },
+    {
+      "group_id_matches": [
+        "match-m5-ko-11-g2"
+      ],
+      "team_id": "team-see-you-soon",
+      "opponent_pick_hero_id": "h019",
+      "opponent_pick_hero_name": "Minotaur",
+      "response_pick_hero_id": "h089",
+      "response_pick_hero_name": "Wanwan",
+      "state_count": 1,
+      "sample_size_games": 1,
+      "wins": 1,
+      "losses": 0,
+      "observed_win_rate": 1.0,
+      "sample_sufficient": false,
+      "pattern_confidence_label": "LOW_SAMPLE"
+    },
+    {
+      "group_id_matches": [
+        "match-m5-ko-11-g3"
+      ],
+      "team_id": "team-see-you-soon",
+      "opponent_pick_hero_id": "h086",
+      "opponent_pick_hero_name": "Lylia",
+      "response_pick_hero_id": "h095",
+      "response_pick_hero_name": "Yu Zhong",
+      "state_count": 1,
+      "sample_size_games": 1,
+      "wins": 0,
+      "losses": 1,
+      "observed_win_rate": 0.0,
+      "sample_sufficient": false,
+      "pattern_confidence_label": "LOW_SAMPLE"
+    },
+    {
+      "group_id_matches": [
+        "match-m5-ko-11-g3"
+      ],
+      "team_id": "team-see-you-soon",
+      "opponent_pick_hero_id": "h055",
+      "opponent_pick_hero_name": "Angela",
+      "response_pick_hero_id": "h089",
+      "response_pick_hero_name": "Wanwan",
+      "state_count": 1,
+      "sample_size_games": 1,
+      "wins": 0,
+      "losses": 1,
+      "observed_win_rate": 0.0,
+      "sample_sufficient": false,
+      "pattern_confidence_label": "LOW_SAMPLE"
+    },
+    {
+      "group_id_matches": [
+        "match-m5-ko-11-g4"
+      ],
+      "team_id": "team-see-you-soon",
+      "opponent_pick_hero_id": "h023",
+      "opponent_pick_hero_name": "Gord",
+      "response_pick_hero_id": "h120",
+      "response_pick_hero_name": "Arlott",
+      "state_count": 1,
+      "sample_size_games": 1,
+      "wins": 0,
+      "losses": 1,
+      "observed_win_rate": 0.0,
+      "sample_sufficient": false,
+      "pattern_confidence_label": "LOW_SAMPLE"
+    },
+    {
+      "group_id_matches": [
+        "match-m5-ko-11-g4"
+      ],
+      "team_id": "team-see-you-soon",
+      "opponent_pick_hero_id": "h019",
+      "opponent_pick_hero_name": "Minotaur",
+      "response_pick_hero_id": "h065",
+      "response_pick_hero_name": "Claude",
+      "state_count": 1,
+      "sample_size_games": 1,
+      "wins": 0,
+      "losses": 1,
+      "observed_win_rate": 0.0,
+      "sample_sufficient": false,
+      "pattern_confidence_label": "LOW_SAMPLE"
+    },
+    {
+      "group_id_matches": [
+        "match-m5-ko-11-g5"
+      ],
+      "team_id": "team-see-you-soon",
+      "opponent_pick_hero_id": "h110",
+      "opponent_pick_hero_name": "Valentina",
+      "response_pick_hero_id": "h085",
+      "response_pick_hero_name": "Dyrroth",
+      "state_count": 1,
+      "sample_size_games": 1,
+      "wins": 0,
+      "losses": 1,
+      "observed_win_rate": 0.0,
+      "sample_sufficient": false,
+      "pattern_confidence_label": "LOW_SAMPLE"
+    },
+    {
+      "group_id_matches": [
+        "match-m5-ko-11-g5"
+      ],
+      "team_id": "team-see-you-soon",
+      "opponent_pick_hero_id": "h048",
+      "opponent_pick_hero_name": "Diggie",
+      "response_pick_hero_id": "h012",
+      "response_pick_hero_name": "Bruno",
+      "state_count": 1,
+      "sample_size_games": 1,
+      "wins": 0,
+      "losses": 1,
+      "observed_win_rate": 0.0,
+      "sample_sufficient": false,
+      "pattern_confidence_label": "LOW_SAMPLE"
+    },
+    {
+      "group_id_matches": [
+        "match-m5-ko-12-g1"
+      ],
+      "team_id": "team-devu",
+      "opponent_pick_hero_id": "h006",
+      "opponent_pick_hero_name": "Tigreal",
+      "response_pick_hero_id": "h100",
+      "response_pick_hero_name": "Brody",
+      "state_count": 1,
+      "sample_size_games": 1,
+      "wins": 0,
+      "losses": 1,
+      "observed_win_rate": 0.0,
+      "sample_sufficient": false,
+      "pattern_confidence_label": "LOW_SAMPLE"
+    },
+    {
+      "group_id_matches": [
+        "match-m5-ko-12-g2"
+      ],
+      "team_id": "team-devu",
+      "opponent_pick_hero_id": "h034",
+      "opponent_pick_hero_name": "Estes",
+      "response_pick_hero_id": "h100",
+      "response_pick_hero_name": "Brody",
+      "state_count": 1,
+      "sample_size_games": 1,
+      "wins": 0,
+      "losses": 1,
+      "observed_win_rate": 0.0,
+      "sample_sufficient": false,
+      "pattern_confidence_label": "LOW_SAMPLE"
+    },
+    {
+      "group_id_matches": [
+        "match-m5-ko-12-g3"
+      ],
+      "team_id": "team-devu",
+      "opponent_pick_hero_id": "h014",
+      "opponent_pick_hero_name": "Rafaela",
+      "response_pick_hero_id": "h121",
+      "response_pick_hero_name": "Ixia",
+      "state_count": 1,
+      "sample_size_games": 1,
+      "wins": 0,
+      "losses": 1,
+      "observed_win_rate": 0.0,
+      "sample_sufficient": false,
+      "pattern_confidence_label": "LOW_SAMPLE"
+    },
+    {
+      "group_id_matches": [
+        "match-m5-ko-13-g1"
+      ],
+      "team_id": "team-blck",
+      "opponent_pick_hero_id": "h119",
+      "opponent_pick_hero_name": "Novaria",
+      "response_pick_hero_id": "h120",
+      "response_pick_hero_name": "Arlott",
+      "state_count": 1,
+      "sample_size_games": 1,
+      "wins": 0,
+      "losses": 1,
+      "observed_win_rate": 0.0,
+      "sample_sufficient": false,
+      "pattern_confidence_label": "LOW_SAMPLE"
+    },
+    {
+      "group_id_matches": [
+        "match-m5-ko-13-g2"
+      ],
+      "team_id": "team-blck",
+      "opponent_pick_hero_id": "h076",
+      "opponent_pick_hero_name": "Faramis",
+      "response_pick_hero_id": "h111",
+      "response_pick_hero_name": "Edith",
+      "state_count": 1,
+      "sample_size_games": 1,
+      "wins": 0,
+      "losses": 1,
+      "observed_win_rate": 0.0,
+      "sample_sufficient": false,
+      "pattern_confidence_label": "LOW_SAMPLE"
+    },
+    {
+      "group_id_matches": [
+        "match-m5-ko-13-g2"
+      ],
+      "team_id": "team-blck",
+      "opponent_pick_hero_id": "h120",
+      "opponent_pick_hero_name": "Arlott",
+      "response_pick_hero_id": "h065",
+      "response_pick_hero_name": "Claude",
+      "state_count": 1,
+      "sample_size_games": 1,
+      "wins": 0,
+      "losses": 1,
+      "observed_win_rate": 0.0,
+      "sample_sufficient": false,
+      "pattern_confidence_label": "LOW_SAMPLE"
+    },
+    {
+      "group_id_matches": [
+        "match-m5-ko-13-g3"
+      ],
+      "team_id": "team-blck",
+      "opponent_pick_hero_id": "h076",
+      "opponent_pick_hero_name": "Faramis",
+      "response_pick_hero_id": "h103",
+      "response_pick_hero_name": "Paquito",
+      "state_count": 1,
+      "sample_size_games": 1,
+      "wins": 0,
+      "losses": 1,
+      "observed_win_rate": 0.0,
+      "sample_sufficient": false,
+      "pattern_confidence_label": "LOW_SAMPLE"
+    },
+    {
+      "group_id_matches": [
+        "match-m5-ko-13-g3"
+      ],
+      "team_id": "team-blck",
+      "opponent_pick_hero_id": "h102",
+      "opponent_pick_hero_name": "Mathilda",
+      "response_pick_hero_id": "h105",
+      "response_pick_hero_name": "Beatrix",
+      "state_count": 1,
+      "sample_size_games": 1,
+      "wins": 0,
+      "losses": 1,
+      "observed_win_rate": 0.0,
+      "sample_sufficient": false,
+      "pattern_confidence_label": "LOW_SAMPLE"
+    },
+    {
+      "group_id_matches": [
+        "match-m5-ko-14-g1"
+      ],
+      "team_id": "team-ap.bren",
+      "opponent_pick_hero_id": "h006",
+      "opponent_pick_hero_name": "Tigreal",
+      "response_pick_hero_id": "h100",
+      "response_pick_hero_name": "Brody",
+      "state_count": 1,
+      "sample_size_games": 1,
+      "wins": 1,
+      "losses": 0,
+      "observed_win_rate": 1.0,
+      "sample_sufficient": false,
+      "pattern_confidence_label": "LOW_SAMPLE"
+    },
+    {
+      "group_id_matches": [
+        "match-m5-ko-14-g2"
+      ],
+      "team_id": "team-ap.bren",
+      "opponent_pick_hero_id": "h023",
+      "opponent_pick_hero_name": "Gord",
+      "response_pick_hero_id": "h103",
+      "response_pick_hero_name": "Paquito",
+      "state_count": 1,
+      "sample_size_games": 1,
+      "wins": 0,
+      "losses": 1,
+      "observed_win_rate": 0.0,
+      "sample_sufficient": false,
+      "pattern_confidence_label": "LOW_SAMPLE"
+    },
+    {
+      "group_id_matches": [
+        "match-m5-ko-14-g2"
+      ],
+      "team_id": "team-ap.bren",
+      "opponent_pick_hero_id": "h029",
+      "opponent_pick_hero_name": "Ruby",
+      "response_pick_hero_id": "h012",
+      "response_pick_hero_name": "Bruno",
+      "state_count": 1,
+      "sample_size_games": 1,
+      "wins": 0,
+      "losses": 1,
+      "observed_win_rate": 0.0,
+      "sample_sufficient": false,
+      "pattern_confidence_label": "LOW_SAMPLE"
+    },
+    {
+      "group_id_matches": [
+        "match-m5-ko-14-g3"
+      ],
+      "team_id": "team-ap.bren",
+      "opponent_pick_hero_id": "h076",
+      "opponent_pick_hero_name": "Faramis",
+      "response_pick_hero_id": "h037",
+      "response_pick_hero_name": "Lapu-Lapu",
+      "state_count": 1,
+      "sample_size_games": 1,
+      "wins": 1,
+      "losses": 0,
+      "observed_win_rate": 1.0,
+      "sample_sufficient": false,
+      "pattern_confidence_label": "LOW_SAMPLE"
+    },
+    {
+      "group_id_matches": [
+        "match-m5-ko-14-g3"
+      ],
+      "team_id": "team-ap.bren",
+      "opponent_pick_hero_id": "h026",
+      "opponent_pick_hero_name": "Chou",
+      "response_pick_hero_id": "h100",
+      "response_pick_hero_name": "Brody",
+      "state_count": 1,
+      "sample_size_games": 1,
+      "wins": 1,
+      "losses": 0,
+      "observed_win_rate": 1.0,
+      "sample_sufficient": false,
+      "pattern_confidence_label": "LOW_SAMPLE"
+    },
+    {
+      "group_id_matches": [
+        "match-m5-ko-14-g4"
+      ],
+      "team_id": "team-ap.bren",
+      "opponent_pick_hero_id": "h062",
+      "opponent_pick_hero_name": "Kaja",
+      "response_pick_hero_id": "h089",
+      "response_pick_hero_name": "Wanwan",
+      "state_count": 1,
+      "sample_size_games": 1,
+      "wins": 1,
+      "losses": 0,
+      "observed_win_rate": 1.0,
+      "sample_sufficient": false,
+      "pattern_confidence_label": "LOW_SAMPLE"
+    },
+    {
+      "group_id_matches": [
+        "match-m5-ko-14-g5"
+      ],
+      "team_id": "team-ap.bren",
+      "opponent_pick_hero_id": "h019",
+      "opponent_pick_hero_name": "Minotaur",
+      "response_pick_hero_id": "h065",
+      "response_pick_hero_name": "Claude",
+      "state_count": 1,
+      "sample_size_games": 1,
+      "wins": 0,
+      "losses": 1,
+      "observed_win_rate": 0.0,
+      "sample_sufficient": false,
+      "pattern_confidence_label": "LOW_SAMPLE"
+    },
+    {
+      "group_id_matches": [
+        "match-m5-ko-14-g6"
+      ],
+      "team_id": "team-ap.bren",
+      "opponent_pick_hero_id": "h076",
+      "opponent_pick_hero_name": "Faramis",
+      "response_pick_hero_id": "h072",
+      "response_pick_hero_name": "Thamuz",
+      "state_count": 1,
+      "sample_size_games": 1,
+      "wins": 0,
+      "losses": 1,
+      "observed_win_rate": 0.0,
+      "sample_sufficient": false,
+      "pattern_confidence_label": "LOW_SAMPLE"
+    },
+    {
+      "group_id_matches": [
+        "match-m5-ko-14-g6"
+      ],
+      "team_id": "team-ap.bren",
+      "opponent_pick_hero_id": "h044",
+      "opponent_pick_hero_name": "Grock",
+      "response_pick_hero_id": "h089",
+      "response_pick_hero_name": "Wanwan",
+      "state_count": 1,
+      "sample_size_games": 1,
+      "wins": 0,
+      "losses": 1,
+      "observed_win_rate": 0.0,
+      "sample_sufficient": false,
+      "pattern_confidence_label": "LOW_SAMPLE"
+    },
+    {
+      "group_id_matches": [
+        "match-m5-ko-14-g7"
+      ],
+      "team_id": "team-ap.bren",
+      "opponent_pick_hero_id": "h101",
+      "opponent_pick_hero_name": "Yve",
+      "response_pick_hero_id": "h098",
+      "response_pick_hero_name": "Khaleed",
+      "state_count": 1,
+      "sample_size_games": 1,
+      "wins": 1,
+      "losses": 0,
+      "observed_win_rate": 1.0,
+      "sample_sufficient": false,
+      "pattern_confidence_label": "LOW_SAMPLE"
+    },
+    {
+      "group_id_matches": [
+        "match-m5-ko-14-g7"
+      ],
+      "team_id": "team-ap.bren",
+      "opponent_pick_hero_id": "h075",
+      "opponent_pick_hero_name": "Kadita",
+      "response_pick_hero_id": "h100",
+      "response_pick_hero_name": "Brody",
+      "state_count": 1,
+      "sample_size_games": 1,
+      "wins": 1,
+      "losses": 0,
+      "observed_win_rate": 1.0,
+      "sample_sufficient": false,
+      "pattern_confidence_label": "LOW_SAMPLE"
+    }
+  ]
+}

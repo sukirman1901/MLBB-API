@@ -1,0 +1,548 @@
+{
+  "one_step_sequences": [
+    {
+      "sequence": [
+        "ban:h118"
+      ],
+      "sequence_names": [
+        "BAN Joy"
+      ],
+      "observed_frequency": 52,
+      "sample_size_games": 52
+    },
+    {
+      "sequence": [
+        "ban:h122"
+      ],
+      "sequence_names": [
+        "BAN Nolan"
+      ],
+      "observed_frequency": 50,
+      "sample_size_games": 50
+    },
+    {
+      "sequence": [
+        "ban:h080"
+      ],
+      "sequence_names": [
+        "BAN Guinevere"
+      ],
+      "observed_frequency": 41,
+      "sample_size_games": 41
+    },
+    {
+      "sequence": [
+        "ban:h089"
+      ],
+      "sequence_names": [
+        "BAN Wanwan"
+      ],
+      "observed_frequency": 39,
+      "sample_size_games": 39
+    },
+    {
+      "sequence": [
+        "pick:h012"
+      ],
+      "sequence_names": [
+        "PICK Bruno"
+      ],
+      "observed_frequency": 35,
+      "sample_size_games": 35
+    },
+    {
+      "sequence": [
+        "pick:h110"
+      ],
+      "sequence_names": [
+        "PICK Valentina"
+      ],
+      "observed_frequency": 35,
+      "sample_size_games": 35
+    },
+    {
+      "sequence": [
+        "ban:h019"
+      ],
+      "sequence_names": [
+        "BAN Minotaur"
+      ],
+      "observed_frequency": 30,
+      "sample_size_games": 30
+    },
+    {
+      "sequence": [
+        "pick:h065"
+      ],
+      "sequence_names": [
+        "PICK Claude"
+      ],
+      "observed_frequency": 29,
+      "sample_size_games": 29
+    },
+    {
+      "sequence": [
+        "pick:h082"
+      ],
+      "sequence_names": [
+        "PICK Terizla"
+      ],
+      "observed_frequency": 28,
+      "sample_size_games": 28
+    },
+    {
+      "sequence": [
+        "ban:h102"
+      ],
+      "sequence_names": [
+        "BAN Mathilda"
+      ],
+      "observed_frequency": 28,
+      "sample_size_games": 28
+    },
+    {
+      "sequence": [
+        "ban:h076"
+      ],
+      "sequence_names": [
+        "BAN Faramis"
+      ],
+      "observed_frequency": 25,
+      "sample_size_games": 25
+    },
+    {
+      "sequence": [
+        "pick:h076"
+      ],
+      "sequence_names": [
+        "PICK Faramis"
+      ],
+      "observed_frequency": 24,
+      "sample_size_games": 24
+    },
+    {
+      "sequence": [
+        "pick:h086"
+      ],
+      "sequence_names": [
+        "PICK Lylia"
+      ],
+      "observed_frequency": 21,
+      "sample_size_games": 21
+    },
+    {
+      "sequence": [
+        "pick:h120"
+      ],
+      "sequence_names": [
+        "PICK Arlott"
+      ],
+      "observed_frequency": 21,
+      "sample_size_games": 21
+    },
+    {
+      "sequence": [
+        "pick:h117"
+      ],
+      "sequence_names": [
+        "PICK Fredrinn"
+      ],
+      "observed_frequency": 21,
+      "sample_size_games": 21
+    }
+  ],
+  "two_step_sequences": [
+    {
+      "sequence": [
+        "ban:h122",
+        "ban:h118"
+      ],
+      "sequence_names": [
+        "BAN Nolan",
+        "BAN Joy"
+      ],
+      "observed_frequency": 15,
+      "sample_size_games": 15
+    },
+    {
+      "sequence": [
+        "ban:h118",
+        "ban:h122"
+      ],
+      "sequence_names": [
+        "BAN Joy",
+        "BAN Nolan"
+      ],
+      "observed_frequency": 11,
+      "sample_size_games": 11
+    },
+    {
+      "sequence": [
+        "ban:h122",
+        "ban:h080"
+      ],
+      "sequence_names": [
+        "BAN Nolan",
+        "BAN Guinevere"
+      ],
+      "observed_frequency": 10,
+      "sample_size_games": 10
+    },
+    {
+      "sequence": [
+        "pick:h009",
+        "pick:h110"
+      ],
+      "sequence_names": [
+        "PICK Akai",
+        "PICK Valentina"
+      ],
+      "observed_frequency": 9,
+      "sample_size_games": 9
+    },
+    {
+      "sequence": [
+        "pick:h082",
+        "pick:h087"
+      ],
+      "sequence_names": [
+        "PICK Terizla",
+        "PICK Baxia"
+      ],
+      "observed_frequency": 8,
+      "sample_size_games": 8
+    },
+    {
+      "sequence": [
+        "ban:h089",
+        "ban:h080"
+      ],
+      "sequence_names": [
+        "BAN Wanwan",
+        "BAN Guinevere"
+      ],
+      "observed_frequency": 8,
+      "sample_size_games": 8
+    },
+    {
+      "sequence": [
+        "pick:h058",
+        "pick:h110"
+      ],
+      "sequence_names": [
+        "PICK Martis",
+        "PICK Valentina"
+      ],
+      "observed_frequency": 8,
+      "sample_size_games": 8
+    },
+    {
+      "sequence": [
+        "pick:h012",
+        "pick:h006"
+      ],
+      "sequence_names": [
+        "PICK Bruno",
+        "PICK Tigreal"
+      ],
+      "observed_frequency": 8,
+      "sample_size_games": 8
+    },
+    {
+      "sequence": [
+        "ban:h017",
+        "ban:h122"
+      ],
+      "sequence_names": [
+        "BAN Fanny",
+        "BAN Nolan"
+      ],
+      "observed_frequency": 7,
+      "sample_size_games": 7
+    },
+    {
+      "sequence": [
+        "ban:h080",
+        "ban:h076"
+      ],
+      "sequence_names": [
+        "BAN Guinevere",
+        "BAN Faramis"
+      ],
+      "observed_frequency": 7,
+      "sample_size_games": 7
+    },
+    {
+      "sequence": [
+        "ban:h118",
+        "ban:h080"
+      ],
+      "sequence_names": [
+        "BAN Joy",
+        "BAN Guinevere"
+      ],
+      "observed_frequency": 6,
+      "sample_size_games": 6
+    },
+    {
+      "sequence": [
+        "pick:h087",
+        "pick:h076"
+      ],
+      "sequence_names": [
+        "PICK Baxia",
+        "PICK Faramis"
+      ],
+      "observed_frequency": 6,
+      "sample_size_games": 6
+    },
+    {
+      "sequence": [
+        "pick:h087",
+        "pick:h086"
+      ],
+      "sequence_names": [
+        "PICK Baxia",
+        "PICK Lylia"
+      ],
+      "observed_frequency": 6,
+      "sample_size_games": 6
+    },
+    {
+      "sequence": [
+        "pick:h117",
+        "pick:h110"
+      ],
+      "sequence_names": [
+        "PICK Fredrinn",
+        "PICK Valentina"
+      ],
+      "observed_frequency": 6,
+      "sample_size_games": 6
+    },
+    {
+      "sequence": [
+        "ban:h080",
+        "ban:h122"
+      ],
+      "sequence_names": [
+        "BAN Guinevere",
+        "BAN Nolan"
+      ],
+      "observed_frequency": 5,
+      "sample_size_games": 5
+    }
+  ],
+  "three_step_sequences": [
+    {
+      "sequence": [
+        "ban:h017",
+        "ban:h122",
+        "ban:h118"
+      ],
+      "sequence_names": [
+        "BAN Fanny",
+        "BAN Nolan",
+        "BAN Joy"
+      ],
+      "observed_frequency": 7,
+      "sample_size_games": 7
+    },
+    {
+      "sequence": [
+        "ban:h122",
+        "ban:h080",
+        "ban:h118"
+      ],
+      "sequence_names": [
+        "BAN Nolan",
+        "BAN Guinevere",
+        "BAN Joy"
+      ],
+      "observed_frequency": 4,
+      "sample_size_games": 4
+    },
+    {
+      "sequence": [
+        "ban:h089",
+        "ban:h080",
+        "ban:h076"
+      ],
+      "sequence_names": [
+        "BAN Wanwan",
+        "BAN Guinevere",
+        "BAN Faramis"
+      ],
+      "observed_frequency": 4,
+      "sample_size_games": 4
+    },
+    {
+      "sequence": [
+        "ban:h080",
+        "ban:h122",
+        "pick:h082"
+      ],
+      "sequence_names": [
+        "BAN Guinevere",
+        "BAN Nolan",
+        "PICK Terizla"
+      ],
+      "observed_frequency": 3,
+      "sample_size_games": 3
+    },
+    {
+      "sequence": [
+        "ban:h006",
+        "ban:h019",
+        "pick:h065"
+      ],
+      "sequence_names": [
+        "BAN Tigreal",
+        "BAN Minotaur",
+        "PICK Claude"
+      ],
+      "observed_frequency": 3,
+      "sample_size_games": 3
+    },
+    {
+      "sequence": [
+        "ban:h122",
+        "ban:h118",
+        "pick:h082"
+      ],
+      "sequence_names": [
+        "BAN Nolan",
+        "BAN Joy",
+        "PICK Terizla"
+      ],
+      "observed_frequency": 3,
+      "sample_size_games": 3
+    },
+    {
+      "sequence": [
+        "pick:h089",
+        "pick:h019",
+        "pick:h065"
+      ],
+      "sequence_names": [
+        "PICK Wanwan",
+        "PICK Minotaur",
+        "PICK Claude"
+      ],
+      "observed_frequency": 3,
+      "sample_size_games": 3
+    },
+    {
+      "sequence": [
+        "ban:h076",
+        "ban:h106",
+        "ban:h102"
+      ],
+      "sequence_names": [
+        "BAN Faramis",
+        "BAN Phoveus",
+        "BAN Mathilda"
+      ],
+      "observed_frequency": 3,
+      "sample_size_games": 3
+    },
+    {
+      "sequence": [
+        "ban:h080",
+        "ban:h076",
+        "ban:h118"
+      ],
+      "sequence_names": [
+        "BAN Guinevere",
+        "BAN Faramis",
+        "BAN Joy"
+      ],
+      "observed_frequency": 3,
+      "sample_size_games": 3
+    },
+    {
+      "sequence": [
+        "pick:h009",
+        "pick:h086",
+        "ban:h019"
+      ],
+      "sequence_names": [
+        "PICK Akai",
+        "PICK Lylia",
+        "BAN Minotaur"
+      ],
+      "observed_frequency": 3,
+      "sample_size_games": 3
+    },
+    {
+      "sequence": [
+        "ban:h017",
+        "ban:h118",
+        "ban:h122"
+      ],
+      "sequence_names": [
+        "BAN Fanny",
+        "BAN Joy",
+        "BAN Nolan"
+      ],
+      "observed_frequency": 3,
+      "sample_size_games": 3
+    },
+    {
+      "sequence": [
+        "pick:h103",
+        "pick:h117",
+        "pick:h110"
+      ],
+      "sequence_names": [
+        "PICK Paquito",
+        "PICK Fredrinn",
+        "PICK Valentina"
+      ],
+      "observed_frequency": 3,
+      "sample_size_games": 3
+    },
+    {
+      "sequence": [
+        "pick:h117",
+        "pick:h110",
+        "pick:h082"
+      ],
+      "sequence_names": [
+        "PICK Fredrinn",
+        "PICK Valentina",
+        "PICK Terizla"
+      ],
+      "observed_frequency": 3,
+      "sample_size_games": 3
+    },
+    {
+      "sequence": [
+        "pick:h110",
+        "pick:h082",
+        "pick:h087"
+      ],
+      "sequence_names": [
+        "PICK Valentina",
+        "PICK Terizla",
+        "PICK Baxia"
+      ],
+      "observed_frequency": 3,
+      "sample_size_games": 3
+    },
+    {
+      "sequence": [
+        "ban:h122",
+        "ban:h118",
+        "ban:h080"
+      ],
+      "sequence_names": [
+        "BAN Nolan",
+        "BAN Joy",
+        "BAN Guinevere"
+      ],
+      "observed_frequency": 3,
+      "sample_size_games": 3
+    }
+  ]
+}
