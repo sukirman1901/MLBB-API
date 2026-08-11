@@ -1,0 +1,125 @@
+{
+  "overall_first_pick_win_rate": 0.5789,
+  "data": [
+    {
+      "hero_id": "h082",
+      "hero_name": "Terizla",
+      "first_pick_count": 17,
+      "first_pick_wins": 9,
+      "first_pick_losses": 8,
+      "first_pick_win_rate": 0.5294,
+      "sample_size": 17,
+      "sample_sufficient": true
+    },
+    {
+      "hero_id": "h037",
+      "hero_name": "Lapu-Lapu",
+      "first_pick_count": 7,
+      "first_pick_wins": 1,
+      "first_pick_losses": 6,
+      "first_pick_win_rate": 0.1429,
+      "sample_size": 7,
+      "sample_sufficient": true
+    },
+    {
+      "hero_id": "h103",
+      "hero_name": "Paquito",
+      "first_pick_count": 7,
+      "first_pick_wins": 7,
+      "first_pick_losses": 0,
+      "first_pick_win_rate": 1.0,
+      "sample_size": 7,
+      "sample_sufficient": true
+    },
+    {
+      "hero_id": "h098",
+      "hero_name": "Khaleed",
+      "first_pick_count": 6,
+      "first_pick_wins": 3,
+      "first_pick_losses": 3,
+      "first_pick_win_rate": 0.5,
+      "sample_size": 6,
+      "sample_sufficient": true
+    },
+    {
+      "hero_id": "h120",
+      "hero_name": "Arlott",
+      "first_pick_count": 5,
+      "first_pick_wins": 2,
+      "first_pick_losses": 3,
+      "first_pick_win_rate": 0.4,
+      "sample_size": 5,
+      "sample_sufficient": true
+    },
+    {
+      "hero_id": "h095",
+      "hero_name": "Yu Zhong",
+      "first_pick_count": 5,
+      "first_pick_wins": 4,
+      "first_pick_losses": 1,
+      "first_pick_win_rate": 0.8,
+      "sample_size": 5,
+      "sample_sufficient": true
+    },
+    {
+      "hero_id": "h085",
+      "hero_name": "Dyrroth",
+      "first_pick_count": 3,
+      "first_pick_wins": 2,
+      "first_pick_losses": 1,
+      "first_pick_win_rate": 0.6667,
+      "sample_size": 3,
+      "sample_sufficient": false
+    },
+    {
+      "hero_id": "h106",
+      "hero_name": "Phoveus",
+      "first_pick_count": 2,
+      "first_pick_wins": 2,
+      "first_pick_losses": 0,
+      "first_pick_win_rate": 1.0,
+      "sample_size": 2,
+      "sample_sufficient": false
+    },
+    {
+      "hero_id": "h104",
+      "hero_name": "Gloo",
+      "first_pick_count": 2,
+      "first_pick_wins": 2,
+      "first_pick_losses": 0,
+      "first_pick_win_rate": 1.0,
+      "sample_size": 2,
+      "sample_sufficient": false
+    },
+    {
+      "hero_id": "h072",
+      "hero_name": "Thamuz",
+      "first_pick_count": 1,
+      "first_pick_wins": 0,
+      "first_pick_losses": 1,
+      "first_pick_win_rate": 0.0,
+      "sample_size": 1,
+      "sample_sufficient": false
+    },
+    {
+      "hero_id": "h097",
+      "hero_name": "Benedetta",
+      "first_pick_count": 1,
+      "first_pick_wins": 1,
+      "first_pick_losses": 0,
+      "first_pick_win_rate": 1.0,
+      "sample_size": 1,
+      "sample_sufficient": false
+    },
+    {
+      "hero_id": "h117",
+      "hero_name": "Fredrinn",
+      "first_pick_count": 1,
+      "first_pick_wins": 0,
+      "first_pick_losses": 1,
+      "first_pick_win_rate": 0.0,
+      "sample_size": 1,
+      "sample_sufficient": false
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "data": [
+    {
+      "hero_id": "h089",
+      "hero_name": "Wanwan",
+      "first_ban_count": 16,
+      "first_ban_rate": 0.2807
+    },
+    {
+      "hero_id": "h122",
+      "hero_name": "Nolan",
+      "first_ban_count": 8,
+      "first_ban_rate": 0.1404
+    },
+    {
+      "hero_id": "h080",
+      "hero_name": "Guinevere",
+      "first_ban_count": 7,
+      "first_ban_rate": 0.1228
+    },
+    {
+      "hero_id": "h076",
+      "hero_name": "Faramis",
+      "first_ban_count": 5,
+      "first_ban_rate": 0.0877
+    },
+    {
+      "hero_id": "h118",
+      "hero_name": "Joy",
+      "first_ban_count": 4,
+      "first_ban_rate": 0.0702
+    },
+    {
+      "hero_id": "h102",
+      "hero_name": "Mathilda",
+      "first_ban_count": 4,
+      "first_ban_rate": 0.0702
+    },
+    {
+      "hero_id": "h087",
+      "hero_name": "Baxia",
+      "first_ban_count": 3,
+      "first_ban_rate": 0.0526
+    },
+    {
+      "hero_id": "h106",
+      "hero_name": "Phoveus",
+      "first_ban_count": 2,
+      "first_ban_rate": 0.0351
+    },
+    {
+      "hero_id": "h110",
+      "hero_name": "Valentina",
+      "first_ban_count": 2,
+      "first_ban_rate": 0.0351
+    },
+    {
+      "hero_id": "h048",
+      "hero_name": "Diggie",
+      "first_ban_count": 1,
+      "first_ban_rate": 0.0175
+    },
+    {
+      "hero_id": "h117",
+      "hero_name": "Fredrinn",
+      "first_ban_count": 1,
+      "first_ban_rate": 0.0175
+    },
+    {
+      "hero_id": "h062",
+      "hero_name": "Kaja",
+      "first_ban_count": 1,
+      "first_ban_rate": 0.0175
+    },
+    {
+      "hero_id": "h017",
+      "hero_name": "Fanny",
+      "first_ban_count": 1,
+      "first_ban_rate": 0.0175
+    },
+    {
+      "hero_id": "h047",
+      "hero_name": "Lancelot",
+      "first_ban_count": 1,
+      "first_ban_rate": 0.0175
+    },
+    {
+      "hero_id": "h055",
+      "hero_name": "Angela",
+      "first_ban_count": 1,
+      "first_ban_rate": 0.0175
+    }
+  ]
+}
