@@ -12,8 +12,8 @@ Executes a full 17-point audit of canonical esports match data:
   5. Sequential game numbering per series
   6. Chronological draft completeness check
   7. Hero alias mapping & unresolved entity audit
-  8. First-pick & side advantage verification
-  9. Provenance hash & patch source audit
+  8. Patch Context Assignment Breakdown (Explicit, Verified Window, Inferred, Unresolved)
+  9. ISO-8601 Date Normalization & Provenance Hash audit
  10. VOD scope verification
 """
 
@@ -65,10 +65,14 @@ def run_audit():
     mapped_hero_ids_count = 0
 
     vod_available = 0
-    explicit_patch = 0
-    inferred_patch = 0
+    
+    # Patch Context Counts
+    explicit_patch_cnt = 0
+    verified_window_cnt = 0
+    inferred_patch_cnt = 0
+    unresolved_patch_cnt = 0
+    
     fabricated_stats = 0
-
     series_game_counts = defaultdict(int)
 
     for mf in match_files:
@@ -122,11 +126,17 @@ def run_audit():
             if vod_url and ('youtube' in vod_url.lower() or 'youtu.be' in vod_url.lower()):
                 vod_available += 1
 
-            # Patch check
-            if m.get('patch_source') == 'source':
-                explicit_patch += 1
+            # Patch Context Check
+            p_ctx = m.get('patch_context', {})
+            method = p_ctx.get('assignment_method', m.get('patch_source'))
+            if method == 'explicit_match_source':
+                explicit_patch_cnt += 1
+            elif method == 'verified_tournament_window':
+                verified_window_cnt += 1
+            elif method == 'date_inference' or method == 'inferred':
+                inferred_patch_cnt += 1
             else:
-                inferred_patch += 1
+                unresolved_patch_cnt += 1
 
             # Fabricated stats check (Rule 19)
             if m.get('player_performances'):
@@ -160,9 +170,12 @@ def run_audit():
     print(f"\nVOD:")
     print(f"Available: {vod_available}/{canonical_games}")
 
-    print(f"\nPatch:")
-    print(f"Explicit: {explicit_patch}/{canonical_games}")
-    print(f"Inferred: {inferred_patch}/{canonical_games}")
+    print(f"\nPatch Context Coverage:")
+    print(f"Resolved: {explicit_patch_cnt + verified_window_cnt + inferred_patch_cnt}/{canonical_games}")
+    print(f"Explicit Match Source: {explicit_patch_cnt}/{canonical_games}")
+    print(f"Verified Window: {verified_window_cnt}/{canonical_games}")
+    print(f"Inferred: {inferred_patch_cnt}/{canonical_games}")
+    print(f"Unresolved: {unresolved_patch_cnt}/{canonical_games}")
 
     print(f"\nFabricated statistics:")
     print(f"{fabricated_stats}")

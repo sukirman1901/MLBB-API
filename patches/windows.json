@@ -1,0 +1,24 @@
+{
+  "revdate": "2026-08-11",
+  "author": "sukirman1901",
+  "description": "Verified Tournament Patch Window Catalog with Effective Date Boundaries",
+  "data": [
+    {
+      "patch_window_id": "pw-m5-ko-1.8.44",
+      "tournament_id": "m5-world-championship",
+      "stage": "Knockout Stage",
+      "patch_version": "1.8.44",
+      "effective_from": "2023-12-09T00:00:00Z",
+      "effective_until": "2023-12-17T23:59:59Z",
+      "effective_date_semantics": "inclusive",
+      "status": "VERIFIED",
+      "source": {
+        "name": "Liquipedia",
+        "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
+        "source_type": "public_web",
+        "retrieved_at": "2026-08-11T14:50:00Z"
+      },
+      "evidence_note": "Liquipedia M5 Knockout Stage infobox and patch footnotes explicitly document patch 1.8.44 in competition."
+    }
+  ]
+}

@@ -11,7 +11,7 @@
       "game_number": 1,
       "date": "December 9, 2023 - 14:00{{abbr/SGT}}",
       "patch": "1.8.44",
-      "patch_source": "inferred",
+      "patch_source": "verified_tournament_window",
       "team_a": "team-fire-flux-esports",
       "team_b": "team-devu",
       "blue_side": "team-fire-flux-esports",
@@ -204,7 +204,25 @@
           "player_id": null
         }
       ],
-      "player_performances": []
+      "player_performances": [],
+      "date_iso": "2023-12-09T14:00:00Z",
+      "patch_context": {
+        "version": "1.8.44",
+        "patch_window_id": "pw-m5-ko-1.8.44",
+        "patch_release_date": "2023-12-20T00:00:00Z",
+        "effective_from": "2023-12-09T00:00:00Z",
+        "effective_until": "2023-12-17T23:59:59Z",
+        "days_since_release": -11,
+        "days_since_effective": 0,
+        "assignment_method": "verified_tournament_window",
+        "assignment_confidence": "HIGH",
+        "source": {
+          "name": "Liquipedia",
+          "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
+          "source_type": "public_web",
+          "retrieved_at": "2026-08-11T14:50:00Z"
+        }
+      }
     },
     {
       "match_id": "match-m5-ko-01-g2",
@@ -214,7 +232,7 @@
       "game_number": 2,
       "date": "December 9, 2023 - 14:00{{abbr/SGT}}",
       "patch": "1.8.44",
-      "patch_source": "inferred",
+      "patch_source": "verified_tournament_window",
       "team_a": "team-fire-flux-esports",
       "team_b": "team-devu",
       "blue_side": "team-fire-flux-esports",
@@ -407,7 +425,25 @@
           "player_id": null
         }
       ],
-      "player_performances": []
+      "player_performances": [],
+      "date_iso": "2023-12-09T14:00:00Z",
+      "patch_context": {
+        "version": "1.8.44",
+        "patch_window_id": "pw-m5-ko-1.8.44",
+        "patch_release_date": "2023-12-20T00:00:00Z",
+        "effective_from": "2023-12-09T00:00:00Z",
+        "effective_until": "2023-12-17T23:59:59Z",
+        "days_since_release": -11,
+        "days_since_effective": 0,
+        "assignment_method": "verified_tournament_window",
+        "assignment_confidence": "HIGH",
+        "source": {
+          "name": "Liquipedia",
+          "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
+          "source_type": "public_web",
+          "retrieved_at": "2026-08-11T14:50:00Z"
+        }
+      }
     },
     {
       "match_id": "match-m5-ko-01-g3",
@@ -417,7 +453,7 @@
       "game_number": 3,
       "date": "December 9, 2023 - 14:00{{abbr/SGT}}",
       "patch": "1.8.44",
-      "patch_source": "inferred",
+      "patch_source": "verified_tournament_window",
       "team_a": "team-fire-flux-esports",
       "team_b": "team-devu",
       "blue_side": "team-devu",
@@ -610,7 +646,25 @@
           "player_id": null
         }
       ],
-      "player_performances": []
+      "player_performances": [],
+      "date_iso": "2023-12-09T14:00:00Z",
+      "patch_context": {
+        "version": "1.8.44",
+        "patch_window_id": "pw-m5-ko-1.8.44",
+        "patch_release_date": "2023-12-20T00:00:00Z",
+        "effective_from": "2023-12-09T00:00:00Z",
+        "effective_until": "2023-12-17T23:59:59Z",
+        "days_since_release": -11,
+        "days_since_effective": 0,
+        "assignment_method": "verified_tournament_window",
+        "assignment_confidence": "HIGH",
+        "source": {
+          "name": "Liquipedia",
+          "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
+          "source_type": "public_web",
+          "retrieved_at": "2026-08-11T14:50:00Z"
+        }
+      }
     },
     {
       "match_id": "match-m5-ko-01-g4",
@@ -620,7 +674,7 @@
       "game_number": 4,
       "date": "December 9, 2023 - 14:00{{abbr/SGT}}",
       "patch": "1.8.44",
-      "patch_source": "inferred",
+      "patch_source": "verified_tournament_window",
       "team_a": "team-fire-flux-esports",
       "team_b": "team-devu",
       "blue_side": "team-fire-flux-esports",
@@ -813,7 +867,25 @@
           "player_id": null
         }
       ],
-      "player_performances": []
+      "player_performances": [],
+      "date_iso": "2023-12-09T14:00:00Z",
+      "patch_context": {
+        "version": "1.8.44",
+        "patch_window_id": "pw-m5-ko-1.8.44",
+        "patch_release_date": "2023-12-20T00:00:00Z",
+        "effective_from": "2023-12-09T00:00:00Z",
+        "effective_until": "2023-12-17T23:59:59Z",
+        "days_since_release": -11,
+        "days_since_effective": 0,
+        "assignment_method": "verified_tournament_window",
+        "assignment_confidence": "HIGH",
+        "source": {
+          "name": "Liquipedia",
+          "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
+          "source_type": "public_web",
+          "retrieved_at": "2026-08-11T14:50:00Z"
+        }
+      }
     },
     {
       "match_id": "match-m5-ko-02-g1",
@@ -823,7 +895,7 @@
       "game_number": 1,
       "date": "December 9, 2023 - 18:30{{abbr/SGT}}",
       "patch": "1.8.44",
-      "patch_source": "inferred",
+      "patch_source": "verified_tournament_window",
       "team_a": "team-onic",
       "team_b": "team-blck",
       "blue_side": "team-blck",
@@ -1016,7 +1088,25 @@
           "player_id": null
         }
       ],
-      "player_performances": []
+      "player_performances": [],
+      "date_iso": "2023-12-09T18:30:00Z",
+      "patch_context": {
+        "version": "1.8.44",
+        "patch_window_id": "pw-m5-ko-1.8.44",
+        "patch_release_date": "2023-12-20T00:00:00Z",
+        "effective_from": "2023-12-09T00:00:00Z",
+        "effective_until": "2023-12-17T23:59:59Z",
+        "days_since_release": -11,
+        "days_since_effective": 0,
+        "assignment_method": "verified_tournament_window",
+        "assignment_confidence": "HIGH",
+        "source": {
+          "name": "Liquipedia",
+          "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
+          "source_type": "public_web",
+          "retrieved_at": "2026-08-11T14:50:00Z"
+        }
+      }
     },
     {
       "match_id": "match-m5-ko-02-g2",
@@ -1026,7 +1116,7 @@
       "game_number": 2,
       "date": "December 9, 2023 - 18:30{{abbr/SGT}}",
       "patch": "1.8.44",
-      "patch_source": "inferred",
+      "patch_source": "verified_tournament_window",
       "team_a": "team-onic",
       "team_b": "team-blck",
       "blue_side": "team-blck",
@@ -1219,7 +1309,25 @@
           "player_id": null
         }
       ],
-      "player_performances": []
+      "player_performances": [],
+      "date_iso": "2023-12-09T18:30:00Z",
+      "patch_context": {
+        "version": "1.8.44",
+        "patch_window_id": "pw-m5-ko-1.8.44",
+        "patch_release_date": "2023-12-20T00:00:00Z",
+        "effective_from": "2023-12-09T00:00:00Z",
+        "effective_until": "2023-12-17T23:59:59Z",
+        "days_since_release": -11,
+        "days_since_effective": 0,
+        "assignment_method": "verified_tournament_window",
+        "assignment_confidence": "HIGH",
+        "source": {
+          "name": "Liquipedia",
+          "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
+          "source_type": "public_web",
+          "retrieved_at": "2026-08-11T14:50:00Z"
+        }
+      }
     },
     {
       "match_id": "match-m5-ko-02-g3",
@@ -1229,7 +1337,7 @@
       "game_number": 3,
       "date": "December 9, 2023 - 18:30{{abbr/SGT}}",
       "patch": "1.8.44",
-      "patch_source": "inferred",
+      "patch_source": "verified_tournament_window",
       "team_a": "team-onic",
       "team_b": "team-blck",
       "blue_side": "team-blck",
@@ -1422,7 +1530,25 @@
           "player_id": null
         }
       ],
-      "player_performances": []
+      "player_performances": [],
+      "date_iso": "2023-12-09T18:30:00Z",
+      "patch_context": {
+        "version": "1.8.44",
+        "patch_window_id": "pw-m5-ko-1.8.44",
+        "patch_release_date": "2023-12-20T00:00:00Z",
+        "effective_from": "2023-12-09T00:00:00Z",
+        "effective_until": "2023-12-17T23:59:59Z",
+        "days_since_release": -11,
+        "days_since_effective": 0,
+        "assignment_method": "verified_tournament_window",
+        "assignment_confidence": "HIGH",
+        "source": {
+          "name": "Liquipedia",
+          "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
+          "source_type": "public_web",
+          "retrieved_at": "2026-08-11T14:50:00Z"
+        }
+      }
     },
     {
       "match_id": "match-m5-ko-02-g4",
@@ -1432,7 +1558,7 @@
       "game_number": 4,
       "date": "December 9, 2023 - 18:30{{abbr/SGT}}",
       "patch": "1.8.44",
-      "patch_source": "inferred",
+      "patch_source": "verified_tournament_window",
       "team_a": "team-onic",
       "team_b": "team-blck",
       "blue_side": "team-blck",
@@ -1625,7 +1751,25 @@
           "player_id": null
         }
       ],
-      "player_performances": []
+      "player_performances": [],
+      "date_iso": "2023-12-09T18:30:00Z",
+      "patch_context": {
+        "version": "1.8.44",
+        "patch_window_id": "pw-m5-ko-1.8.44",
+        "patch_release_date": "2023-12-20T00:00:00Z",
+        "effective_from": "2023-12-09T00:00:00Z",
+        "effective_until": "2023-12-17T23:59:59Z",
+        "days_since_release": -11,
+        "days_since_effective": 0,
+        "assignment_method": "verified_tournament_window",
+        "assignment_confidence": "HIGH",
+        "source": {
+          "name": "Liquipedia",
+          "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
+          "source_type": "public_web",
+          "retrieved_at": "2026-08-11T14:50:00Z"
+        }
+      }
     },
     {
       "match_id": "match-m5-ko-02-g5",
@@ -1635,7 +1779,7 @@
       "game_number": 5,
       "date": "December 9, 2023 - 18:30{{abbr/SGT}}",
       "patch": "1.8.44",
-      "patch_source": "inferred",
+      "patch_source": "verified_tournament_window",
       "team_a": "team-onic",
       "team_b": "team-blck",
       "blue_side": "team-blck",
@@ -1828,7 +1972,25 @@
           "player_id": null
         }
       ],
-      "player_performances": []
+      "player_performances": [],
+      "date_iso": "2023-12-09T18:30:00Z",
+      "patch_context": {
+        "version": "1.8.44",
+        "patch_window_id": "pw-m5-ko-1.8.44",
+        "patch_release_date": "2023-12-20T00:00:00Z",
+        "effective_from": "2023-12-09T00:00:00Z",
+        "effective_until": "2023-12-17T23:59:59Z",
+        "days_since_release": -11,
+        "days_since_effective": 0,
+        "assignment_method": "verified_tournament_window",
+        "assignment_confidence": "HIGH",
+        "source": {
+          "name": "Liquipedia",
+          "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
+          "source_type": "public_web",
+          "retrieved_at": "2026-08-11T14:50:00Z"
+        }
+      }
     },
     {
       "match_id": "match-m5-ko-03-g1",
@@ -1838,7 +2000,7 @@
       "game_number": 1,
       "date": "December 10, 2023 - 14:00{{abbr/SGT}}",
       "patch": "1.8.44",
-      "patch_source": "inferred",
+      "patch_source": "verified_tournament_window",
       "team_a": "team-ap.bren",
       "team_b": "team-see-you-soon",
       "blue_side": "team-ap.bren",
@@ -2031,7 +2193,25 @@
           "player_id": null
         }
       ],
-      "player_performances": []
+      "player_performances": [],
+      "date_iso": "2023-12-10T14:00:00Z",
+      "patch_context": {
+        "version": "1.8.44",
+        "patch_window_id": "pw-m5-ko-1.8.44",
+        "patch_release_date": "2023-12-20T00:00:00Z",
+        "effective_from": "2023-12-09T00:00:00Z",
+        "effective_until": "2023-12-17T23:59:59Z",
+        "days_since_release": -10,
+        "days_since_effective": 1,
+        "assignment_method": "verified_tournament_window",
+        "assignment_confidence": "HIGH",
+        "source": {
+          "name": "Liquipedia",
+          "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
+          "source_type": "public_web",
+          "retrieved_at": "2026-08-11T14:50:00Z"
+        }
+      }
     },
     {
       "match_id": "match-m5-ko-03-g2",
@@ -2041,7 +2221,7 @@
       "game_number": 2,
       "date": "December 10, 2023 - 14:00{{abbr/SGT}}",
       "patch": "1.8.44",
-      "patch_source": "inferred",
+      "patch_source": "verified_tournament_window",
       "team_a": "team-ap.bren",
       "team_b": "team-see-you-soon",
       "blue_side": "team-ap.bren",
@@ -2234,7 +2414,25 @@
           "player_id": null
         }
       ],
-      "player_performances": []
+      "player_performances": [],
+      "date_iso": "2023-12-10T14:00:00Z",
+      "patch_context": {
+        "version": "1.8.44",
+        "patch_window_id": "pw-m5-ko-1.8.44",
+        "patch_release_date": "2023-12-20T00:00:00Z",
+        "effective_from": "2023-12-09T00:00:00Z",
+        "effective_until": "2023-12-17T23:59:59Z",
+        "days_since_release": -10,
+        "days_since_effective": 1,
+        "assignment_method": "verified_tournament_window",
+        "assignment_confidence": "HIGH",
+        "source": {
+          "name": "Liquipedia",
+          "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
+          "source_type": "public_web",
+          "retrieved_at": "2026-08-11T14:50:00Z"
+        }
+      }
     },
     {
       "match_id": "match-m5-ko-03-g3",
@@ -2244,7 +2442,7 @@
       "game_number": 3,
       "date": "December 10, 2023 - 14:00{{abbr/SGT}}",
       "patch": "1.8.44",
-      "patch_source": "inferred",
+      "patch_source": "verified_tournament_window",
       "team_a": "team-ap.bren",
       "team_b": "team-see-you-soon",
       "blue_side": "team-ap.bren",
@@ -2437,7 +2635,25 @@
           "player_id": null
         }
       ],
-      "player_performances": []
+      "player_performances": [],
+      "date_iso": "2023-12-10T14:00:00Z",
+      "patch_context": {
+        "version": "1.8.44",
+        "patch_window_id": "pw-m5-ko-1.8.44",
+        "patch_release_date": "2023-12-20T00:00:00Z",
+        "effective_from": "2023-12-09T00:00:00Z",
+        "effective_until": "2023-12-17T23:59:59Z",
+        "days_since_release": -10,
+        "days_since_effective": 1,
+        "assignment_method": "verified_tournament_window",
+        "assignment_confidence": "HIGH",
+        "source": {
+          "name": "Liquipedia",
+          "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
+          "source_type": "public_web",
+          "retrieved_at": "2026-08-11T14:50:00Z"
+        }
+      }
     },
     {
       "match_id": "match-m5-ko-03-g4",
@@ -2447,7 +2663,7 @@
       "game_number": 4,
       "date": "December 10, 2023 - 14:00{{abbr/SGT}}",
       "patch": "1.8.44",
-      "patch_source": "inferred",
+      "patch_source": "verified_tournament_window",
       "team_a": "team-ap.bren",
       "team_b": "team-see-you-soon",
       "blue_side": "team-see-you-soon",
@@ -2640,7 +2856,25 @@
           "player_id": null
         }
       ],
-      "player_performances": []
+      "player_performances": [],
+      "date_iso": "2023-12-10T14:00:00Z",
+      "patch_context": {
+        "version": "1.8.44",
+        "patch_window_id": "pw-m5-ko-1.8.44",
+        "patch_release_date": "2023-12-20T00:00:00Z",
+        "effective_from": "2023-12-09T00:00:00Z",
+        "effective_until": "2023-12-17T23:59:59Z",
+        "days_since_release": -10,
+        "days_since_effective": 1,
+        "assignment_method": "verified_tournament_window",
+        "assignment_confidence": "HIGH",
+        "source": {
+          "name": "Liquipedia",
+          "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
+          "source_type": "public_web",
+          "retrieved_at": "2026-08-11T14:50:00Z"
+        }
+      }
     },
     {
       "match_id": "match-m5-ko-04-g1",
@@ -2650,7 +2884,7 @@
       "game_number": 1,
       "date": "December 10, 2023 - 18:00{{abbr/SGT}}",
       "patch": "1.8.44",
-      "patch_source": "inferred",
+      "patch_source": "verified_tournament_window",
       "team_a": "team-geek-fam-id\n\t|substitutes={{playersubstitutions\n\t\t\t|{{substitution|in={{opponentplayer|caderaa",
       "team_b": "team-burmese-ghouls",
       "blue_side": "team-burmese-ghouls",
@@ -2843,7 +3077,25 @@
           "player_id": null
         }
       ],
-      "player_performances": []
+      "player_performances": [],
+      "date_iso": "2023-12-10T18:00:00Z",
+      "patch_context": {
+        "version": "1.8.44",
+        "patch_window_id": "pw-m5-ko-1.8.44",
+        "patch_release_date": "2023-12-20T00:00:00Z",
+        "effective_from": "2023-12-09T00:00:00Z",
+        "effective_until": "2023-12-17T23:59:59Z",
+        "days_since_release": -10,
+        "days_since_effective": 1,
+        "assignment_method": "verified_tournament_window",
+        "assignment_confidence": "HIGH",
+        "source": {
+          "name": "Liquipedia",
+          "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
+          "source_type": "public_web",
+          "retrieved_at": "2026-08-11T14:50:00Z"
+        }
+      }
     },
     {
       "match_id": "match-m5-ko-04-g2",
@@ -2853,7 +3105,7 @@
       "game_number": 2,
       "date": "December 10, 2023 - 18:00{{abbr/SGT}}",
       "patch": "1.8.44",
-      "patch_source": "inferred",
+      "patch_source": "verified_tournament_window",
       "team_a": "team-geek-fam-id\n\t|substitutes={{playersubstitutions\n\t\t\t|{{substitution|in={{opponentplayer|caderaa",
       "team_b": "team-burmese-ghouls",
       "blue_side": "team-geek-fam-id\n\t|substitutes={{playersubstitutions\n\t\t\t|{{substitution|in={{opponentplayer|caderaa",
@@ -3046,7 +3298,25 @@
           "player_id": null
         }
       ],
-      "player_performances": []
+      "player_performances": [],
+      "date_iso": "2023-12-10T18:00:00Z",
+      "patch_context": {
+        "version": "1.8.44",
+        "patch_window_id": "pw-m5-ko-1.8.44",
+        "patch_release_date": "2023-12-20T00:00:00Z",
+        "effective_from": "2023-12-09T00:00:00Z",
+        "effective_until": "2023-12-17T23:59:59Z",
+        "days_since_release": -10,
+        "days_since_effective": 1,
+        "assignment_method": "verified_tournament_window",
+        "assignment_confidence": "HIGH",
+        "source": {
+          "name": "Liquipedia",
+          "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
+          "source_type": "public_web",
+          "retrieved_at": "2026-08-11T14:50:00Z"
+        }
+      }
     },
     {
       "match_id": "match-m5-ko-04-g3",
@@ -3056,7 +3326,7 @@
       "game_number": 3,
       "date": "December 10, 2023 - 18:00{{abbr/SGT}}",
       "patch": "1.8.44",
-      "patch_source": "inferred",
+      "patch_source": "verified_tournament_window",
       "team_a": "team-geek-fam-id\n\t|substitutes={{playersubstitutions\n\t\t\t|{{substitution|in={{opponentplayer|caderaa",
       "team_b": "team-burmese-ghouls",
       "blue_side": "team-burmese-ghouls",
@@ -3249,7 +3519,25 @@
           "player_id": null
         }
       ],
-      "player_performances": []
+      "player_performances": [],
+      "date_iso": "2023-12-10T18:00:00Z",
+      "patch_context": {
+        "version": "1.8.44",
+        "patch_window_id": "pw-m5-ko-1.8.44",
+        "patch_release_date": "2023-12-20T00:00:00Z",
+        "effective_from": "2023-12-09T00:00:00Z",
+        "effective_until": "2023-12-17T23:59:59Z",
+        "days_since_release": -10,
+        "days_since_effective": 1,
+        "assignment_method": "verified_tournament_window",
+        "assignment_confidence": "HIGH",
+        "source": {
+          "name": "Liquipedia",
+          "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
+          "source_type": "public_web",
+          "retrieved_at": "2026-08-11T14:50:00Z"
+        }
+      }
     },
     {
       "match_id": "match-m5-ko-04-g4",
@@ -3259,7 +3547,7 @@
       "game_number": 4,
       "date": "December 10, 2023 - 18:00{{abbr/SGT}}",
       "patch": "1.8.44",
-      "patch_source": "inferred",
+      "patch_source": "verified_tournament_window",
       "team_a": "team-geek-fam-id\n\t|substitutes={{playersubstitutions\n\t\t\t|{{substitution|in={{opponentplayer|caderaa",
       "team_b": "team-burmese-ghouls",
       "blue_side": "team-geek-fam-id\n\t|substitutes={{playersubstitutions\n\t\t\t|{{substitution|in={{opponentplayer|caderaa",
@@ -3452,7 +3740,25 @@
           "player_id": null
         }
       ],
-      "player_performances": []
+      "player_performances": [],
+      "date_iso": "2023-12-10T18:00:00Z",
+      "patch_context": {
+        "version": "1.8.44",
+        "patch_window_id": "pw-m5-ko-1.8.44",
+        "patch_release_date": "2023-12-20T00:00:00Z",
+        "effective_from": "2023-12-09T00:00:00Z",
+        "effective_until": "2023-12-17T23:59:59Z",
+        "days_since_release": -10,
+        "days_since_effective": 1,
+        "assignment_method": "verified_tournament_window",
+        "assignment_confidence": "HIGH",
+        "source": {
+          "name": "Liquipedia",
+          "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
+          "source_type": "public_web",
+          "retrieved_at": "2026-08-11T14:50:00Z"
+        }
+      }
     },
     {
       "match_id": "match-m5-ko-04-g5",
@@ -3462,7 +3768,7 @@
       "game_number": 5,
       "date": "December 10, 2023 - 18:00{{abbr/SGT}}",
       "patch": "1.8.44",
-      "patch_source": "inferred",
+      "patch_source": "verified_tournament_window",
       "team_a": "team-geek-fam-id\n\t|substitutes={{playersubstitutions\n\t\t\t|{{substitution|in={{opponentplayer|caderaa",
       "team_b": "team-burmese-ghouls",
       "blue_side": "team-burmese-ghouls",
@@ -3655,7 +3961,25 @@
           "player_id": null
         }
       ],
-      "player_performances": []
+      "player_performances": [],
+      "date_iso": "2023-12-10T18:00:00Z",
+      "patch_context": {
+        "version": "1.8.44",
+        "patch_window_id": "pw-m5-ko-1.8.44",
+        "patch_release_date": "2023-12-20T00:00:00Z",
+        "effective_from": "2023-12-09T00:00:00Z",
+        "effective_until": "2023-12-17T23:59:59Z",
+        "days_since_release": -10,
+        "days_since_effective": 1,
+        "assignment_method": "verified_tournament_window",
+        "assignment_confidence": "HIGH",
+        "source": {
+          "name": "Liquipedia",
+          "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
+          "source_type": "public_web",
+          "retrieved_at": "2026-08-11T14:50:00Z"
+        }
+      }
     },
     {
       "match_id": "match-m5-ko-05-g1",
@@ -3665,7 +3989,7 @@
       "game_number": 1,
       "date": "December 12, 2023 - 14:00{{Abbr/SGT}}",
       "patch": "1.8.44",
-      "patch_source": "inferred",
+      "patch_source": "verified_tournament_window",
       "team_a": "team-devu",
       "team_b": "team-onic",
       "blue_side": "team-devu",
@@ -3858,7 +4182,25 @@
           "player_id": null
         }
       ],
-      "player_performances": []
+      "player_performances": [],
+      "date_iso": "2023-12-12T14:00:00Z",
+      "patch_context": {
+        "version": "1.8.44",
+        "patch_window_id": "pw-m5-ko-1.8.44",
+        "patch_release_date": "2023-12-20T00:00:00Z",
+        "effective_from": "2023-12-09T00:00:00Z",
+        "effective_until": "2023-12-17T23:59:59Z",
+        "days_since_release": -8,
+        "days_since_effective": 3,
+        "assignment_method": "verified_tournament_window",
+        "assignment_confidence": "HIGH",
+        "source": {
+          "name": "Liquipedia",
+          "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
+          "source_type": "public_web",
+          "retrieved_at": "2026-08-11T14:50:00Z"
+        }
+      }
     },
     {
       "match_id": "match-m5-ko-05-g2",
@@ -3868,7 +4210,7 @@
       "game_number": 2,
       "date": "December 12, 2023 - 14:00{{Abbr/SGT}}",
       "patch": "1.8.44",
-      "patch_source": "inferred",
+      "patch_source": "verified_tournament_window",
       "team_a": "team-devu",
       "team_b": "team-onic",
       "blue_side": "team-onic",
@@ -4061,7 +4403,25 @@
           "player_id": null
         }
       ],
-      "player_performances": []
+      "player_performances": [],
+      "date_iso": "2023-12-12T14:00:00Z",
+      "patch_context": {
+        "version": "1.8.44",
+        "patch_window_id": "pw-m5-ko-1.8.44",
+        "patch_release_date": "2023-12-20T00:00:00Z",
+        "effective_from": "2023-12-09T00:00:00Z",
+        "effective_until": "2023-12-17T23:59:59Z",
+        "days_since_release": -8,
+        "days_since_effective": 3,
+        "assignment_method": "verified_tournament_window",
+        "assignment_confidence": "HIGH",
+        "source": {
+          "name": "Liquipedia",
+          "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
+          "source_type": "public_web",
+          "retrieved_at": "2026-08-11T14:50:00Z"
+        }
+      }
     },
     {
       "match_id": "match-m5-ko-05-g3",
@@ -4071,7 +4431,7 @@
       "game_number": 3,
       "date": "December 12, 2023 - 14:00{{Abbr/SGT}}",
       "patch": "1.8.44",
-      "patch_source": "inferred",
+      "patch_source": "verified_tournament_window",
       "team_a": "team-devu",
       "team_b": "team-onic",
       "blue_side": "team-devu",
@@ -4264,7 +4624,25 @@
           "player_id": null
         }
       ],
-      "player_performances": []
+      "player_performances": [],
+      "date_iso": "2023-12-12T14:00:00Z",
+      "patch_context": {
+        "version": "1.8.44",
+        "patch_window_id": "pw-m5-ko-1.8.44",
+        "patch_release_date": "2023-12-20T00:00:00Z",
+        "effective_from": "2023-12-09T00:00:00Z",
+        "effective_until": "2023-12-17T23:59:59Z",
+        "days_since_release": -8,
+        "days_since_effective": 3,
+        "assignment_method": "verified_tournament_window",
+        "assignment_confidence": "HIGH",
+        "source": {
+          "name": "Liquipedia",
+          "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
+          "source_type": "public_web",
+          "retrieved_at": "2026-08-11T14:50:00Z"
+        }
+      }
     },
     {
       "match_id": "match-m5-ko-06-g1",
@@ -4274,7 +4652,7 @@
       "game_number": 1,
       "date": "December 12, 2023 - 18:00{{abbr/SGT}}",
       "patch": "1.8.44",
-      "patch_source": "inferred",
+      "patch_source": "verified_tournament_window",
       "team_a": "team-ap.bren",
       "team_b": "team-geek-fam-id\n\t\t|substitutes={{playersubstitutions\n\t\t\t|{{substitution|in={{opponentplayer|caderaa",
       "blue_side": "team-geek-fam-id\n\t\t|substitutes={{playersubstitutions\n\t\t\t|{{substitution|in={{opponentplayer|caderaa",
@@ -4467,7 +4845,25 @@
           "player_id": null
         }
       ],
-      "player_performances": []
+      "player_performances": [],
+      "date_iso": "2023-12-12T18:00:00Z",
+      "patch_context": {
+        "version": "1.8.44",
+        "patch_window_id": "pw-m5-ko-1.8.44",
+        "patch_release_date": "2023-12-20T00:00:00Z",
+        "effective_from": "2023-12-09T00:00:00Z",
+        "effective_until": "2023-12-17T23:59:59Z",
+        "days_since_release": -8,
+        "days_since_effective": 3,
+        "assignment_method": "verified_tournament_window",
+        "assignment_confidence": "HIGH",
+        "source": {
+          "name": "Liquipedia",
+          "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
+          "source_type": "public_web",
+          "retrieved_at": "2026-08-11T14:50:00Z"
+        }
+      }
     },
     {
       "match_id": "match-m5-ko-06-g2",
@@ -4477,7 +4873,7 @@
       "game_number": 2,
       "date": "December 12, 2023 - 18:00{{abbr/SGT}}",
       "patch": "1.8.44",
-      "patch_source": "inferred",
+      "patch_source": "verified_tournament_window",
       "team_a": "team-ap.bren",
       "team_b": "team-geek-fam-id\n\t\t|substitutes={{playersubstitutions\n\t\t\t|{{substitution|in={{opponentplayer|caderaa",
       "blue_side": "team-geek-fam-id\n\t\t|substitutes={{playersubstitutions\n\t\t\t|{{substitution|in={{opponentplayer|caderaa",
@@ -4670,7 +5066,25 @@
           "player_id": null
         }
       ],
-      "player_performances": []
+      "player_performances": [],
+      "date_iso": "2023-12-12T18:00:00Z",
+      "patch_context": {
+        "version": "1.8.44",
+        "patch_window_id": "pw-m5-ko-1.8.44",
+        "patch_release_date": "2023-12-20T00:00:00Z",
+        "effective_from": "2023-12-09T00:00:00Z",
+        "effective_until": "2023-12-17T23:59:59Z",
+        "days_since_release": -8,
+        "days_since_effective": 3,
+        "assignment_method": "verified_tournament_window",
+        "assignment_confidence": "HIGH",
+        "source": {
+          "name": "Liquipedia",
+          "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
+          "source_type": "public_web",
+          "retrieved_at": "2026-08-11T14:50:00Z"
+        }
+      }
     },
     {
       "match_id": "match-m5-ko-06-g3",
@@ -4680,7 +5094,7 @@
       "game_number": 3,
       "date": "December 12, 2023 - 18:00{{abbr/SGT}}",
       "patch": "1.8.44",
-      "patch_source": "inferred",
+      "patch_source": "verified_tournament_window",
       "team_a": "team-ap.bren",
       "team_b": "team-geek-fam-id\n\t\t|substitutes={{playersubstitutions\n\t\t\t|{{substitution|in={{opponentplayer|caderaa",
       "blue_side": "team-geek-fam-id\n\t\t|substitutes={{playersubstitutions\n\t\t\t|{{substitution|in={{opponentplayer|caderaa",
@@ -4873,7 +5287,25 @@
           "player_id": null
         }
       ],
-      "player_performances": []
+      "player_performances": [],
+      "date_iso": "2023-12-12T18:00:00Z",
+      "patch_context": {
+        "version": "1.8.44",
+        "patch_window_id": "pw-m5-ko-1.8.44",
+        "patch_release_date": "2023-12-20T00:00:00Z",
+        "effective_from": "2023-12-09T00:00:00Z",
+        "effective_until": "2023-12-17T23:59:59Z",
+        "days_since_release": -8,
+        "days_since_effective": 3,
+        "assignment_method": "verified_tournament_window",
+        "assignment_confidence": "HIGH",
+        "source": {
+          "name": "Liquipedia",
+          "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
+          "source_type": "public_web",
+          "retrieved_at": "2026-08-11T14:50:00Z"
+        }
+      }
     },
     {
       "match_id": "match-m5-ko-06-g4",
@@ -4883,7 +5315,7 @@
       "game_number": 4,
       "date": "December 12, 2023 - 18:00{{abbr/SGT}}",
       "patch": "1.8.44",
-      "patch_source": "inferred",
+      "patch_source": "verified_tournament_window",
       "team_a": "team-ap.bren",
       "team_b": "team-geek-fam-id\n\t\t|substitutes={{playersubstitutions\n\t\t\t|{{substitution|in={{opponentplayer|caderaa",
       "blue_side": "team-geek-fam-id\n\t\t|substitutes={{playersubstitutions\n\t\t\t|{{substitution|in={{opponentplayer|caderaa",
@@ -5076,7 +5508,25 @@
           "player_id": null
         }
       ],
-      "player_performances": []
+      "player_performances": [],
+      "date_iso": "2023-12-12T18:00:00Z",
+      "patch_context": {
+        "version": "1.8.44",
+        "patch_window_id": "pw-m5-ko-1.8.44",
+        "patch_release_date": "2023-12-20T00:00:00Z",
+        "effective_from": "2023-12-09T00:00:00Z",
+        "effective_until": "2023-12-17T23:59:59Z",
+        "days_since_release": -8,
+        "days_since_effective": 3,
+        "assignment_method": "verified_tournament_window",
+        "assignment_confidence": "HIGH",
+        "source": {
+          "name": "Liquipedia",
+          "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
+          "source_type": "public_web",
+          "retrieved_at": "2026-08-11T14:50:00Z"
+        }
+      }
     },
     {
       "match_id": "match-m5-ko-07-g1",
@@ -5086,7 +5536,7 @@
       "game_number": 1,
       "date": "December 16, 2023 - 15:00{{abbr/SGT}}",
       "patch": "1.8.44",
-      "patch_source": "inferred",
+      "patch_source": "verified_tournament_window",
       "team_a": "team-onic",
       "team_b": "team-ap.bren",
       "blue_side": "team-onic",
@@ -5279,7 +5729,25 @@
           "player_id": null
         }
       ],
-      "player_performances": []
+      "player_performances": [],
+      "date_iso": "2023-12-16T15:00:00Z",
+      "patch_context": {
+        "version": "1.8.44",
+        "patch_window_id": "pw-m5-ko-1.8.44",
+        "patch_release_date": "2023-12-20T00:00:00Z",
+        "effective_from": "2023-12-09T00:00:00Z",
+        "effective_until": "2023-12-17T23:59:59Z",
+        "days_since_release": -4,
+        "days_since_effective": 7,
+        "assignment_method": "verified_tournament_window",
+        "assignment_confidence": "HIGH",
+        "source": {
+          "name": "Liquipedia",
+          "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
+          "source_type": "public_web",
+          "retrieved_at": "2026-08-11T14:50:00Z"
+        }
+      }
     },
     {
       "match_id": "match-m5-ko-07-g2",
@@ -5289,7 +5757,7 @@
       "game_number": 2,
       "date": "December 16, 2023 - 15:00{{abbr/SGT}}",
       "patch": "1.8.44",
-      "patch_source": "inferred",
+      "patch_source": "verified_tournament_window",
       "team_a": "team-onic",
       "team_b": "team-ap.bren",
       "blue_side": "team-onic",
@@ -5482,7 +5950,25 @@
           "player_id": null
         }
       ],
-      "player_performances": []
+      "player_performances": [],
+      "date_iso": "2023-12-16T15:00:00Z",
+      "patch_context": {
+        "version": "1.8.44",
+        "patch_window_id": "pw-m5-ko-1.8.44",
+        "patch_release_date": "2023-12-20T00:00:00Z",
+        "effective_from": "2023-12-09T00:00:00Z",
+        "effective_until": "2023-12-17T23:59:59Z",
+        "days_since_release": -4,
+        "days_since_effective": 7,
+        "assignment_method": "verified_tournament_window",
+        "assignment_confidence": "HIGH",
+        "source": {
+          "name": "Liquipedia",
+          "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
+          "source_type": "public_web",
+          "retrieved_at": "2026-08-11T14:50:00Z"
+        }
+      }
     },
     {
       "match_id": "match-m5-ko-07-g3",
@@ -5492,7 +5978,7 @@
       "game_number": 3,
       "date": "December 16, 2023 - 15:00{{abbr/SGT}}",
       "patch": "1.8.44",
-      "patch_source": "inferred",
+      "patch_source": "verified_tournament_window",
       "team_a": "team-onic",
       "team_b": "team-ap.bren",
       "blue_side": "team-onic",
@@ -5685,7 +6171,25 @@
           "player_id": null
         }
       ],
-      "player_performances": []
+      "player_performances": [],
+      "date_iso": "2023-12-16T15:00:00Z",
+      "patch_context": {
+        "version": "1.8.44",
+        "patch_window_id": "pw-m5-ko-1.8.44",
+        "patch_release_date": "2023-12-20T00:00:00Z",
+        "effective_from": "2023-12-09T00:00:00Z",
+        "effective_until": "2023-12-17T23:59:59Z",
+        "days_since_release": -4,
+        "days_since_effective": 7,
+        "assignment_method": "verified_tournament_window",
+        "assignment_confidence": "HIGH",
+        "source": {
+          "name": "Liquipedia",
+          "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
+          "source_type": "public_web",
+          "retrieved_at": "2026-08-11T14:50:00Z"
+        }
+      }
     },
     {
       "match_id": "match-m5-ko-08-g1",
@@ -5695,7 +6199,7 @@
       "game_number": 1,
       "date": "December 11, 2023 - 14:00{{abbr/SGT}}",
       "patch": "1.8.44",
-      "patch_source": "inferred",
+      "patch_source": "verified_tournament_window",
       "team_a": "team-fire-flux-esports",
       "team_b": "team-blck",
       "blue_side": "team-blck",
@@ -5888,7 +6392,25 @@
           "player_id": null
         }
       ],
-      "player_performances": []
+      "player_performances": [],
+      "date_iso": "2023-12-11T14:00:00Z",
+      "patch_context": {
+        "version": "1.8.44",
+        "patch_window_id": "pw-m5-ko-1.8.44",
+        "patch_release_date": "2023-12-20T00:00:00Z",
+        "effective_from": "2023-12-09T00:00:00Z",
+        "effective_until": "2023-12-17T23:59:59Z",
+        "days_since_release": -9,
+        "days_since_effective": 2,
+        "assignment_method": "verified_tournament_window",
+        "assignment_confidence": "HIGH",
+        "source": {
+          "name": "Liquipedia",
+          "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
+          "source_type": "public_web",
+          "retrieved_at": "2026-08-11T14:50:00Z"
+        }
+      }
     },
     {
       "match_id": "match-m5-ko-08-g2",
@@ -5898,7 +6420,7 @@
       "game_number": 2,
       "date": "December 11, 2023 - 14:00{{abbr/SGT}}",
       "patch": "1.8.44",
-      "patch_source": "inferred",
+      "patch_source": "verified_tournament_window",
       "team_a": "team-fire-flux-esports",
       "team_b": "team-blck",
       "blue_side": "team-fire-flux-esports",
@@ -6091,7 +6613,25 @@
           "player_id": null
         }
       ],
-      "player_performances": []
+      "player_performances": [],
+      "date_iso": "2023-12-11T14:00:00Z",
+      "patch_context": {
+        "version": "1.8.44",
+        "patch_window_id": "pw-m5-ko-1.8.44",
+        "patch_release_date": "2023-12-20T00:00:00Z",
+        "effective_from": "2023-12-09T00:00:00Z",
+        "effective_until": "2023-12-17T23:59:59Z",
+        "days_since_release": -9,
+        "days_since_effective": 2,
+        "assignment_method": "verified_tournament_window",
+        "assignment_confidence": "HIGH",
+        "source": {
+          "name": "Liquipedia",
+          "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
+          "source_type": "public_web",
+          "retrieved_at": "2026-08-11T14:50:00Z"
+        }
+      }
     },
     {
       "match_id": "match-m5-ko-08-g3",
@@ -6101,7 +6641,7 @@
       "game_number": 3,
       "date": "December 11, 2023 - 14:00{{abbr/SGT}}",
       "patch": "1.8.44",
-      "patch_source": "inferred",
+      "patch_source": "verified_tournament_window",
       "team_a": "team-fire-flux-esports",
       "team_b": "team-blck",
       "blue_side": "team-blck",
@@ -6294,7 +6834,25 @@
           "player_id": null
         }
       ],
-      "player_performances": []
+      "player_performances": [],
+      "date_iso": "2023-12-11T14:00:00Z",
+      "patch_context": {
+        "version": "1.8.44",
+        "patch_window_id": "pw-m5-ko-1.8.44",
+        "patch_release_date": "2023-12-20T00:00:00Z",
+        "effective_from": "2023-12-09T00:00:00Z",
+        "effective_until": "2023-12-17T23:59:59Z",
+        "days_since_release": -9,
+        "days_since_effective": 2,
+        "assignment_method": "verified_tournament_window",
+        "assignment_confidence": "HIGH",
+        "source": {
+          "name": "Liquipedia",
+          "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
+          "source_type": "public_web",
+          "retrieved_at": "2026-08-11T14:50:00Z"
+        }
+      }
     },
     {
       "match_id": "match-m5-ko-08-g4",
@@ -6304,7 +6862,7 @@
       "game_number": 4,
       "date": "December 11, 2023 - 14:00{{abbr/SGT}}",
       "patch": "1.8.44",
-      "patch_source": "inferred",
+      "patch_source": "verified_tournament_window",
       "team_a": "team-fire-flux-esports",
       "team_b": "team-blck",
       "blue_side": "team-fire-flux-esports",
@@ -6497,7 +7055,25 @@
           "player_id": null
         }
       ],
-      "player_performances": []
+      "player_performances": [],
+      "date_iso": "2023-12-11T14:00:00Z",
+      "patch_context": {
+        "version": "1.8.44",
+        "patch_window_id": "pw-m5-ko-1.8.44",
+        "patch_release_date": "2023-12-20T00:00:00Z",
+        "effective_from": "2023-12-09T00:00:00Z",
+        "effective_until": "2023-12-17T23:59:59Z",
+        "days_since_release": -9,
+        "days_since_effective": 2,
+        "assignment_method": "verified_tournament_window",
+        "assignment_confidence": "HIGH",
+        "source": {
+          "name": "Liquipedia",
+          "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
+          "source_type": "public_web",
+          "retrieved_at": "2026-08-11T14:50:00Z"
+        }
+      }
     },
     {
       "match_id": "match-m5-ko-09-g1",
@@ -6507,7 +7083,7 @@
       "game_number": 1,
       "date": "December 11, 2023 - 18:00{{abbr/SGT}}",
       "patch": "1.8.44",
-      "patch_source": "inferred",
+      "patch_source": "verified_tournament_window",
       "team_a": "team-see-you-soon",
       "team_b": "team-burmese-ghouls",
       "blue_side": "team-burmese-ghouls",
@@ -6700,7 +7276,25 @@
           "player_id": null
         }
       ],
-      "player_performances": []
+      "player_performances": [],
+      "date_iso": "2023-12-11T18:00:00Z",
+      "patch_context": {
+        "version": "1.8.44",
+        "patch_window_id": "pw-m5-ko-1.8.44",
+        "patch_release_date": "2023-12-20T00:00:00Z",
+        "effective_from": "2023-12-09T00:00:00Z",
+        "effective_until": "2023-12-17T23:59:59Z",
+        "days_since_release": -9,
+        "days_since_effective": 2,
+        "assignment_method": "verified_tournament_window",
+        "assignment_confidence": "HIGH",
+        "source": {
+          "name": "Liquipedia",
+          "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
+          "source_type": "public_web",
+          "retrieved_at": "2026-08-11T14:50:00Z"
+        }
+      }
     },
     {
       "match_id": "match-m5-ko-09-g2",
@@ -6710,7 +7304,7 @@
       "game_number": 2,
       "date": "December 11, 2023 - 18:00{{abbr/SGT}}",
       "patch": "1.8.44",
-      "patch_source": "inferred",
+      "patch_source": "verified_tournament_window",
       "team_a": "team-see-you-soon",
       "team_b": "team-burmese-ghouls",
       "blue_side": "team-burmese-ghouls",
@@ -6903,7 +7497,25 @@
           "player_id": null
         }
       ],
-      "player_performances": []
+      "player_performances": [],
+      "date_iso": "2023-12-11T18:00:00Z",
+      "patch_context": {
+        "version": "1.8.44",
+        "patch_window_id": "pw-m5-ko-1.8.44",
+        "patch_release_date": "2023-12-20T00:00:00Z",
+        "effective_from": "2023-12-09T00:00:00Z",
+        "effective_until": "2023-12-17T23:59:59Z",
+        "days_since_release": -9,
+        "days_since_effective": 2,
+        "assignment_method": "verified_tournament_window",
+        "assignment_confidence": "HIGH",
+        "source": {
+          "name": "Liquipedia",
+          "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
+          "source_type": "public_web",
+          "retrieved_at": "2026-08-11T14:50:00Z"
+        }
+      }
     },
     {
       "match_id": "match-m5-ko-09-g3",
@@ -6913,7 +7525,7 @@
       "game_number": 3,
       "date": "December 11, 2023 - 18:00{{abbr/SGT}}",
       "patch": "1.8.44",
-      "patch_source": "inferred",
+      "patch_source": "verified_tournament_window",
       "team_a": "team-see-you-soon",
       "team_b": "team-burmese-ghouls",
       "blue_side": "team-see-you-soon",
@@ -7106,7 +7718,25 @@
           "player_id": null
         }
       ],
-      "player_performances": []
+      "player_performances": [],
+      "date_iso": "2023-12-11T18:00:00Z",
+      "patch_context": {
+        "version": "1.8.44",
+        "patch_window_id": "pw-m5-ko-1.8.44",
+        "patch_release_date": "2023-12-20T00:00:00Z",
+        "effective_from": "2023-12-09T00:00:00Z",
+        "effective_until": "2023-12-17T23:59:59Z",
+        "days_since_release": -9,
+        "days_since_effective": 2,
+        "assignment_method": "verified_tournament_window",
+        "assignment_confidence": "HIGH",
+        "source": {
+          "name": "Liquipedia",
+          "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
+          "source_type": "public_web",
+          "retrieved_at": "2026-08-11T14:50:00Z"
+        }
+      }
     },
     {
       "match_id": "match-m5-ko-10-g1",
@@ -7116,7 +7746,7 @@
       "game_number": 1,
       "date": "December 15, 2023 - 14:00{{abbr/SGT}}",
       "patch": "1.8.44",
-      "patch_source": "inferred",
+      "patch_source": "verified_tournament_window",
       "team_a": "team-geek-fam-id",
       "team_b": "team-blck",
       "blue_side": "team-blck",
@@ -7309,7 +7939,25 @@
           "player_id": null
         }
       ],
-      "player_performances": []
+      "player_performances": [],
+      "date_iso": "2023-12-15T14:00:00Z",
+      "patch_context": {
+        "version": "1.8.44",
+        "patch_window_id": "pw-m5-ko-1.8.44",
+        "patch_release_date": "2023-12-20T00:00:00Z",
+        "effective_from": "2023-12-09T00:00:00Z",
+        "effective_until": "2023-12-17T23:59:59Z",
+        "days_since_release": -5,
+        "days_since_effective": 6,
+        "assignment_method": "verified_tournament_window",
+        "assignment_confidence": "HIGH",
+        "source": {
+          "name": "Liquipedia",
+          "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
+          "source_type": "public_web",
+          "retrieved_at": "2026-08-11T14:50:00Z"
+        }
+      }
     },
     {
       "match_id": "match-m5-ko-10-g2",
@@ -7319,7 +7967,7 @@
       "game_number": 2,
       "date": "December 15, 2023 - 14:00{{abbr/SGT}}",
       "patch": "1.8.44",
-      "patch_source": "inferred",
+      "patch_source": "verified_tournament_window",
       "team_a": "team-geek-fam-id",
       "team_b": "team-blck",
       "blue_side": "team-blck",
@@ -7512,7 +8160,25 @@
           "player_id": null
         }
       ],
-      "player_performances": []
+      "player_performances": [],
+      "date_iso": "2023-12-15T14:00:00Z",
+      "patch_context": {
+        "version": "1.8.44",
+        "patch_window_id": "pw-m5-ko-1.8.44",
+        "patch_release_date": "2023-12-20T00:00:00Z",
+        "effective_from": "2023-12-09T00:00:00Z",
+        "effective_until": "2023-12-17T23:59:59Z",
+        "days_since_release": -5,
+        "days_since_effective": 6,
+        "assignment_method": "verified_tournament_window",
+        "assignment_confidence": "HIGH",
+        "source": {
+          "name": "Liquipedia",
+          "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
+          "source_type": "public_web",
+          "retrieved_at": "2026-08-11T14:50:00Z"
+        }
+      }
     },
     {
       "match_id": "match-m5-ko-10-g3",
@@ -7522,7 +8188,7 @@
       "game_number": 3,
       "date": "December 15, 2023 - 14:00{{abbr/SGT}}",
       "patch": "1.8.44",
-      "patch_source": "inferred",
+      "patch_source": "verified_tournament_window",
       "team_a": "team-geek-fam-id",
       "team_b": "team-blck",
       "blue_side": "team-geek-fam-id",
@@ -7715,7 +8381,25 @@
           "player_id": null
         }
       ],
-      "player_performances": []
+      "player_performances": [],
+      "date_iso": "2023-12-15T14:00:00Z",
+      "patch_context": {
+        "version": "1.8.44",
+        "patch_window_id": "pw-m5-ko-1.8.44",
+        "patch_release_date": "2023-12-20T00:00:00Z",
+        "effective_from": "2023-12-09T00:00:00Z",
+        "effective_until": "2023-12-17T23:59:59Z",
+        "days_since_release": -5,
+        "days_since_effective": 6,
+        "assignment_method": "verified_tournament_window",
+        "assignment_confidence": "HIGH",
+        "source": {
+          "name": "Liquipedia",
+          "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
+          "source_type": "public_web",
+          "retrieved_at": "2026-08-11T14:50:00Z"
+        }
+      }
     },
     {
       "match_id": "match-m5-ko-10-g4",
@@ -7725,7 +8409,7 @@
       "game_number": 4,
       "date": "December 15, 2023 - 14:00{{abbr/SGT}}",
       "patch": "1.8.44",
-      "patch_source": "inferred",
+      "patch_source": "verified_tournament_window",
       "team_a": "team-geek-fam-id",
       "team_b": "team-blck",
       "blue_side": "team-geek-fam-id",
@@ -7918,7 +8602,25 @@
           "player_id": null
         }
       ],
-      "player_performances": []
+      "player_performances": [],
+      "date_iso": "2023-12-15T14:00:00Z",
+      "patch_context": {
+        "version": "1.8.44",
+        "patch_window_id": "pw-m5-ko-1.8.44",
+        "patch_release_date": "2023-12-20T00:00:00Z",
+        "effective_from": "2023-12-09T00:00:00Z",
+        "effective_until": "2023-12-17T23:59:59Z",
+        "days_since_release": -5,
+        "days_since_effective": 6,
+        "assignment_method": "verified_tournament_window",
+        "assignment_confidence": "HIGH",
+        "source": {
+          "name": "Liquipedia",
+          "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
+          "source_type": "public_web",
+          "retrieved_at": "2026-08-11T14:50:00Z"
+        }
+      }
     },
     {
       "match_id": "match-m5-ko-11-g1",
@@ -7928,7 +8630,7 @@
       "game_number": 1,
       "date": "December 15, 2023 - 18:00{{abbr/SGT}}",
       "patch": "1.8.44",
-      "patch_source": "inferred",
+      "patch_source": "verified_tournament_window",
       "team_a": "team-devu",
       "team_b": "team-see-you-soon",
       "blue_side": "team-devu",
@@ -8121,7 +8823,25 @@
           "player_id": null
         }
       ],
-      "player_performances": []
+      "player_performances": [],
+      "date_iso": "2023-12-15T18:00:00Z",
+      "patch_context": {
+        "version": "1.8.44",
+        "patch_window_id": "pw-m5-ko-1.8.44",
+        "patch_release_date": "2023-12-20T00:00:00Z",
+        "effective_from": "2023-12-09T00:00:00Z",
+        "effective_until": "2023-12-17T23:59:59Z",
+        "days_since_release": -5,
+        "days_since_effective": 6,
+        "assignment_method": "verified_tournament_window",
+        "assignment_confidence": "HIGH",
+        "source": {
+          "name": "Liquipedia",
+          "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
+          "source_type": "public_web",
+          "retrieved_at": "2026-08-11T14:50:00Z"
+        }
+      }
     },
     {
       "match_id": "match-m5-ko-11-g2",
@@ -8131,7 +8851,7 @@
       "game_number": 2,
       "date": "December 15, 2023 - 18:00{{abbr/SGT}}",
       "patch": "1.8.44",
-      "patch_source": "inferred",
+      "patch_source": "verified_tournament_window",
       "team_a": "team-devu",
       "team_b": "team-see-you-soon",
       "blue_side": "team-devu",
@@ -8324,7 +9044,25 @@
           "player_id": null
         }
       ],
-      "player_performances": []
+      "player_performances": [],
+      "date_iso": "2023-12-15T18:00:00Z",
+      "patch_context": {
+        "version": "1.8.44",
+        "patch_window_id": "pw-m5-ko-1.8.44",
+        "patch_release_date": "2023-12-20T00:00:00Z",
+        "effective_from": "2023-12-09T00:00:00Z",
+        "effective_until": "2023-12-17T23:59:59Z",
+        "days_since_release": -5,
+        "days_since_effective": 6,
+        "assignment_method": "verified_tournament_window",
+        "assignment_confidence": "HIGH",
+        "source": {
+          "name": "Liquipedia",
+          "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
+          "source_type": "public_web",
+          "retrieved_at": "2026-08-11T14:50:00Z"
+        }
+      }
     },
     {
       "match_id": "match-m5-ko-11-g3",
@@ -8334,7 +9072,7 @@
       "game_number": 3,
       "date": "December 15, 2023 - 18:00{{abbr/SGT}}",
       "patch": "1.8.44",
-      "patch_source": "inferred",
+      "patch_source": "verified_tournament_window",
       "team_a": "team-devu",
       "team_b": "team-see-you-soon",
       "blue_side": "team-devu",
@@ -8527,7 +9265,25 @@
           "player_id": null
         }
       ],
-      "player_performances": []
+      "player_performances": [],
+      "date_iso": "2023-12-15T18:00:00Z",
+      "patch_context": {
+        "version": "1.8.44",
+        "patch_window_id": "pw-m5-ko-1.8.44",
+        "patch_release_date": "2023-12-20T00:00:00Z",
+        "effective_from": "2023-12-09T00:00:00Z",
+        "effective_until": "2023-12-17T23:59:59Z",
+        "days_since_release": -5,
+        "days_since_effective": 6,
+        "assignment_method": "verified_tournament_window",
+        "assignment_confidence": "HIGH",
+        "source": {
+          "name": "Liquipedia",
+          "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
+          "source_type": "public_web",
+          "retrieved_at": "2026-08-11T14:50:00Z"
+        }
+      }
     },
     {
       "match_id": "match-m5-ko-11-g4",
@@ -8537,7 +9293,7 @@
       "game_number": 4,
       "date": "December 15, 2023 - 18:00{{abbr/SGT}}",
       "patch": "1.8.44",
-      "patch_source": "inferred",
+      "patch_source": "verified_tournament_window",
       "team_a": "team-devu",
       "team_b": "team-see-you-soon",
       "blue_side": "team-see-you-soon",
@@ -8730,7 +9486,25 @@
           "player_id": null
         }
       ],
-      "player_performances": []
+      "player_performances": [],
+      "date_iso": "2023-12-15T18:00:00Z",
+      "patch_context": {
+        "version": "1.8.44",
+        "patch_window_id": "pw-m5-ko-1.8.44",
+        "patch_release_date": "2023-12-20T00:00:00Z",
+        "effective_from": "2023-12-09T00:00:00Z",
+        "effective_until": "2023-12-17T23:59:59Z",
+        "days_since_release": -5,
+        "days_since_effective": 6,
+        "assignment_method": "verified_tournament_window",
+        "assignment_confidence": "HIGH",
+        "source": {
+          "name": "Liquipedia",
+          "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
+          "source_type": "public_web",
+          "retrieved_at": "2026-08-11T14:50:00Z"
+        }
+      }
     },
     {
       "match_id": "match-m5-ko-11-g5",
@@ -8740,7 +9514,7 @@
       "game_number": 5,
       "date": "December 15, 2023 - 18:00{{abbr/SGT}}",
       "patch": "1.8.44",
-      "patch_source": "inferred",
+      "patch_source": "verified_tournament_window",
       "team_a": "team-devu",
       "team_b": "team-see-you-soon",
       "blue_side": "team-devu",
@@ -8933,7 +9707,25 @@
           "player_id": null
         }
       ],
-      "player_performances": []
+      "player_performances": [],
+      "date_iso": "2023-12-15T18:00:00Z",
+      "patch_context": {
+        "version": "1.8.44",
+        "patch_window_id": "pw-m5-ko-1.8.44",
+        "patch_release_date": "2023-12-20T00:00:00Z",
+        "effective_from": "2023-12-09T00:00:00Z",
+        "effective_until": "2023-12-17T23:59:59Z",
+        "days_since_release": -5,
+        "days_since_effective": 6,
+        "assignment_method": "verified_tournament_window",
+        "assignment_confidence": "HIGH",
+        "source": {
+          "name": "Liquipedia",
+          "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
+          "source_type": "public_web",
+          "retrieved_at": "2026-08-11T14:50:00Z"
+        }
+      }
     },
     {
       "match_id": "match-m5-ko-12-g1",
@@ -8943,7 +9735,7 @@
       "game_number": 1,
       "date": "December 16, 2023 - 11:00{{abbr/SGT}}",
       "patch": "1.8.44",
-      "patch_source": "inferred",
+      "patch_source": "verified_tournament_window",
       "team_a": "team-blck",
       "team_b": "team-devu",
       "blue_side": "team-devu",
@@ -9136,7 +9928,25 @@
           "player_id": null
         }
       ],
-      "player_performances": []
+      "player_performances": [],
+      "date_iso": "2023-12-16T11:00:00Z",
+      "patch_context": {
+        "version": "1.8.44",
+        "patch_window_id": "pw-m5-ko-1.8.44",
+        "patch_release_date": "2023-12-20T00:00:00Z",
+        "effective_from": "2023-12-09T00:00:00Z",
+        "effective_until": "2023-12-17T23:59:59Z",
+        "days_since_release": -4,
+        "days_since_effective": 7,
+        "assignment_method": "verified_tournament_window",
+        "assignment_confidence": "HIGH",
+        "source": {
+          "name": "Liquipedia",
+          "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
+          "source_type": "public_web",
+          "retrieved_at": "2026-08-11T14:50:00Z"
+        }
+      }
     },
     {
       "match_id": "match-m5-ko-12-g2",
@@ -9146,7 +9956,7 @@
       "game_number": 2,
       "date": "December 16, 2023 - 11:00{{abbr/SGT}}",
       "patch": "1.8.44",
-      "patch_source": "inferred",
+      "patch_source": "verified_tournament_window",
       "team_a": "team-blck",
       "team_b": "team-devu",
       "blue_side": "team-devu",
@@ -9339,7 +10149,25 @@
           "player_id": null
         }
       ],
-      "player_performances": []
+      "player_performances": [],
+      "date_iso": "2023-12-16T11:00:00Z",
+      "patch_context": {
+        "version": "1.8.44",
+        "patch_window_id": "pw-m5-ko-1.8.44",
+        "patch_release_date": "2023-12-20T00:00:00Z",
+        "effective_from": "2023-12-09T00:00:00Z",
+        "effective_until": "2023-12-17T23:59:59Z",
+        "days_since_release": -4,
+        "days_since_effective": 7,
+        "assignment_method": "verified_tournament_window",
+        "assignment_confidence": "HIGH",
+        "source": {
+          "name": "Liquipedia",
+          "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
+          "source_type": "public_web",
+          "retrieved_at": "2026-08-11T14:50:00Z"
+        }
+      }
     },
     {
       "match_id": "match-m5-ko-12-g3",
@@ -9349,7 +10177,7 @@
       "game_number": 3,
       "date": "December 16, 2023 - 11:00{{abbr/SGT}}",
       "patch": "1.8.44",
-      "patch_source": "inferred",
+      "patch_source": "verified_tournament_window",
       "team_a": "team-blck",
       "team_b": "team-devu",
       "blue_side": "team-blck",
@@ -9542,7 +10370,25 @@
           "player_id": null
         }
       ],
-      "player_performances": []
+      "player_performances": [],
+      "date_iso": "2023-12-16T11:00:00Z",
+      "patch_context": {
+        "version": "1.8.44",
+        "patch_window_id": "pw-m5-ko-1.8.44",
+        "patch_release_date": "2023-12-20T00:00:00Z",
+        "effective_from": "2023-12-09T00:00:00Z",
+        "effective_until": "2023-12-17T23:59:59Z",
+        "days_since_release": -4,
+        "days_since_effective": 7,
+        "assignment_method": "verified_tournament_window",
+        "assignment_confidence": "HIGH",
+        "source": {
+          "name": "Liquipedia",
+          "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
+          "source_type": "public_web",
+          "retrieved_at": "2026-08-11T14:50:00Z"
+        }
+      }
     },
     {
       "match_id": "match-m5-ko-13-g1",
@@ -9552,7 +10398,7 @@
       "game_number": 1,
       "date": "December 16, 2023 - 19:00{{abbr/SGT}}",
       "patch": "1.8.44",
-      "patch_source": "inferred",
+      "patch_source": "verified_tournament_window",
       "team_a": "team-ap.bren",
       "team_b": "team-blck",
       "blue_side": "team-ap.bren",
@@ -9745,7 +10591,25 @@
           "player_id": null
         }
       ],
-      "player_performances": []
+      "player_performances": [],
+      "date_iso": "2023-12-16T19:00:00Z",
+      "patch_context": {
+        "version": "1.8.44",
+        "patch_window_id": "pw-m5-ko-1.8.44",
+        "patch_release_date": "2023-12-20T00:00:00Z",
+        "effective_from": "2023-12-09T00:00:00Z",
+        "effective_until": "2023-12-17T23:59:59Z",
+        "days_since_release": -4,
+        "days_since_effective": 7,
+        "assignment_method": "verified_tournament_window",
+        "assignment_confidence": "HIGH",
+        "source": {
+          "name": "Liquipedia",
+          "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
+          "source_type": "public_web",
+          "retrieved_at": "2026-08-11T14:50:00Z"
+        }
+      }
     },
     {
       "match_id": "match-m5-ko-13-g2",
@@ -9755,7 +10619,7 @@
       "game_number": 2,
       "date": "December 16, 2023 - 19:00{{abbr/SGT}}",
       "patch": "1.8.44",
-      "patch_source": "inferred",
+      "patch_source": "verified_tournament_window",
       "team_a": "team-ap.bren",
       "team_b": "team-blck",
       "blue_side": "team-blck",
@@ -9948,7 +10812,25 @@
           "player_id": null
         }
       ],
-      "player_performances": []
+      "player_performances": [],
+      "date_iso": "2023-12-16T19:00:00Z",
+      "patch_context": {
+        "version": "1.8.44",
+        "patch_window_id": "pw-m5-ko-1.8.44",
+        "patch_release_date": "2023-12-20T00:00:00Z",
+        "effective_from": "2023-12-09T00:00:00Z",
+        "effective_until": "2023-12-17T23:59:59Z",
+        "days_since_release": -4,
+        "days_since_effective": 7,
+        "assignment_method": "verified_tournament_window",
+        "assignment_confidence": "HIGH",
+        "source": {
+          "name": "Liquipedia",
+          "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
+          "source_type": "public_web",
+          "retrieved_at": "2026-08-11T14:50:00Z"
+        }
+      }
     },
     {
       "match_id": "match-m5-ko-13-g3",
@@ -9958,7 +10840,7 @@
       "game_number": 3,
       "date": "December 16, 2023 - 19:00{{abbr/SGT}}",
       "patch": "1.8.44",
-      "patch_source": "inferred",
+      "patch_source": "verified_tournament_window",
       "team_a": "team-ap.bren",
       "team_b": "team-blck",
       "blue_side": "team-blck",
@@ -10151,7 +11033,25 @@
           "player_id": null
         }
       ],
-      "player_performances": []
+      "player_performances": [],
+      "date_iso": "2023-12-16T19:00:00Z",
+      "patch_context": {
+        "version": "1.8.44",
+        "patch_window_id": "pw-m5-ko-1.8.44",
+        "patch_release_date": "2023-12-20T00:00:00Z",
+        "effective_from": "2023-12-09T00:00:00Z",
+        "effective_until": "2023-12-17T23:59:59Z",
+        "days_since_release": -4,
+        "days_since_effective": 7,
+        "assignment_method": "verified_tournament_window",
+        "assignment_confidence": "HIGH",
+        "source": {
+          "name": "Liquipedia",
+          "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
+          "source_type": "public_web",
+          "retrieved_at": "2026-08-11T14:50:00Z"
+        }
+      }
     },
     {
       "match_id": "match-m5-ko-14-g1",
@@ -10161,7 +11061,7 @@
       "game_number": 1,
       "date": "December 17, 2023 - 19:00{{abbr/SGT}}",
       "patch": "1.8.44",
-      "patch_source": "inferred",
+      "patch_source": "verified_tournament_window",
       "team_a": "team-onic",
       "team_b": "team-ap.bren",
       "blue_side": "team-ap.bren",
@@ -10354,7 +11254,25 @@
           "player_id": null
         }
       ],
-      "player_performances": []
+      "player_performances": [],
+      "date_iso": "2023-12-17T19:00:00Z",
+      "patch_context": {
+        "version": "1.8.44",
+        "patch_window_id": "pw-m5-ko-1.8.44",
+        "patch_release_date": "2023-12-20T00:00:00Z",
+        "effective_from": "2023-12-09T00:00:00Z",
+        "effective_until": "2023-12-17T23:59:59Z",
+        "days_since_release": -3,
+        "days_since_effective": 8,
+        "assignment_method": "verified_tournament_window",
+        "assignment_confidence": "HIGH",
+        "source": {
+          "name": "Liquipedia",
+          "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
+          "source_type": "public_web",
+          "retrieved_at": "2026-08-11T14:50:00Z"
+        }
+      }
     },
     {
       "match_id": "match-m5-ko-14-g2",
@@ -10364,7 +11282,7 @@
       "game_number": 2,
       "date": "December 17, 2023 - 19:00{{abbr/SGT}}",
       "patch": "1.8.44",
-      "patch_source": "inferred",
+      "patch_source": "verified_tournament_window",
       "team_a": "team-onic",
       "team_b": "team-ap.bren",
       "blue_side": "team-onic",
@@ -10557,7 +11475,25 @@
           "player_id": null
         }
       ],
-      "player_performances": []
+      "player_performances": [],
+      "date_iso": "2023-12-17T19:00:00Z",
+      "patch_context": {
+        "version": "1.8.44",
+        "patch_window_id": "pw-m5-ko-1.8.44",
+        "patch_release_date": "2023-12-20T00:00:00Z",
+        "effective_from": "2023-12-09T00:00:00Z",
+        "effective_until": "2023-12-17T23:59:59Z",
+        "days_since_release": -3,
+        "days_since_effective": 8,
+        "assignment_method": "verified_tournament_window",
+        "assignment_confidence": "HIGH",
+        "source": {
+          "name": "Liquipedia",
+          "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
+          "source_type": "public_web",
+          "retrieved_at": "2026-08-11T14:50:00Z"
+        }
+      }
     },
     {
       "match_id": "match-m5-ko-14-g3",
@@ -10567,7 +11503,7 @@
       "game_number": 3,
       "date": "December 17, 2023 - 19:00{{abbr/SGT}}",
       "patch": "1.8.44",
-      "patch_source": "inferred",
+      "patch_source": "verified_tournament_window",
       "team_a": "team-onic",
       "team_b": "team-ap.bren",
       "blue_side": "team-ap.bren",
@@ -10752,7 +11688,25 @@
           "player_id": null
         }
       ],
-      "player_performances": []
+      "player_performances": [],
+      "date_iso": "2023-12-17T19:00:00Z",
+      "patch_context": {
+        "version": "1.8.44",
+        "patch_window_id": "pw-m5-ko-1.8.44",
+        "patch_release_date": "2023-12-20T00:00:00Z",
+        "effective_from": "2023-12-09T00:00:00Z",
+        "effective_until": "2023-12-17T23:59:59Z",
+        "days_since_release": -3,
+        "days_since_effective": 8,
+        "assignment_method": "verified_tournament_window",
+        "assignment_confidence": "HIGH",
+        "source": {
+          "name": "Liquipedia",
+          "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
+          "source_type": "public_web",
+          "retrieved_at": "2026-08-11T14:50:00Z"
+        }
+      }
     },
     {
       "match_id": "match-m5-ko-14-g4",
@@ -10762,7 +11716,7 @@
       "game_number": 4,
       "date": "December 17, 2023 - 19:00{{abbr/SGT}}",
       "patch": "1.8.44",
-      "patch_source": "inferred",
+      "patch_source": "verified_tournament_window",
       "team_a": "team-onic",
       "team_b": "team-ap.bren",
       "blue_side": "team-onic",
@@ -10955,7 +11909,25 @@
           "player_id": null
         }
       ],
-      "player_performances": []
+      "player_performances": [],
+      "date_iso": "2023-12-17T19:00:00Z",
+      "patch_context": {
+        "version": "1.8.44",
+        "patch_window_id": "pw-m5-ko-1.8.44",
+        "patch_release_date": "2023-12-20T00:00:00Z",
+        "effective_from": "2023-12-09T00:00:00Z",
+        "effective_until": "2023-12-17T23:59:59Z",
+        "days_since_release": -3,
+        "days_since_effective": 8,
+        "assignment_method": "verified_tournament_window",
+        "assignment_confidence": "HIGH",
+        "source": {
+          "name": "Liquipedia",
+          "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
+          "source_type": "public_web",
+          "retrieved_at": "2026-08-11T14:50:00Z"
+        }
+      }
     },
     {
       "match_id": "match-m5-ko-14-g5",
@@ -10965,7 +11937,7 @@
       "game_number": 5,
       "date": "December 17, 2023 - 19:00{{abbr/SGT}}",
       "patch": "1.8.44",
-      "patch_source": "inferred",
+      "patch_source": "verified_tournament_window",
       "team_a": "team-onic",
       "team_b": "team-ap.bren",
       "blue_side": "team-onic",
@@ -11158,7 +12130,25 @@
           "player_id": null
         }
       ],
-      "player_performances": []
+      "player_performances": [],
+      "date_iso": "2023-12-17T19:00:00Z",
+      "patch_context": {
+        "version": "1.8.44",
+        "patch_window_id": "pw-m5-ko-1.8.44",
+        "patch_release_date": "2023-12-20T00:00:00Z",
+        "effective_from": "2023-12-09T00:00:00Z",
+        "effective_until": "2023-12-17T23:59:59Z",
+        "days_since_release": -3,
+        "days_since_effective": 8,
+        "assignment_method": "verified_tournament_window",
+        "assignment_confidence": "HIGH",
+        "source": {
+          "name": "Liquipedia",
+          "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
+          "source_type": "public_web",
+          "retrieved_at": "2026-08-11T14:50:00Z"
+        }
+      }
     },
     {
       "match_id": "match-m5-ko-14-g6",
@@ -11168,7 +12158,7 @@
       "game_number": 6,
       "date": "December 17, 2023 - 19:00{{abbr/SGT}}",
       "patch": "1.8.44",
-      "patch_source": "inferred",
+      "patch_source": "verified_tournament_window",
       "team_a": "team-onic",
       "team_b": "team-ap.bren",
       "blue_side": "team-ap.bren",
@@ -11361,7 +12351,25 @@
           "player_id": null
         }
       ],
-      "player_performances": []
+      "player_performances": [],
+      "date_iso": "2023-12-17T19:00:00Z",
+      "patch_context": {
+        "version": "1.8.44",
+        "patch_window_id": "pw-m5-ko-1.8.44",
+        "patch_release_date": "2023-12-20T00:00:00Z",
+        "effective_from": "2023-12-09T00:00:00Z",
+        "effective_until": "2023-12-17T23:59:59Z",
+        "days_since_release": -3,
+        "days_since_effective": 8,
+        "assignment_method": "verified_tournament_window",
+        "assignment_confidence": "HIGH",
+        "source": {
+          "name": "Liquipedia",
+          "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
+          "source_type": "public_web",
+          "retrieved_at": "2026-08-11T14:50:00Z"
+        }
+      }
     },
     {
       "match_id": "match-m5-ko-14-g7",
@@ -11371,7 +12379,7 @@
       "game_number": 7,
       "date": "December 17, 2023 - 19:00{{abbr/SGT}}",
       "patch": "1.8.44",
-      "patch_source": "inferred",
+      "patch_source": "verified_tournament_window",
       "team_a": "team-onic",
       "team_b": "team-ap.bren",
       "blue_side": "team-ap.bren",
@@ -11564,7 +12572,25 @@
           "player_id": null
         }
       ],
-      "player_performances": []
+      "player_performances": [],
+      "date_iso": "2023-12-17T19:00:00Z",
+      "patch_context": {
+        "version": "1.8.44",
+        "patch_window_id": "pw-m5-ko-1.8.44",
+        "patch_release_date": "2023-12-20T00:00:00Z",
+        "effective_from": "2023-12-09T00:00:00Z",
+        "effective_until": "2023-12-17T23:59:59Z",
+        "days_since_release": -3,
+        "days_since_effective": 8,
+        "assignment_method": "verified_tournament_window",
+        "assignment_confidence": "HIGH",
+        "source": {
+          "name": "Liquipedia",
+          "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
+          "source_type": "public_web",
+          "retrieved_at": "2026-08-11T14:50:00Z"
+        }
+      }
     }
   ]
 }
