@@ -1,0 +1,10 @@
+[
+  {
+    "source_name": "default",
+    "normalized_name": "default",
+    "entity_type": "hero",
+    "source": "Liquipedia",
+    "confidence": 0.0,
+    "reason": "No confident canonical match in dictionary"
+  }
+]
