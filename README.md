@@ -59,14 +59,14 @@ python3 transform.py
 
 ---
 
-## 🎮 Esports Analytics Ecosystem
+## 🎮 API Features & Data Capabilities
 
-Designed for competitive teams, coaches, and analysts to build:
-* **Hero Pool Analysis:** Track player comfort picks, win rates, and flex pick indices across lanes.
-* **Draft Pick & Ban Engine:** Rulesets for Phase 1/2 priority bans, first-pick recommendations, and counter-pick matrices.
-* **Timing Windows & Power Spikes:** Power level tracking at Level 1, Level 4 (Ultimate), and Core Item Spikes (e.g., Sky Piercer, Malefic Gun).
-* **In-Game Tracking & Post-Match Review:** Gold Diff @ 5/10 min, Turtle/Lord contest power, and rotation tendencies.
-* **Meta Tracing:** Patch change tracking and dynamic tier list updates (SS / S / A / B / C).
+Designed for developers, coaches, and analysts to build MLBB applications:
+* **Hero Analytics:** 132 heroes with base stats, skill mechanics, cooldowns, mana costs, counters, synergies, recommended builds, and meta tiers (`SS` / `S` / `A` / `B` / `C`).
+* **Equipment & Passives:** 89 items with stat modifiers, unique passive effects (*Armor Buster*, *Malefic Energy*, *Lethality*, etc.), costs, and build paths.
+* **Emblem & Talent System:** 7 role emblem sets and 26 ability talents (2025/2026 system).
+* **Draft & Counter Engine Data:** Counter-pick relationships, hero combo synergies, and role recommendations.
+* **JSON Schemas:** Standardized schemas defined in `specification/` for easy database integration and API development.
 
 ---
 
