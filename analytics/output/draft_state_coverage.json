@@ -1,0 +1,9 @@
+{
+  "matches": 57,
+  "draft_states": 1139,
+  "average_states_per_match": 19.98,
+  "min_states": 19,
+  "max_states": 20,
+  "complete_state_transitions": 1139,
+  "validation_errors": 0
+}

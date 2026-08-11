@@ -1,0 +1,509 @@
+{
+  "description": "Descriptive Draft State Transition Analytics V1",
+  "top_observed_response_picks": [
+    {
+      "opponent_hero_id": "h086",
+      "opponent_hero_name": "Lylia",
+      "response_hero_id": "h098",
+      "response_hero_name": "Khaleed",
+      "observed_count": 4,
+      "observed_wins": 3,
+      "observed_win_rate": 0.75,
+      "sample_size": 4,
+      "sample_sufficient": false
+    },
+    {
+      "opponent_hero_id": "h019",
+      "opponent_hero_name": "Minotaur",
+      "response_hero_id": "h065",
+      "response_hero_name": "Claude",
+      "observed_count": 4,
+      "observed_wins": 1,
+      "observed_win_rate": 0.25,
+      "sample_size": 4,
+      "sample_sufficient": false
+    },
+    {
+      "opponent_hero_id": "h102",
+      "opponent_hero_name": "Mathilda",
+      "response_hero_id": "h012",
+      "response_hero_name": "Bruno",
+      "observed_count": 4,
+      "observed_wins": 1,
+      "observed_win_rate": 0.25,
+      "sample_size": 4,
+      "sample_sufficient": false
+    },
+    {
+      "opponent_hero_id": "h110",
+      "opponent_hero_name": "Valentina",
+      "response_hero_id": "h082",
+      "response_hero_name": "Terizla",
+      "observed_count": 4,
+      "observed_wins": 0,
+      "observed_win_rate": 0.0,
+      "sample_size": 4,
+      "sample_sufficient": false
+    },
+    {
+      "opponent_hero_id": "h006",
+      "opponent_hero_name": "Tigreal",
+      "response_hero_id": "h012",
+      "response_hero_name": "Bruno",
+      "observed_count": 3,
+      "observed_wins": 2,
+      "observed_win_rate": 0.6667,
+      "sample_size": 3,
+      "sample_sufficient": false
+    },
+    {
+      "opponent_hero_id": "h110",
+      "opponent_hero_name": "Valentina",
+      "response_hero_id": "h085",
+      "response_hero_name": "Dyrroth",
+      "observed_count": 3,
+      "observed_wins": 2,
+      "observed_win_rate": 0.6667,
+      "sample_size": 3,
+      "sample_sufficient": false
+    },
+    {
+      "opponent_hero_id": "h110",
+      "opponent_hero_name": "Valentina",
+      "response_hero_id": "h120",
+      "response_hero_name": "Arlott",
+      "observed_count": 3,
+      "observed_wins": 0,
+      "observed_win_rate": 0.0,
+      "sample_size": 3,
+      "sample_sufficient": false
+    },
+    {
+      "opponent_hero_id": "h120",
+      "opponent_hero_name": "Arlott",
+      "response_hero_id": "h065",
+      "response_hero_name": "Claude",
+      "observed_count": 3,
+      "observed_wins": 1,
+      "observed_win_rate": 0.3333,
+      "sample_size": 3,
+      "sample_sufficient": false
+    },
+    {
+      "opponent_hero_id": "h076",
+      "opponent_hero_name": "Faramis",
+      "response_hero_id": "h082",
+      "response_hero_name": "Terizla",
+      "observed_count": 3,
+      "observed_wins": 3,
+      "observed_win_rate": 1.0,
+      "sample_size": 3,
+      "sample_sufficient": false
+    },
+    {
+      "opponent_hero_id": "h119",
+      "opponent_hero_name": "Novaria",
+      "response_hero_id": "h120",
+      "response_hero_name": "Arlott",
+      "observed_count": 3,
+      "observed_wins": 0,
+      "observed_win_rate": 0.0,
+      "sample_size": 3,
+      "sample_sufficient": false
+    },
+    {
+      "opponent_hero_id": "h086",
+      "opponent_hero_name": "Lylia",
+      "response_hero_id": "h082",
+      "response_hero_name": "Terizla",
+      "observed_count": 2,
+      "observed_wins": 1,
+      "observed_win_rate": 0.5,
+      "sample_size": 2,
+      "sample_sufficient": false
+    },
+    {
+      "opponent_hero_id": "h062",
+      "opponent_hero_name": "Kaja",
+      "response_hero_id": "h012",
+      "response_hero_name": "Bruno",
+      "observed_count": 2,
+      "observed_wins": 1,
+      "observed_win_rate": 0.5,
+      "sample_size": 2,
+      "sample_sufficient": false
+    },
+    {
+      "opponent_hero_id": "h102",
+      "opponent_hero_name": "Mathilda",
+      "response_hero_id": "h065",
+      "response_hero_name": "Claude",
+      "observed_count": 2,
+      "observed_wins": 1,
+      "observed_win_rate": 0.5,
+      "sample_size": 2,
+      "sample_sufficient": false
+    },
+    {
+      "opponent_hero_id": "h006",
+      "opponent_hero_name": "Tigreal",
+      "response_hero_id": "h040",
+      "response_hero_name": "Karrie",
+      "observed_count": 2,
+      "observed_wins": 0,
+      "observed_win_rate": 0.0,
+      "sample_size": 2,
+      "sample_sufficient": false
+    },
+    {
+      "opponent_hero_id": "h120",
+      "opponent_hero_name": "Arlott",
+      "response_hero_id": "h012",
+      "response_hero_name": "Bruno",
+      "observed_count": 2,
+      "observed_wins": 1,
+      "observed_win_rate": 0.5,
+      "sample_size": 2,
+      "sample_sufficient": false
+    },
+    {
+      "opponent_hero_id": "h019",
+      "opponent_hero_name": "Minotaur",
+      "response_hero_id": "h012",
+      "response_hero_name": "Bruno",
+      "observed_count": 2,
+      "observed_wins": 1,
+      "observed_win_rate": 0.5,
+      "sample_size": 2,
+      "sample_sufficient": false
+    },
+    {
+      "opponent_hero_id": "h044",
+      "opponent_hero_name": "Grock",
+      "response_hero_id": "h065",
+      "response_hero_name": "Claude",
+      "observed_count": 2,
+      "observed_wins": 0,
+      "observed_win_rate": 0.0,
+      "sample_size": 2,
+      "sample_sufficient": false
+    },
+    {
+      "opponent_hero_id": "h029",
+      "opponent_hero_name": "Ruby",
+      "response_hero_id": "h012",
+      "response_hero_name": "Bruno",
+      "observed_count": 2,
+      "observed_wins": 0,
+      "observed_win_rate": 0.0,
+      "sample_size": 2,
+      "sample_sufficient": false
+    },
+    {
+      "opponent_hero_id": "h110",
+      "opponent_hero_name": "Valentina",
+      "response_hero_id": "h037",
+      "response_hero_name": "Lapu-Lapu",
+      "observed_count": 2,
+      "observed_wins": 1,
+      "observed_win_rate": 0.5,
+      "sample_size": 2,
+      "sample_sufficient": false
+    },
+    {
+      "opponent_hero_id": "h006",
+      "opponent_hero_name": "Tigreal",
+      "response_hero_id": "h100",
+      "response_hero_name": "Brody",
+      "observed_count": 2,
+      "observed_wins": 1,
+      "observed_win_rate": 0.5,
+      "sample_size": 2,
+      "sample_sufficient": false
+    }
+  ],
+  "top_observed_response_bans": [
+    {
+      "opponent_hero_id": "h086",
+      "opponent_hero_name": "Lylia",
+      "next_ban_hero_id": "h019",
+      "next_ban_hero_name": "Minotaur",
+      "observed_frequency": 4
+    },
+    {
+      "opponent_hero_id": "h110",
+      "opponent_hero_name": "Valentina",
+      "next_ban_hero_id": "h048",
+      "next_ban_hero_name": "Diggie",
+      "observed_frequency": 2
+    },
+    {
+      "opponent_hero_id": "h119",
+      "opponent_hero_name": "Novaria",
+      "next_ban_hero_id": "h103",
+      "next_ban_hero_name": "Paquito",
+      "observed_frequency": 2
+    },
+    {
+      "opponent_hero_id": "h110",
+      "opponent_hero_name": "Valentina",
+      "next_ban_hero_id": "h065",
+      "next_ban_hero_name": "Claude",
+      "observed_frequency": 2
+    },
+    {
+      "opponent_hero_id": "h055",
+      "opponent_hero_name": "Angela",
+      "next_ban_hero_id": "h087",
+      "next_ban_hero_name": "Baxia",
+      "observed_frequency": 2
+    },
+    {
+      "opponent_hero_id": "h110",
+      "opponent_hero_name": "Valentina",
+      "next_ban_hero_id": "h062",
+      "next_ban_hero_name": "Kaja",
+      "observed_frequency": 2
+    },
+    {
+      "opponent_hero_id": "h076",
+      "opponent_hero_name": "Faramis",
+      "next_ban_hero_id": "h121",
+      "next_ban_hero_name": "Ixia",
+      "observed_frequency": 2
+    },
+    {
+      "opponent_hero_id": "h119",
+      "opponent_hero_name": "Novaria",
+      "next_ban_hero_id": "h055",
+      "next_ban_hero_name": "Angela",
+      "observed_frequency": 1
+    },
+    {
+      "opponent_hero_id": "h076",
+      "opponent_hero_name": "Faramis",
+      "next_ban_hero_id": "h037",
+      "next_ban_hero_name": "Lapu-Lapu",
+      "observed_frequency": 1
+    },
+    {
+      "opponent_hero_id": "h076",
+      "opponent_hero_name": "Faramis",
+      "next_ban_hero_id": "h120",
+      "next_ban_hero_name": "Arlott",
+      "observed_frequency": 1
+    },
+    {
+      "opponent_hero_id": "h076",
+      "opponent_hero_name": "Faramis",
+      "next_ban_hero_id": "h012",
+      "next_ban_hero_name": "Bruno",
+      "observed_frequency": 1
+    },
+    {
+      "opponent_hero_id": "h076",
+      "opponent_hero_name": "Faramis",
+      "next_ban_hero_id": "h048",
+      "next_ban_hero_name": "Diggie",
+      "observed_frequency": 1
+    },
+    {
+      "opponent_hero_id": "h086",
+      "opponent_hero_name": "Lylia",
+      "next_ban_hero_id": "h048",
+      "next_ban_hero_name": "Diggie",
+      "observed_frequency": 1
+    },
+    {
+      "opponent_hero_id": "h110",
+      "opponent_hero_name": "Valentina",
+      "next_ban_hero_id": "h106",
+      "next_ban_hero_name": "Phoveus",
+      "observed_frequency": 1
+    },
+    {
+      "opponent_hero_id": "h086",
+      "opponent_hero_name": "Lylia",
+      "next_ban_hero_id": "h106",
+      "next_ban_hero_name": "Phoveus",
+      "observed_frequency": 1
+    },
+    {
+      "opponent_hero_id": "h076",
+      "opponent_hero_name": "Faramis",
+      "next_ban_hero_id": "h082",
+      "next_ban_hero_name": "Terizla",
+      "observed_frequency": 1
+    },
+    {
+      "opponent_hero_id": "h076",
+      "opponent_hero_name": "Faramis",
+      "next_ban_hero_id": "h058",
+      "next_ban_hero_name": "Martis",
+      "observed_frequency": 1
+    },
+    {
+      "opponent_hero_id": "h055",
+      "opponent_hero_name": "Angela",
+      "next_ban_hero_id": "h100",
+      "next_ban_hero_name": "Brody",
+      "observed_frequency": 1
+    },
+    {
+      "opponent_hero_id": "h119",
+      "opponent_hero_name": "Novaria",
+      "next_ban_hero_id": "h051",
+      "next_ban_hero_name": "Helcurt",
+      "observed_frequency": 1
+    },
+    {
+      "opponent_hero_id": "h110",
+      "opponent_hero_name": "Valentina",
+      "next_ban_hero_id": "h019",
+      "next_ban_hero_name": "Minotaur",
+      "observed_frequency": 1
+    }
+  ],
+  "top_observed_picks_after_ban": [
+    {
+      "banned_hero_id": "h122",
+      "banned_hero_name": "Nolan",
+      "next_pick_hero_id": "h082",
+      "next_pick_hero_name": "Terizla",
+      "observed_frequency": 5
+    },
+    {
+      "banned_hero_id": "h118",
+      "banned_hero_name": "Joy",
+      "next_pick_hero_id": "h082",
+      "next_pick_hero_name": "Terizla",
+      "observed_frequency": 4
+    },
+    {
+      "banned_hero_id": "h089",
+      "banned_hero_name": "Wanwan",
+      "next_pick_hero_id": "h082",
+      "next_pick_hero_name": "Terizla",
+      "observed_frequency": 4
+    },
+    {
+      "banned_hero_id": "h019",
+      "banned_hero_name": "Minotaur",
+      "next_pick_hero_id": "h065",
+      "next_pick_hero_name": "Claude",
+      "observed_frequency": 3
+    },
+    {
+      "banned_hero_id": "h118",
+      "banned_hero_name": "Joy",
+      "next_pick_hero_id": "h037",
+      "next_pick_hero_name": "Lapu-Lapu",
+      "observed_frequency": 2
+    },
+    {
+      "banned_hero_id": "h118",
+      "banned_hero_name": "Joy",
+      "next_pick_hero_id": "h120",
+      "next_pick_hero_name": "Arlott",
+      "observed_frequency": 2
+    },
+    {
+      "banned_hero_id": "h118",
+      "banned_hero_name": "Joy",
+      "next_pick_hero_id": "h098",
+      "next_pick_hero_name": "Khaleed",
+      "observed_frequency": 2
+    },
+    {
+      "banned_hero_id": "h098",
+      "banned_hero_name": "Khaleed",
+      "next_pick_hero_id": "h089",
+      "next_pick_hero_name": "Wanwan",
+      "observed_frequency": 2
+    },
+    {
+      "banned_hero_id": "h019",
+      "banned_hero_name": "Minotaur",
+      "next_pick_hero_id": "h012",
+      "next_pick_hero_name": "Bruno",
+      "observed_frequency": 2
+    },
+    {
+      "banned_hero_id": "h110",
+      "banned_hero_name": "Valentina",
+      "next_pick_hero_id": "h065",
+      "next_pick_hero_name": "Claude",
+      "observed_frequency": 2
+    },
+    {
+      "banned_hero_id": "h012",
+      "banned_hero_name": "Bruno",
+      "next_pick_hero_id": "h120",
+      "next_pick_hero_name": "Arlott",
+      "observed_frequency": 2
+    },
+    {
+      "banned_hero_id": "h076",
+      "banned_hero_name": "Faramis",
+      "next_pick_hero_id": "h095",
+      "next_pick_hero_name": "Yu Zhong",
+      "observed_frequency": 2
+    },
+    {
+      "banned_hero_id": "h122",
+      "banned_hero_name": "Nolan",
+      "next_pick_hero_id": "h037",
+      "next_pick_hero_name": "Lapu-Lapu",
+      "observed_frequency": 2
+    },
+    {
+      "banned_hero_id": "h009",
+      "banned_hero_name": "Akai",
+      "next_pick_hero_id": "h103",
+      "next_pick_hero_name": "Paquito",
+      "observed_frequency": 2
+    },
+    {
+      "banned_hero_id": "h111",
+      "banned_hero_name": "Edith",
+      "next_pick_hero_id": "h012",
+      "next_pick_hero_name": "Bruno",
+      "observed_frequency": 2
+    },
+    {
+      "banned_hero_id": "h080",
+      "banned_hero_name": "Guinevere",
+      "next_pick_hero_id": "h103",
+      "next_pick_hero_name": "Paquito",
+      "observed_frequency": 2
+    },
+    {
+      "banned_hero_id": "h085",
+      "banned_hero_name": "Dyrroth",
+      "next_pick_hero_id": "h065",
+      "next_pick_hero_name": "Claude",
+      "observed_frequency": 2
+    },
+    {
+      "banned_hero_id": "h121",
+      "banned_hero_name": "Ixia",
+      "next_pick_hero_id": "h105",
+      "next_pick_hero_name": "Beatrix",
+      "observed_frequency": 1
+    },
+    {
+      "banned_hero_id": "h100",
+      "banned_hero_name": "Brody",
+      "next_pick_hero_id": "h105",
+      "next_pick_hero_name": "Beatrix",
+      "observed_frequency": 1
+    },
+    {
+      "banned_hero_id": "h082",
+      "banned_hero_name": "Terizla",
+      "next_pick_hero_id": "h098",
+      "next_pick_hero_name": "Khaleed",
+      "observed_frequency": 1
+    }
+  ]
+}
