@@ -11,6 +11,7 @@
       "game_number": 1,
       "date": "December 9, 2023 - 14:00{{abbr/SGT}}",
       "patch": "1.8.44",
+      "patch_source": "inferred",
       "team_a": "team-fire-flux-esports",
       "team_b": "team-devu",
       "blue_side": "team-fire-flux-esports",
@@ -19,6 +20,7 @@
       "duration_seconds": 1258,
       "duration_str": "20:58",
       "vod_url": "https://youtu.be/9s_eFMSqSFE",
+      "vod_scope": "game",
       "quality_level": "LEVEL_B",
       "completeness": {
         "teams": true,
@@ -32,6 +34,8 @@
         "vod": true,
         "patch": true
       },
+      "draft_complete": true,
+      "draft_completeness_reason": "Full 10 pick and ban actions parsed",
       "source": {
         "name": "Liquipedia",
         "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
@@ -210,6 +214,7 @@
       "game_number": 2,
       "date": "December 9, 2023 - 14:00{{abbr/SGT}}",
       "patch": "1.8.44",
+      "patch_source": "inferred",
       "team_a": "team-fire-flux-esports",
       "team_b": "team-devu",
       "blue_side": "team-fire-flux-esports",
@@ -218,6 +223,7 @@
       "duration_seconds": 995,
       "duration_str": "16:35",
       "vod_url": "https://youtu.be/ipK9--9XOYQ",
+      "vod_scope": "game",
       "quality_level": "LEVEL_B",
       "completeness": {
         "teams": true,
@@ -231,6 +237,8 @@
         "vod": true,
         "patch": true
       },
+      "draft_complete": true,
+      "draft_completeness_reason": "Full 10 pick and ban actions parsed",
       "source": {
         "name": "Liquipedia",
         "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
@@ -409,6 +417,7 @@
       "game_number": 3,
       "date": "December 9, 2023 - 14:00{{abbr/SGT}}",
       "patch": "1.8.44",
+      "patch_source": "inferred",
       "team_a": "team-fire-flux-esports",
       "team_b": "team-devu",
       "blue_side": "team-devu",
@@ -417,6 +426,7 @@
       "duration_seconds": 666,
       "duration_str": "11:06",
       "vod_url": "https://youtu.be/_Wr2usPJYo8",
+      "vod_scope": "game",
       "quality_level": "LEVEL_B",
       "completeness": {
         "teams": true,
@@ -430,6 +440,8 @@
         "vod": true,
         "patch": true
       },
+      "draft_complete": true,
+      "draft_completeness_reason": "Full 10 pick and ban actions parsed",
       "source": {
         "name": "Liquipedia",
         "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
@@ -608,6 +620,7 @@
       "game_number": 4,
       "date": "December 9, 2023 - 14:00{{abbr/SGT}}",
       "patch": "1.8.44",
+      "patch_source": "inferred",
       "team_a": "team-fire-flux-esports",
       "team_b": "team-devu",
       "blue_side": "team-fire-flux-esports",
@@ -616,6 +629,7 @@
       "duration_seconds": 1281,
       "duration_str": "21:21",
       "vod_url": "https://youtu.be/F5Xun0mG-nY",
+      "vod_scope": "game",
       "quality_level": "LEVEL_B",
       "completeness": {
         "teams": true,
@@ -629,6 +643,8 @@
         "vod": true,
         "patch": true
       },
+      "draft_complete": true,
+      "draft_completeness_reason": "Full 10 pick and ban actions parsed",
       "source": {
         "name": "Liquipedia",
         "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
@@ -807,6 +823,7 @@
       "game_number": 1,
       "date": "December 9, 2023 - 18:30{{abbr/SGT}}",
       "patch": "1.8.44",
+      "patch_source": "inferred",
       "team_a": "team-onic",
       "team_b": "team-blck",
       "blue_side": "team-blck",
@@ -815,6 +832,7 @@
       "duration_seconds": 1805,
       "duration_str": "30:05",
       "vod_url": "https://youtu.be/GbFAVpkEbm0",
+      "vod_scope": "game",
       "quality_level": "LEVEL_B",
       "completeness": {
         "teams": true,
@@ -828,6 +846,8 @@
         "vod": true,
         "patch": true
       },
+      "draft_complete": true,
+      "draft_completeness_reason": "Full 10 pick and ban actions parsed",
       "source": {
         "name": "Liquipedia",
         "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
@@ -1006,6 +1026,7 @@
       "game_number": 2,
       "date": "December 9, 2023 - 18:30{{abbr/SGT}}",
       "patch": "1.8.44",
+      "patch_source": "inferred",
       "team_a": "team-onic",
       "team_b": "team-blck",
       "blue_side": "team-blck",
@@ -1014,6 +1035,7 @@
       "duration_seconds": 1374,
       "duration_str": "22:54",
       "vod_url": "https://youtu.be/njJ6vW8xNjY",
+      "vod_scope": "game",
       "quality_level": "LEVEL_B",
       "completeness": {
         "teams": true,
@@ -1027,6 +1049,8 @@
         "vod": true,
         "patch": true
       },
+      "draft_complete": true,
+      "draft_completeness_reason": "Full 10 pick and ban actions parsed",
       "source": {
         "name": "Liquipedia",
         "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
@@ -1205,6 +1229,7 @@
       "game_number": 3,
       "date": "December 9, 2023 - 18:30{{abbr/SGT}}",
       "patch": "1.8.44",
+      "patch_source": "inferred",
       "team_a": "team-onic",
       "team_b": "team-blck",
       "blue_side": "team-blck",
@@ -1213,6 +1238,7 @@
       "duration_seconds": 1297,
       "duration_str": "21:37",
       "vod_url": "https://youtu.be/pMn6eprku2Y",
+      "vod_scope": "game",
       "quality_level": "LEVEL_B",
       "completeness": {
         "teams": true,
@@ -1226,6 +1252,8 @@
         "vod": true,
         "patch": true
       },
+      "draft_complete": true,
+      "draft_completeness_reason": "Full 10 pick and ban actions parsed",
       "source": {
         "name": "Liquipedia",
         "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
@@ -1404,6 +1432,7 @@
       "game_number": 4,
       "date": "December 9, 2023 - 18:30{{abbr/SGT}}",
       "patch": "1.8.44",
+      "patch_source": "inferred",
       "team_a": "team-onic",
       "team_b": "team-blck",
       "blue_side": "team-blck",
@@ -1412,6 +1441,7 @@
       "duration_seconds": 891,
       "duration_str": "14:51",
       "vod_url": "https://youtu.be/EkKPV29U7Gc",
+      "vod_scope": "game",
       "quality_level": "LEVEL_B",
       "completeness": {
         "teams": true,
@@ -1425,6 +1455,8 @@
         "vod": true,
         "patch": true
       },
+      "draft_complete": true,
+      "draft_completeness_reason": "Full 10 pick and ban actions parsed",
       "source": {
         "name": "Liquipedia",
         "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
@@ -1603,6 +1635,7 @@
       "game_number": 5,
       "date": "December 9, 2023 - 18:30{{abbr/SGT}}",
       "patch": "1.8.44",
+      "patch_source": "inferred",
       "team_a": "team-onic",
       "team_b": "team-blck",
       "blue_side": "team-blck",
@@ -1611,6 +1644,7 @@
       "duration_seconds": 818,
       "duration_str": "13:38",
       "vod_url": "https://youtu.be/PsrQQ_c-0gU",
+      "vod_scope": "game",
       "quality_level": "LEVEL_B",
       "completeness": {
         "teams": true,
@@ -1624,6 +1658,8 @@
         "vod": true,
         "patch": true
       },
+      "draft_complete": true,
+      "draft_completeness_reason": "Full 10 pick and ban actions parsed",
       "source": {
         "name": "Liquipedia",
         "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
@@ -1802,6 +1838,7 @@
       "game_number": 1,
       "date": "December 10, 2023 - 14:00{{abbr/SGT}}",
       "patch": "1.8.44",
+      "patch_source": "inferred",
       "team_a": "team-ap.bren",
       "team_b": "team-see-you-soon",
       "blue_side": "team-ap.bren",
@@ -1810,6 +1847,7 @@
       "duration_seconds": 892,
       "duration_str": "14:52",
       "vod_url": "https://youtu.be/lLQ1jAoTOeM",
+      "vod_scope": "game",
       "quality_level": "LEVEL_B",
       "completeness": {
         "teams": true,
@@ -1823,6 +1861,8 @@
         "vod": true,
         "patch": true
       },
+      "draft_complete": true,
+      "draft_completeness_reason": "Full 10 pick and ban actions parsed",
       "source": {
         "name": "Liquipedia",
         "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
@@ -2001,6 +2041,7 @@
       "game_number": 2,
       "date": "December 10, 2023 - 14:00{{abbr/SGT}}",
       "patch": "1.8.44",
+      "patch_source": "inferred",
       "team_a": "team-ap.bren",
       "team_b": "team-see-you-soon",
       "blue_side": "team-ap.bren",
@@ -2009,6 +2050,7 @@
       "duration_seconds": 1112,
       "duration_str": "18:32",
       "vod_url": "https://youtu.be/FhI5UY5ofD0",
+      "vod_scope": "game",
       "quality_level": "LEVEL_B",
       "completeness": {
         "teams": true,
@@ -2022,6 +2064,8 @@
         "vod": true,
         "patch": true
       },
+      "draft_complete": true,
+      "draft_completeness_reason": "Full 10 pick and ban actions parsed",
       "source": {
         "name": "Liquipedia",
         "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
@@ -2200,6 +2244,7 @@
       "game_number": 3,
       "date": "December 10, 2023 - 14:00{{abbr/SGT}}",
       "patch": "1.8.44",
+      "patch_source": "inferred",
       "team_a": "team-ap.bren",
       "team_b": "team-see-you-soon",
       "blue_side": "team-ap.bren",
@@ -2208,6 +2253,7 @@
       "duration_seconds": 665,
       "duration_str": "11:05",
       "vod_url": "https://youtu.be/UWVLAe6zGJU",
+      "vod_scope": "game",
       "quality_level": "LEVEL_B",
       "completeness": {
         "teams": true,
@@ -2221,6 +2267,8 @@
         "vod": true,
         "patch": true
       },
+      "draft_complete": true,
+      "draft_completeness_reason": "Full 10 pick and ban actions parsed",
       "source": {
         "name": "Liquipedia",
         "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
@@ -2399,6 +2447,7 @@
       "game_number": 4,
       "date": "December 10, 2023 - 14:00{{abbr/SGT}}",
       "patch": "1.8.44",
+      "patch_source": "inferred",
       "team_a": "team-ap.bren",
       "team_b": "team-see-you-soon",
       "blue_side": "team-see-you-soon",
@@ -2407,6 +2456,7 @@
       "duration_seconds": 1027,
       "duration_str": "17:07",
       "vod_url": "https://youtu.be/_15GEn9QjgA",
+      "vod_scope": "game",
       "quality_level": "LEVEL_B",
       "completeness": {
         "teams": true,
@@ -2420,6 +2470,8 @@
         "vod": true,
         "patch": true
       },
+      "draft_complete": true,
+      "draft_completeness_reason": "Full 10 pick and ban actions parsed",
       "source": {
         "name": "Liquipedia",
         "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
@@ -2598,6 +2650,7 @@
       "game_number": 1,
       "date": "December 10, 2023 - 18:00{{abbr/SGT}}",
       "patch": "1.8.44",
+      "patch_source": "inferred",
       "team_a": "team-geek-fam-id\n\t|substitutes={{playersubstitutions\n\t\t\t|{{substitution|in={{opponentplayer|caderaa",
       "team_b": "team-burmese-ghouls",
       "blue_side": "team-burmese-ghouls",
@@ -2606,6 +2659,7 @@
       "duration_seconds": 1233,
       "duration_str": "20:33",
       "vod_url": "https://youtu.be/tPLOJ9jlxQE",
+      "vod_scope": "game",
       "quality_level": "LEVEL_B",
       "completeness": {
         "teams": true,
@@ -2619,6 +2673,8 @@
         "vod": true,
         "patch": true
       },
+      "draft_complete": true,
+      "draft_completeness_reason": "Full 10 pick and ban actions parsed",
       "source": {
         "name": "Liquipedia",
         "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
@@ -2797,6 +2853,7 @@
       "game_number": 2,
       "date": "December 10, 2023 - 18:00{{abbr/SGT}}",
       "patch": "1.8.44",
+      "patch_source": "inferred",
       "team_a": "team-geek-fam-id\n\t|substitutes={{playersubstitutions\n\t\t\t|{{substitution|in={{opponentplayer|caderaa",
       "team_b": "team-burmese-ghouls",
       "blue_side": "team-geek-fam-id\n\t|substitutes={{playersubstitutions\n\t\t\t|{{substitution|in={{opponentplayer|caderaa",
@@ -2805,6 +2862,7 @@
       "duration_seconds": 1385,
       "duration_str": "23:05",
       "vod_url": "https://youtu.be/H2gw8_wmLq0",
+      "vod_scope": "game",
       "quality_level": "LEVEL_B",
       "completeness": {
         "teams": true,
@@ -2818,6 +2876,8 @@
         "vod": true,
         "patch": true
       },
+      "draft_complete": true,
+      "draft_completeness_reason": "Full 10 pick and ban actions parsed",
       "source": {
         "name": "Liquipedia",
         "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
@@ -2996,6 +3056,7 @@
       "game_number": 3,
       "date": "December 10, 2023 - 18:00{{abbr/SGT}}",
       "patch": "1.8.44",
+      "patch_source": "inferred",
       "team_a": "team-geek-fam-id\n\t|substitutes={{playersubstitutions\n\t\t\t|{{substitution|in={{opponentplayer|caderaa",
       "team_b": "team-burmese-ghouls",
       "blue_side": "team-burmese-ghouls",
@@ -3004,6 +3065,7 @@
       "duration_seconds": 1089,
       "duration_str": "18:09",
       "vod_url": "https://youtu.be/qNbYvud489k",
+      "vod_scope": "game",
       "quality_level": "LEVEL_B",
       "completeness": {
         "teams": true,
@@ -3017,6 +3079,8 @@
         "vod": true,
         "patch": true
       },
+      "draft_complete": true,
+      "draft_completeness_reason": "Full 10 pick and ban actions parsed",
       "source": {
         "name": "Liquipedia",
         "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
@@ -3195,6 +3259,7 @@
       "game_number": 4,
       "date": "December 10, 2023 - 18:00{{abbr/SGT}}",
       "patch": "1.8.44",
+      "patch_source": "inferred",
       "team_a": "team-geek-fam-id\n\t|substitutes={{playersubstitutions\n\t\t\t|{{substitution|in={{opponentplayer|caderaa",
       "team_b": "team-burmese-ghouls",
       "blue_side": "team-geek-fam-id\n\t|substitutes={{playersubstitutions\n\t\t\t|{{substitution|in={{opponentplayer|caderaa",
@@ -3203,6 +3268,7 @@
       "duration_seconds": 1370,
       "duration_str": "22:50",
       "vod_url": "https://youtu.be/j_AdiKcFWL8",
+      "vod_scope": "game",
       "quality_level": "LEVEL_B",
       "completeness": {
         "teams": true,
@@ -3216,6 +3282,8 @@
         "vod": true,
         "patch": true
       },
+      "draft_complete": true,
+      "draft_completeness_reason": "Full 10 pick and ban actions parsed",
       "source": {
         "name": "Liquipedia",
         "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
@@ -3394,6 +3462,7 @@
       "game_number": 5,
       "date": "December 10, 2023 - 18:00{{abbr/SGT}}",
       "patch": "1.8.44",
+      "patch_source": "inferred",
       "team_a": "team-geek-fam-id\n\t|substitutes={{playersubstitutions\n\t\t\t|{{substitution|in={{opponentplayer|caderaa",
       "team_b": "team-burmese-ghouls",
       "blue_side": "team-burmese-ghouls",
@@ -3402,6 +3471,7 @@
       "duration_seconds": 803,
       "duration_str": "13:23",
       "vod_url": "https://youtu.be/sePddIEUx8I",
+      "vod_scope": "game",
       "quality_level": "LEVEL_B",
       "completeness": {
         "teams": true,
@@ -3415,6 +3485,8 @@
         "vod": true,
         "patch": true
       },
+      "draft_complete": true,
+      "draft_completeness_reason": "Full 10 pick and ban actions parsed",
       "source": {
         "name": "Liquipedia",
         "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
@@ -3593,6 +3665,7 @@
       "game_number": 1,
       "date": "December 12, 2023 - 14:00{{Abbr/SGT}}",
       "patch": "1.8.44",
+      "patch_source": "inferred",
       "team_a": "team-devu",
       "team_b": "team-onic",
       "blue_side": "team-devu",
@@ -3601,6 +3674,7 @@
       "duration_seconds": 1129,
       "duration_str": "18:49",
       "vod_url": "https://youtu.be/gRrQ3fW79pg",
+      "vod_scope": "game",
       "quality_level": "LEVEL_B",
       "completeness": {
         "teams": true,
@@ -3614,6 +3688,8 @@
         "vod": true,
         "patch": true
       },
+      "draft_complete": true,
+      "draft_completeness_reason": "Full 10 pick and ban actions parsed",
       "source": {
         "name": "Liquipedia",
         "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
@@ -3792,6 +3868,7 @@
       "game_number": 2,
       "date": "December 12, 2023 - 14:00{{Abbr/SGT}}",
       "patch": "1.8.44",
+      "patch_source": "inferred",
       "team_a": "team-devu",
       "team_b": "team-onic",
       "blue_side": "team-onic",
@@ -3800,6 +3877,7 @@
       "duration_seconds": 1035,
       "duration_str": "17:15",
       "vod_url": "https://youtu.be/-pND6M07AO0",
+      "vod_scope": "game",
       "quality_level": "LEVEL_B",
       "completeness": {
         "teams": true,
@@ -3813,6 +3891,8 @@
         "vod": true,
         "patch": true
       },
+      "draft_complete": true,
+      "draft_completeness_reason": "Full 10 pick and ban actions parsed",
       "source": {
         "name": "Liquipedia",
         "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
@@ -3991,6 +4071,7 @@
       "game_number": 3,
       "date": "December 12, 2023 - 14:00{{Abbr/SGT}}",
       "patch": "1.8.44",
+      "patch_source": "inferred",
       "team_a": "team-devu",
       "team_b": "team-onic",
       "blue_side": "team-devu",
@@ -3999,6 +4080,7 @@
       "duration_seconds": 1302,
       "duration_str": "21:42",
       "vod_url": "https://youtu.be/5f_Q-fImTLk",
+      "vod_scope": "game",
       "quality_level": "LEVEL_B",
       "completeness": {
         "teams": true,
@@ -4012,6 +4094,8 @@
         "vod": true,
         "patch": true
       },
+      "draft_complete": true,
+      "draft_completeness_reason": "Full 10 pick and ban actions parsed",
       "source": {
         "name": "Liquipedia",
         "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
@@ -4190,6 +4274,7 @@
       "game_number": 1,
       "date": "December 12, 2023 - 18:00{{abbr/SGT}}",
       "patch": "1.8.44",
+      "patch_source": "inferred",
       "team_a": "team-ap.bren",
       "team_b": "team-geek-fam-id\n\t\t|substitutes={{playersubstitutions\n\t\t\t|{{substitution|in={{opponentplayer|caderaa",
       "blue_side": "team-geek-fam-id\n\t\t|substitutes={{playersubstitutions\n\t\t\t|{{substitution|in={{opponentplayer|caderaa",
@@ -4198,6 +4283,7 @@
       "duration_seconds": 1359,
       "duration_str": "22:39",
       "vod_url": "https://youtu.be/1_Duo7FtbUo",
+      "vod_scope": "game",
       "quality_level": "LEVEL_B",
       "completeness": {
         "teams": true,
@@ -4211,6 +4297,8 @@
         "vod": true,
         "patch": true
       },
+      "draft_complete": true,
+      "draft_completeness_reason": "Full 10 pick and ban actions parsed",
       "source": {
         "name": "Liquipedia",
         "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
@@ -4389,6 +4477,7 @@
       "game_number": 2,
       "date": "December 12, 2023 - 18:00{{abbr/SGT}}",
       "patch": "1.8.44",
+      "patch_source": "inferred",
       "team_a": "team-ap.bren",
       "team_b": "team-geek-fam-id\n\t\t|substitutes={{playersubstitutions\n\t\t\t|{{substitution|in={{opponentplayer|caderaa",
       "blue_side": "team-geek-fam-id\n\t\t|substitutes={{playersubstitutions\n\t\t\t|{{substitution|in={{opponentplayer|caderaa",
@@ -4397,6 +4486,7 @@
       "duration_seconds": 1172,
       "duration_str": "19:32",
       "vod_url": "https://youtu.be/GYlcwidgkbc",
+      "vod_scope": "game",
       "quality_level": "LEVEL_B",
       "completeness": {
         "teams": true,
@@ -4410,6 +4500,8 @@
         "vod": true,
         "patch": true
       },
+      "draft_complete": true,
+      "draft_completeness_reason": "Full 10 pick and ban actions parsed",
       "source": {
         "name": "Liquipedia",
         "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
@@ -4588,6 +4680,7 @@
       "game_number": 3,
       "date": "December 12, 2023 - 18:00{{abbr/SGT}}",
       "patch": "1.8.44",
+      "patch_source": "inferred",
       "team_a": "team-ap.bren",
       "team_b": "team-geek-fam-id\n\t\t|substitutes={{playersubstitutions\n\t\t\t|{{substitution|in={{opponentplayer|caderaa",
       "blue_side": "team-geek-fam-id\n\t\t|substitutes={{playersubstitutions\n\t\t\t|{{substitution|in={{opponentplayer|caderaa",
@@ -4596,6 +4689,7 @@
       "duration_seconds": 923,
       "duration_str": "15:23",
       "vod_url": "https://youtu.be/PehgPAIiGqE",
+      "vod_scope": "game",
       "quality_level": "LEVEL_B",
       "completeness": {
         "teams": true,
@@ -4609,6 +4703,8 @@
         "vod": true,
         "patch": true
       },
+      "draft_complete": true,
+      "draft_completeness_reason": "Full 10 pick and ban actions parsed",
       "source": {
         "name": "Liquipedia",
         "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
@@ -4787,6 +4883,7 @@
       "game_number": 4,
       "date": "December 12, 2023 - 18:00{{abbr/SGT}}",
       "patch": "1.8.44",
+      "patch_source": "inferred",
       "team_a": "team-ap.bren",
       "team_b": "team-geek-fam-id\n\t\t|substitutes={{playersubstitutions\n\t\t\t|{{substitution|in={{opponentplayer|caderaa",
       "blue_side": "team-geek-fam-id\n\t\t|substitutes={{playersubstitutions\n\t\t\t|{{substitution|in={{opponentplayer|caderaa",
@@ -4795,6 +4892,7 @@
       "duration_seconds": 1001,
       "duration_str": "16:41",
       "vod_url": "https://youtu.be/1p1r51UbPME",
+      "vod_scope": "game",
       "quality_level": "LEVEL_B",
       "completeness": {
         "teams": true,
@@ -4808,6 +4906,8 @@
         "vod": true,
         "patch": true
       },
+      "draft_complete": true,
+      "draft_completeness_reason": "Full 10 pick and ban actions parsed",
       "source": {
         "name": "Liquipedia",
         "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
@@ -4986,6 +5086,7 @@
       "game_number": 1,
       "date": "December 16, 2023 - 15:00{{abbr/SGT}}",
       "patch": "1.8.44",
+      "patch_source": "inferred",
       "team_a": "team-onic",
       "team_b": "team-ap.bren",
       "blue_side": "team-onic",
@@ -4994,6 +5095,7 @@
       "duration_seconds": 1357,
       "duration_str": "22:37",
       "vod_url": "https://youtu.be/hTps_WCTQ_w",
+      "vod_scope": "game",
       "quality_level": "LEVEL_B",
       "completeness": {
         "teams": true,
@@ -5007,6 +5109,8 @@
         "vod": true,
         "patch": true
       },
+      "draft_complete": true,
+      "draft_completeness_reason": "Full 10 pick and ban actions parsed",
       "source": {
         "name": "Liquipedia",
         "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
@@ -5185,6 +5289,7 @@
       "game_number": 2,
       "date": "December 16, 2023 - 15:00{{abbr/SGT}}",
       "patch": "1.8.44",
+      "patch_source": "inferred",
       "team_a": "team-onic",
       "team_b": "team-ap.bren",
       "blue_side": "team-onic",
@@ -5193,6 +5298,7 @@
       "duration_seconds": 709,
       "duration_str": "11:49",
       "vod_url": "https://youtu.be/UmV7f-drZ1Y",
+      "vod_scope": "game",
       "quality_level": "LEVEL_B",
       "completeness": {
         "teams": true,
@@ -5206,6 +5312,8 @@
         "vod": true,
         "patch": true
       },
+      "draft_complete": true,
+      "draft_completeness_reason": "Full 10 pick and ban actions parsed",
       "source": {
         "name": "Liquipedia",
         "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
@@ -5384,6 +5492,7 @@
       "game_number": 3,
       "date": "December 16, 2023 - 15:00{{abbr/SGT}}",
       "patch": "1.8.44",
+      "patch_source": "inferred",
       "team_a": "team-onic",
       "team_b": "team-ap.bren",
       "blue_side": "team-onic",
@@ -5392,6 +5501,7 @@
       "duration_seconds": 746,
       "duration_str": "12:26",
       "vod_url": "https://youtu.be/XmSOWKJ5qU8",
+      "vod_scope": "game",
       "quality_level": "LEVEL_B",
       "completeness": {
         "teams": true,
@@ -5405,6 +5515,8 @@
         "vod": true,
         "patch": true
       },
+      "draft_complete": true,
+      "draft_completeness_reason": "Full 10 pick and ban actions parsed",
       "source": {
         "name": "Liquipedia",
         "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
@@ -5583,6 +5695,7 @@
       "game_number": 1,
       "date": "December 11, 2023 - 14:00{{abbr/SGT}}",
       "patch": "1.8.44",
+      "patch_source": "inferred",
       "team_a": "team-fire-flux-esports",
       "team_b": "team-blck",
       "blue_side": "team-blck",
@@ -5591,6 +5704,7 @@
       "duration_seconds": 904,
       "duration_str": "15:04",
       "vod_url": "https://youtu.be/pghdmkHgqlE",
+      "vod_scope": "game",
       "quality_level": "LEVEL_B",
       "completeness": {
         "teams": true,
@@ -5604,6 +5718,8 @@
         "vod": true,
         "patch": true
       },
+      "draft_complete": true,
+      "draft_completeness_reason": "Full 10 pick and ban actions parsed",
       "source": {
         "name": "Liquipedia",
         "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
@@ -5782,6 +5898,7 @@
       "game_number": 2,
       "date": "December 11, 2023 - 14:00{{abbr/SGT}}",
       "patch": "1.8.44",
+      "patch_source": "inferred",
       "team_a": "team-fire-flux-esports",
       "team_b": "team-blck",
       "blue_side": "team-fire-flux-esports",
@@ -5790,6 +5907,7 @@
       "duration_seconds": 908,
       "duration_str": "15:08",
       "vod_url": "https://youtu.be/wSP4cDeOn9g",
+      "vod_scope": "game",
       "quality_level": "LEVEL_B",
       "completeness": {
         "teams": true,
@@ -5803,6 +5921,8 @@
         "vod": true,
         "patch": true
       },
+      "draft_complete": true,
+      "draft_completeness_reason": "Full 10 pick and ban actions parsed",
       "source": {
         "name": "Liquipedia",
         "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
@@ -5981,6 +6101,7 @@
       "game_number": 3,
       "date": "December 11, 2023 - 14:00{{abbr/SGT}}",
       "patch": "1.8.44",
+      "patch_source": "inferred",
       "team_a": "team-fire-flux-esports",
       "team_b": "team-blck",
       "blue_side": "team-blck",
@@ -5989,6 +6110,7 @@
       "duration_seconds": 1075,
       "duration_str": "17:55",
       "vod_url": "https://youtu.be/GADzxwz2WJs",
+      "vod_scope": "game",
       "quality_level": "LEVEL_B",
       "completeness": {
         "teams": true,
@@ -6002,6 +6124,8 @@
         "vod": true,
         "patch": true
       },
+      "draft_complete": true,
+      "draft_completeness_reason": "Full 10 pick and ban actions parsed",
       "source": {
         "name": "Liquipedia",
         "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
@@ -6180,6 +6304,7 @@
       "game_number": 4,
       "date": "December 11, 2023 - 14:00{{abbr/SGT}}",
       "patch": "1.8.44",
+      "patch_source": "inferred",
       "team_a": "team-fire-flux-esports",
       "team_b": "team-blck",
       "blue_side": "team-fire-flux-esports",
@@ -6188,6 +6313,7 @@
       "duration_seconds": 1057,
       "duration_str": "17:37",
       "vod_url": "https://youtu.be/604qsZ7_mkQ",
+      "vod_scope": "game",
       "quality_level": "LEVEL_B",
       "completeness": {
         "teams": true,
@@ -6201,6 +6327,8 @@
         "vod": true,
         "patch": true
       },
+      "draft_complete": true,
+      "draft_completeness_reason": "Full 10 pick and ban actions parsed",
       "source": {
         "name": "Liquipedia",
         "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
@@ -6379,6 +6507,7 @@
       "game_number": 1,
       "date": "December 11, 2023 - 18:00{{abbr/SGT}}",
       "patch": "1.8.44",
+      "patch_source": "inferred",
       "team_a": "team-see-you-soon",
       "team_b": "team-burmese-ghouls",
       "blue_side": "team-burmese-ghouls",
@@ -6387,6 +6516,7 @@
       "duration_seconds": 860,
       "duration_str": "14:20",
       "vod_url": "https://youtu.be/3tYd1YtOfvc",
+      "vod_scope": "game",
       "quality_level": "LEVEL_B",
       "completeness": {
         "teams": true,
@@ -6400,6 +6530,8 @@
         "vod": true,
         "patch": true
       },
+      "draft_complete": true,
+      "draft_completeness_reason": "Full 10 pick and ban actions parsed",
       "source": {
         "name": "Liquipedia",
         "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
@@ -6578,6 +6710,7 @@
       "game_number": 2,
       "date": "December 11, 2023 - 18:00{{abbr/SGT}}",
       "patch": "1.8.44",
+      "patch_source": "inferred",
       "team_a": "team-see-you-soon",
       "team_b": "team-burmese-ghouls",
       "blue_side": "team-burmese-ghouls",
@@ -6586,6 +6719,7 @@
       "duration_seconds": 913,
       "duration_str": "15:13",
       "vod_url": "https://youtu.be/HocKnbIDQxQ",
+      "vod_scope": "game",
       "quality_level": "LEVEL_B",
       "completeness": {
         "teams": true,
@@ -6599,6 +6733,8 @@
         "vod": true,
         "patch": true
       },
+      "draft_complete": true,
+      "draft_completeness_reason": "Full 10 pick and ban actions parsed",
       "source": {
         "name": "Liquipedia",
         "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
@@ -6777,6 +6913,7 @@
       "game_number": 3,
       "date": "December 11, 2023 - 18:00{{abbr/SGT}}",
       "patch": "1.8.44",
+      "patch_source": "inferred",
       "team_a": "team-see-you-soon",
       "team_b": "team-burmese-ghouls",
       "blue_side": "team-see-you-soon",
@@ -6785,6 +6922,7 @@
       "duration_seconds": 813,
       "duration_str": "13:33",
       "vod_url": "https://youtu.be/OnRmYRIVrzc",
+      "vod_scope": "game",
       "quality_level": "LEVEL_B",
       "completeness": {
         "teams": true,
@@ -6798,6 +6936,8 @@
         "vod": true,
         "patch": true
       },
+      "draft_complete": true,
+      "draft_completeness_reason": "Full 10 pick and ban actions parsed",
       "source": {
         "name": "Liquipedia",
         "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
@@ -6976,6 +7116,7 @@
       "game_number": 1,
       "date": "December 15, 2023 - 14:00{{abbr/SGT}}",
       "patch": "1.8.44",
+      "patch_source": "inferred",
       "team_a": "team-geek-fam-id",
       "team_b": "team-blck",
       "blue_side": "team-blck",
@@ -6984,6 +7125,7 @@
       "duration_seconds": 895,
       "duration_str": "14:55",
       "vod_url": "https://youtu.be/mv0JTVfw3wg",
+      "vod_scope": "game",
       "quality_level": "LEVEL_B",
       "completeness": {
         "teams": true,
@@ -6997,6 +7139,8 @@
         "vod": true,
         "patch": true
       },
+      "draft_complete": true,
+      "draft_completeness_reason": "Full 10 pick and ban actions parsed",
       "source": {
         "name": "Liquipedia",
         "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
@@ -7175,6 +7319,7 @@
       "game_number": 2,
       "date": "December 15, 2023 - 14:00{{abbr/SGT}}",
       "patch": "1.8.44",
+      "patch_source": "inferred",
       "team_a": "team-geek-fam-id",
       "team_b": "team-blck",
       "blue_side": "team-blck",
@@ -7183,6 +7328,7 @@
       "duration_seconds": 1234,
       "duration_str": "20:34",
       "vod_url": "https://youtu.be/KfkLkdLVeoc",
+      "vod_scope": "game",
       "quality_level": "LEVEL_B",
       "completeness": {
         "teams": true,
@@ -7196,6 +7342,8 @@
         "vod": true,
         "patch": true
       },
+      "draft_complete": true,
+      "draft_completeness_reason": "Full 10 pick and ban actions parsed",
       "source": {
         "name": "Liquipedia",
         "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
@@ -7374,6 +7522,7 @@
       "game_number": 3,
       "date": "December 15, 2023 - 14:00{{abbr/SGT}}",
       "patch": "1.8.44",
+      "patch_source": "inferred",
       "team_a": "team-geek-fam-id",
       "team_b": "team-blck",
       "blue_side": "team-geek-fam-id",
@@ -7382,6 +7531,7 @@
       "duration_seconds": 1068,
       "duration_str": "17:48",
       "vod_url": "https://youtu.be/0CyKlOX46iU",
+      "vod_scope": "game",
       "quality_level": "LEVEL_B",
       "completeness": {
         "teams": true,
@@ -7395,6 +7545,8 @@
         "vod": true,
         "patch": true
       },
+      "draft_complete": true,
+      "draft_completeness_reason": "Full 10 pick and ban actions parsed",
       "source": {
         "name": "Liquipedia",
         "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
@@ -7573,6 +7725,7 @@
       "game_number": 4,
       "date": "December 15, 2023 - 14:00{{abbr/SGT}}",
       "patch": "1.8.44",
+      "patch_source": "inferred",
       "team_a": "team-geek-fam-id",
       "team_b": "team-blck",
       "blue_side": "team-geek-fam-id",
@@ -7581,6 +7734,7 @@
       "duration_seconds": 1069,
       "duration_str": "17:49",
       "vod_url": "https://youtu.be/ZErfc0R-V-E",
+      "vod_scope": "game",
       "quality_level": "LEVEL_B",
       "completeness": {
         "teams": true,
@@ -7594,6 +7748,8 @@
         "vod": true,
         "patch": true
       },
+      "draft_complete": true,
+      "draft_completeness_reason": "Full 10 pick and ban actions parsed",
       "source": {
         "name": "Liquipedia",
         "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
@@ -7772,6 +7928,7 @@
       "game_number": 1,
       "date": "December 15, 2023 - 18:00{{abbr/SGT}}",
       "patch": "1.8.44",
+      "patch_source": "inferred",
       "team_a": "team-devu",
       "team_b": "team-see-you-soon",
       "blue_side": "team-devu",
@@ -7780,6 +7937,7 @@
       "duration_seconds": 870,
       "duration_str": "14:30",
       "vod_url": "https://youtu.be/pfEGgCocwos",
+      "vod_scope": "game",
       "quality_level": "LEVEL_B",
       "completeness": {
         "teams": true,
@@ -7793,6 +7951,8 @@
         "vod": true,
         "patch": true
       },
+      "draft_complete": true,
+      "draft_completeness_reason": "Full 10 pick and ban actions parsed",
       "source": {
         "name": "Liquipedia",
         "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
@@ -7971,6 +8131,7 @@
       "game_number": 2,
       "date": "December 15, 2023 - 18:00{{abbr/SGT}}",
       "patch": "1.8.44",
+      "patch_source": "inferred",
       "team_a": "team-devu",
       "team_b": "team-see-you-soon",
       "blue_side": "team-devu",
@@ -7979,6 +8140,7 @@
       "duration_seconds": 884,
       "duration_str": "14:44",
       "vod_url": "https://youtu.be/357jDQK8Jbo",
+      "vod_scope": "game",
       "quality_level": "LEVEL_B",
       "completeness": {
         "teams": true,
@@ -7992,6 +8154,8 @@
         "vod": true,
         "patch": true
       },
+      "draft_complete": true,
+      "draft_completeness_reason": "Full 10 pick and ban actions parsed",
       "source": {
         "name": "Liquipedia",
         "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
@@ -8170,6 +8334,7 @@
       "game_number": 3,
       "date": "December 15, 2023 - 18:00{{abbr/SGT}}",
       "patch": "1.8.44",
+      "patch_source": "inferred",
       "team_a": "team-devu",
       "team_b": "team-see-you-soon",
       "blue_side": "team-devu",
@@ -8178,6 +8343,7 @@
       "duration_seconds": 1916,
       "duration_str": "31:56",
       "vod_url": "https://youtu.be/u7GZdm69HIM",
+      "vod_scope": "game",
       "quality_level": "LEVEL_B",
       "completeness": {
         "teams": true,
@@ -8191,6 +8357,8 @@
         "vod": true,
         "patch": true
       },
+      "draft_complete": true,
+      "draft_completeness_reason": "Full 10 pick and ban actions parsed",
       "source": {
         "name": "Liquipedia",
         "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
@@ -8369,6 +8537,7 @@
       "game_number": 4,
       "date": "December 15, 2023 - 18:00{{abbr/SGT}}",
       "patch": "1.8.44",
+      "patch_source": "inferred",
       "team_a": "team-devu",
       "team_b": "team-see-you-soon",
       "blue_side": "team-see-you-soon",
@@ -8377,6 +8546,7 @@
       "duration_seconds": 656,
       "duration_str": "10:56",
       "vod_url": "https://youtu.be/-52DjA1H-7M",
+      "vod_scope": "game",
       "quality_level": "LEVEL_B",
       "completeness": {
         "teams": true,
@@ -8390,6 +8560,8 @@
         "vod": true,
         "patch": true
       },
+      "draft_complete": true,
+      "draft_completeness_reason": "Full 10 pick and ban actions parsed",
       "source": {
         "name": "Liquipedia",
         "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
@@ -8568,6 +8740,7 @@
       "game_number": 5,
       "date": "December 15, 2023 - 18:00{{abbr/SGT}}",
       "patch": "1.8.44",
+      "patch_source": "inferred",
       "team_a": "team-devu",
       "team_b": "team-see-you-soon",
       "blue_side": "team-devu",
@@ -8576,6 +8749,7 @@
       "duration_seconds": 637,
       "duration_str": "10:37",
       "vod_url": "https://youtu.be/gpV9R83Op5A",
+      "vod_scope": "game",
       "quality_level": "LEVEL_B",
       "completeness": {
         "teams": true,
@@ -8589,6 +8763,8 @@
         "vod": true,
         "patch": true
       },
+      "draft_complete": true,
+      "draft_completeness_reason": "Full 10 pick and ban actions parsed",
       "source": {
         "name": "Liquipedia",
         "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
@@ -8767,6 +8943,7 @@
       "game_number": 1,
       "date": "December 16, 2023 - 11:00{{abbr/SGT}}",
       "patch": "1.8.44",
+      "patch_source": "inferred",
       "team_a": "team-blck",
       "team_b": "team-devu",
       "blue_side": "team-devu",
@@ -8775,6 +8952,7 @@
       "duration_seconds": 1042,
       "duration_str": "17:22",
       "vod_url": "https://youtu.be/OPvLNzsMRrM",
+      "vod_scope": "game",
       "quality_level": "LEVEL_B",
       "completeness": {
         "teams": true,
@@ -8788,6 +8966,8 @@
         "vod": true,
         "patch": true
       },
+      "draft_complete": true,
+      "draft_completeness_reason": "Full 10 pick and ban actions parsed",
       "source": {
         "name": "Liquipedia",
         "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
@@ -8966,6 +9146,7 @@
       "game_number": 2,
       "date": "December 16, 2023 - 11:00{{abbr/SGT}}",
       "patch": "1.8.44",
+      "patch_source": "inferred",
       "team_a": "team-blck",
       "team_b": "team-devu",
       "blue_side": "team-devu",
@@ -8974,6 +9155,7 @@
       "duration_seconds": 864,
       "duration_str": "14:24",
       "vod_url": "https://youtu.be/6fZ-uDHRWn0",
+      "vod_scope": "game",
       "quality_level": "LEVEL_B",
       "completeness": {
         "teams": true,
@@ -8987,6 +9169,8 @@
         "vod": true,
         "patch": true
       },
+      "draft_complete": true,
+      "draft_completeness_reason": "Full 10 pick and ban actions parsed",
       "source": {
         "name": "Liquipedia",
         "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
@@ -9165,6 +9349,7 @@
       "game_number": 3,
       "date": "December 16, 2023 - 11:00{{abbr/SGT}}",
       "patch": "1.8.44",
+      "patch_source": "inferred",
       "team_a": "team-blck",
       "team_b": "team-devu",
       "blue_side": "team-blck",
@@ -9173,6 +9358,7 @@
       "duration_seconds": 809,
       "duration_str": "13:29",
       "vod_url": "https://youtu.be/CpoIxj-UV3g",
+      "vod_scope": "game",
       "quality_level": "LEVEL_B",
       "completeness": {
         "teams": true,
@@ -9186,6 +9372,8 @@
         "vod": true,
         "patch": true
       },
+      "draft_complete": true,
+      "draft_completeness_reason": "Full 10 pick and ban actions parsed",
       "source": {
         "name": "Liquipedia",
         "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
@@ -9364,6 +9552,7 @@
       "game_number": 1,
       "date": "December 16, 2023 - 19:00{{abbr/SGT}}",
       "patch": "1.8.44",
+      "patch_source": "inferred",
       "team_a": "team-ap.bren",
       "team_b": "team-blck",
       "blue_side": "team-ap.bren",
@@ -9372,6 +9561,7 @@
       "duration_seconds": 915,
       "duration_str": "15:15",
       "vod_url": "https://youtu.be/bfa61YL6eKc",
+      "vod_scope": "game",
       "quality_level": "LEVEL_B",
       "completeness": {
         "teams": true,
@@ -9385,6 +9575,8 @@
         "vod": true,
         "patch": true
       },
+      "draft_complete": true,
+      "draft_completeness_reason": "Full 10 pick and ban actions parsed",
       "source": {
         "name": "Liquipedia",
         "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
@@ -9563,6 +9755,7 @@
       "game_number": 2,
       "date": "December 16, 2023 - 19:00{{abbr/SGT}}",
       "patch": "1.8.44",
+      "patch_source": "inferred",
       "team_a": "team-ap.bren",
       "team_b": "team-blck",
       "blue_side": "team-blck",
@@ -9571,6 +9764,7 @@
       "duration_seconds": 923,
       "duration_str": "15:23",
       "vod_url": "https://youtu.be/wx0YL7tfQUU",
+      "vod_scope": "game",
       "quality_level": "LEVEL_B",
       "completeness": {
         "teams": true,
@@ -9584,6 +9778,8 @@
         "vod": true,
         "patch": true
       },
+      "draft_complete": true,
+      "draft_completeness_reason": "Full 10 pick and ban actions parsed",
       "source": {
         "name": "Liquipedia",
         "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
@@ -9762,6 +9958,7 @@
       "game_number": 3,
       "date": "December 16, 2023 - 19:00{{abbr/SGT}}",
       "patch": "1.8.44",
+      "patch_source": "inferred",
       "team_a": "team-ap.bren",
       "team_b": "team-blck",
       "blue_side": "team-blck",
@@ -9770,6 +9967,7 @@
       "duration_seconds": 1101,
       "duration_str": "18:21",
       "vod_url": "https://youtu.be/aKi4aY9OFDM",
+      "vod_scope": "game",
       "quality_level": "LEVEL_B",
       "completeness": {
         "teams": true,
@@ -9783,6 +9981,8 @@
         "vod": true,
         "patch": true
       },
+      "draft_complete": true,
+      "draft_completeness_reason": "Full 10 pick and ban actions parsed",
       "source": {
         "name": "Liquipedia",
         "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
@@ -9961,6 +10161,7 @@
       "game_number": 1,
       "date": "December 17, 2023 - 19:00{{abbr/SGT}}",
       "patch": "1.8.44",
+      "patch_source": "inferred",
       "team_a": "team-onic",
       "team_b": "team-ap.bren",
       "blue_side": "team-ap.bren",
@@ -9969,6 +10170,7 @@
       "duration_seconds": 853,
       "duration_str": "14:13",
       "vod_url": "https://youtu.be/7GbCGqVYPi4",
+      "vod_scope": "game",
       "quality_level": "LEVEL_B",
       "completeness": {
         "teams": true,
@@ -9982,6 +10184,8 @@
         "vod": true,
         "patch": true
       },
+      "draft_complete": true,
+      "draft_completeness_reason": "Full 10 pick and ban actions parsed",
       "source": {
         "name": "Liquipedia",
         "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
@@ -10160,6 +10364,7 @@
       "game_number": 2,
       "date": "December 17, 2023 - 19:00{{abbr/SGT}}",
       "patch": "1.8.44",
+      "patch_source": "inferred",
       "team_a": "team-onic",
       "team_b": "team-ap.bren",
       "blue_side": "team-onic",
@@ -10168,6 +10373,7 @@
       "duration_seconds": 1368,
       "duration_str": "22:48",
       "vod_url": "https://youtu.be/kZMn98V8rZs",
+      "vod_scope": "game",
       "quality_level": "LEVEL_B",
       "completeness": {
         "teams": true,
@@ -10181,6 +10387,8 @@
         "vod": true,
         "patch": true
       },
+      "draft_complete": true,
+      "draft_completeness_reason": "Full 10 pick and ban actions parsed",
       "source": {
         "name": "Liquipedia",
         "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
@@ -10359,6 +10567,7 @@
       "game_number": 3,
       "date": "December 17, 2023 - 19:00{{abbr/SGT}}",
       "patch": "1.8.44",
+      "patch_source": "inferred",
       "team_a": "team-onic",
       "team_b": "team-ap.bren",
       "blue_side": "team-ap.bren",
@@ -10367,6 +10576,7 @@
       "duration_seconds": 881,
       "duration_str": "14:41",
       "vod_url": "https://youtu.be/N0cRnhBybjs",
+      "vod_scope": "game",
       "quality_level": "LEVEL_B",
       "completeness": {
         "teams": true,
@@ -10380,6 +10590,8 @@
         "vod": true,
         "patch": true
       },
+      "draft_complete": true,
+      "draft_completeness_reason": "Full 10 pick and ban actions parsed",
       "source": {
         "name": "Liquipedia",
         "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
@@ -10550,6 +10762,7 @@
       "game_number": 4,
       "date": "December 17, 2023 - 19:00{{abbr/SGT}}",
       "patch": "1.8.44",
+      "patch_source": "inferred",
       "team_a": "team-onic",
       "team_b": "team-ap.bren",
       "blue_side": "team-onic",
@@ -10558,6 +10771,7 @@
       "duration_seconds": 889,
       "duration_str": "14:49",
       "vod_url": "https://youtu.be/9o1HzPrRpHs",
+      "vod_scope": "game",
       "quality_level": "LEVEL_B",
       "completeness": {
         "teams": true,
@@ -10571,6 +10785,8 @@
         "vod": true,
         "patch": true
       },
+      "draft_complete": true,
+      "draft_completeness_reason": "Full 10 pick and ban actions parsed",
       "source": {
         "name": "Liquipedia",
         "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
@@ -10749,6 +10965,7 @@
       "game_number": 5,
       "date": "December 17, 2023 - 19:00{{abbr/SGT}}",
       "patch": "1.8.44",
+      "patch_source": "inferred",
       "team_a": "team-onic",
       "team_b": "team-ap.bren",
       "blue_side": "team-onic",
@@ -10757,6 +10974,7 @@
       "duration_seconds": 1630,
       "duration_str": "27:10",
       "vod_url": "https://youtu.be/z3Nz73k87H8",
+      "vod_scope": "game",
       "quality_level": "LEVEL_B",
       "completeness": {
         "teams": true,
@@ -10770,6 +10988,8 @@
         "vod": true,
         "patch": true
       },
+      "draft_complete": true,
+      "draft_completeness_reason": "Full 10 pick and ban actions parsed",
       "source": {
         "name": "Liquipedia",
         "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
@@ -10948,6 +11168,7 @@
       "game_number": 6,
       "date": "December 17, 2023 - 19:00{{abbr/SGT}}",
       "patch": "1.8.44",
+      "patch_source": "inferred",
       "team_a": "team-onic",
       "team_b": "team-ap.bren",
       "blue_side": "team-ap.bren",
@@ -10956,6 +11177,7 @@
       "duration_seconds": 900,
       "duration_str": "15:00",
       "vod_url": "https://youtu.be/9PI5731wFrE",
+      "vod_scope": "game",
       "quality_level": "LEVEL_B",
       "completeness": {
         "teams": true,
@@ -10969,6 +11191,8 @@
         "vod": true,
         "patch": true
       },
+      "draft_complete": true,
+      "draft_completeness_reason": "Full 10 pick and ban actions parsed",
       "source": {
         "name": "Liquipedia",
         "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
@@ -11147,6 +11371,7 @@
       "game_number": 7,
       "date": "December 17, 2023 - 19:00{{abbr/SGT}}",
       "patch": "1.8.44",
+      "patch_source": "inferred",
       "team_a": "team-onic",
       "team_b": "team-ap.bren",
       "blue_side": "team-ap.bren",
@@ -11155,6 +11380,7 @@
       "duration_seconds": 842,
       "duration_str": "14:02",
       "vod_url": "https://youtu.be/N0LOKuGOZnM",
+      "vod_scope": "game",
       "quality_level": "LEVEL_B",
       "completeness": {
         "teams": true,
@@ -11168,6 +11394,8 @@
         "vod": true,
         "patch": true
       },
+      "draft_complete": true,
+      "draft_completeness_reason": "Full 10 pick and ban actions parsed",
       "source": {
         "name": "Liquipedia",
         "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",

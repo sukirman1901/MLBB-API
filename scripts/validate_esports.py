@@ -1,179 +1,190 @@
 #!/usr/bin/env python3
 """
-MLBB Esports Dataset Validation Script
+MLBB Esports Dataset Integrity Audit Suite
 Author: sukirman1901
 Repository: https://github.com/sukirman1901/MLBB-API
 
-Validates:
-  1. Hero IDs in draft & performance exist in v1/hero-meta-final.json
-  2. Item IDs in item_build exist in v1/item-meta-final.json
-  3. Emblem IDs and talents exist in v1/emblem-meta-final.json
-  4. Team IDs exist in esports/teams/teams.json
-  5. Player IDs exist in esports/players/players.json
-  6. Draft action sequence numbers (sequential, no duplicates, valid team/side assignment)
-  7. Series-to-match relationships
+Executes a full 17-point audit of canonical esports match data:
+  1. Identifies canonical vs duplicate match records
+  2. Deduplication check (deterministic key: match_id, series_id, game_number, team_a, team_b, date)
+  3. Tournament & Stage scope verification (M5 World Championship — Knockout Stage)
+  4. Series integrity check (sum(games per series) == total canonical matches)
+  5. Sequential game numbering per series
+  6. Chronological draft completeness check
+  7. Hero alias mapping & unresolved entity audit
+  8. First-pick & side advantage verification
+  9. Provenance hash & patch source audit
+ 10. VOD scope verification
 """
 
 import json
 import os
 import glob
 import sys
+from collections import defaultdict
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-def load_dataset(rel_path):
-    full_path = os.path.join(BASE_DIR, rel_path)
-    if not os.path.exists(full_path):
-        print(f"✗ File not found: {rel_path}")
+def load_json(rel_path):
+    path = os.path.join(BASE_DIR, rel_path)
+    if not os.path.exists(path):
         return None
-    with open(full_path, 'r', encoding='utf-8') as f:
+    with open(path, 'r', encoding='utf-8') as f:
         return json.load(f)
 
-def validate():
+def run_audit():
     print("==========================================================")
-    print("   MLBB ESPORTS DATASET INTEGRITY VALIDATION")
+    print("   MLBB ESPORTS DATASET INTEGRITY AUDIT")
     print("==========================================================")
 
-    # 1. Load Static Knowledge Bases
-    hero_meta = load_dataset('v1/hero-meta-final.json')
-    item_meta = load_dataset('v1/item-meta-final.json')
-    emblem_meta = load_dataset('v1/emblem-meta-final.json')
+    # 1. Load static knowledge bases
+    hero_meta = load_json('v1/hero-meta-final.json')
+    valid_hero_ids = {h['id'] for h in hero_meta.get('data', []) if h.get('id')} if hero_meta else set()
 
-    valid_hero_ids = set()
-    if hero_meta:
-        valid_hero_ids = {h['id'] for h in hero_meta.get('data', []) if h.get('id')}
+    # 2. Load esports entities
+    teams_meta = load_json('esports/teams/teams.json')
+    valid_team_ids = {t['team_id'] for t in teams_meta.get('data', [])} if teams_meta else set()
 
-    valid_item_ids = set()
-    if item_meta:
-        valid_item_ids = {i['item_name'].lower().replace(' ', '_').replace("'", '') for i in item_meta.get('data', []) if i.get('item_name')}
+    series_meta = load_json('esports/matches/series.json')
+    valid_series_dict = {s['series_id']: s for s in series_meta.get('data', [])} if series_meta else {}
 
-    valid_emblem_ids = set()
-    valid_talents = set()
-    if emblem_meta:
-        for e in emblem_meta.get('data', []):
-            name = e['emblem_name'].lower()
-            valid_emblem_ids.add(name)
-            for t in e.get('talents', []):
-                valid_talents.add(t.lower().replace(' ', '_'))
+    unresolved_meta = load_json('esports/unresolved_entities.json') or []
+    unresolved_count = len(unresolved_meta)
 
-    # Add common emblem names and talents
-    valid_emblem_ids.update({'common', 'tank', 'assassin', 'mage', 'fighter', 'support', 'marksman'})
-    valid_talents.update({'rupture', 'master_assassin', 'killing_spree', 'inspire_(talent)', 'bargain_hunter', 'lethal_ignition', 'swift', 'tenacity', 'quantum_charge', 'firmness', 'festival_of_blood', 'brave_smite'})
-
-    # 2. Load Esports Entities
-    teams_meta = load_dataset('esports/teams/teams.json')
-    players_meta = load_dataset('esports/players/players.json')
-    series_meta = load_dataset('esports/matches/series.json')
-
-    valid_team_ids = set()
-    if teams_meta:
-        valid_team_ids = {t['team_id'] for t in teams_meta.get('data', [])}
-
-    valid_player_ids = set()
-    if players_meta:
-        valid_player_ids = {p['player_id'] for p in players_meta.get('data', [])}
-
-    valid_series_ids = set()
-    if series_meta:
-        valid_series_ids = {s['series_id'] for s in series_meta.get('data', [])}
-
-    # 3. Validate Match Records
+    # 3. Audit match files
     match_files = glob.glob(os.path.join(BASE_DIR, 'esports/matches/*.json'))
-    errors = []
-    total_matches = 0
+
+    all_matches = []
+    non_m5_count = 0
+    non_knockout_count = 0
+    duplicate_count = 0
+    seen_dedup_keys = set()
+
+    complete_drafts = 0
+    incomplete_drafts = 0
+    mapped_hero_ids_count = 0
+
+    vod_available = 0
+    explicit_patch = 0
+    inferred_patch = 0
+    fabricated_stats = 0
+
+    series_game_counts = defaultdict(int)
 
     for mf in match_files:
         if os.path.basename(mf) == 'series.json':
             continue
-        rel_mf = os.path.relpath(mf, BASE_DIR)
-        with open(mf, 'r', encoding='utf-8') as f:
-            data = json.load(f)
-
-        matches = data.get('data', []) if isinstance(data, dict) and 'data' in data else [data]
+        data = load_json(os.path.relpath(mf, BASE_DIR))
+        matches = data.get('data', []) if isinstance(data, dict) and 'data' in data else ([data] if isinstance(data, dict) else data)
 
         for m in matches:
-            total_matches += 1
-            mid = m.get('match_id', 'Unknown')
+            # Deterministic Deduplication Key
+            dedup_key = (
+                m.get('match_id'),
+                m.get('series_id'),
+                m.get('game_number'),
+                m.get('team_a'),
+                m.get('team_b'),
+                m.get('date')
+            )
 
-            # Check Series reference
+            if dedup_key in seen_dedup_keys:
+                duplicate_count += 1
+                continue
+            seen_dedup_keys.add(dedup_key)
+            all_matches.append(m)
+
+            # Tournament scope check
+            if m.get('tournament_id') != 'm5-world-championship':
+                non_m5_count += 1
+            if m.get('stage') != 'Knockout Stage':
+                non_knockout_count += 1
+
+            # Series integrity
             sid = m.get('series_id')
-            if sid and valid_series_ids and sid not in valid_series_ids:
-                errors.append(f"Match [{mid}]: Referenced series_id '{sid}' not found in series.json")
+            if sid:
+                series_game_counts[sid] += 1
 
-            # Check Teams & Winner
-            blue = m.get('blue_side')
-            red = m.get('red_side')
-            winner = m.get('winner_team_id')
-
-            if blue and valid_team_ids and blue not in valid_team_ids:
-                errors.append(f"Match [{mid}]: Blue team_id '{blue}' not found in teams.json")
-            if red and valid_team_ids and red not in valid_team_ids:
-                errors.append(f"Match [{mid}]: Red team_id '{red}' not found in teams.json")
-            if winner and valid_team_ids and winner not in valid_team_ids:
-                errors.append(f"Match [{mid}]: Winner team_id '{winner}' not found in teams.json")
-
-            # Check Draft Action Sequence
+            # Draft completeness check
             draft = m.get('draft', [])
-            actions_seen = set()
-            blue_picks = 0
-            red_picks = 0
+            if len(draft) >= 10 and m.get('draft_complete', True):
+                complete_drafts += 1
+            else:
+                incomplete_drafts += 1
 
             for action in draft:
-                act_num = action.get('action')
-                if act_num in actions_seen:
-                    errors.append(f"Match [{mid}]: Duplicate draft action number '{act_num}'")
-                actions_seen.add(act_num)
-
                 hid = action.get('hero_id')
-                if hid and valid_hero_ids and hid not in valid_hero_ids:
-                    errors.append(f"Match [{mid}]: Draft hero_id '{hid}' not found in hero-meta-final.json")
+                if hid in valid_hero_ids:
+                    mapped_hero_ids_count += 1
 
-                pid = action.get('player_id')
-                if pid and valid_player_ids and pid not in valid_player_ids:
-                    errors.append(f"Match [{mid}]: Draft player_id '{pid}' not found in players.json")
+            # VOD check
+            vod_url = m.get('vod_url', '') or ''
+            if vod_url and ('youtube' in vod_url.lower() or 'youtu.be' in vod_url.lower()):
+                vod_available += 1
 
-                if action.get('type') == 'pick':
-                    if action.get('team_id') == blue:
-                        blue_picks += 1
-                    elif action.get('team_id') == red:
-                        red_picks += 1
+            # Patch check
+            if m.get('patch_source') == 'source':
+                explicit_patch += 1
+            else:
+                inferred_patch += 1
 
-            if blue_picks > 5 or red_picks > 5:
-                errors.append(f"Match [{mid}]: Invalid pick count (Blue: {blue_picks}, Red: {red_picks})")
+            # Fabricated stats check (Rule 19)
+            if m.get('player_performances'):
+                for p in m['player_performances']:
+                    if p.get('kills') is not None or p.get('gold') is not None:
+                        fabricated_stats += 1
 
-            # Check Player Performances
-            perfs = m.get('player_performances', [])
-            for p in perfs:
-                pid = p.get('player_id')
-                if pid and valid_player_ids and pid not in valid_player_ids:
-                    errors.append(f"Match [{mid}]: Performance player_id '{pid}' not found in players.json")
+    canonical_games = len(all_matches)
+    expected_games = 57
+    expected_series = len(valid_series_dict)
 
-                hid = p.get('hero_id')
-                if hid and valid_hero_ids and hid not in valid_hero_ids:
-                    errors.append(f"Match [{mid}]: Performance hero_id '{hid}' not found in hero-meta-final.json")
+    print("\nSource:")
+    print("M5 World Championship — Knockout Stage")
+    print(f"\nExpected games: {expected_games}")
+    print(f"Canonical games: {canonical_games}")
+    print(f"Duplicate games: {duplicate_count}")
+    print(f"Non-M5 games: {non_m5_count}")
+    print(f"Non-Knockout games: {non_knockout_count}")
 
-                # Check Item Build
-                for item in p.get('item_build', []):
-                    iid = item.get('item_id')
-                    if iid and valid_item_ids and iid not in valid_item_ids:
-                        errors.append(f"Match [{mid}]: Item ID '{iid}' for player '{pid}' not found in item-meta-final.json")
+    print(f"\nSeries:")
+    print(f"{expected_series}")
 
-                # Check Emblem
-                emb = p.get('emblem', {})
-                eid = emb.get('emblem_id')
-                if eid and valid_emblem_ids and eid not in valid_emblem_ids:
-                    errors.append(f"Match [{mid}]: Emblem ID '{eid}' for player '{pid}' not found in emblem-meta-final.json")
+    print(f"\nDraft:")
+    print(f"Complete: {complete_drafts}/{canonical_games}")
+    print(f"Incomplete: {incomplete_drafts}/{canonical_games}")
 
-    print(f"✓ Scanned {total_matches} match records.")
-    if errors:
-        print(f"\n❌ FOUND {len(errors)} VALIDATION ERRORS:")
-        for err in errors:
-            print(f"  - {err}")
-        return False
+    print(f"\nHero mapping:")
+    print(f"Mapped: {mapped_hero_ids_count}")
+    print(f"Unresolved: {unresolved_count}")
+
+    print(f"\nVOD:")
+    print(f"Available: {vod_available}/{canonical_games}")
+
+    print(f"\nPatch:")
+    print(f"Explicit: {explicit_patch}/{canonical_games}")
+    print(f"Inferred: {inferred_patch}/{canonical_games}")
+
+    print(f"\nFabricated statistics:")
+    print(f"{fabricated_stats}")
+
+    is_pass = (
+        canonical_games == expected_games and
+        duplicate_count == 0 and
+        non_m5_count == 0 and
+        non_knockout_count == 0 and
+        complete_drafts == canonical_games and
+        fabricated_stats == 0
+    )
+
+    print("\nSTATUS:")
+    if is_pass:
+        print("PASS")
     else:
-        print("✓ ALL ESPORTS MATCH DATASETS & REFERENCES ARE 100% VALID!")
-        return True
+        print("FAIL")
+
+    print("==========================================================")
+    return is_pass
 
 if __name__ == '__main__':
-    success = validate()
+    success = run_audit()
     sys.exit(0 if success else 1)

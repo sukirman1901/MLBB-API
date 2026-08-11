@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 """
-Descriptive MLBB Match Analytics Engine
+Descriptive MLBB Match Analytics Engine (Sample-Size Aware)
 Author: sukirman1901
 Repository: https://github.com/sukirman1901/MLBB-API
 
 Calculates observed descriptive statistics across ingested real esports matches:
-  1. Hero Pick/Ban Priority, Pick Rate, Ban Rate, Win Rate
+  1. Hero Pick/Ban Priority, Pick Rate, Ban Rate, Wins, Losses, Win Rate, and Sample Size (n=Picks)
   2. First-Pick Win Rate & Side Advantage (Blue vs Red)
   3. Team Hero Preferences & Win Rates
 """
@@ -58,7 +58,7 @@ def run_analysis():
         winner = m['winner_team_id']
         draft = m.get('draft', [])
 
-        # Check Action 5 (First Pick)
+        # Check Action 7 (First Pick) or first pick action
         picks = [a for a in draft if a['type'] == 'pick']
         if picks:
             first_pick = picks[0]
@@ -84,7 +84,7 @@ def run_analysis():
         print(f"  • First-Pick Win Rate: {first_pick_wins}/{first_pick_total} ({first_pick_wins/first_pick_total*100:.1f}%)")
 
     # Top Picked & Banned Heroes
-    print(f"\n[3] TOP CONTESTED HEROES (Picks, Bans & Win Rates)")
+    print(f"\n[3] TOP CONTESTED HEROES (Sample-Size Aware: Wins, Losses & Sample n)")
     all_heroes = set(hero_picks.keys()) | set(hero_bans.keys())
 
     stats = []
@@ -93,17 +93,19 @@ def run_analysis():
         p_count = hero_picks[hid]
         b_count = hero_bans[hid]
         w_count = hero_wins[hid]
+        l_count = p_count - w_count
         pb_count = p_count + b_count
         pb_rate = (pb_count / total_matches) * 100
         win_rate = (w_count / p_count * 100) if p_count > 0 else 0.0
-        stats.append((name, pb_count, pb_rate, p_count, b_count, win_rate))
+        stats.append((name, pb_count, pb_rate, p_count, b_count, w_count, l_count, win_rate))
 
     stats.sort(key=lambda x: x[1], reverse=True)
 
-    print(f"  {'Hero':<16} | {'P+B Count':<10} | {'P+B Rate':<10} | {'Picks':<6} | {'Bans':<6} | {'Win Rate':<8}")
-    print("  " + "-"*65)
+    print(f"  {'Hero':<16} | {'P+B':<5} | {'P+B Rate':<8} | {'Picks':<5} | {'Bans':<5} | {'Wins':<5} | {'Loss':<5} | {'Win Rate':<8} | {'Sample Size':<11}")
+    print("  " + "-"*85)
     for row in stats[:15]:
-        print(f"  {row[0]:<16} | {row[1]:<10} | {row[2]:<9.1f}% | {row[3]:<6} | {row[4]:<6} | {row[5]:<7.1f}%")
+        sample_str = f"n={row[3]}" if row[3] > 0 else "n=0"
+        print(f"  {row[0]:<16} | {row[1]:<5} | {row[2]:<7.1f}% | {row[3]:<5} | {row[4]:<5} | {row[5]:<5} | {row[6]:<5} | {row[7]:<7.1f}% | {sample_str:<11}")
 
     print("\n==========================================================")
 
