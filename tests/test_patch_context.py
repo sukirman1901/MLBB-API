@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Unit Test Suite for Patch Context & PatchWindow Assignment V1
+Unit Test Suite for Patch Context & Temporal Semantics V1
 Author: sukirman1901
 Repository: https://github.com/sukirman1901/MLBB-API
 
@@ -10,8 +10,8 @@ Tests:
   2. Verified tournament PatchWindow resolves correctly (Level 2)
   3. Date inference is marked LOW confidence (Level 3)
   4. Unresolved patch remains None / UNKNOWN (Level 4)
-  5. days_since_release >= 0 when patch release predates match
-  6. days_since_effective >= 0 when effective_from predates match
+  5. BEFORE_RELEASE temporal relationship correctly identified for advance tournament server builds
+  6. days_since_competitive_effective >= 0 when effective_from predates match
   7. Boundary dates are handled correctly (inclusive)
   8. Overlapping PatchWindows are detected and flagged
   9. Match from another tournament cannot inherit wrong PatchWindow
@@ -22,7 +22,6 @@ import json
 import os
 import sys
 import unittest
-from datetime import datetime, timezone
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, BASE_DIR)
@@ -36,7 +35,7 @@ class TestPatchContextAssignment(unittest.TestCase):
             {
                 "patch_id": "patch-1.8.44",
                 "version": "1.8.44",
-                "release_date": "2023-11-21T00:00:00Z",
+                "release_date": "2023-12-20T00:00:00Z",
                 "source_url": "https://liquipedia.net/mobilelegends/Patch_1.8.44"
             }
         ]
@@ -78,7 +77,7 @@ class TestPatchContextAssignment(unittest.TestCase):
 
     def test_3_date_inference_low_confidence(self):
         match = {
-            "date": "2023-12-01T14:00:00Z",
+            "date": "2023-12-25T14:00:00Z",
             "tournament_id": "other-tournament",
             "stage": "Group Stage"
         }
@@ -97,26 +96,26 @@ class TestPatchContextAssignment(unittest.TestCase):
         self.assertEqual(res["assignment_confidence"], "UNKNOWN")
         self.assertIsNone(res["version"])
 
-    def test_5_days_since_release_math(self):
+    def test_5_before_release_temporal_relationship(self):
         match = {
             "date": "2023-12-09T14:00:00Z",
             "tournament_id": "m5-world-championship",
             "stage": "Knockout Stage"
         }
         res = assign_patch_context_to_match(match, self.patches, self.windows)
-        # Release date is 2023-11-21, game is 2023-12-09 -> 18 days
-        self.assertEqual(res["days_since_release"], 18)
-        self.assertGreaterEqual(res["days_since_release"], 0)
+        self.assertEqual(res["temporal_relationship"], "BEFORE_RELEASE")
+        self.assertEqual(res["days_since_patch_release"], -11)
+        self.assertEqual(res["days_before_patch_release"], 11)
 
-    def test_6_days_since_effective_math(self):
+    def test_6_days_since_competitive_effective_math(self):
         match = {
             "date": "2023-12-09T14:00:00Z",
             "tournament_id": "m5-world-championship",
             "stage": "Knockout Stage"
         }
         res = assign_patch_context_to_match(match, self.patches, self.windows)
-        self.assertEqual(res["days_since_effective"], 0)
-        self.assertGreaterEqual(res["days_since_effective"], 0)
+        self.assertEqual(res["days_since_competitive_effective"], 0)
+        self.assertGreaterEqual(res["days_since_competitive_effective"], 0)
 
     def test_7_boundary_dates_inclusive(self):
         match_start = {"date": "2023-12-09T00:00:00Z", "tournament_id": "m5-world-championship", "stage": "Knockout Stage"}

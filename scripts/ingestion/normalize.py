@@ -161,6 +161,13 @@ def normalize_series_and_matches(parsed_series_list: List[Dict], content_hash: s
                 "patch": True
             }
 
+            total_actions = len(draft_actions)
+            ban_actions = sum(1 for a in draft_actions if a['type'] == 'ban')
+            pick_actions = sum(1 for a in draft_actions if a['type'] == 'pick')
+            p1_actions = sum(1 for a in draft_actions if a.get('phase') == 1)
+            p2_actions = sum(1 for a in draft_actions if a.get('phase') == 2)
+            has_draft = (total_actions >= 20 and pick_actions == 10 and ban_actions == 10)
+
             match_record = {
                 "match_id": match_id,
                 "series_id": series_id,
@@ -182,7 +189,13 @@ def normalize_series_and_matches(parsed_series_list: List[Dict], content_hash: s
                 "quality_level": quality_level,
                 "completeness": completeness,
                 "draft_complete": has_draft,
-                "draft_completeness_reason": "Full 10 pick and ban actions parsed" if has_draft else "Partial draft actions parsed",
+                "draft_stats": {
+                    "total_actions": total_actions,
+                    "ban_actions": ban_actions,
+                    "pick_actions": pick_actions,
+                    "phase_1_actions": p1_actions,
+                    "phase_2_actions": p2_actions
+                },
                 "source": {
                     "name": "Liquipedia",
                     "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",

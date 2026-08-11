@@ -429,41 +429,6 @@
       }
     },
     {
-      "hero_id": "h087",
-      "hero_name": "Baxia",
-      "current_period": "m5-world-championship:1.8.44",
-      "previous_period": null,
-      "baseline_source": "none",
-      "layer_a_observed_stats": {
-        "hero_id": "h087",
-        "hero_name": "Baxia",
-        "total_games": 57,
-        "pick_count": 20,
-        "ban_count": 13,
-        "contest_count": 33,
-        "pick_rate": 0.3509,
-        "ban_rate": 0.2281,
-        "contest_rate": 0.5789,
-        "wins": 8,
-        "losses": 12,
-        "win_rate": 0.4,
-        "sample_size": 20,
-        "sample_sufficient": true
-      },
-      "layer_b_static_patch": {
-        "patch": "1.8.44",
-        "patch_source": "inferred",
-        "adjustment_type": "unchanged",
-        "summary": "No direct patch changes noted."
-      },
-      "layer_c_derived_trend": {
-        "previous_observed_contest_rate": null,
-        "current_observed_contest_rate": 0.5789,
-        "delta_percentage_points": null,
-        "trend_status": "INSUFFICIENT_HISTORY"
-      }
-    },
-    {
       "hero_id": "h120",
       "hero_name": "Arlott",
       "current_period": "m5-world-championship:1.8.44",
@@ -483,6 +448,41 @@
         "losses": 14,
         "win_rate": 0.3333,
         "sample_size": 21,
+        "sample_sufficient": true
+      },
+      "layer_b_static_patch": {
+        "patch": "1.8.44",
+        "patch_source": "inferred",
+        "adjustment_type": "unchanged",
+        "summary": "No direct patch changes noted."
+      },
+      "layer_c_derived_trend": {
+        "previous_observed_contest_rate": null,
+        "current_observed_contest_rate": 0.5789,
+        "delta_percentage_points": null,
+        "trend_status": "INSUFFICIENT_HISTORY"
+      }
+    },
+    {
+      "hero_id": "h087",
+      "hero_name": "Baxia",
+      "current_period": "m5-world-championship:1.8.44",
+      "previous_period": null,
+      "baseline_source": "none",
+      "layer_a_observed_stats": {
+        "hero_id": "h087",
+        "hero_name": "Baxia",
+        "total_games": 57,
+        "pick_count": 20,
+        "ban_count": 13,
+        "contest_count": 33,
+        "pick_rate": 0.3509,
+        "ban_rate": 0.2281,
+        "contest_rate": 0.5789,
+        "wins": 8,
+        "losses": 12,
+        "win_rate": 0.4,
+        "sample_size": 20,
         "sample_sufficient": true
       },
       "layer_b_static_patch": {
@@ -569,41 +569,6 @@
       }
     },
     {
-      "hero_id": "h062",
-      "hero_name": "Kaja",
-      "current_period": "m5-world-championship:1.8.44",
-      "previous_period": null,
-      "baseline_source": "none",
-      "layer_a_observed_stats": {
-        "hero_id": "h062",
-        "hero_name": "Kaja",
-        "total_games": 57,
-        "pick_count": 11,
-        "ban_count": 17,
-        "contest_count": 28,
-        "pick_rate": 0.193,
-        "ban_rate": 0.2982,
-        "contest_rate": 0.4912,
-        "wins": 4,
-        "losses": 7,
-        "win_rate": 0.3636,
-        "sample_size": 11,
-        "sample_sufficient": true
-      },
-      "layer_b_static_patch": {
-        "patch": "1.8.44",
-        "patch_source": "inferred",
-        "adjustment_type": "unchanged",
-        "summary": "No direct patch changes noted."
-      },
-      "layer_c_derived_trend": {
-        "previous_observed_contest_rate": null,
-        "current_observed_contest_rate": 0.4912,
-        "delta_percentage_points": null,
-        "trend_status": "INSUFFICIENT_HISTORY"
-      }
-    },
-    {
       "hero_id": "h117",
       "hero_name": "Fredrinn",
       "current_period": "m5-world-championship:1.8.44",
@@ -623,6 +588,41 @@
         "losses": 8,
         "win_rate": 0.619,
         "sample_size": 21,
+        "sample_sufficient": true
+      },
+      "layer_b_static_patch": {
+        "patch": "1.8.44",
+        "patch_source": "inferred",
+        "adjustment_type": "unchanged",
+        "summary": "No direct patch changes noted."
+      },
+      "layer_c_derived_trend": {
+        "previous_observed_contest_rate": null,
+        "current_observed_contest_rate": 0.4912,
+        "delta_percentage_points": null,
+        "trend_status": "INSUFFICIENT_HISTORY"
+      }
+    },
+    {
+      "hero_id": "h062",
+      "hero_name": "Kaja",
+      "current_period": "m5-world-championship:1.8.44",
+      "previous_period": null,
+      "baseline_source": "none",
+      "layer_a_observed_stats": {
+        "hero_id": "h062",
+        "hero_name": "Kaja",
+        "total_games": 57,
+        "pick_count": 11,
+        "ban_count": 17,
+        "contest_count": 28,
+        "pick_rate": 0.193,
+        "ban_rate": 0.2982,
+        "contest_rate": 0.4912,
+        "wins": 4,
+        "losses": 7,
+        "win_rate": 0.3636,
+        "sample_size": 11,
         "sample_sufficient": true
       },
       "layer_b_static_patch": {
@@ -744,6 +744,41 @@
       }
     },
     {
+      "hero_id": "h103",
+      "hero_name": "Paquito",
+      "current_period": "m5-world-championship:1.8.44",
+      "previous_period": null,
+      "baseline_source": "none",
+      "layer_a_observed_stats": {
+        "hero_id": "h103",
+        "hero_name": "Paquito",
+        "total_games": 57,
+        "pick_count": 12,
+        "ban_count": 8,
+        "contest_count": 20,
+        "pick_rate": 0.2105,
+        "ban_rate": 0.1404,
+        "contest_rate": 0.3509,
+        "wins": 8,
+        "losses": 4,
+        "win_rate": 0.6667,
+        "sample_size": 12,
+        "sample_sufficient": true
+      },
+      "layer_b_static_patch": {
+        "patch": "1.8.44",
+        "patch_source": "inferred",
+        "adjustment_type": "unchanged",
+        "summary": "No direct patch changes noted."
+      },
+      "layer_c_derived_trend": {
+        "previous_observed_contest_rate": null,
+        "current_observed_contest_rate": 0.3509,
+        "delta_percentage_points": null,
+        "trend_status": "INSUFFICIENT_HISTORY"
+      }
+    },
+    {
       "hero_id": "h119",
       "hero_name": "Novaria",
       "current_period": "m5-world-championship:1.8.44",
@@ -779,26 +814,26 @@
       }
     },
     {
-      "hero_id": "h103",
-      "hero_name": "Paquito",
+      "hero_id": "h048",
+      "hero_name": "Diggie",
       "current_period": "m5-world-championship:1.8.44",
       "previous_period": null,
       "baseline_source": "none",
       "layer_a_observed_stats": {
-        "hero_id": "h103",
-        "hero_name": "Paquito",
+        "hero_id": "h048",
+        "hero_name": "Diggie",
         "total_games": 57,
-        "pick_count": 12,
-        "ban_count": 8,
-        "contest_count": 20,
-        "pick_rate": 0.2105,
-        "ban_rate": 0.1404,
-        "contest_rate": 0.3509,
-        "wins": 8,
-        "losses": 4,
-        "win_rate": 0.6667,
-        "sample_size": 12,
-        "sample_sufficient": true
+        "pick_count": 4,
+        "ban_count": 15,
+        "contest_count": 19,
+        "pick_rate": 0.0702,
+        "ban_rate": 0.2632,
+        "contest_rate": 0.3333,
+        "wins": 4,
+        "losses": 0,
+        "win_rate": 1.0,
+        "sample_size": 4,
+        "sample_sufficient": false
       },
       "layer_b_static_patch": {
         "patch": "1.8.44",
@@ -808,7 +843,7 @@
       },
       "layer_c_derived_trend": {
         "previous_observed_contest_rate": null,
-        "current_observed_contest_rate": 0.3509,
+        "current_observed_contest_rate": 0.3333,
         "delta_percentage_points": null,
         "trend_status": "INSUFFICIENT_HISTORY"
       }
@@ -849,26 +884,26 @@
       }
     },
     {
-      "hero_id": "h048",
-      "hero_name": "Diggie",
+      "hero_id": "h121",
+      "hero_name": "Ixia",
       "current_period": "m5-world-championship:1.8.44",
       "previous_period": null,
       "baseline_source": "none",
       "layer_a_observed_stats": {
-        "hero_id": "h048",
-        "hero_name": "Diggie",
+        "hero_id": "h121",
+        "hero_name": "Ixia",
         "total_games": 57,
-        "pick_count": 4,
-        "ban_count": 15,
-        "contest_count": 19,
-        "pick_rate": 0.0702,
-        "ban_rate": 0.2632,
-        "contest_rate": 0.3333,
-        "wins": 4,
-        "losses": 0,
-        "win_rate": 1.0,
-        "sample_size": 4,
-        "sample_sufficient": false
+        "pick_count": 5,
+        "ban_count": 13,
+        "contest_count": 18,
+        "pick_rate": 0.0877,
+        "ban_rate": 0.2281,
+        "contest_rate": 0.3158,
+        "wins": 3,
+        "losses": 2,
+        "win_rate": 0.6,
+        "sample_size": 5,
+        "sample_sufficient": true
       },
       "layer_b_static_patch": {
         "patch": "1.8.44",
@@ -878,7 +913,7 @@
       },
       "layer_c_derived_trend": {
         "previous_observed_contest_rate": null,
-        "current_observed_contest_rate": 0.3333,
+        "current_observed_contest_rate": 0.3158,
         "delta_percentage_points": null,
         "trend_status": "INSUFFICIENT_HISTORY"
       }
@@ -938,41 +973,6 @@
         "losses": 5,
         "win_rate": 0.5455,
         "sample_size": 11,
-        "sample_sufficient": true
-      },
-      "layer_b_static_patch": {
-        "patch": "1.8.44",
-        "patch_source": "inferred",
-        "adjustment_type": "unchanged",
-        "summary": "No direct patch changes noted."
-      },
-      "layer_c_derived_trend": {
-        "previous_observed_contest_rate": null,
-        "current_observed_contest_rate": 0.3158,
-        "delta_percentage_points": null,
-        "trend_status": "INSUFFICIENT_HISTORY"
-      }
-    },
-    {
-      "hero_id": "h121",
-      "hero_name": "Ixia",
-      "current_period": "m5-world-championship:1.8.44",
-      "previous_period": null,
-      "baseline_source": "none",
-      "layer_a_observed_stats": {
-        "hero_id": "h121",
-        "hero_name": "Ixia",
-        "total_games": 57,
-        "pick_count": 5,
-        "ban_count": 13,
-        "contest_count": 18,
-        "pick_rate": 0.0877,
-        "ban_rate": 0.2281,
-        "contest_rate": 0.3158,
-        "wins": 3,
-        "losses": 2,
-        "win_rate": 0.6,
-        "sample_size": 5,
         "sample_sufficient": true
       },
       "layer_b_static_patch": {
@@ -1269,25 +1269,25 @@
       }
     },
     {
-      "hero_id": "h095",
-      "hero_name": "Yu Zhong",
+      "hero_id": "h023",
+      "hero_name": "Gord",
       "current_period": "m5-world-championship:1.8.44",
       "previous_period": null,
       "baseline_source": "none",
       "layer_a_observed_stats": {
-        "hero_id": "h095",
-        "hero_name": "Yu Zhong",
+        "hero_id": "h023",
+        "hero_name": "Gord",
         "total_games": 57,
-        "pick_count": 7,
-        "ban_count": 0,
+        "pick_count": 5,
+        "ban_count": 2,
         "contest_count": 7,
-        "pick_rate": 0.1228,
-        "ban_rate": 0.0,
+        "pick_rate": 0.0877,
+        "ban_rate": 0.0351,
         "contest_rate": 0.1228,
-        "wins": 4,
-        "losses": 3,
-        "win_rate": 0.5714,
-        "sample_size": 7,
+        "wins": 5,
+        "losses": 0,
+        "win_rate": 1.0,
+        "sample_size": 5,
         "sample_sufficient": true
       },
       "layer_b_static_patch": {
@@ -1339,25 +1339,25 @@
       }
     },
     {
-      "hero_id": "h023",
-      "hero_name": "Gord",
+      "hero_id": "h095",
+      "hero_name": "Yu Zhong",
       "current_period": "m5-world-championship:1.8.44",
       "previous_period": null,
       "baseline_source": "none",
       "layer_a_observed_stats": {
-        "hero_id": "h023",
-        "hero_name": "Gord",
+        "hero_id": "h095",
+        "hero_name": "Yu Zhong",
         "total_games": 57,
-        "pick_count": 5,
-        "ban_count": 2,
+        "pick_count": 7,
+        "ban_count": 0,
         "contest_count": 7,
-        "pick_rate": 0.0877,
-        "ban_rate": 0.0351,
+        "pick_rate": 0.1228,
+        "ban_rate": 0.0,
         "contest_rate": 0.1228,
-        "wins": 5,
-        "losses": 0,
-        "win_rate": 1.0,
-        "sample_size": 5,
+        "wins": 4,
+        "losses": 3,
+        "win_rate": 0.5714,
+        "sample_size": 7,
         "sample_sufficient": true
       },
       "layer_b_static_patch": {
@@ -1369,41 +1369,6 @@
       "layer_c_derived_trend": {
         "previous_observed_contest_rate": null,
         "current_observed_contest_rate": 0.1228,
-        "delta_percentage_points": null,
-        "trend_status": "INSUFFICIENT_HISTORY"
-      }
-    },
-    {
-      "hero_id": "h026",
-      "hero_name": "Chou",
-      "current_period": "m5-world-championship:1.8.44",
-      "previous_period": null,
-      "baseline_source": "none",
-      "layer_a_observed_stats": {
-        "hero_id": "h026",
-        "hero_name": "Chou",
-        "total_games": 57,
-        "pick_count": 5,
-        "ban_count": 1,
-        "contest_count": 6,
-        "pick_rate": 0.0877,
-        "ban_rate": 0.0175,
-        "contest_rate": 0.1053,
-        "wins": 3,
-        "losses": 2,
-        "win_rate": 0.6,
-        "sample_size": 5,
-        "sample_sufficient": true
-      },
-      "layer_b_static_patch": {
-        "patch": "1.8.44",
-        "patch_source": "inferred",
-        "adjustment_type": "unchanged",
-        "summary": "No direct patch changes noted."
-      },
-      "layer_c_derived_trend": {
-        "previous_observed_contest_rate": null,
-        "current_observed_contest_rate": 0.1053,
         "delta_percentage_points": null,
         "trend_status": "INSUFFICIENT_HISTORY"
       }
@@ -1479,6 +1444,76 @@
       }
     },
     {
+      "hero_id": "h026",
+      "hero_name": "Chou",
+      "current_period": "m5-world-championship:1.8.44",
+      "previous_period": null,
+      "baseline_source": "none",
+      "layer_a_observed_stats": {
+        "hero_id": "h026",
+        "hero_name": "Chou",
+        "total_games": 57,
+        "pick_count": 5,
+        "ban_count": 1,
+        "contest_count": 6,
+        "pick_rate": 0.0877,
+        "ban_rate": 0.0175,
+        "contest_rate": 0.1053,
+        "wins": 3,
+        "losses": 2,
+        "win_rate": 0.6,
+        "sample_size": 5,
+        "sample_sufficient": true
+      },
+      "layer_b_static_patch": {
+        "patch": "1.8.44",
+        "patch_source": "inferred",
+        "adjustment_type": "unchanged",
+        "summary": "No direct patch changes noted."
+      },
+      "layer_c_derived_trend": {
+        "previous_observed_contest_rate": null,
+        "current_observed_contest_rate": 0.1053,
+        "delta_percentage_points": null,
+        "trend_status": "INSUFFICIENT_HISTORY"
+      }
+    },
+    {
+      "hero_id": "h034",
+      "hero_name": "Estes",
+      "current_period": "m5-world-championship:1.8.44",
+      "previous_period": null,
+      "baseline_source": "none",
+      "layer_a_observed_stats": {
+        "hero_id": "h034",
+        "hero_name": "Estes",
+        "total_games": 57,
+        "pick_count": 3,
+        "ban_count": 2,
+        "contest_count": 5,
+        "pick_rate": 0.0526,
+        "ban_rate": 0.0351,
+        "contest_rate": 0.0877,
+        "wins": 2,
+        "losses": 1,
+        "win_rate": 0.6667,
+        "sample_size": 3,
+        "sample_sufficient": false
+      },
+      "layer_b_static_patch": {
+        "patch": "1.8.44",
+        "patch_source": "inferred",
+        "adjustment_type": "unchanged",
+        "summary": "No direct patch changes noted."
+      },
+      "layer_c_derived_trend": {
+        "previous_observed_contest_rate": null,
+        "current_observed_contest_rate": 0.0877,
+        "delta_percentage_points": null,
+        "trend_status": "INSUFFICIENT_HISTORY"
+      }
+    },
+    {
       "hero_id": "h104",
       "hero_name": "Gloo",
       "current_period": "m5-world-championship:1.8.44",
@@ -1549,41 +1584,6 @@
       }
     },
     {
-      "hero_id": "h034",
-      "hero_name": "Estes",
-      "current_period": "m5-world-championship:1.8.44",
-      "previous_period": null,
-      "baseline_source": "none",
-      "layer_a_observed_stats": {
-        "hero_id": "h034",
-        "hero_name": "Estes",
-        "total_games": 57,
-        "pick_count": 3,
-        "ban_count": 2,
-        "contest_count": 5,
-        "pick_rate": 0.0526,
-        "ban_rate": 0.0351,
-        "contest_rate": 0.0877,
-        "wins": 2,
-        "losses": 1,
-        "win_rate": 0.6667,
-        "sample_size": 3,
-        "sample_sufficient": false
-      },
-      "layer_b_static_patch": {
-        "patch": "1.8.44",
-        "patch_source": "inferred",
-        "adjustment_type": "unchanged",
-        "summary": "No direct patch changes noted."
-      },
-      "layer_c_derived_trend": {
-        "previous_observed_contest_rate": null,
-        "current_observed_contest_rate": 0.0877,
-        "delta_percentage_points": null,
-        "trend_status": "INSUFFICIENT_HISTORY"
-      }
-    },
-    {
       "hero_id": "h035",
       "hero_name": "Hilda",
       "current_period": "m5-world-championship:1.8.44",
@@ -1603,76 +1603,6 @@
         "losses": 2,
         "win_rate": 0.0,
         "sample_size": 2,
-        "sample_sufficient": false
-      },
-      "layer_b_static_patch": {
-        "patch": "1.8.44",
-        "patch_source": "inferred",
-        "adjustment_type": "unchanged",
-        "summary": "No direct patch changes noted."
-      },
-      "layer_c_derived_trend": {
-        "previous_observed_contest_rate": null,
-        "current_observed_contest_rate": 0.0702,
-        "delta_percentage_points": null,
-        "trend_status": "INSUFFICIENT_HISTORY"
-      }
-    },
-    {
-      "hero_id": "h097",
-      "hero_name": "Benedetta",
-      "current_period": "m5-world-championship:1.8.44",
-      "previous_period": null,
-      "baseline_source": "none",
-      "layer_a_observed_stats": {
-        "hero_id": "h097",
-        "hero_name": "Benedetta",
-        "total_games": 57,
-        "pick_count": 2,
-        "ban_count": 2,
-        "contest_count": 4,
-        "pick_rate": 0.0351,
-        "ban_rate": 0.0351,
-        "contest_rate": 0.0702,
-        "wins": 1,
-        "losses": 1,
-        "win_rate": 0.5,
-        "sample_size": 2,
-        "sample_sufficient": false
-      },
-      "layer_b_static_patch": {
-        "patch": "1.8.44",
-        "patch_source": "inferred",
-        "adjustment_type": "unchanged",
-        "summary": "No direct patch changes noted."
-      },
-      "layer_c_derived_trend": {
-        "previous_observed_contest_rate": null,
-        "current_observed_contest_rate": 0.0702,
-        "delta_percentage_points": null,
-        "trend_status": "INSUFFICIENT_HISTORY"
-      }
-    },
-    {
-      "hero_id": "h078",
-      "hero_name": "Khufra",
-      "current_period": "m5-world-championship:1.8.44",
-      "previous_period": null,
-      "baseline_source": "none",
-      "layer_a_observed_stats": {
-        "hero_id": "h078",
-        "hero_name": "Khufra",
-        "total_games": 57,
-        "pick_count": 3,
-        "ban_count": 1,
-        "contest_count": 4,
-        "pick_rate": 0.0526,
-        "ban_rate": 0.0175,
-        "contest_rate": 0.0702,
-        "wins": 1,
-        "losses": 2,
-        "win_rate": 0.3333,
-        "sample_size": 3,
         "sample_sufficient": false
       },
       "layer_b_static_patch": {
@@ -1724,14 +1654,84 @@
       }
     },
     {
-      "hero_id": "h067",
-      "hero_name": "Leomord",
+      "hero_id": "h078",
+      "hero_name": "Khufra",
       "current_period": "m5-world-championship:1.8.44",
       "previous_period": null,
       "baseline_source": "none",
       "layer_a_observed_stats": {
-        "hero_id": "h067",
-        "hero_name": "Leomord",
+        "hero_id": "h078",
+        "hero_name": "Khufra",
+        "total_games": 57,
+        "pick_count": 3,
+        "ban_count": 1,
+        "contest_count": 4,
+        "pick_rate": 0.0526,
+        "ban_rate": 0.0175,
+        "contest_rate": 0.0702,
+        "wins": 1,
+        "losses": 2,
+        "win_rate": 0.3333,
+        "sample_size": 3,
+        "sample_sufficient": false
+      },
+      "layer_b_static_patch": {
+        "patch": "1.8.44",
+        "patch_source": "inferred",
+        "adjustment_type": "unchanged",
+        "summary": "No direct patch changes noted."
+      },
+      "layer_c_derived_trend": {
+        "previous_observed_contest_rate": null,
+        "current_observed_contest_rate": 0.0702,
+        "delta_percentage_points": null,
+        "trend_status": "INSUFFICIENT_HISTORY"
+      }
+    },
+    {
+      "hero_id": "h097",
+      "hero_name": "Benedetta",
+      "current_period": "m5-world-championship:1.8.44",
+      "previous_period": null,
+      "baseline_source": "none",
+      "layer_a_observed_stats": {
+        "hero_id": "h097",
+        "hero_name": "Benedetta",
+        "total_games": 57,
+        "pick_count": 2,
+        "ban_count": 2,
+        "contest_count": 4,
+        "pick_rate": 0.0351,
+        "ban_rate": 0.0351,
+        "contest_rate": 0.0702,
+        "wins": 1,
+        "losses": 1,
+        "win_rate": 0.5,
+        "sample_size": 2,
+        "sample_sufficient": false
+      },
+      "layer_b_static_patch": {
+        "patch": "1.8.44",
+        "patch_source": "inferred",
+        "adjustment_type": "unchanged",
+        "summary": "No direct patch changes noted."
+      },
+      "layer_c_derived_trend": {
+        "previous_observed_contest_rate": null,
+        "current_observed_contest_rate": 0.0702,
+        "delta_percentage_points": null,
+        "trend_status": "INSUFFICIENT_HISTORY"
+      }
+    },
+    {
+      "hero_id": "h051",
+      "hero_name": "Helcurt",
+      "current_period": "m5-world-championship:1.8.44",
+      "previous_period": null,
+      "baseline_source": "none",
+      "layer_a_observed_stats": {
+        "hero_id": "h051",
+        "hero_name": "Helcurt",
         "total_games": 57,
         "pick_count": 2,
         "ban_count": 1,
@@ -1794,14 +1794,14 @@
       }
     },
     {
-      "hero_id": "h051",
-      "hero_name": "Helcurt",
+      "hero_id": "h067",
+      "hero_name": "Leomord",
       "current_period": "m5-world-championship:1.8.44",
       "previous_period": null,
       "baseline_source": "none",
       "layer_a_observed_stats": {
-        "hero_id": "h051",
-        "hero_name": "Helcurt",
+        "hero_id": "h067",
+        "hero_name": "Leomord",
         "total_games": 57,
         "pick_count": 2,
         "ban_count": 1,
@@ -1864,14 +1864,14 @@
       }
     },
     {
-      "hero_id": "h112",
-      "hero_name": "Floryn",
+      "hero_id": "h021",
+      "hero_name": "Hayabusa",
       "current_period": "m5-world-championship:1.8.44",
       "previous_period": null,
       "baseline_source": "none",
       "layer_a_observed_stats": {
-        "hero_id": "h112",
-        "hero_name": "Floryn",
+        "hero_id": "h021",
+        "hero_name": "Hayabusa",
         "total_games": 57,
         "pick_count": 2,
         "ban_count": 0,
@@ -1934,14 +1934,14 @@
       }
     },
     {
-      "hero_id": "h021",
-      "hero_name": "Hayabusa",
+      "hero_id": "h112",
+      "hero_name": "Floryn",
       "current_period": "m5-world-championship:1.8.44",
       "previous_period": null,
       "baseline_source": "none",
       "layer_a_observed_stats": {
-        "hero_id": "h021",
-        "hero_name": "Hayabusa",
+        "hero_id": "h112",
+        "hero_name": "Floryn",
         "total_games": 57,
         "pick_count": 2,
         "ban_count": 0,
@@ -1964,41 +1964,6 @@
       "layer_c_derived_trend": {
         "previous_observed_contest_rate": null,
         "current_observed_contest_rate": 0.0351,
-        "delta_percentage_points": null,
-        "trend_status": "INSUFFICIENT_HISTORY"
-      }
-    },
-    {
-      "hero_id": "h109",
-      "hero_name": "Aamon",
-      "current_period": "m5-world-championship:1.8.44",
-      "previous_period": null,
-      "baseline_source": "none",
-      "layer_a_observed_stats": {
-        "hero_id": "h109",
-        "hero_name": "Aamon",
-        "total_games": 57,
-        "pick_count": 1,
-        "ban_count": 0,
-        "contest_count": 1,
-        "pick_rate": 0.0175,
-        "ban_rate": 0.0,
-        "contest_rate": 0.0175,
-        "wins": 0,
-        "losses": 1,
-        "win_rate": 0.0,
-        "sample_size": 1,
-        "sample_sufficient": false
-      },
-      "layer_b_static_patch": {
-        "patch": "1.8.44",
-        "patch_source": "inferred",
-        "adjustment_type": "unchanged",
-        "summary": "No direct patch changes noted."
-      },
-      "layer_c_derived_trend": {
-        "previous_observed_contest_rate": null,
-        "current_observed_contest_rate": 0.0175,
         "delta_percentage_points": null,
         "trend_status": "INSUFFICIENT_HISTORY"
       }
@@ -2109,14 +2074,14 @@
       }
     },
     {
-      "hero_id": "h013",
-      "hero_name": "Clint",
+      "hero_id": "h109",
+      "hero_name": "Aamon",
       "current_period": "m5-world-championship:1.8.44",
       "previous_period": null,
       "baseline_source": "none",
       "layer_a_observed_stats": {
-        "hero_id": "h013",
-        "hero_name": "Clint",
+        "hero_id": "h109",
+        "hero_name": "Aamon",
         "total_games": 57,
         "pick_count": 1,
         "ban_count": 0,
@@ -2152,6 +2117,41 @@
       "layer_a_observed_stats": {
         "hero_id": "h068",
         "hero_name": "Lunox",
+        "total_games": 57,
+        "pick_count": 1,
+        "ban_count": 0,
+        "contest_count": 1,
+        "pick_rate": 0.0175,
+        "ban_rate": 0.0,
+        "contest_rate": 0.0175,
+        "wins": 0,
+        "losses": 1,
+        "win_rate": 0.0,
+        "sample_size": 1,
+        "sample_sufficient": false
+      },
+      "layer_b_static_patch": {
+        "patch": "1.8.44",
+        "patch_source": "inferred",
+        "adjustment_type": "unchanged",
+        "summary": "No direct patch changes noted."
+      },
+      "layer_c_derived_trend": {
+        "previous_observed_contest_rate": null,
+        "current_observed_contest_rate": 0.0175,
+        "delta_percentage_points": null,
+        "trend_status": "INSUFFICIENT_HISTORY"
+      }
+    },
+    {
+      "hero_id": "h013",
+      "hero_name": "Clint",
+      "current_period": "m5-world-championship:1.8.44",
+      "previous_period": null,
+      "baseline_source": "none",
+      "layer_a_observed_stats": {
+        "hero_id": "h013",
+        "hero_name": "Clint",
         "total_games": 57,
         "pick_count": 1,
         "ban_count": 0,

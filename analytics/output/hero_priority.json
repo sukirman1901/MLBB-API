@@ -4,31 +4,6 @@
   "total_games": 57,
   "data": [
     {
-      "hero_id": "h122",
-      "hero_name": "Nolan",
-      "static_meta": {
-        "class": "Unknown",
-        "tier": "B",
-        "laning": [
-          "jungle"
-        ]
-      },
-      "observed_stats": {
-        "pick_count": 7,
-        "ban_count": 50,
-        "contest_count": 57,
-        "pick_rate": 0.1228,
-        "ban_rate": 0.8772,
-        "contest_rate": 1.0,
-        "wins": 7,
-        "losses": 0,
-        "win_rate": 1.0,
-        "category": "HIGH_CONTEST",
-        "sample_size": 7,
-        "sample_sufficient": true
-      }
-    },
-    {
       "hero_id": "h080",
       "hero_name": "Guinevere",
       "static_meta": {
@@ -50,6 +25,31 @@
         "win_rate": 0.4375,
         "category": "HIGH_CONTEST",
         "sample_size": 16,
+        "sample_sufficient": true
+      }
+    },
+    {
+      "hero_id": "h122",
+      "hero_name": "Nolan",
+      "static_meta": {
+        "class": "Unknown",
+        "tier": "B",
+        "laning": [
+          "jungle"
+        ]
+      },
+      "observed_stats": {
+        "pick_count": 7,
+        "ban_count": 50,
+        "contest_count": 57,
+        "pick_rate": 0.1228,
+        "ban_rate": 0.8772,
+        "contest_rate": 1.0,
+        "wins": 7,
+        "losses": 0,
+        "win_rate": 1.0,
+        "category": "HIGH_CONTEST",
+        "sample_size": 7,
         "sample_sufficient": true
       }
     },
@@ -154,31 +154,6 @@
       }
     },
     {
-      "hero_id": "h012",
-      "hero_name": "Bruno",
-      "static_meta": {
-        "class": "Unknown",
-        "tier": "C",
-        "laning": [
-          "gold lane"
-        ]
-      },
-      "observed_stats": {
-        "pick_count": 35,
-        "ban_count": 8,
-        "contest_count": 43,
-        "pick_rate": 0.614,
-        "ban_rate": 0.1404,
-        "contest_rate": 0.7544,
-        "wins": 17,
-        "losses": 18,
-        "win_rate": 0.4857,
-        "category": "HIGH_CONTEST",
-        "sample_size": 35,
-        "sample_sufficient": true
-      }
-    },
-    {
       "hero_id": "h102",
       "hero_name": "Mathilda",
       "static_meta": {
@@ -200,6 +175,31 @@
         "win_rate": 0.5333,
         "category": "HIGH_CONTEST",
         "sample_size": 15,
+        "sample_sufficient": true
+      }
+    },
+    {
+      "hero_id": "h012",
+      "hero_name": "Bruno",
+      "static_meta": {
+        "class": "Unknown",
+        "tier": "C",
+        "laning": [
+          "gold lane"
+        ]
+      },
+      "observed_stats": {
+        "pick_count": 35,
+        "ban_count": 8,
+        "contest_count": 43,
+        "pick_rate": 0.614,
+        "ban_rate": 0.1404,
+        "contest_rate": 0.7544,
+        "wins": 17,
+        "losses": 18,
+        "win_rate": 0.4857,
+        "category": "HIGH_CONTEST",
+        "sample_size": 35,
         "sample_sufficient": true
       }
     },
@@ -654,31 +654,6 @@
       }
     },
     {
-      "hero_id": "h085",
-      "hero_name": "Dyrroth",
-      "static_meta": {
-        "class": "Unknown",
-        "tier": "A",
-        "laning": [
-          "exp lane, jungle"
-        ]
-      },
-      "observed_stats": {
-        "pick_count": 11,
-        "ban_count": 7,
-        "contest_count": 18,
-        "pick_rate": 0.193,
-        "ban_rate": 0.1228,
-        "contest_rate": 0.3158,
-        "wins": 6,
-        "losses": 5,
-        "win_rate": 0.5455,
-        "category": "MEDIUM_CONTEST",
-        "sample_size": 11,
-        "sample_sufficient": true
-      }
-    },
-    {
       "hero_id": "h017",
       "hero_name": "Fanny",
       "static_meta": {
@@ -701,6 +676,31 @@
         "category": "MEDIUM_CONTEST",
         "sample_size": 1,
         "sample_sufficient": false
+      }
+    },
+    {
+      "hero_id": "h085",
+      "hero_name": "Dyrroth",
+      "static_meta": {
+        "class": "Unknown",
+        "tier": "A",
+        "laning": [
+          "exp lane, jungle"
+        ]
+      },
+      "observed_stats": {
+        "pick_count": 11,
+        "ban_count": 7,
+        "contest_count": 18,
+        "pick_rate": 0.193,
+        "ban_rate": 0.1228,
+        "contest_rate": 0.3158,
+        "wins": 6,
+        "losses": 5,
+        "win_rate": 0.5455,
+        "category": "MEDIUM_CONTEST",
+        "sample_size": 11,
+        "sample_sufficient": true
       }
     },
     {
@@ -904,31 +904,6 @@
       }
     },
     {
-      "hero_id": "h095",
-      "hero_name": "Yu Zhong",
-      "static_meta": {
-        "class": "Unknown",
-        "tier": "B",
-        "laning": [
-          "exp lane"
-        ]
-      },
-      "observed_stats": {
-        "pick_count": 7,
-        "ban_count": 0,
-        "contest_count": 7,
-        "pick_rate": 0.1228,
-        "ban_rate": 0.0,
-        "contest_rate": 0.1228,
-        "wins": 4,
-        "losses": 3,
-        "win_rate": 0.5714,
-        "category": "LOW_CONTEST",
-        "sample_size": 7,
-        "sample_sufficient": true
-      }
-    },
-    {
       "hero_id": "h040",
       "hero_name": "Karrie",
       "static_meta": {
@@ -950,6 +925,31 @@
         "win_rate": 0.5,
         "category": "LOW_CONTEST",
         "sample_size": 6,
+        "sample_sufficient": true
+      }
+    },
+    {
+      "hero_id": "h095",
+      "hero_name": "Yu Zhong",
+      "static_meta": {
+        "class": "Unknown",
+        "tier": "B",
+        "laning": [
+          "exp lane"
+        ]
+      },
+      "observed_stats": {
+        "pick_count": 7,
+        "ban_count": 0,
+        "contest_count": 7,
+        "pick_rate": 0.1228,
+        "ban_rate": 0.0,
+        "contest_rate": 0.1228,
+        "wins": 4,
+        "losses": 3,
+        "win_rate": 0.5714,
+        "category": "LOW_CONTEST",
+        "sample_size": 7,
         "sample_sufficient": true
       }
     },
@@ -1004,31 +1004,6 @@
       }
     },
     {
-      "hero_id": "h014",
-      "hero_name": "Rafaela",
-      "static_meta": {
-        "class": "Unknown",
-        "tier": "SS",
-        "laning": [
-          "roam"
-        ]
-      },
-      "observed_stats": {
-        "pick_count": 5,
-        "ban_count": 1,
-        "contest_count": 6,
-        "pick_rate": 0.0877,
-        "ban_rate": 0.0175,
-        "contest_rate": 0.1053,
-        "wins": 5,
-        "losses": 0,
-        "win_rate": 1.0,
-        "category": "LOW_CONTEST",
-        "sample_size": 5,
-        "sample_sufficient": true
-      }
-    },
-    {
       "hero_id": "h044",
       "hero_name": "Grock",
       "static_meta": {
@@ -1054,28 +1029,28 @@
       }
     },
     {
-      "hero_id": "h034",
-      "hero_name": "Estes",
+      "hero_id": "h014",
+      "hero_name": "Rafaela",
       "static_meta": {
         "class": "Unknown",
-        "tier": "S",
+        "tier": "SS",
         "laning": [
           "roam"
         ]
       },
       "observed_stats": {
-        "pick_count": 3,
-        "ban_count": 2,
-        "contest_count": 5,
-        "pick_rate": 0.0526,
-        "ban_rate": 0.0351,
-        "contest_rate": 0.0877,
-        "wins": 2,
-        "losses": 1,
-        "win_rate": 0.6667,
+        "pick_count": 5,
+        "ban_count": 1,
+        "contest_count": 6,
+        "pick_rate": 0.0877,
+        "ban_rate": 0.0175,
+        "contest_rate": 0.1053,
+        "wins": 5,
+        "losses": 0,
+        "win_rate": 1.0,
         "category": "LOW_CONTEST",
-        "sample_size": 3,
-        "sample_sufficient": false
+        "sample_size": 5,
+        "sample_sufficient": true
       }
     },
     {
@@ -1104,6 +1079,31 @@
       }
     },
     {
+      "hero_id": "h034",
+      "hero_name": "Estes",
+      "static_meta": {
+        "class": "Unknown",
+        "tier": "S",
+        "laning": [
+          "roam"
+        ]
+      },
+      "observed_stats": {
+        "pick_count": 3,
+        "ban_count": 2,
+        "contest_count": 5,
+        "pick_rate": 0.0526,
+        "ban_rate": 0.0351,
+        "contest_rate": 0.0877,
+        "wins": 2,
+        "losses": 1,
+        "win_rate": 0.6667,
+        "category": "LOW_CONTEST",
+        "sample_size": 3,
+        "sample_sufficient": false
+      }
+    },
+    {
       "hero_id": "h072",
       "hero_name": "Thamuz",
       "static_meta": {
@@ -1123,56 +1123,6 @@
         "wins": 2,
         "losses": 2,
         "win_rate": 0.5,
-        "category": "LOW_CONTEST",
-        "sample_size": 4,
-        "sample_sufficient": false
-      }
-    },
-    {
-      "hero_id": "h035",
-      "hero_name": "Hilda",
-      "static_meta": {
-        "class": "Unknown",
-        "tier": "A",
-        "laning": [
-          "roam, exp lane"
-        ]
-      },
-      "observed_stats": {
-        "pick_count": 2,
-        "ban_count": 2,
-        "contest_count": 4,
-        "pick_rate": 0.0351,
-        "ban_rate": 0.0351,
-        "contest_rate": 0.0702,
-        "wins": 0,
-        "losses": 2,
-        "win_rate": 0.0,
-        "category": "LOW_CONTEST",
-        "sample_size": 2,
-        "sample_sufficient": false
-      }
-    },
-    {
-      "hero_id": "h043",
-      "hero_name": "Irithel",
-      "static_meta": {
-        "class": "Unknown",
-        "tier": "A",
-        "laning": [
-          "gold lane"
-        ]
-      },
-      "observed_stats": {
-        "pick_count": 4,
-        "ban_count": 0,
-        "contest_count": 4,
-        "pick_rate": 0.0702,
-        "ban_rate": 0.0,
-        "contest_rate": 0.0702,
-        "wins": 0,
-        "losses": 4,
-        "win_rate": 0.0,
         "category": "LOW_CONTEST",
         "sample_size": 4,
         "sample_sufficient": false
@@ -1204,6 +1154,31 @@
       }
     },
     {
+      "hero_id": "h035",
+      "hero_name": "Hilda",
+      "static_meta": {
+        "class": "Unknown",
+        "tier": "A",
+        "laning": [
+          "roam, exp lane"
+        ]
+      },
+      "observed_stats": {
+        "pick_count": 2,
+        "ban_count": 2,
+        "contest_count": 4,
+        "pick_rate": 0.0351,
+        "ban_rate": 0.0351,
+        "contest_rate": 0.0702,
+        "wins": 0,
+        "losses": 2,
+        "win_rate": 0.0,
+        "category": "LOW_CONTEST",
+        "sample_size": 2,
+        "sample_sufficient": false
+      }
+    },
+    {
       "hero_id": "h097",
       "hero_name": "Benedetta",
       "static_meta": {
@@ -1225,6 +1200,31 @@
         "win_rate": 0.5,
         "category": "LOW_CONTEST",
         "sample_size": 2,
+        "sample_sufficient": false
+      }
+    },
+    {
+      "hero_id": "h043",
+      "hero_name": "Irithel",
+      "static_meta": {
+        "class": "Unknown",
+        "tier": "A",
+        "laning": [
+          "gold lane"
+        ]
+      },
+      "observed_stats": {
+        "pick_count": 4,
+        "ban_count": 0,
+        "contest_count": 4,
+        "pick_rate": 0.0702,
+        "ban_rate": 0.0,
+        "contest_rate": 0.0702,
+        "wins": 0,
+        "losses": 4,
+        "win_rate": 0.0,
+        "category": "LOW_CONTEST",
+        "sample_size": 4,
         "sample_sufficient": false
       }
     },
@@ -1254,8 +1254,8 @@
       }
     },
     {
-      "hero_id": "h067",
-      "hero_name": "Leomord",
+      "hero_id": "h051",
+      "hero_name": "Helcurt",
       "static_meta": {
         "class": "Unknown",
         "tier": "B",
@@ -1279,8 +1279,8 @@
       }
     },
     {
-      "hero_id": "h051",
-      "hero_name": "Helcurt",
+      "hero_id": "h067",
+      "hero_name": "Leomord",
       "static_meta": {
         "class": "Unknown",
         "tier": "B",
@@ -1404,6 +1404,31 @@
       }
     },
     {
+      "hero_id": "h073",
+      "hero_name": "Harith",
+      "static_meta": {
+        "class": "Unknown",
+        "tier": "D",
+        "laning": [
+          "gold lane, mid lane"
+        ]
+      },
+      "observed_stats": {
+        "pick_count": 1,
+        "ban_count": 0,
+        "contest_count": 1,
+        "pick_rate": 0.0175,
+        "ban_rate": 0.0,
+        "contest_rate": 0.0175,
+        "wins": 1,
+        "losses": 0,
+        "win_rate": 1.0,
+        "category": "LOW_CONTEST",
+        "sample_size": 1,
+        "sample_sufficient": false
+      }
+    },
+    {
       "hero_id": "h013",
       "hero_name": "Clint",
       "static_meta": {
@@ -1454,31 +1479,6 @@
       }
     },
     {
-      "hero_id": "h056",
-      "hero_name": "Gusion",
-      "static_meta": {
-        "class": "Unknown",
-        "tier": "A",
-        "laning": [
-          "jungle, mid lane"
-        ]
-      },
-      "observed_stats": {
-        "pick_count": 1,
-        "ban_count": 0,
-        "contest_count": 1,
-        "pick_rate": 0.0175,
-        "ban_rate": 0.0,
-        "contest_rate": 0.0175,
-        "wins": 1,
-        "losses": 0,
-        "win_rate": 1.0,
-        "category": "LOW_CONTEST",
-        "sample_size": 1,
-        "sample_sufficient": false
-      }
-    },
-    {
       "hero_id": "h109",
       "hero_name": "Aamon",
       "static_meta": {
@@ -1504,13 +1504,13 @@
       }
     },
     {
-      "hero_id": "h073",
-      "hero_name": "Harith",
+      "hero_id": "h056",
+      "hero_name": "Gusion",
       "static_meta": {
         "class": "Unknown",
-        "tier": "D",
+        "tier": "A",
         "laning": [
-          "gold lane, mid lane"
+          "jungle, mid lane"
         ]
       },
       "observed_stats": {

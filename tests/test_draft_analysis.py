@@ -1,50 +1,65 @@
 #!/usr/bin/env python3
 """
-Unit Test Suite for Draft Analytics Engine V1
+Unit Test Suite for Draft Analytics & Math Invariants V1
 Author: sukirman1901
 Repository: https://github.com/sukirman1901/MLBB-API
 
 Location: tests/test_draft_analysis.py
-Asserts math invariants, sample size awareness, sample_sufficient presence, and export integrity.
+Verifies:
+  1. 5 Mathematical Invariants
+  2. Dynamic First-Pick and First-Ban Chronological Detection
+  3. Hero Draft Uniqueness & Constraint Integrity
 """
 
 import json
 import os
+import sys
 import unittest
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+sys.path.insert(0, BASE_DIR)
 
-class TestDraftAnalytics(unittest.TestCase):
+from scripts.analytics.draft_analysis import verify_invariants
+from scripts.validate_esports import audit_draft_sequence
+
+class TestDraftAnalysis(unittest.TestCase):
 
     def setUp(self):
         matches_path = os.path.join(BASE_DIR, 'esports/matches/m5_knockout_matches.json')
         with open(matches_path, 'r', encoding='utf-8') as f:
-            self.matches = json.load(f)['data']
+            self.matches = json.load(f).get('data', [])
 
-    def test_side_win_invariant(self):
-        total_games = len(self.matches)
-        blue_wins = sum(1 for m in self.matches if m['winner_team_id'] == m['blue_side'])
-        red_wins = sum(1 for m in self.matches if m['winner_team_id'] == m['red_side'])
-        self.assertEqual(blue_wins + red_wins, total_games, "Blue wins + Red wins must equal total games")
+    def test_math_invariants(self):
+        # Must pass without raising AssertionError
+        verify_invariants(self.matches)
 
-    def test_pick_ban_sum_invariant(self):
+    def test_dynamic_first_pick_and_first_ban(self):
         for m in self.matches:
             draft = m.get('draft', [])
-            picks = [a for a in draft if a['type'] == 'pick']
-            bans = [a for a in draft if a['type'] == 'ban']
-            self.assertLessEqual(len(picks), 10, f"Match {m['match_id']} has > 10 picks")
-            self.assertLessEqual(len(bans), 10, f"Match {m['match_id']} has > 10 bans")
+            first_ban = next((a for a in draft if a['type'] == 'ban'), None)
+            first_pick = next((a for a in draft if a['type'] == 'pick'), None)
 
-    def test_sample_sufficient_keys(self):
-        hp_path = os.path.join(BASE_DIR, 'analytics/output/hero_priority.json')
-        if os.path.exists(hp_path):
-            with open(hp_path, 'r', encoding='utf-8') as f:
-                data = json.load(f)['data']
-            for rec in data:
-                st = rec['observed_stats']
-                self.assertIn('sample_size', st)
-                self.assertIn('sample_sufficient', st)
-                self.assertEqual(st['sample_sufficient'], st['sample_size'] >= 5)
+            self.assertIsNotNone(first_ban, f"Match {m['match_id']} missing first ban")
+            self.assertIsNotNone(first_pick, f"Match {m['match_id']} missing first pick")
+
+            self.assertEqual(first_ban['action'], 1, f"First ban in match {m['match_id']} must be action 1")
+            self.assertEqual(first_pick['action'], 7, f"First pick in match {m['match_id']} must be action 7")
+
+    def test_draft_completeness_and_hero_uniqueness(self):
+        for m in self.matches:
+            draft = m.get('draft', [])
+            is_contiguous, state_valid = audit_draft_sequence(draft)
+
+            self.assertTrue(is_contiguous, f"Draft action sequence in match {m['match_id']} must be contiguous 1..N")
+            self.assertTrue(state_valid, f"Hero draft uniqueness violated in match {m['match_id']}")
+
+            tot = len(draft)
+            bans = sum(1 for a in draft if a['type'] == 'ban')
+            picks = sum(1 for a in draft if a['type'] == 'pick')
+
+            self.assertIn(tot, [19, 20], f"Total actions in match {m['match_id']} must be 19 or 20")
+            self.assertEqual(picks, 10, f"Total picks in match {m['match_id']} must be 10")
+            self.assertIn(bans, [9, 10], f"Total bans in match {m['match_id']} must be 9 or 10")
 
 if __name__ == '__main__':
     unittest.main()

@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-MLBB Esports Dataset Integrity Audit Suite
+MLBB Esports Dataset Integrity & Semantic Audit Suite
 Author: sukirman1901
 Repository: https://github.com/sukirman1901/MLBB-API
 
@@ -10,10 +10,10 @@ Executes a full 17-point audit of canonical esports match data:
   3. Tournament & Stage scope verification (M5 World Championship — Knockout Stage)
   4. Series integrity check (sum(games per series) == total canonical matches)
   5. Sequential game numbering per series
-  6. Chronological draft completeness check
-  7. Hero alias mapping & unresolved entity audit
-  8. Patch Context Assignment Breakdown (Explicit, Verified Window, Inferred, Unresolved)
-  9. ISO-8601 Date Normalization & Provenance Hash audit
+  6. Chronological draft completeness & contiguity check (1..N, supporting legitimate 19 & 20 action drafts)
+  7. Hero draft state constraint checks (no double pick, no double ban, no pick after ban)
+  8. Hero alias mapping & unresolved entity audit
+  9. Temporal Patch Semantics Audit (BEFORE_RELEASE, AFTER_RELEASE, SAME_DAY)
  10. VOD scope verification
 """
 
@@ -21,6 +21,7 @@ import json
 import os
 import glob
 import sys
+from typing import Tuple
 from collections import defaultdict
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -32,26 +33,56 @@ def load_json(rel_path):
     with open(path, 'r', encoding='utf-8') as f:
         return json.load(f)
 
+def audit_draft_sequence(draft_actions: list) -> Tuple[bool, bool]:
+    """Audits draft sequence contiguity, action uniqueness, and hero draft state constraints"""
+    if not draft_actions:
+        return False, False
+
+    action_nums = [a.get('action') for a in draft_actions]
+    expected_nums = list(range(1, len(draft_actions) + 1))
+    
+    is_contiguous = (action_nums == expected_nums)
+
+    picked_heroes = set()
+    banned_heroes = set()
+    state_valid = True
+
+    for a in draft_actions:
+        hid = a.get('hero_id')
+        atype = a.get('type')
+
+        if not hid or not atype:
+            state_valid = False
+            break
+
+        if atype == 'ban':
+            if hid in banned_heroes or hid in picked_heroes:
+                state_valid = False
+                break
+            banned_heroes.add(hid)
+        elif atype == 'pick':
+            if hid in picked_heroes or hid in banned_heroes:
+                state_valid = False
+                break
+            picked_heroes.add(hid)
+
+    return is_contiguous, state_valid
+
 def run_audit():
     print("==========================================================")
     print("   MLBB ESPORTS DATASET INTEGRITY AUDIT")
     print("==========================================================")
 
-    # 1. Load static knowledge bases
     hero_meta = load_json('v1/hero-meta-final.json')
     valid_hero_ids = {h['id'] for h in hero_meta.get('data', []) if h.get('id')} if hero_meta else set()
 
-    # 2. Load esports entities
     teams_meta = load_json('esports/teams/teams.json')
-    valid_team_ids = {t['team_id'] for t in teams_meta.get('data', [])} if teams_meta else set()
-
     series_meta = load_json('esports/matches/series.json')
     valid_series_dict = {s['series_id']: s for s in series_meta.get('data', [])} if series_meta else {}
 
     unresolved_meta = load_json('esports/unresolved_entities.json') or []
     unresolved_count = len(unresolved_meta)
 
-    # 3. Audit match files
     match_files = glob.glob(os.path.join(BASE_DIR, 'esports/matches/*.json'))
 
     all_matches = []
@@ -61,17 +92,27 @@ def run_audit():
     seen_dedup_keys = set()
 
     complete_drafts = 0
-    incomplete_drafts = 0
+    twenty_action_drafts = 0
+    nineteen_action_drafts = 0
+    ten_ban_drafts = 0
+    nine_ban_drafts = 0
+    ten_pick_drafts = 0
+    invalid_sequences = 0
+    hero_uniqueness_violations = 0
     mapped_hero_ids_count = 0
 
     vod_available = 0
-    
-    # Patch Context Counts
+
     explicit_patch_cnt = 0
     verified_window_cnt = 0
     inferred_patch_cnt = 0
     unresolved_patch_cnt = 0
-    
+
+    before_release_cnt = 0
+    same_day_cnt = 0
+    after_release_cnt = 0
+    questionable_patch_cnt = 0
+
     fabricated_stats = 0
     series_game_counts = defaultdict(int)
 
@@ -82,7 +123,6 @@ def run_audit():
         matches = data.get('data', []) if isinstance(data, dict) and 'data' in data else ([data] if isinstance(data, dict) else data)
 
         for m in matches:
-            # Deterministic Deduplication Key
             dedup_key = (
                 m.get('match_id'),
                 m.get('series_id'),
@@ -98,35 +138,51 @@ def run_audit():
             seen_dedup_keys.add(dedup_key)
             all_matches.append(m)
 
-            # Tournament scope check
             if m.get('tournament_id') != 'm5-world-championship':
                 non_m5_count += 1
             if m.get('stage') != 'Knockout Stage':
                 non_knockout_count += 1
 
-            # Series integrity
             sid = m.get('series_id')
             if sid:
                 series_game_counts[sid] += 1
 
-            # Draft completeness check
             draft = m.get('draft', [])
-            if len(draft) >= 10 and m.get('draft_complete', True):
+            act_tot = len(draft)
+            act_bans = sum(1 for a in draft if a.get('type') == 'ban')
+            act_picks = sum(1 for a in draft if a.get('type') == 'pick')
+
+            if act_tot == 20:
+                twenty_action_drafts += 1
+            elif act_tot == 19:
+                nineteen_action_drafts += 1
+
+            if act_bans == 10:
+                ten_ban_drafts += 1
+            elif act_bans == 9:
+                nine_ban_drafts += 1
+
+            if act_picks == 10:
+                ten_pick_drafts += 1
+
+            is_contiguous, state_valid = audit_draft_sequence(draft)
+            if not is_contiguous:
+                invalid_sequences += 1
+            if not state_valid:
+                hero_uniqueness_violations += 1
+
+            if act_tot >= 19 and act_picks == 10 and act_bans >= 9:
                 complete_drafts += 1
-            else:
-                incomplete_drafts += 1
 
             for action in draft:
                 hid = action.get('hero_id')
                 if hid in valid_hero_ids:
                     mapped_hero_ids_count += 1
 
-            # VOD check
             vod_url = m.get('vod_url', '') or ''
             if vod_url and ('youtube' in vod_url.lower() or 'youtu.be' in vod_url.lower()):
                 vod_available += 1
 
-            # Patch Context Check
             p_ctx = m.get('patch_context', {})
             method = p_ctx.get('assignment_method', m.get('patch_source'))
             if method == 'explicit_match_source':
@@ -138,7 +194,16 @@ def run_audit():
             else:
                 unresolved_patch_cnt += 1
 
-            # Fabricated stats check (Rule 19)
+            temp_rel = p_ctx.get('temporal_relationship')
+            if temp_rel == 'BEFORE_RELEASE':
+                before_release_cnt += 1
+            elif temp_rel == 'SAME_DAY':
+                same_day_cnt += 1
+            elif temp_rel == 'AFTER_RELEASE':
+                after_release_cnt += 1
+            else:
+                questionable_patch_cnt += 1
+
             if m.get('player_performances'):
                 for p in m['player_performances']:
                     if p.get('kills') is not None or p.get('gold') is not None:
@@ -159,10 +224,6 @@ def run_audit():
     print(f"\nSeries:")
     print(f"{expected_series}")
 
-    print(f"\nDraft:")
-    print(f"Complete: {complete_drafts}/{canonical_games}")
-    print(f"Incomplete: {incomplete_drafts}/{canonical_games}")
-
     print(f"\nHero mapping:")
     print(f"Mapped: {mapped_hero_ids_count}")
     print(f"Unresolved: {unresolved_count}")
@@ -170,15 +231,34 @@ def run_audit():
     print(f"\nVOD:")
     print(f"Available: {vod_available}/{canonical_games}")
 
-    print(f"\nPatch Context Coverage:")
-    print(f"Resolved: {explicit_patch_cnt + verified_window_cnt + inferred_patch_cnt}/{canonical_games}")
-    print(f"Explicit Match Source: {explicit_patch_cnt}/{canonical_games}")
-    print(f"Verified Window: {verified_window_cnt}/{canonical_games}")
-    print(f"Inferred: {inferred_patch_cnt}/{canonical_games}")
-    print(f"Unresolved: {unresolved_patch_cnt}/{canonical_games}")
+    print("\n==========================================================")
+    print("   PATCH SEMANTIC AUDIT")
+    print("==========================================================")
+    print("Patch release dates:")
+    print(f"  Verified: {canonical_games - questionable_patch_cnt}")
+    print(f"  Questionable: {questionable_patch_cnt}")
+    print("\nTemporal relationships:")
+    print(f"  Before release (advance tournament server): {before_release_cnt}")
+    print(f"  Same day: {same_day_cnt}")
+    print(f"  After release: {after_release_cnt}")
+    print("\nAssignment hierarchy breakdown:")
+    print(f"  Explicit Match Source: {explicit_patch_cnt}/{canonical_games}")
+    print(f"  Verified Window: {verified_window_cnt}/{canonical_games}")
+    print(f"  Inferred: {inferred_patch_cnt}/{canonical_games}")
+    print(f"  Unresolved: {unresolved_patch_cnt}/{canonical_games}")
 
-    print(f"\nFabricated statistics:")
-    print(f"{fabricated_stats}")
+    print("\n==========================================================")
+    print("   DRAFT SEMANTIC AUDIT")
+    print("==========================================================")
+    print(f"  Complete Drafts Parsed: {complete_drafts}/{canonical_games}")
+    print(f"  20-action drafts: {twenty_action_drafts}/{canonical_games}")
+    print(f"  19-action drafts (forfeited ban): {nineteen_action_drafts}/{canonical_games}")
+    print(f"  10-ban drafts: {ten_ban_drafts}/{canonical_games}")
+    print(f"  9-ban drafts: {nine_ban_drafts}/{canonical_games}")
+    print(f"  10-pick drafts: {ten_pick_drafts}/{canonical_games}")
+    print(f"  Invalid action sequences: {invalid_sequences}")
+    print(f"  Hero uniqueness violations: {hero_uniqueness_violations}")
+    print(f"  Fabricated statistics: {fabricated_stats}")
 
     is_pass = (
         canonical_games == expected_games and
@@ -186,6 +266,9 @@ def run_audit():
         non_m5_count == 0 and
         non_knockout_count == 0 and
         complete_drafts == canonical_games and
+        ten_pick_drafts == canonical_games and
+        invalid_sequences == 0 and
+        hero_uniqueness_violations == 0 and
         fabricated_stats == 0
     )
 

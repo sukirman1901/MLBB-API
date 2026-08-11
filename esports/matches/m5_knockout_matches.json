@@ -35,7 +35,6 @@
         "patch": true
       },
       "draft_complete": true,
-      "draft_completeness_reason": "Full 10 pick and ban actions parsed",
       "source": {
         "name": "Liquipedia",
         "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
@@ -212,8 +211,10 @@
         "patch_release_date": "2023-12-20T00:00:00Z",
         "effective_from": "2023-12-09T00:00:00Z",
         "effective_until": "2023-12-17T23:59:59Z",
-        "days_since_release": -11,
-        "days_since_effective": 0,
+        "days_since_patch_release": -11,
+        "days_before_patch_release": 11,
+        "days_since_competitive_effective": 0,
+        "temporal_relationship": "BEFORE_RELEASE",
         "assignment_method": "verified_tournament_window",
         "assignment_confidence": "HIGH",
         "source": {
@@ -222,6 +223,13 @@
           "source_type": "public_web",
           "retrieved_at": "2026-08-11T14:50:00Z"
         }
+      },
+      "draft_stats": {
+        "total_actions": 20,
+        "ban_actions": 10,
+        "pick_actions": 10,
+        "phase_1_actions": 12,
+        "phase_2_actions": 8
       }
     },
     {
@@ -256,7 +264,6 @@
         "patch": true
       },
       "draft_complete": true,
-      "draft_completeness_reason": "Full 10 pick and ban actions parsed",
       "source": {
         "name": "Liquipedia",
         "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
@@ -433,8 +440,10 @@
         "patch_release_date": "2023-12-20T00:00:00Z",
         "effective_from": "2023-12-09T00:00:00Z",
         "effective_until": "2023-12-17T23:59:59Z",
-        "days_since_release": -11,
-        "days_since_effective": 0,
+        "days_since_patch_release": -11,
+        "days_before_patch_release": 11,
+        "days_since_competitive_effective": 0,
+        "temporal_relationship": "BEFORE_RELEASE",
         "assignment_method": "verified_tournament_window",
         "assignment_confidence": "HIGH",
         "source": {
@@ -443,6 +452,13 @@
           "source_type": "public_web",
           "retrieved_at": "2026-08-11T14:50:00Z"
         }
+      },
+      "draft_stats": {
+        "total_actions": 20,
+        "ban_actions": 10,
+        "pick_actions": 10,
+        "phase_1_actions": 12,
+        "phase_2_actions": 8
       }
     },
     {
@@ -477,7 +493,6 @@
         "patch": true
       },
       "draft_complete": true,
-      "draft_completeness_reason": "Full 10 pick and ban actions parsed",
       "source": {
         "name": "Liquipedia",
         "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
@@ -654,8 +669,10 @@
         "patch_release_date": "2023-12-20T00:00:00Z",
         "effective_from": "2023-12-09T00:00:00Z",
         "effective_until": "2023-12-17T23:59:59Z",
-        "days_since_release": -11,
-        "days_since_effective": 0,
+        "days_since_patch_release": -11,
+        "days_before_patch_release": 11,
+        "days_since_competitive_effective": 0,
+        "temporal_relationship": "BEFORE_RELEASE",
         "assignment_method": "verified_tournament_window",
         "assignment_confidence": "HIGH",
         "source": {
@@ -664,6 +681,13 @@
           "source_type": "public_web",
           "retrieved_at": "2026-08-11T14:50:00Z"
         }
+      },
+      "draft_stats": {
+        "total_actions": 20,
+        "ban_actions": 10,
+        "pick_actions": 10,
+        "phase_1_actions": 12,
+        "phase_2_actions": 8
       }
     },
     {
@@ -698,7 +722,6 @@
         "patch": true
       },
       "draft_complete": true,
-      "draft_completeness_reason": "Full 10 pick and ban actions parsed",
       "source": {
         "name": "Liquipedia",
         "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
@@ -875,8 +898,10 @@
         "patch_release_date": "2023-12-20T00:00:00Z",
         "effective_from": "2023-12-09T00:00:00Z",
         "effective_until": "2023-12-17T23:59:59Z",
-        "days_since_release": -11,
-        "days_since_effective": 0,
+        "days_since_patch_release": -11,
+        "days_before_patch_release": 11,
+        "days_since_competitive_effective": 0,
+        "temporal_relationship": "BEFORE_RELEASE",
         "assignment_method": "verified_tournament_window",
         "assignment_confidence": "HIGH",
         "source": {
@@ -885,6 +910,13 @@
           "source_type": "public_web",
           "retrieved_at": "2026-08-11T14:50:00Z"
         }
+      },
+      "draft_stats": {
+        "total_actions": 20,
+        "ban_actions": 10,
+        "pick_actions": 10,
+        "phase_1_actions": 12,
+        "phase_2_actions": 8
       }
     },
     {
@@ -919,7 +951,6 @@
         "patch": true
       },
       "draft_complete": true,
-      "draft_completeness_reason": "Full 10 pick and ban actions parsed",
       "source": {
         "name": "Liquipedia",
         "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
@@ -1096,8 +1127,10 @@
         "patch_release_date": "2023-12-20T00:00:00Z",
         "effective_from": "2023-12-09T00:00:00Z",
         "effective_until": "2023-12-17T23:59:59Z",
-        "days_since_release": -11,
-        "days_since_effective": 0,
+        "days_since_patch_release": -11,
+        "days_before_patch_release": 11,
+        "days_since_competitive_effective": 0,
+        "temporal_relationship": "BEFORE_RELEASE",
         "assignment_method": "verified_tournament_window",
         "assignment_confidence": "HIGH",
         "source": {
@@ -1106,6 +1139,13 @@
           "source_type": "public_web",
           "retrieved_at": "2026-08-11T14:50:00Z"
         }
+      },
+      "draft_stats": {
+        "total_actions": 20,
+        "ban_actions": 10,
+        "pick_actions": 10,
+        "phase_1_actions": 12,
+        "phase_2_actions": 8
       }
     },
     {
@@ -1140,7 +1180,6 @@
         "patch": true
       },
       "draft_complete": true,
-      "draft_completeness_reason": "Full 10 pick and ban actions parsed",
       "source": {
         "name": "Liquipedia",
         "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
@@ -1317,8 +1356,10 @@
         "patch_release_date": "2023-12-20T00:00:00Z",
         "effective_from": "2023-12-09T00:00:00Z",
         "effective_until": "2023-12-17T23:59:59Z",
-        "days_since_release": -11,
-        "days_since_effective": 0,
+        "days_since_patch_release": -11,
+        "days_before_patch_release": 11,
+        "days_since_competitive_effective": 0,
+        "temporal_relationship": "BEFORE_RELEASE",
         "assignment_method": "verified_tournament_window",
         "assignment_confidence": "HIGH",
         "source": {
@@ -1327,6 +1368,13 @@
           "source_type": "public_web",
           "retrieved_at": "2026-08-11T14:50:00Z"
         }
+      },
+      "draft_stats": {
+        "total_actions": 20,
+        "ban_actions": 10,
+        "pick_actions": 10,
+        "phase_1_actions": 12,
+        "phase_2_actions": 8
       }
     },
     {
@@ -1361,7 +1409,6 @@
         "patch": true
       },
       "draft_complete": true,
-      "draft_completeness_reason": "Full 10 pick and ban actions parsed",
       "source": {
         "name": "Liquipedia",
         "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
@@ -1538,8 +1585,10 @@
         "patch_release_date": "2023-12-20T00:00:00Z",
         "effective_from": "2023-12-09T00:00:00Z",
         "effective_until": "2023-12-17T23:59:59Z",
-        "days_since_release": -11,
-        "days_since_effective": 0,
+        "days_since_patch_release": -11,
+        "days_before_patch_release": 11,
+        "days_since_competitive_effective": 0,
+        "temporal_relationship": "BEFORE_RELEASE",
         "assignment_method": "verified_tournament_window",
         "assignment_confidence": "HIGH",
         "source": {
@@ -1548,6 +1597,13 @@
           "source_type": "public_web",
           "retrieved_at": "2026-08-11T14:50:00Z"
         }
+      },
+      "draft_stats": {
+        "total_actions": 20,
+        "ban_actions": 10,
+        "pick_actions": 10,
+        "phase_1_actions": 12,
+        "phase_2_actions": 8
       }
     },
     {
@@ -1582,7 +1638,6 @@
         "patch": true
       },
       "draft_complete": true,
-      "draft_completeness_reason": "Full 10 pick and ban actions parsed",
       "source": {
         "name": "Liquipedia",
         "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
@@ -1759,8 +1814,10 @@
         "patch_release_date": "2023-12-20T00:00:00Z",
         "effective_from": "2023-12-09T00:00:00Z",
         "effective_until": "2023-12-17T23:59:59Z",
-        "days_since_release": -11,
-        "days_since_effective": 0,
+        "days_since_patch_release": -11,
+        "days_before_patch_release": 11,
+        "days_since_competitive_effective": 0,
+        "temporal_relationship": "BEFORE_RELEASE",
         "assignment_method": "verified_tournament_window",
         "assignment_confidence": "HIGH",
         "source": {
@@ -1769,6 +1826,13 @@
           "source_type": "public_web",
           "retrieved_at": "2026-08-11T14:50:00Z"
         }
+      },
+      "draft_stats": {
+        "total_actions": 20,
+        "ban_actions": 10,
+        "pick_actions": 10,
+        "phase_1_actions": 12,
+        "phase_2_actions": 8
       }
     },
     {
@@ -1803,7 +1867,6 @@
         "patch": true
       },
       "draft_complete": true,
-      "draft_completeness_reason": "Full 10 pick and ban actions parsed",
       "source": {
         "name": "Liquipedia",
         "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
@@ -1980,8 +2043,10 @@
         "patch_release_date": "2023-12-20T00:00:00Z",
         "effective_from": "2023-12-09T00:00:00Z",
         "effective_until": "2023-12-17T23:59:59Z",
-        "days_since_release": -11,
-        "days_since_effective": 0,
+        "days_since_patch_release": -11,
+        "days_before_patch_release": 11,
+        "days_since_competitive_effective": 0,
+        "temporal_relationship": "BEFORE_RELEASE",
         "assignment_method": "verified_tournament_window",
         "assignment_confidence": "HIGH",
         "source": {
@@ -1990,6 +2055,13 @@
           "source_type": "public_web",
           "retrieved_at": "2026-08-11T14:50:00Z"
         }
+      },
+      "draft_stats": {
+        "total_actions": 20,
+        "ban_actions": 10,
+        "pick_actions": 10,
+        "phase_1_actions": 12,
+        "phase_2_actions": 8
       }
     },
     {
@@ -2024,7 +2096,6 @@
         "patch": true
       },
       "draft_complete": true,
-      "draft_completeness_reason": "Full 10 pick and ban actions parsed",
       "source": {
         "name": "Liquipedia",
         "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
@@ -2201,8 +2272,10 @@
         "patch_release_date": "2023-12-20T00:00:00Z",
         "effective_from": "2023-12-09T00:00:00Z",
         "effective_until": "2023-12-17T23:59:59Z",
-        "days_since_release": -10,
-        "days_since_effective": 1,
+        "days_since_patch_release": -10,
+        "days_before_patch_release": 10,
+        "days_since_competitive_effective": 1,
+        "temporal_relationship": "BEFORE_RELEASE",
         "assignment_method": "verified_tournament_window",
         "assignment_confidence": "HIGH",
         "source": {
@@ -2211,6 +2284,13 @@
           "source_type": "public_web",
           "retrieved_at": "2026-08-11T14:50:00Z"
         }
+      },
+      "draft_stats": {
+        "total_actions": 20,
+        "ban_actions": 10,
+        "pick_actions": 10,
+        "phase_1_actions": 12,
+        "phase_2_actions": 8
       }
     },
     {
@@ -2245,7 +2325,6 @@
         "patch": true
       },
       "draft_complete": true,
-      "draft_completeness_reason": "Full 10 pick and ban actions parsed",
       "source": {
         "name": "Liquipedia",
         "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
@@ -2422,8 +2501,10 @@
         "patch_release_date": "2023-12-20T00:00:00Z",
         "effective_from": "2023-12-09T00:00:00Z",
         "effective_until": "2023-12-17T23:59:59Z",
-        "days_since_release": -10,
-        "days_since_effective": 1,
+        "days_since_patch_release": -10,
+        "days_before_patch_release": 10,
+        "days_since_competitive_effective": 1,
+        "temporal_relationship": "BEFORE_RELEASE",
         "assignment_method": "verified_tournament_window",
         "assignment_confidence": "HIGH",
         "source": {
@@ -2432,6 +2513,13 @@
           "source_type": "public_web",
           "retrieved_at": "2026-08-11T14:50:00Z"
         }
+      },
+      "draft_stats": {
+        "total_actions": 20,
+        "ban_actions": 10,
+        "pick_actions": 10,
+        "phase_1_actions": 12,
+        "phase_2_actions": 8
       }
     },
     {
@@ -2466,7 +2554,6 @@
         "patch": true
       },
       "draft_complete": true,
-      "draft_completeness_reason": "Full 10 pick and ban actions parsed",
       "source": {
         "name": "Liquipedia",
         "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
@@ -2643,8 +2730,10 @@
         "patch_release_date": "2023-12-20T00:00:00Z",
         "effective_from": "2023-12-09T00:00:00Z",
         "effective_until": "2023-12-17T23:59:59Z",
-        "days_since_release": -10,
-        "days_since_effective": 1,
+        "days_since_patch_release": -10,
+        "days_before_patch_release": 10,
+        "days_since_competitive_effective": 1,
+        "temporal_relationship": "BEFORE_RELEASE",
         "assignment_method": "verified_tournament_window",
         "assignment_confidence": "HIGH",
         "source": {
@@ -2653,6 +2742,13 @@
           "source_type": "public_web",
           "retrieved_at": "2026-08-11T14:50:00Z"
         }
+      },
+      "draft_stats": {
+        "total_actions": 20,
+        "ban_actions": 10,
+        "pick_actions": 10,
+        "phase_1_actions": 12,
+        "phase_2_actions": 8
       }
     },
     {
@@ -2687,7 +2783,6 @@
         "patch": true
       },
       "draft_complete": true,
-      "draft_completeness_reason": "Full 10 pick and ban actions parsed",
       "source": {
         "name": "Liquipedia",
         "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
@@ -2864,8 +2959,10 @@
         "patch_release_date": "2023-12-20T00:00:00Z",
         "effective_from": "2023-12-09T00:00:00Z",
         "effective_until": "2023-12-17T23:59:59Z",
-        "days_since_release": -10,
-        "days_since_effective": 1,
+        "days_since_patch_release": -10,
+        "days_before_patch_release": 10,
+        "days_since_competitive_effective": 1,
+        "temporal_relationship": "BEFORE_RELEASE",
         "assignment_method": "verified_tournament_window",
         "assignment_confidence": "HIGH",
         "source": {
@@ -2874,6 +2971,13 @@
           "source_type": "public_web",
           "retrieved_at": "2026-08-11T14:50:00Z"
         }
+      },
+      "draft_stats": {
+        "total_actions": 20,
+        "ban_actions": 10,
+        "pick_actions": 10,
+        "phase_1_actions": 12,
+        "phase_2_actions": 8
       }
     },
     {
@@ -2908,7 +3012,6 @@
         "patch": true
       },
       "draft_complete": true,
-      "draft_completeness_reason": "Full 10 pick and ban actions parsed",
       "source": {
         "name": "Liquipedia",
         "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
@@ -3085,8 +3188,10 @@
         "patch_release_date": "2023-12-20T00:00:00Z",
         "effective_from": "2023-12-09T00:00:00Z",
         "effective_until": "2023-12-17T23:59:59Z",
-        "days_since_release": -10,
-        "days_since_effective": 1,
+        "days_since_patch_release": -10,
+        "days_before_patch_release": 10,
+        "days_since_competitive_effective": 1,
+        "temporal_relationship": "BEFORE_RELEASE",
         "assignment_method": "verified_tournament_window",
         "assignment_confidence": "HIGH",
         "source": {
@@ -3095,6 +3200,13 @@
           "source_type": "public_web",
           "retrieved_at": "2026-08-11T14:50:00Z"
         }
+      },
+      "draft_stats": {
+        "total_actions": 20,
+        "ban_actions": 10,
+        "pick_actions": 10,
+        "phase_1_actions": 12,
+        "phase_2_actions": 8
       }
     },
     {
@@ -3129,7 +3241,6 @@
         "patch": true
       },
       "draft_complete": true,
-      "draft_completeness_reason": "Full 10 pick and ban actions parsed",
       "source": {
         "name": "Liquipedia",
         "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
@@ -3306,8 +3417,10 @@
         "patch_release_date": "2023-12-20T00:00:00Z",
         "effective_from": "2023-12-09T00:00:00Z",
         "effective_until": "2023-12-17T23:59:59Z",
-        "days_since_release": -10,
-        "days_since_effective": 1,
+        "days_since_patch_release": -10,
+        "days_before_patch_release": 10,
+        "days_since_competitive_effective": 1,
+        "temporal_relationship": "BEFORE_RELEASE",
         "assignment_method": "verified_tournament_window",
         "assignment_confidence": "HIGH",
         "source": {
@@ -3316,6 +3429,13 @@
           "source_type": "public_web",
           "retrieved_at": "2026-08-11T14:50:00Z"
         }
+      },
+      "draft_stats": {
+        "total_actions": 20,
+        "ban_actions": 10,
+        "pick_actions": 10,
+        "phase_1_actions": 12,
+        "phase_2_actions": 8
       }
     },
     {
@@ -3350,7 +3470,6 @@
         "patch": true
       },
       "draft_complete": true,
-      "draft_completeness_reason": "Full 10 pick and ban actions parsed",
       "source": {
         "name": "Liquipedia",
         "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
@@ -3527,8 +3646,10 @@
         "patch_release_date": "2023-12-20T00:00:00Z",
         "effective_from": "2023-12-09T00:00:00Z",
         "effective_until": "2023-12-17T23:59:59Z",
-        "days_since_release": -10,
-        "days_since_effective": 1,
+        "days_since_patch_release": -10,
+        "days_before_patch_release": 10,
+        "days_since_competitive_effective": 1,
+        "temporal_relationship": "BEFORE_RELEASE",
         "assignment_method": "verified_tournament_window",
         "assignment_confidence": "HIGH",
         "source": {
@@ -3537,6 +3658,13 @@
           "source_type": "public_web",
           "retrieved_at": "2026-08-11T14:50:00Z"
         }
+      },
+      "draft_stats": {
+        "total_actions": 20,
+        "ban_actions": 10,
+        "pick_actions": 10,
+        "phase_1_actions": 12,
+        "phase_2_actions": 8
       }
     },
     {
@@ -3571,7 +3699,6 @@
         "patch": true
       },
       "draft_complete": true,
-      "draft_completeness_reason": "Full 10 pick and ban actions parsed",
       "source": {
         "name": "Liquipedia",
         "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
@@ -3748,8 +3875,10 @@
         "patch_release_date": "2023-12-20T00:00:00Z",
         "effective_from": "2023-12-09T00:00:00Z",
         "effective_until": "2023-12-17T23:59:59Z",
-        "days_since_release": -10,
-        "days_since_effective": 1,
+        "days_since_patch_release": -10,
+        "days_before_patch_release": 10,
+        "days_since_competitive_effective": 1,
+        "temporal_relationship": "BEFORE_RELEASE",
         "assignment_method": "verified_tournament_window",
         "assignment_confidence": "HIGH",
         "source": {
@@ -3758,6 +3887,13 @@
           "source_type": "public_web",
           "retrieved_at": "2026-08-11T14:50:00Z"
         }
+      },
+      "draft_stats": {
+        "total_actions": 20,
+        "ban_actions": 10,
+        "pick_actions": 10,
+        "phase_1_actions": 12,
+        "phase_2_actions": 8
       }
     },
     {
@@ -3792,7 +3928,6 @@
         "patch": true
       },
       "draft_complete": true,
-      "draft_completeness_reason": "Full 10 pick and ban actions parsed",
       "source": {
         "name": "Liquipedia",
         "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
@@ -3969,8 +4104,10 @@
         "patch_release_date": "2023-12-20T00:00:00Z",
         "effective_from": "2023-12-09T00:00:00Z",
         "effective_until": "2023-12-17T23:59:59Z",
-        "days_since_release": -10,
-        "days_since_effective": 1,
+        "days_since_patch_release": -10,
+        "days_before_patch_release": 10,
+        "days_since_competitive_effective": 1,
+        "temporal_relationship": "BEFORE_RELEASE",
         "assignment_method": "verified_tournament_window",
         "assignment_confidence": "HIGH",
         "source": {
@@ -3979,6 +4116,13 @@
           "source_type": "public_web",
           "retrieved_at": "2026-08-11T14:50:00Z"
         }
+      },
+      "draft_stats": {
+        "total_actions": 20,
+        "ban_actions": 10,
+        "pick_actions": 10,
+        "phase_1_actions": 12,
+        "phase_2_actions": 8
       }
     },
     {
@@ -4013,7 +4157,6 @@
         "patch": true
       },
       "draft_complete": true,
-      "draft_completeness_reason": "Full 10 pick and ban actions parsed",
       "source": {
         "name": "Liquipedia",
         "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
@@ -4190,8 +4333,10 @@
         "patch_release_date": "2023-12-20T00:00:00Z",
         "effective_from": "2023-12-09T00:00:00Z",
         "effective_until": "2023-12-17T23:59:59Z",
-        "days_since_release": -8,
-        "days_since_effective": 3,
+        "days_since_patch_release": -8,
+        "days_before_patch_release": 8,
+        "days_since_competitive_effective": 3,
+        "temporal_relationship": "BEFORE_RELEASE",
         "assignment_method": "verified_tournament_window",
         "assignment_confidence": "HIGH",
         "source": {
@@ -4200,6 +4345,13 @@
           "source_type": "public_web",
           "retrieved_at": "2026-08-11T14:50:00Z"
         }
+      },
+      "draft_stats": {
+        "total_actions": 20,
+        "ban_actions": 10,
+        "pick_actions": 10,
+        "phase_1_actions": 12,
+        "phase_2_actions": 8
       }
     },
     {
@@ -4234,7 +4386,6 @@
         "patch": true
       },
       "draft_complete": true,
-      "draft_completeness_reason": "Full 10 pick and ban actions parsed",
       "source": {
         "name": "Liquipedia",
         "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
@@ -4411,8 +4562,10 @@
         "patch_release_date": "2023-12-20T00:00:00Z",
         "effective_from": "2023-12-09T00:00:00Z",
         "effective_until": "2023-12-17T23:59:59Z",
-        "days_since_release": -8,
-        "days_since_effective": 3,
+        "days_since_patch_release": -8,
+        "days_before_patch_release": 8,
+        "days_since_competitive_effective": 3,
+        "temporal_relationship": "BEFORE_RELEASE",
         "assignment_method": "verified_tournament_window",
         "assignment_confidence": "HIGH",
         "source": {
@@ -4421,6 +4574,13 @@
           "source_type": "public_web",
           "retrieved_at": "2026-08-11T14:50:00Z"
         }
+      },
+      "draft_stats": {
+        "total_actions": 20,
+        "ban_actions": 10,
+        "pick_actions": 10,
+        "phase_1_actions": 12,
+        "phase_2_actions": 8
       }
     },
     {
@@ -4455,7 +4615,6 @@
         "patch": true
       },
       "draft_complete": true,
-      "draft_completeness_reason": "Full 10 pick and ban actions parsed",
       "source": {
         "name": "Liquipedia",
         "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
@@ -4632,8 +4791,10 @@
         "patch_release_date": "2023-12-20T00:00:00Z",
         "effective_from": "2023-12-09T00:00:00Z",
         "effective_until": "2023-12-17T23:59:59Z",
-        "days_since_release": -8,
-        "days_since_effective": 3,
+        "days_since_patch_release": -8,
+        "days_before_patch_release": 8,
+        "days_since_competitive_effective": 3,
+        "temporal_relationship": "BEFORE_RELEASE",
         "assignment_method": "verified_tournament_window",
         "assignment_confidence": "HIGH",
         "source": {
@@ -4642,6 +4803,13 @@
           "source_type": "public_web",
           "retrieved_at": "2026-08-11T14:50:00Z"
         }
+      },
+      "draft_stats": {
+        "total_actions": 20,
+        "ban_actions": 10,
+        "pick_actions": 10,
+        "phase_1_actions": 12,
+        "phase_2_actions": 8
       }
     },
     {
@@ -4676,7 +4844,6 @@
         "patch": true
       },
       "draft_complete": true,
-      "draft_completeness_reason": "Full 10 pick and ban actions parsed",
       "source": {
         "name": "Liquipedia",
         "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
@@ -4853,8 +5020,10 @@
         "patch_release_date": "2023-12-20T00:00:00Z",
         "effective_from": "2023-12-09T00:00:00Z",
         "effective_until": "2023-12-17T23:59:59Z",
-        "days_since_release": -8,
-        "days_since_effective": 3,
+        "days_since_patch_release": -8,
+        "days_before_patch_release": 8,
+        "days_since_competitive_effective": 3,
+        "temporal_relationship": "BEFORE_RELEASE",
         "assignment_method": "verified_tournament_window",
         "assignment_confidence": "HIGH",
         "source": {
@@ -4863,6 +5032,13 @@
           "source_type": "public_web",
           "retrieved_at": "2026-08-11T14:50:00Z"
         }
+      },
+      "draft_stats": {
+        "total_actions": 20,
+        "ban_actions": 10,
+        "pick_actions": 10,
+        "phase_1_actions": 12,
+        "phase_2_actions": 8
       }
     },
     {
@@ -4897,7 +5073,6 @@
         "patch": true
       },
       "draft_complete": true,
-      "draft_completeness_reason": "Full 10 pick and ban actions parsed",
       "source": {
         "name": "Liquipedia",
         "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
@@ -5074,8 +5249,10 @@
         "patch_release_date": "2023-12-20T00:00:00Z",
         "effective_from": "2023-12-09T00:00:00Z",
         "effective_until": "2023-12-17T23:59:59Z",
-        "days_since_release": -8,
-        "days_since_effective": 3,
+        "days_since_patch_release": -8,
+        "days_before_patch_release": 8,
+        "days_since_competitive_effective": 3,
+        "temporal_relationship": "BEFORE_RELEASE",
         "assignment_method": "verified_tournament_window",
         "assignment_confidence": "HIGH",
         "source": {
@@ -5084,6 +5261,13 @@
           "source_type": "public_web",
           "retrieved_at": "2026-08-11T14:50:00Z"
         }
+      },
+      "draft_stats": {
+        "total_actions": 20,
+        "ban_actions": 10,
+        "pick_actions": 10,
+        "phase_1_actions": 12,
+        "phase_2_actions": 8
       }
     },
     {
@@ -5118,7 +5302,6 @@
         "patch": true
       },
       "draft_complete": true,
-      "draft_completeness_reason": "Full 10 pick and ban actions parsed",
       "source": {
         "name": "Liquipedia",
         "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
@@ -5295,8 +5478,10 @@
         "patch_release_date": "2023-12-20T00:00:00Z",
         "effective_from": "2023-12-09T00:00:00Z",
         "effective_until": "2023-12-17T23:59:59Z",
-        "days_since_release": -8,
-        "days_since_effective": 3,
+        "days_since_patch_release": -8,
+        "days_before_patch_release": 8,
+        "days_since_competitive_effective": 3,
+        "temporal_relationship": "BEFORE_RELEASE",
         "assignment_method": "verified_tournament_window",
         "assignment_confidence": "HIGH",
         "source": {
@@ -5305,6 +5490,13 @@
           "source_type": "public_web",
           "retrieved_at": "2026-08-11T14:50:00Z"
         }
+      },
+      "draft_stats": {
+        "total_actions": 20,
+        "ban_actions": 10,
+        "pick_actions": 10,
+        "phase_1_actions": 12,
+        "phase_2_actions": 8
       }
     },
     {
@@ -5339,7 +5531,6 @@
         "patch": true
       },
       "draft_complete": true,
-      "draft_completeness_reason": "Full 10 pick and ban actions parsed",
       "source": {
         "name": "Liquipedia",
         "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
@@ -5516,8 +5707,10 @@
         "patch_release_date": "2023-12-20T00:00:00Z",
         "effective_from": "2023-12-09T00:00:00Z",
         "effective_until": "2023-12-17T23:59:59Z",
-        "days_since_release": -8,
-        "days_since_effective": 3,
+        "days_since_patch_release": -8,
+        "days_before_patch_release": 8,
+        "days_since_competitive_effective": 3,
+        "temporal_relationship": "BEFORE_RELEASE",
         "assignment_method": "verified_tournament_window",
         "assignment_confidence": "HIGH",
         "source": {
@@ -5526,6 +5719,13 @@
           "source_type": "public_web",
           "retrieved_at": "2026-08-11T14:50:00Z"
         }
+      },
+      "draft_stats": {
+        "total_actions": 20,
+        "ban_actions": 10,
+        "pick_actions": 10,
+        "phase_1_actions": 12,
+        "phase_2_actions": 8
       }
     },
     {
@@ -5560,7 +5760,6 @@
         "patch": true
       },
       "draft_complete": true,
-      "draft_completeness_reason": "Full 10 pick and ban actions parsed",
       "source": {
         "name": "Liquipedia",
         "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
@@ -5737,8 +5936,10 @@
         "patch_release_date": "2023-12-20T00:00:00Z",
         "effective_from": "2023-12-09T00:00:00Z",
         "effective_until": "2023-12-17T23:59:59Z",
-        "days_since_release": -4,
-        "days_since_effective": 7,
+        "days_since_patch_release": -4,
+        "days_before_patch_release": 4,
+        "days_since_competitive_effective": 7,
+        "temporal_relationship": "BEFORE_RELEASE",
         "assignment_method": "verified_tournament_window",
         "assignment_confidence": "HIGH",
         "source": {
@@ -5747,6 +5948,13 @@
           "source_type": "public_web",
           "retrieved_at": "2026-08-11T14:50:00Z"
         }
+      },
+      "draft_stats": {
+        "total_actions": 20,
+        "ban_actions": 10,
+        "pick_actions": 10,
+        "phase_1_actions": 12,
+        "phase_2_actions": 8
       }
     },
     {
@@ -5781,7 +5989,6 @@
         "patch": true
       },
       "draft_complete": true,
-      "draft_completeness_reason": "Full 10 pick and ban actions parsed",
       "source": {
         "name": "Liquipedia",
         "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
@@ -5958,8 +6165,10 @@
         "patch_release_date": "2023-12-20T00:00:00Z",
         "effective_from": "2023-12-09T00:00:00Z",
         "effective_until": "2023-12-17T23:59:59Z",
-        "days_since_release": -4,
-        "days_since_effective": 7,
+        "days_since_patch_release": -4,
+        "days_before_patch_release": 4,
+        "days_since_competitive_effective": 7,
+        "temporal_relationship": "BEFORE_RELEASE",
         "assignment_method": "verified_tournament_window",
         "assignment_confidence": "HIGH",
         "source": {
@@ -5968,6 +6177,13 @@
           "source_type": "public_web",
           "retrieved_at": "2026-08-11T14:50:00Z"
         }
+      },
+      "draft_stats": {
+        "total_actions": 20,
+        "ban_actions": 10,
+        "pick_actions": 10,
+        "phase_1_actions": 12,
+        "phase_2_actions": 8
       }
     },
     {
@@ -6002,7 +6218,6 @@
         "patch": true
       },
       "draft_complete": true,
-      "draft_completeness_reason": "Full 10 pick and ban actions parsed",
       "source": {
         "name": "Liquipedia",
         "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
@@ -6179,8 +6394,10 @@
         "patch_release_date": "2023-12-20T00:00:00Z",
         "effective_from": "2023-12-09T00:00:00Z",
         "effective_until": "2023-12-17T23:59:59Z",
-        "days_since_release": -4,
-        "days_since_effective": 7,
+        "days_since_patch_release": -4,
+        "days_before_patch_release": 4,
+        "days_since_competitive_effective": 7,
+        "temporal_relationship": "BEFORE_RELEASE",
         "assignment_method": "verified_tournament_window",
         "assignment_confidence": "HIGH",
         "source": {
@@ -6189,6 +6406,13 @@
           "source_type": "public_web",
           "retrieved_at": "2026-08-11T14:50:00Z"
         }
+      },
+      "draft_stats": {
+        "total_actions": 20,
+        "ban_actions": 10,
+        "pick_actions": 10,
+        "phase_1_actions": 12,
+        "phase_2_actions": 8
       }
     },
     {
@@ -6223,7 +6447,6 @@
         "patch": true
       },
       "draft_complete": true,
-      "draft_completeness_reason": "Full 10 pick and ban actions parsed",
       "source": {
         "name": "Liquipedia",
         "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
@@ -6400,8 +6623,10 @@
         "patch_release_date": "2023-12-20T00:00:00Z",
         "effective_from": "2023-12-09T00:00:00Z",
         "effective_until": "2023-12-17T23:59:59Z",
-        "days_since_release": -9,
-        "days_since_effective": 2,
+        "days_since_patch_release": -9,
+        "days_before_patch_release": 9,
+        "days_since_competitive_effective": 2,
+        "temporal_relationship": "BEFORE_RELEASE",
         "assignment_method": "verified_tournament_window",
         "assignment_confidence": "HIGH",
         "source": {
@@ -6410,6 +6635,13 @@
           "source_type": "public_web",
           "retrieved_at": "2026-08-11T14:50:00Z"
         }
+      },
+      "draft_stats": {
+        "total_actions": 20,
+        "ban_actions": 10,
+        "pick_actions": 10,
+        "phase_1_actions": 12,
+        "phase_2_actions": 8
       }
     },
     {
@@ -6444,7 +6676,6 @@
         "patch": true
       },
       "draft_complete": true,
-      "draft_completeness_reason": "Full 10 pick and ban actions parsed",
       "source": {
         "name": "Liquipedia",
         "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
@@ -6621,8 +6852,10 @@
         "patch_release_date": "2023-12-20T00:00:00Z",
         "effective_from": "2023-12-09T00:00:00Z",
         "effective_until": "2023-12-17T23:59:59Z",
-        "days_since_release": -9,
-        "days_since_effective": 2,
+        "days_since_patch_release": -9,
+        "days_before_patch_release": 9,
+        "days_since_competitive_effective": 2,
+        "temporal_relationship": "BEFORE_RELEASE",
         "assignment_method": "verified_tournament_window",
         "assignment_confidence": "HIGH",
         "source": {
@@ -6631,6 +6864,13 @@
           "source_type": "public_web",
           "retrieved_at": "2026-08-11T14:50:00Z"
         }
+      },
+      "draft_stats": {
+        "total_actions": 20,
+        "ban_actions": 10,
+        "pick_actions": 10,
+        "phase_1_actions": 12,
+        "phase_2_actions": 8
       }
     },
     {
@@ -6665,7 +6905,6 @@
         "patch": true
       },
       "draft_complete": true,
-      "draft_completeness_reason": "Full 10 pick and ban actions parsed",
       "source": {
         "name": "Liquipedia",
         "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
@@ -6842,8 +7081,10 @@
         "patch_release_date": "2023-12-20T00:00:00Z",
         "effective_from": "2023-12-09T00:00:00Z",
         "effective_until": "2023-12-17T23:59:59Z",
-        "days_since_release": -9,
-        "days_since_effective": 2,
+        "days_since_patch_release": -9,
+        "days_before_patch_release": 9,
+        "days_since_competitive_effective": 2,
+        "temporal_relationship": "BEFORE_RELEASE",
         "assignment_method": "verified_tournament_window",
         "assignment_confidence": "HIGH",
         "source": {
@@ -6852,6 +7093,13 @@
           "source_type": "public_web",
           "retrieved_at": "2026-08-11T14:50:00Z"
         }
+      },
+      "draft_stats": {
+        "total_actions": 20,
+        "ban_actions": 10,
+        "pick_actions": 10,
+        "phase_1_actions": 12,
+        "phase_2_actions": 8
       }
     },
     {
@@ -6886,7 +7134,6 @@
         "patch": true
       },
       "draft_complete": true,
-      "draft_completeness_reason": "Full 10 pick and ban actions parsed",
       "source": {
         "name": "Liquipedia",
         "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
@@ -7063,8 +7310,10 @@
         "patch_release_date": "2023-12-20T00:00:00Z",
         "effective_from": "2023-12-09T00:00:00Z",
         "effective_until": "2023-12-17T23:59:59Z",
-        "days_since_release": -9,
-        "days_since_effective": 2,
+        "days_since_patch_release": -9,
+        "days_before_patch_release": 9,
+        "days_since_competitive_effective": 2,
+        "temporal_relationship": "BEFORE_RELEASE",
         "assignment_method": "verified_tournament_window",
         "assignment_confidence": "HIGH",
         "source": {
@@ -7073,6 +7322,13 @@
           "source_type": "public_web",
           "retrieved_at": "2026-08-11T14:50:00Z"
         }
+      },
+      "draft_stats": {
+        "total_actions": 20,
+        "ban_actions": 10,
+        "pick_actions": 10,
+        "phase_1_actions": 12,
+        "phase_2_actions": 8
       }
     },
     {
@@ -7107,7 +7363,6 @@
         "patch": true
       },
       "draft_complete": true,
-      "draft_completeness_reason": "Full 10 pick and ban actions parsed",
       "source": {
         "name": "Liquipedia",
         "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
@@ -7284,8 +7539,10 @@
         "patch_release_date": "2023-12-20T00:00:00Z",
         "effective_from": "2023-12-09T00:00:00Z",
         "effective_until": "2023-12-17T23:59:59Z",
-        "days_since_release": -9,
-        "days_since_effective": 2,
+        "days_since_patch_release": -9,
+        "days_before_patch_release": 9,
+        "days_since_competitive_effective": 2,
+        "temporal_relationship": "BEFORE_RELEASE",
         "assignment_method": "verified_tournament_window",
         "assignment_confidence": "HIGH",
         "source": {
@@ -7294,6 +7551,13 @@
           "source_type": "public_web",
           "retrieved_at": "2026-08-11T14:50:00Z"
         }
+      },
+      "draft_stats": {
+        "total_actions": 20,
+        "ban_actions": 10,
+        "pick_actions": 10,
+        "phase_1_actions": 12,
+        "phase_2_actions": 8
       }
     },
     {
@@ -7328,7 +7592,6 @@
         "patch": true
       },
       "draft_complete": true,
-      "draft_completeness_reason": "Full 10 pick and ban actions parsed",
       "source": {
         "name": "Liquipedia",
         "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
@@ -7505,8 +7768,10 @@
         "patch_release_date": "2023-12-20T00:00:00Z",
         "effective_from": "2023-12-09T00:00:00Z",
         "effective_until": "2023-12-17T23:59:59Z",
-        "days_since_release": -9,
-        "days_since_effective": 2,
+        "days_since_patch_release": -9,
+        "days_before_patch_release": 9,
+        "days_since_competitive_effective": 2,
+        "temporal_relationship": "BEFORE_RELEASE",
         "assignment_method": "verified_tournament_window",
         "assignment_confidence": "HIGH",
         "source": {
@@ -7515,6 +7780,13 @@
           "source_type": "public_web",
           "retrieved_at": "2026-08-11T14:50:00Z"
         }
+      },
+      "draft_stats": {
+        "total_actions": 20,
+        "ban_actions": 10,
+        "pick_actions": 10,
+        "phase_1_actions": 12,
+        "phase_2_actions": 8
       }
     },
     {
@@ -7549,7 +7821,6 @@
         "patch": true
       },
       "draft_complete": true,
-      "draft_completeness_reason": "Full 10 pick and ban actions parsed",
       "source": {
         "name": "Liquipedia",
         "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
@@ -7726,8 +7997,10 @@
         "patch_release_date": "2023-12-20T00:00:00Z",
         "effective_from": "2023-12-09T00:00:00Z",
         "effective_until": "2023-12-17T23:59:59Z",
-        "days_since_release": -9,
-        "days_since_effective": 2,
+        "days_since_patch_release": -9,
+        "days_before_patch_release": 9,
+        "days_since_competitive_effective": 2,
+        "temporal_relationship": "BEFORE_RELEASE",
         "assignment_method": "verified_tournament_window",
         "assignment_confidence": "HIGH",
         "source": {
@@ -7736,6 +8009,13 @@
           "source_type": "public_web",
           "retrieved_at": "2026-08-11T14:50:00Z"
         }
+      },
+      "draft_stats": {
+        "total_actions": 20,
+        "ban_actions": 10,
+        "pick_actions": 10,
+        "phase_1_actions": 12,
+        "phase_2_actions": 8
       }
     },
     {
@@ -7770,7 +8050,6 @@
         "patch": true
       },
       "draft_complete": true,
-      "draft_completeness_reason": "Full 10 pick and ban actions parsed",
       "source": {
         "name": "Liquipedia",
         "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
@@ -7947,8 +8226,10 @@
         "patch_release_date": "2023-12-20T00:00:00Z",
         "effective_from": "2023-12-09T00:00:00Z",
         "effective_until": "2023-12-17T23:59:59Z",
-        "days_since_release": -5,
-        "days_since_effective": 6,
+        "days_since_patch_release": -5,
+        "days_before_patch_release": 5,
+        "days_since_competitive_effective": 6,
+        "temporal_relationship": "BEFORE_RELEASE",
         "assignment_method": "verified_tournament_window",
         "assignment_confidence": "HIGH",
         "source": {
@@ -7957,6 +8238,13 @@
           "source_type": "public_web",
           "retrieved_at": "2026-08-11T14:50:00Z"
         }
+      },
+      "draft_stats": {
+        "total_actions": 20,
+        "ban_actions": 10,
+        "pick_actions": 10,
+        "phase_1_actions": 12,
+        "phase_2_actions": 8
       }
     },
     {
@@ -7991,7 +8279,6 @@
         "patch": true
       },
       "draft_complete": true,
-      "draft_completeness_reason": "Full 10 pick and ban actions parsed",
       "source": {
         "name": "Liquipedia",
         "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
@@ -8168,8 +8455,10 @@
         "patch_release_date": "2023-12-20T00:00:00Z",
         "effective_from": "2023-12-09T00:00:00Z",
         "effective_until": "2023-12-17T23:59:59Z",
-        "days_since_release": -5,
-        "days_since_effective": 6,
+        "days_since_patch_release": -5,
+        "days_before_patch_release": 5,
+        "days_since_competitive_effective": 6,
+        "temporal_relationship": "BEFORE_RELEASE",
         "assignment_method": "verified_tournament_window",
         "assignment_confidence": "HIGH",
         "source": {
@@ -8178,6 +8467,13 @@
           "source_type": "public_web",
           "retrieved_at": "2026-08-11T14:50:00Z"
         }
+      },
+      "draft_stats": {
+        "total_actions": 20,
+        "ban_actions": 10,
+        "pick_actions": 10,
+        "phase_1_actions": 12,
+        "phase_2_actions": 8
       }
     },
     {
@@ -8212,7 +8508,6 @@
         "patch": true
       },
       "draft_complete": true,
-      "draft_completeness_reason": "Full 10 pick and ban actions parsed",
       "source": {
         "name": "Liquipedia",
         "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
@@ -8389,8 +8684,10 @@
         "patch_release_date": "2023-12-20T00:00:00Z",
         "effective_from": "2023-12-09T00:00:00Z",
         "effective_until": "2023-12-17T23:59:59Z",
-        "days_since_release": -5,
-        "days_since_effective": 6,
+        "days_since_patch_release": -5,
+        "days_before_patch_release": 5,
+        "days_since_competitive_effective": 6,
+        "temporal_relationship": "BEFORE_RELEASE",
         "assignment_method": "verified_tournament_window",
         "assignment_confidence": "HIGH",
         "source": {
@@ -8399,6 +8696,13 @@
           "source_type": "public_web",
           "retrieved_at": "2026-08-11T14:50:00Z"
         }
+      },
+      "draft_stats": {
+        "total_actions": 20,
+        "ban_actions": 10,
+        "pick_actions": 10,
+        "phase_1_actions": 12,
+        "phase_2_actions": 8
       }
     },
     {
@@ -8433,7 +8737,6 @@
         "patch": true
       },
       "draft_complete": true,
-      "draft_completeness_reason": "Full 10 pick and ban actions parsed",
       "source": {
         "name": "Liquipedia",
         "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
@@ -8610,8 +8913,10 @@
         "patch_release_date": "2023-12-20T00:00:00Z",
         "effective_from": "2023-12-09T00:00:00Z",
         "effective_until": "2023-12-17T23:59:59Z",
-        "days_since_release": -5,
-        "days_since_effective": 6,
+        "days_since_patch_release": -5,
+        "days_before_patch_release": 5,
+        "days_since_competitive_effective": 6,
+        "temporal_relationship": "BEFORE_RELEASE",
         "assignment_method": "verified_tournament_window",
         "assignment_confidence": "HIGH",
         "source": {
@@ -8620,6 +8925,13 @@
           "source_type": "public_web",
           "retrieved_at": "2026-08-11T14:50:00Z"
         }
+      },
+      "draft_stats": {
+        "total_actions": 20,
+        "ban_actions": 10,
+        "pick_actions": 10,
+        "phase_1_actions": 12,
+        "phase_2_actions": 8
       }
     },
     {
@@ -8654,7 +8966,6 @@
         "patch": true
       },
       "draft_complete": true,
-      "draft_completeness_reason": "Full 10 pick and ban actions parsed",
       "source": {
         "name": "Liquipedia",
         "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
@@ -8831,8 +9142,10 @@
         "patch_release_date": "2023-12-20T00:00:00Z",
         "effective_from": "2023-12-09T00:00:00Z",
         "effective_until": "2023-12-17T23:59:59Z",
-        "days_since_release": -5,
-        "days_since_effective": 6,
+        "days_since_patch_release": -5,
+        "days_before_patch_release": 5,
+        "days_since_competitive_effective": 6,
+        "temporal_relationship": "BEFORE_RELEASE",
         "assignment_method": "verified_tournament_window",
         "assignment_confidence": "HIGH",
         "source": {
@@ -8841,6 +9154,13 @@
           "source_type": "public_web",
           "retrieved_at": "2026-08-11T14:50:00Z"
         }
+      },
+      "draft_stats": {
+        "total_actions": 20,
+        "ban_actions": 10,
+        "pick_actions": 10,
+        "phase_1_actions": 12,
+        "phase_2_actions": 8
       }
     },
     {
@@ -8875,7 +9195,6 @@
         "patch": true
       },
       "draft_complete": true,
-      "draft_completeness_reason": "Full 10 pick and ban actions parsed",
       "source": {
         "name": "Liquipedia",
         "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
@@ -9052,8 +9371,10 @@
         "patch_release_date": "2023-12-20T00:00:00Z",
         "effective_from": "2023-12-09T00:00:00Z",
         "effective_until": "2023-12-17T23:59:59Z",
-        "days_since_release": -5,
-        "days_since_effective": 6,
+        "days_since_patch_release": -5,
+        "days_before_patch_release": 5,
+        "days_since_competitive_effective": 6,
+        "temporal_relationship": "BEFORE_RELEASE",
         "assignment_method": "verified_tournament_window",
         "assignment_confidence": "HIGH",
         "source": {
@@ -9062,6 +9383,13 @@
           "source_type": "public_web",
           "retrieved_at": "2026-08-11T14:50:00Z"
         }
+      },
+      "draft_stats": {
+        "total_actions": 20,
+        "ban_actions": 10,
+        "pick_actions": 10,
+        "phase_1_actions": 12,
+        "phase_2_actions": 8
       }
     },
     {
@@ -9096,7 +9424,6 @@
         "patch": true
       },
       "draft_complete": true,
-      "draft_completeness_reason": "Full 10 pick and ban actions parsed",
       "source": {
         "name": "Liquipedia",
         "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
@@ -9273,8 +9600,10 @@
         "patch_release_date": "2023-12-20T00:00:00Z",
         "effective_from": "2023-12-09T00:00:00Z",
         "effective_until": "2023-12-17T23:59:59Z",
-        "days_since_release": -5,
-        "days_since_effective": 6,
+        "days_since_patch_release": -5,
+        "days_before_patch_release": 5,
+        "days_since_competitive_effective": 6,
+        "temporal_relationship": "BEFORE_RELEASE",
         "assignment_method": "verified_tournament_window",
         "assignment_confidence": "HIGH",
         "source": {
@@ -9283,6 +9612,13 @@
           "source_type": "public_web",
           "retrieved_at": "2026-08-11T14:50:00Z"
         }
+      },
+      "draft_stats": {
+        "total_actions": 20,
+        "ban_actions": 10,
+        "pick_actions": 10,
+        "phase_1_actions": 12,
+        "phase_2_actions": 8
       }
     },
     {
@@ -9317,7 +9653,6 @@
         "patch": true
       },
       "draft_complete": true,
-      "draft_completeness_reason": "Full 10 pick and ban actions parsed",
       "source": {
         "name": "Liquipedia",
         "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
@@ -9494,8 +9829,10 @@
         "patch_release_date": "2023-12-20T00:00:00Z",
         "effective_from": "2023-12-09T00:00:00Z",
         "effective_until": "2023-12-17T23:59:59Z",
-        "days_since_release": -5,
-        "days_since_effective": 6,
+        "days_since_patch_release": -5,
+        "days_before_patch_release": 5,
+        "days_since_competitive_effective": 6,
+        "temporal_relationship": "BEFORE_RELEASE",
         "assignment_method": "verified_tournament_window",
         "assignment_confidence": "HIGH",
         "source": {
@@ -9504,6 +9841,13 @@
           "source_type": "public_web",
           "retrieved_at": "2026-08-11T14:50:00Z"
         }
+      },
+      "draft_stats": {
+        "total_actions": 20,
+        "ban_actions": 10,
+        "pick_actions": 10,
+        "phase_1_actions": 12,
+        "phase_2_actions": 8
       }
     },
     {
@@ -9538,7 +9882,6 @@
         "patch": true
       },
       "draft_complete": true,
-      "draft_completeness_reason": "Full 10 pick and ban actions parsed",
       "source": {
         "name": "Liquipedia",
         "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
@@ -9715,8 +10058,10 @@
         "patch_release_date": "2023-12-20T00:00:00Z",
         "effective_from": "2023-12-09T00:00:00Z",
         "effective_until": "2023-12-17T23:59:59Z",
-        "days_since_release": -5,
-        "days_since_effective": 6,
+        "days_since_patch_release": -5,
+        "days_before_patch_release": 5,
+        "days_since_competitive_effective": 6,
+        "temporal_relationship": "BEFORE_RELEASE",
         "assignment_method": "verified_tournament_window",
         "assignment_confidence": "HIGH",
         "source": {
@@ -9725,6 +10070,13 @@
           "source_type": "public_web",
           "retrieved_at": "2026-08-11T14:50:00Z"
         }
+      },
+      "draft_stats": {
+        "total_actions": 20,
+        "ban_actions": 10,
+        "pick_actions": 10,
+        "phase_1_actions": 12,
+        "phase_2_actions": 8
       }
     },
     {
@@ -9759,7 +10111,6 @@
         "patch": true
       },
       "draft_complete": true,
-      "draft_completeness_reason": "Full 10 pick and ban actions parsed",
       "source": {
         "name": "Liquipedia",
         "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
@@ -9936,8 +10287,10 @@
         "patch_release_date": "2023-12-20T00:00:00Z",
         "effective_from": "2023-12-09T00:00:00Z",
         "effective_until": "2023-12-17T23:59:59Z",
-        "days_since_release": -4,
-        "days_since_effective": 7,
+        "days_since_patch_release": -4,
+        "days_before_patch_release": 4,
+        "days_since_competitive_effective": 7,
+        "temporal_relationship": "BEFORE_RELEASE",
         "assignment_method": "verified_tournament_window",
         "assignment_confidence": "HIGH",
         "source": {
@@ -9946,6 +10299,13 @@
           "source_type": "public_web",
           "retrieved_at": "2026-08-11T14:50:00Z"
         }
+      },
+      "draft_stats": {
+        "total_actions": 20,
+        "ban_actions": 10,
+        "pick_actions": 10,
+        "phase_1_actions": 12,
+        "phase_2_actions": 8
       }
     },
     {
@@ -9980,7 +10340,6 @@
         "patch": true
       },
       "draft_complete": true,
-      "draft_completeness_reason": "Full 10 pick and ban actions parsed",
       "source": {
         "name": "Liquipedia",
         "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
@@ -10157,8 +10516,10 @@
         "patch_release_date": "2023-12-20T00:00:00Z",
         "effective_from": "2023-12-09T00:00:00Z",
         "effective_until": "2023-12-17T23:59:59Z",
-        "days_since_release": -4,
-        "days_since_effective": 7,
+        "days_since_patch_release": -4,
+        "days_before_patch_release": 4,
+        "days_since_competitive_effective": 7,
+        "temporal_relationship": "BEFORE_RELEASE",
         "assignment_method": "verified_tournament_window",
         "assignment_confidence": "HIGH",
         "source": {
@@ -10167,6 +10528,13 @@
           "source_type": "public_web",
           "retrieved_at": "2026-08-11T14:50:00Z"
         }
+      },
+      "draft_stats": {
+        "total_actions": 20,
+        "ban_actions": 10,
+        "pick_actions": 10,
+        "phase_1_actions": 12,
+        "phase_2_actions": 8
       }
     },
     {
@@ -10201,7 +10569,6 @@
         "patch": true
       },
       "draft_complete": true,
-      "draft_completeness_reason": "Full 10 pick and ban actions parsed",
       "source": {
         "name": "Liquipedia",
         "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
@@ -10378,8 +10745,10 @@
         "patch_release_date": "2023-12-20T00:00:00Z",
         "effective_from": "2023-12-09T00:00:00Z",
         "effective_until": "2023-12-17T23:59:59Z",
-        "days_since_release": -4,
-        "days_since_effective": 7,
+        "days_since_patch_release": -4,
+        "days_before_patch_release": 4,
+        "days_since_competitive_effective": 7,
+        "temporal_relationship": "BEFORE_RELEASE",
         "assignment_method": "verified_tournament_window",
         "assignment_confidence": "HIGH",
         "source": {
@@ -10388,6 +10757,13 @@
           "source_type": "public_web",
           "retrieved_at": "2026-08-11T14:50:00Z"
         }
+      },
+      "draft_stats": {
+        "total_actions": 20,
+        "ban_actions": 10,
+        "pick_actions": 10,
+        "phase_1_actions": 12,
+        "phase_2_actions": 8
       }
     },
     {
@@ -10422,7 +10798,6 @@
         "patch": true
       },
       "draft_complete": true,
-      "draft_completeness_reason": "Full 10 pick and ban actions parsed",
       "source": {
         "name": "Liquipedia",
         "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
@@ -10599,8 +10974,10 @@
         "patch_release_date": "2023-12-20T00:00:00Z",
         "effective_from": "2023-12-09T00:00:00Z",
         "effective_until": "2023-12-17T23:59:59Z",
-        "days_since_release": -4,
-        "days_since_effective": 7,
+        "days_since_patch_release": -4,
+        "days_before_patch_release": 4,
+        "days_since_competitive_effective": 7,
+        "temporal_relationship": "BEFORE_RELEASE",
         "assignment_method": "verified_tournament_window",
         "assignment_confidence": "HIGH",
         "source": {
@@ -10609,6 +10986,13 @@
           "source_type": "public_web",
           "retrieved_at": "2026-08-11T14:50:00Z"
         }
+      },
+      "draft_stats": {
+        "total_actions": 20,
+        "ban_actions": 10,
+        "pick_actions": 10,
+        "phase_1_actions": 12,
+        "phase_2_actions": 8
       }
     },
     {
@@ -10643,7 +11027,6 @@
         "patch": true
       },
       "draft_complete": true,
-      "draft_completeness_reason": "Full 10 pick and ban actions parsed",
       "source": {
         "name": "Liquipedia",
         "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
@@ -10820,8 +11203,10 @@
         "patch_release_date": "2023-12-20T00:00:00Z",
         "effective_from": "2023-12-09T00:00:00Z",
         "effective_until": "2023-12-17T23:59:59Z",
-        "days_since_release": -4,
-        "days_since_effective": 7,
+        "days_since_patch_release": -4,
+        "days_before_patch_release": 4,
+        "days_since_competitive_effective": 7,
+        "temporal_relationship": "BEFORE_RELEASE",
         "assignment_method": "verified_tournament_window",
         "assignment_confidence": "HIGH",
         "source": {
@@ -10830,6 +11215,13 @@
           "source_type": "public_web",
           "retrieved_at": "2026-08-11T14:50:00Z"
         }
+      },
+      "draft_stats": {
+        "total_actions": 20,
+        "ban_actions": 10,
+        "pick_actions": 10,
+        "phase_1_actions": 12,
+        "phase_2_actions": 8
       }
     },
     {
@@ -10864,7 +11256,6 @@
         "patch": true
       },
       "draft_complete": true,
-      "draft_completeness_reason": "Full 10 pick and ban actions parsed",
       "source": {
         "name": "Liquipedia",
         "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
@@ -11041,8 +11432,10 @@
         "patch_release_date": "2023-12-20T00:00:00Z",
         "effective_from": "2023-12-09T00:00:00Z",
         "effective_until": "2023-12-17T23:59:59Z",
-        "days_since_release": -4,
-        "days_since_effective": 7,
+        "days_since_patch_release": -4,
+        "days_before_patch_release": 4,
+        "days_since_competitive_effective": 7,
+        "temporal_relationship": "BEFORE_RELEASE",
         "assignment_method": "verified_tournament_window",
         "assignment_confidence": "HIGH",
         "source": {
@@ -11051,6 +11444,13 @@
           "source_type": "public_web",
           "retrieved_at": "2026-08-11T14:50:00Z"
         }
+      },
+      "draft_stats": {
+        "total_actions": 20,
+        "ban_actions": 10,
+        "pick_actions": 10,
+        "phase_1_actions": 12,
+        "phase_2_actions": 8
       }
     },
     {
@@ -11085,7 +11485,6 @@
         "patch": true
       },
       "draft_complete": true,
-      "draft_completeness_reason": "Full 10 pick and ban actions parsed",
       "source": {
         "name": "Liquipedia",
         "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
@@ -11262,8 +11661,10 @@
         "patch_release_date": "2023-12-20T00:00:00Z",
         "effective_from": "2023-12-09T00:00:00Z",
         "effective_until": "2023-12-17T23:59:59Z",
-        "days_since_release": -3,
-        "days_since_effective": 8,
+        "days_since_patch_release": -3,
+        "days_before_patch_release": 3,
+        "days_since_competitive_effective": 8,
+        "temporal_relationship": "BEFORE_RELEASE",
         "assignment_method": "verified_tournament_window",
         "assignment_confidence": "HIGH",
         "source": {
@@ -11272,6 +11673,13 @@
           "source_type": "public_web",
           "retrieved_at": "2026-08-11T14:50:00Z"
         }
+      },
+      "draft_stats": {
+        "total_actions": 20,
+        "ban_actions": 10,
+        "pick_actions": 10,
+        "phase_1_actions": 12,
+        "phase_2_actions": 8
       }
     },
     {
@@ -11306,7 +11714,6 @@
         "patch": true
       },
       "draft_complete": true,
-      "draft_completeness_reason": "Full 10 pick and ban actions parsed",
       "source": {
         "name": "Liquipedia",
         "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
@@ -11483,8 +11890,10 @@
         "patch_release_date": "2023-12-20T00:00:00Z",
         "effective_from": "2023-12-09T00:00:00Z",
         "effective_until": "2023-12-17T23:59:59Z",
-        "days_since_release": -3,
-        "days_since_effective": 8,
+        "days_since_patch_release": -3,
+        "days_before_patch_release": 3,
+        "days_since_competitive_effective": 8,
+        "temporal_relationship": "BEFORE_RELEASE",
         "assignment_method": "verified_tournament_window",
         "assignment_confidence": "HIGH",
         "source": {
@@ -11493,6 +11902,13 @@
           "source_type": "public_web",
           "retrieved_at": "2026-08-11T14:50:00Z"
         }
+      },
+      "draft_stats": {
+        "total_actions": 20,
+        "ban_actions": 10,
+        "pick_actions": 10,
+        "phase_1_actions": 12,
+        "phase_2_actions": 8
       }
     },
     {
@@ -11526,8 +11942,7 @@
         "vod": true,
         "patch": true
       },
-      "draft_complete": true,
-      "draft_completeness_reason": "Full 10 pick and ban actions parsed",
+      "draft_complete": false,
       "source": {
         "name": "Liquipedia",
         "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
@@ -11696,8 +12111,10 @@
         "patch_release_date": "2023-12-20T00:00:00Z",
         "effective_from": "2023-12-09T00:00:00Z",
         "effective_until": "2023-12-17T23:59:59Z",
-        "days_since_release": -3,
-        "days_since_effective": 8,
+        "days_since_patch_release": -3,
+        "days_before_patch_release": 3,
+        "days_since_competitive_effective": 8,
+        "temporal_relationship": "BEFORE_RELEASE",
         "assignment_method": "verified_tournament_window",
         "assignment_confidence": "HIGH",
         "source": {
@@ -11706,6 +12123,13 @@
           "source_type": "public_web",
           "retrieved_at": "2026-08-11T14:50:00Z"
         }
+      },
+      "draft_stats": {
+        "total_actions": 19,
+        "ban_actions": 9,
+        "pick_actions": 10,
+        "phase_1_actions": 12,
+        "phase_2_actions": 7
       }
     },
     {
@@ -11740,7 +12164,6 @@
         "patch": true
       },
       "draft_complete": true,
-      "draft_completeness_reason": "Full 10 pick and ban actions parsed",
       "source": {
         "name": "Liquipedia",
         "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
@@ -11917,8 +12340,10 @@
         "patch_release_date": "2023-12-20T00:00:00Z",
         "effective_from": "2023-12-09T00:00:00Z",
         "effective_until": "2023-12-17T23:59:59Z",
-        "days_since_release": -3,
-        "days_since_effective": 8,
+        "days_since_patch_release": -3,
+        "days_before_patch_release": 3,
+        "days_since_competitive_effective": 8,
+        "temporal_relationship": "BEFORE_RELEASE",
         "assignment_method": "verified_tournament_window",
         "assignment_confidence": "HIGH",
         "source": {
@@ -11927,6 +12352,13 @@
           "source_type": "public_web",
           "retrieved_at": "2026-08-11T14:50:00Z"
         }
+      },
+      "draft_stats": {
+        "total_actions": 20,
+        "ban_actions": 10,
+        "pick_actions": 10,
+        "phase_1_actions": 12,
+        "phase_2_actions": 8
       }
     },
     {
@@ -11961,7 +12393,6 @@
         "patch": true
       },
       "draft_complete": true,
-      "draft_completeness_reason": "Full 10 pick and ban actions parsed",
       "source": {
         "name": "Liquipedia",
         "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
@@ -12138,8 +12569,10 @@
         "patch_release_date": "2023-12-20T00:00:00Z",
         "effective_from": "2023-12-09T00:00:00Z",
         "effective_until": "2023-12-17T23:59:59Z",
-        "days_since_release": -3,
-        "days_since_effective": 8,
+        "days_since_patch_release": -3,
+        "days_before_patch_release": 3,
+        "days_since_competitive_effective": 8,
+        "temporal_relationship": "BEFORE_RELEASE",
         "assignment_method": "verified_tournament_window",
         "assignment_confidence": "HIGH",
         "source": {
@@ -12148,6 +12581,13 @@
           "source_type": "public_web",
           "retrieved_at": "2026-08-11T14:50:00Z"
         }
+      },
+      "draft_stats": {
+        "total_actions": 20,
+        "ban_actions": 10,
+        "pick_actions": 10,
+        "phase_1_actions": 12,
+        "phase_2_actions": 8
       }
     },
     {
@@ -12182,7 +12622,6 @@
         "patch": true
       },
       "draft_complete": true,
-      "draft_completeness_reason": "Full 10 pick and ban actions parsed",
       "source": {
         "name": "Liquipedia",
         "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
@@ -12359,8 +12798,10 @@
         "patch_release_date": "2023-12-20T00:00:00Z",
         "effective_from": "2023-12-09T00:00:00Z",
         "effective_until": "2023-12-17T23:59:59Z",
-        "days_since_release": -3,
-        "days_since_effective": 8,
+        "days_since_patch_release": -3,
+        "days_before_patch_release": 3,
+        "days_since_competitive_effective": 8,
+        "temporal_relationship": "BEFORE_RELEASE",
         "assignment_method": "verified_tournament_window",
         "assignment_confidence": "HIGH",
         "source": {
@@ -12369,6 +12810,13 @@
           "source_type": "public_web",
           "retrieved_at": "2026-08-11T14:50:00Z"
         }
+      },
+      "draft_stats": {
+        "total_actions": 20,
+        "ban_actions": 10,
+        "pick_actions": 10,
+        "phase_1_actions": 12,
+        "phase_2_actions": 8
       }
     },
     {
@@ -12403,7 +12851,6 @@
         "patch": true
       },
       "draft_complete": true,
-      "draft_completeness_reason": "Full 10 pick and ban actions parsed",
       "source": {
         "name": "Liquipedia",
         "url": "https://liquipedia.net/mobilelegends/M5_World_Championship/Knockout_Stage",
@@ -12580,8 +13027,10 @@
         "patch_release_date": "2023-12-20T00:00:00Z",
         "effective_from": "2023-12-09T00:00:00Z",
         "effective_until": "2023-12-17T23:59:59Z",
-        "days_since_release": -3,
-        "days_since_effective": 8,
+        "days_since_patch_release": -3,
+        "days_before_patch_release": 3,
+        "days_since_competitive_effective": 8,
+        "temporal_relationship": "BEFORE_RELEASE",
         "assignment_method": "verified_tournament_window",
         "assignment_confidence": "HIGH",
         "source": {
@@ -12590,6 +13039,13 @@
           "source_type": "public_web",
           "retrieved_at": "2026-08-11T14:50:00Z"
         }
+      },
+      "draft_stats": {
+        "total_actions": 20,
+        "ban_actions": 10,
+        "pick_actions": 10,
+        "phase_1_actions": 12,
+        "phase_2_actions": 8
       }
     }
   ]
