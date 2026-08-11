@@ -1,0 +1,42 @@
+{
+  "revdate": "2026-08-11",
+  "author": "sukirman1901",
+  "data": [
+    {
+      "player_id": "kairi",
+      "name": "Kairi Ygnacio Rayosdelsol",
+      "ign": "Kairi",
+      "team": "Fnatic ONIC",
+      "role": "Jungle",
+      "comfort_heroes": ["Ling", "Hayabusa", "Fanny", "Lancelot", "Baxia", "Fredrinn"],
+      "signature_pick": "Ling"
+    },
+    {
+      "player_id": "sanz",
+      "name": "Gilang",
+      "ign": "Sanz",
+      "team": "Fnatic ONIC",
+      "role": "Mid",
+      "comfort_heroes": ["Valentina", "Lylia", "Pharsa", "Yve", "Faramis", "Novaria"],
+      "signature_pick": "Valentina"
+    },
+    {
+      "player_id": "skylar",
+      "name": "Schevenko David Tendean",
+      "ign": "Skylar",
+      "team": "RRQ Hoshi",
+      "role": "Gold",
+      "comfort_heroes": ["Claude", "Beatrix", "Irithel", "Brody", "Moskov", "Karrie"],
+      "signature_pick": "Claude"
+    },
+    {
+      "player_id": "sutsujin",
+      "name": "Michael Giovanni",
+      "ign": "Sutsujin",
+      "team": "RRQ Hoshi",
+      "role": "Jungle",
+      "comfort_heroes": ["Alpha", "Suyou", "Ling", "Suyou", "Akai"],
+      "signature_pick": "Alpha"
+    }
+  ]
+}

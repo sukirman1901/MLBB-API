@@ -1,0 +1,21 @@
+{
+  "tournament_id": "mpl_id_s16",
+  "name": "MPL Indonesia Season 16",
+  "region": "ID",
+  "year": 2025,
+  "game_version": "1.9.32",
+  "organizer": "Moonton",
+  "format": "Franchise League (Regular Season + Playoffs)",
+  "total_teams": 9,
+  "participating_teams": [
+    "Fnatic ONIC",
+    "RRQ Hoshi",
+    "Team Liquid ID",
+    "EVOS Glory",
+    "Bigetron Alpha",
+    "Geek Fam",
+    "Alter Ego",
+    "Rebellion Esports",
+    "DEWA United Esports"
+  ]
+}

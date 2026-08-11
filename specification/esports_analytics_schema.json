@@ -1,106 +1,128 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "title": "MLBB Dataset API Schema Specification",
-  "description": "JSON Schema specification for MLBB Heroes, Equipment, Emblems, Counters, Synergies, and Draft Pick Analysis",
+  "title": "MLBB Esports Match & Analytics Schema Specification",
+  "description": "JSON Schema specification for Tournaments, Teams, Players, Match Records, Draft Picks/Bans, and Player Performances",
   "type": "object",
   "properties": {
-    "hero_dataset": {
-      "type": "array",
-      "items": {
-        "type": "object",
-        "properties": {
-          "hero_name": { "type": "string" },
-          "id": { "type": "string" },
-          "class": { "type": "string" },
-          "laning": { "type": "array", "items": { "type": "string" } },
-          "tier": { "type": "string", "enum": ["SS", "S", "A", "B", "C", "D"] },
-          "tier_score": { "type": "number" },
-          "ban_rate": { "type": "string" },
-          "contested_rate": { "type": "string" },
-          "base_stats": {
+    "tournament": {
+      "type": "object",
+      "properties": {
+        "tournament_id": { "type": "string" },
+        "name": { "type": "string" },
+        "region": { "type": "string" },
+        "year": { "type": "integer" },
+        "game_version": { "type": "string" },
+        "participating_teams": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "team": {
+      "type": "object",
+      "properties": {
+        "team_id": { "type": "string" },
+        "name": { "type": "string" },
+        "short_name": { "type": "string" },
+        "region": { "type": "string" },
+        "roster": {
+          "type": "array",
+          "items": {
             "type": "object",
             "properties": {
-              "HP": { "type": "integer" },
-              "Mana": { "type": "integer" },
-              "Physical Attack": { "type": "integer" },
-              "Physical Defense": { "type": "integer" },
-              "Magic Defense": { "type": "integer" },
-              "Movement Speed": { "type": "integer" }
-            }
-          },
-          "skills": {
-            "type": "array",
-            "items": {
-              "type": "object",
-              "properties": {
-                "skill_name": { "type": "string" },
-                "type": { "type": "string", "enum": ["passive", "active"] },
-                "cooldown": { "type": "string" },
-                "manacost": { "type": "string" },
-                "description": { "type": "string" }
-              }
-            }
-          },
-          "counters": {
-            "type": "array",
-            "items": {
-              "type": "object",
-              "properties": {
-                "heroname": { "type": "string" },
-                "relation": { "type": "string", "enum": ["strong_against", "weak_against"] }
-              }
-            }
-          },
-          "synergies": {
-            "type": "array",
-            "items": {
-              "type": "object",
-              "properties": {
-                "heroname": { "type": "string" }
-              }
-            }
-          },
-          "recommended_builds": {
-            "type": "array",
-            "items": {
-              "type": "object",
-              "properties": {
-                "build_name": { "type": "string" },
-                "items": { "type": "array", "items": { "type": "string" } }
-              }
+              "player_name": { "type": "string" },
+              "role": { "type": "string", "enum": ["EXP", "Jungle", "Mid", "Gold", "Roam"] }
             }
           }
         }
       }
     },
-    "equipment_dataset": {
-      "type": "array",
-      "items": {
-        "type": "object",
-        "properties": {
-          "item_name": { "type": "string" },
-          "category": { "type": "string", "enum": ["Attack", "Magic", "Defense", "Movement"] },
-          "price": { "type": "integer" },
-          "data": {
-            "type": "array",
-            "items": {
-              "type": "object",
-              "properties": {
-                "modifiers": { "type": "object" },
-                "unique_passive": { "type": "array", "items": { "type": "string" } }
+    "player": {
+      "type": "object",
+      "properties": {
+        "player_id": { "type": "string" },
+        "ign": { "type": "string" },
+        "team": { "type": "string" },
+        "role": { "type": "string", "enum": ["EXP", "Jungle", "Mid", "Gold", "Roam"] },
+        "comfort_heroes": { "type": "array", "items": { "type": "string" } },
+        "signature_pick": { "type": "string" }
+      }
+    },
+    "match": {
+      "type": "object",
+      "properties": {
+        "match_id": { "type": "string" },
+        "tournament": { "type": "string" },
+        "season": { "type": "integer" },
+        "patch": { "type": "string" },
+        "duration_seconds": { "type": "integer" },
+        "winner": { "type": "string" },
+        "blue_team": {
+          "type": "object",
+          "properties": {
+            "name": { "type": "string" },
+            "bans": { "type": "array", "items": { "type": "string" } },
+            "picks": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "slot": { "type": "integer" },
+                  "hero": { "type": "string" },
+                  "player": { "type": "string" },
+                  "role": { "type": "string" }
+                }
               }
             }
           }
-        }
-      }
-    },
-    "emblem_dataset": {
-      "type": "array",
-      "items": {
-        "type": "object",
-        "properties": {
-          "emblem_name": { "type": "string" },
-          "talents": { "type": "array", "items": { "type": "string" } }
+        },
+        "red_team": {
+          "type": "object",
+          "properties": {
+            "name": { "type": "string" },
+            "bans": { "type": "array", "items": { "type": "string" } },
+            "picks": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "slot": { "type": "integer" },
+                  "hero": { "type": "string" },
+                  "player": { "type": "string" },
+                  "role": { "type": "string" }
+                }
+              }
+            }
+          }
+        },
+        "player_performances": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "player": { "type": "string" },
+              "team": { "type": "string" },
+              "hero": { "type": "string" },
+              "role": { "type": "string" },
+              "kda": {
+                "type": "object",
+                "properties": {
+                  "kills": { "type": "integer" },
+                  "deaths": { "type": "integer" },
+                  "assists": { "type": "integer" }
+                }
+              },
+              "gold": { "type": "integer" },
+              "gpm": { "type": "number" },
+              "damage_dealt": { "type": "integer" },
+              "damage_taken": { "type": "integer" },
+              "items": { "type": "array", "items": { "type": "string" } },
+              "emblem": {
+                "type": "object",
+                "properties": {
+                  "main": { "type": "string" },
+                  "talents": { "type": "array", "items": { "type": "string" } }
+                }
+              }
+            }
+          }
         }
       }
     }

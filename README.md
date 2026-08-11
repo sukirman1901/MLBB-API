@@ -1,101 +1,115 @@
-# MLBB-API — Mobile Legends: Bang Bang Esports & Attribute Database
+# MLBB-API — Mobile Legends: Bang Bang Knowledge Base & Esports Match Datasets
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Repository](https://img.shields.io/badge/GitHub-sukirman1901%2FMLBB--API-blue)](https://github.com/sukirman1901/MLBB-API)
 [![Dataset Status](https://img.shields.io/badge/Data_Completeness-100%25-brightgreen)](#-data-completeness--status)
 
-Welcome to **MLBB-API**, a comprehensive Mobile Legends: Bang Bang (MLBB) Attribute Database and Esports Analytics Engine maintained by **sukirman1901**.
-
-This repository provides rich, up-to-date JSON metadata for **132 Heroes**, **89 Items/Equipment**, and the **New 2025/2026 Emblem System**, along with automated scraping tools and data schemas for building advanced Esports Analytics, Draft Pick Simulators, VOD Review Systems, and Discord Bots.
+Welcome to **MLBB-API**, an open-source Mobile Legends: Bang Bang (MLBB) Attribute Database, Esports Match Datasets, and Analytics Engine maintained by **sukirman1901**.
 
 ---
 
-## 📊 Dataset Links
+## 🏗️ Project Architecture: V0 vs V1
 
+```text
+                 MLBB-API ENGINE
+                        │
+       ┌────────────────┴────────────────┐
+       │                                 │
+  V0: STATIC KNOWLEDGE            V1: ESPORTS MATCH DATASET
+       │                                 │
+ Heroes (132)                     Tournaments (MPL/M-Series)
+ Items (89)                       Teams & Rosters
+ Emblems (7 Sets + 26 Talents)    Player Profiles
+ Image Assets (247 PNGs/WebPs)    Matches & Draft Picks/Bans
+       │                                 │
+       └────────────────┬────────────────┘
+                        ↓
+                 ANALYTICS ENGINE
+             (Draft & Meta Tracing)
+```
+
+---
+
+## 📊 Dataset Structure & Quick Links
+
+### 1. V0 — Static Knowledge Base (`v1/`)
 * 🦸 **Hero Data (132 Heroes):** [`v1/hero-meta-final.json`](https://github.com/sukirman1901/MLBB-API/blob/main/v1/hero-meta-final.json)
 * ⚔️ **Item Data (89 Equipment):** [`v1/item-meta-final.json`](https://github.com/sukirman1901/MLBB-API/blob/main/v1/item-meta-final.json)
 * 🛡️ **Emblem Data (7 Sets + 26 Talents):** [`v1/emblem-meta-final.json`](https://github.com/sukirman1901/MLBB-API/blob/main/v1/emblem-meta-final.json)
+
+### 2. V1 — Esports Match Datasets (`esports/`)
+* 🏆 **Tournaments:** [`esports/tournaments/mpl_id_s16.json`](https://github.com/sukirman1901/MLBB-API/blob/main/esports/tournaments/mpl_id_s16.json)
+* 🛡️ **Teams & Rosters:** [`esports/teams/teams.json`](https://github.com/sukirman1901/MLBB-API/blob/main/esports/teams/teams.json)
+* 👤 **Player Profiles:** [`esports/players/players.json`](https://github.com/sukirman1901/MLBB-API/blob/main/esports/players/players.json)
+* 🎮 **Matches & Draft Picks:** [`esports/matches/mpl_id_s16_g1.json`](https://github.com/sukirman1901/MLBB-API/blob/main/esports/matches/mpl_id_s16_g1.json)
 * 📐 **Esports Analytics Schema:** [`specification/esports_analytics_schema.json`](https://github.com/sukirman1901/MLBB-API/blob/main/specification/esports_analytics_schema.json)
 
 ---
 
 ## ✅ Data Completeness & Status
 
-| Dataset | Total Entries | Status / Attributes Included |
+| Category | Total Entries | Attributes & Coverage Included |
 | :--- | :---: | :--- |
-| **Hero Metadata** | **132 Heroes** | 100% Complete (Skills, Cooldowns, Mana Costs, Base Stats HP/Mana/Def/Atk/Speed, Counters & Synergies) |
+| **Hero Metadata** | **132 Heroes** | 100% Complete (Skills, Cooldowns, Mana Costs, Base Stats HP/Mana/Def/Atk/Speed, Counters, Synergies, Recommended Builds, Tiers) |
 | **Equipment Items** | **89 Items** | 100% Complete (Stats Modifiers, Unique Passives e.g., *Armor Buster*, *Malefic Energy*, Prices & Build Paths) |
 | **Emblem System** | **7 Sets + 26 Talents** | 100% Complete (2025/2026 Role-based Emblems: Common, Tank, Assassin, Mage, Fighter, Support, Marksman) |
+| **Esports Match Data** | **Match & Draft Records** | Draft Picks & Bans (Blue/Red side), Player Performance KDA, GPM, Damage Dealt/Taken, Itemization & Emblem Choices |
 
 ---
 
-## 🚀 Automation & Scraper Scripts
+## ⚡ Automation & Scraper Scripts (`scripts/`)
 
-This repository includes simple automated Python scripts to keep all datasets and assets up-to-date:
+All maintainer scripts are stored inside the `scripts/` directory:
 
-### 1. Hero Data Scraper (`heroes.py`)
+### 1. Hero Data Scraper (`scripts/heroes.py`)
 Fetches complete hero skills, base stats, counters, synergies, and tiers directly from official APIs.
 ```bash
-python3 heroes.py
+python3 scripts/heroes.py
 ```
 
-### 2. Equipment Data Scraper (`equipment.py`)
+### 2. Equipment Data Scraper (`scripts/equipment.py`)
 Parses equipment stats, unique passives, costs, and build paths directly from Fandom MediaWiki API.
 ```bash
-python3 equipment.py
+python3 scripts/equipment.py
 ```
 
-### 3. Asset Downloader (`assets.py`)
+### 3. Asset Downloader (`scripts/assets.py`)
 Downloads and syncs high-resolution PNG image assets into `assets/hero/`, `assets/item/`, and `assets/emblem/`.
 ```bash
-python3 assets.py
+python3 scripts/assets.py
 ```
 
-### 4. Data Transformation (`transform.py`)
+### 4. Data Transformation (`scripts/transform.py`)
 Transforms raw payloads into standardized MLBB-API JSON schemas.
 ```bash
-python3 transform.py
+python3 scripts/transform.py
 ```
-
----
-
-## 🎮 API Features & Data Capabilities
-
-Designed for developers, coaches, and analysts to build MLBB applications:
-* **Hero Analytics:** 132 heroes with base stats, skill mechanics, cooldowns, mana costs, counters, synergies, recommended builds, and meta tiers (`SS` / `S` / `A` / `B` / `C`).
-* **Equipment & Passives:** 89 items with stat modifiers, unique passive effects (*Armor Buster*, *Malefic Energy*, *Lethality*, etc.), costs, and build paths.
-* **Emblem & Talent System:** 7 role emblem sets and 26 ability talents (2025/2026 system).
-* **Draft & Counter Engine Data:** Counter-pick relationships, hero combo synergies, and role recommendations.
-* **JSON Schemas:** Standardized schemas defined in `specification/` for easy database integration and API development.
 
 ---
 
 ## 💻 Usage Examples
 
-### Python Example
+### Python: Linking Static Knowledge to Match Data
 ```python
 import json
 
-# Read hero dataset
-with open('v1/hero-meta-final.json', 'r', encoding='utf-8') as f:
+# Load Static Hero Knowledge & Match Data
+with open('v1/hero-meta-final.json', 'r') as f:
     heroes = json.load(f)['data']
 
-# Find hero information
-sora = next(h for h in heroes if h['hero_name'] == 'Sora')
-print(f"Hero: {sora['hero_name']} ({sora['class']})")
-print(f"Base HP: {sora['base_stats']['HP']}")
-print("Counters:", [c['heroname'] for c in sora['counters']])
-```
+with open('esports/matches/mpl_id_s16_g1.json', 'r') as f:
+    match = json.load(f)
 
-### Node.js / JavaScript Example
-```javascript
-const fs = require('fs');
+print(f"Match: {match['blue_team']['name']} vs {match['red_team']['name']} (Winner: {match['winner']})")
+print("Blue Bans:", match['blue_team']['bans'])
+print("Blue Picks:", [p['hero'] for p in match['blue_team']['picks']])
 
-const items = JSON.parse(fs.readFileSync('./v1/item-meta-final.json', 'utf8')).data;
-const maleficGun = items.find(i => i.item_name === 'Malefic Gun');
-
-console.log("Stats Modifiers:", maleficGun.data[0].modifiers);
-console.log("Unique Passives:", maleficGun.data[0].unique_passive);
+# Inspect Player Performance for Kairi (Ling)
+kairi_perf = next(p for p in match['player_performances'] if p['player'] == 'Kairi')
+print(f"\nPlayer: {kairi_perf['player']} | Hero: {kairi_perf['hero']}")
+print(f"KDA: {kairi_perf['kda']['kills']}/{kairi_perf['kda']['deaths']}/{kairi_perf['kda']['assists']} | GPM: {kairi_perf['gpm']}")
+print("Build Items:", kairi_perf['items'])
+print("Emblem:", kairi_perf['emblem'])
 ```
 
 ---

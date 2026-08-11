@@ -17,7 +17,7 @@ import urllib.request
 import concurrent.futures
 
 HEADERS = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36'}
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 def ensure_dirs():
     os.makedirs(os.path.join(BASE_DIR, 'assets/hero'), exist_ok=True)
