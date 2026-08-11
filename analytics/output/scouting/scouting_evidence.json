@@ -1,0 +1,5753 @@
+{
+  "description": "MLBB Draft Scouting Evidence Dataset V1",
+  "data": [
+    {
+      "pattern": {
+        "trigger": {
+          "type": "opponent_pick",
+          "hero_id": "h102",
+          "hero_name": "Mathilda"
+        },
+        "response": {
+          "type": "pick",
+          "hero_id": "h012",
+          "hero_name": "Bruno"
+        }
+      },
+      "context": {
+        "team_id": "team-geek-fam-id",
+        "dataset_scope": "single_tournament"
+      },
+      "evidence": {
+        "state_count": 4,
+        "sample_size_games": 4,
+        "sample_size_series": 1,
+        "tournament_count": 1,
+        "global_rate": 0.5,
+        "team_rate": 1.0,
+        "team_lift": 2.0,
+        "observed_wins": 1,
+        "observed_losses": 3,
+        "observed_win_rate": 0.25
+      },
+      "classification": {
+        "sample_sufficient": false,
+        "sample_label": "LOW_SAMPLE",
+        "specificity": "HIGH_SPECIFICITY",
+        "persistence": "SINGLE_TOURNAMENT",
+        "team_concentration": "OBSERVED_TEAM_CONCENTRATION"
+      },
+      "patch_breakdown": [
+        {
+          "patch_version": "1.8.44",
+          "state_count": 4,
+          "sample_size_games": 4,
+          "patch_rate": 1.0,
+          "patch_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ],
+      "opponent_breakdown": [
+        {
+          "opponent_team_id": "team-ap.bren",
+          "state_count": 4,
+          "sample_size_games": 4,
+          "opponent_rate": 1.0,
+          "opponent_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ]
+    },
+    {
+      "pattern": {
+        "trigger": {
+          "type": "opponent_pick",
+          "hero_id": "h086",
+          "hero_name": "Lylia"
+        },
+        "response": {
+          "type": "pick",
+          "hero_id": "h098",
+          "hero_name": "Khaleed"
+        }
+      },
+      "context": {
+        "team_id": "team-blck",
+        "dataset_scope": "single_tournament"
+      },
+      "evidence": {
+        "state_count": 3,
+        "sample_size_games": 3,
+        "sample_size_series": 3,
+        "tournament_count": 1,
+        "global_rate": 0.4,
+        "team_rate": 0.6,
+        "team_lift": 1.5,
+        "observed_wins": 3,
+        "observed_losses": 0,
+        "observed_win_rate": 1.0
+      },
+      "classification": {
+        "sample_sufficient": false,
+        "sample_label": "LOW_SAMPLE",
+        "specificity": "MEDIUM_SPECIFICITY",
+        "persistence": "MULTI_SERIES",
+        "team_concentration": "OBSERVED_TEAM_CONCENTRATION"
+      },
+      "patch_breakdown": [
+        {
+          "patch_version": "1.8.44",
+          "state_count": 3,
+          "sample_size_games": 3,
+          "patch_rate": 0.6,
+          "patch_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ],
+      "opponent_breakdown": [
+        {
+          "opponent_team_id": "team-onic",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "opponent_rate": 1.0,
+          "opponent_lift": 1.6667,
+          "context_label": "OPPONENT_LOCALIZED_TENDENCY"
+        },
+        {
+          "opponent_team_id": "team-fire-flux-esports",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "opponent_rate": 0.3333,
+          "opponent_lift": 0.5555,
+          "context_label": "NEUTRAL"
+        },
+        {
+          "opponent_team_id": "team-geek-fam-id",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "opponent_rate": 1.0,
+          "opponent_lift": 1.6667,
+          "context_label": "OPPONENT_LOCALIZED_TENDENCY"
+        }
+      ]
+    },
+    {
+      "pattern": {
+        "trigger": {
+          "type": "opponent_pick",
+          "hero_id": "h110",
+          "hero_name": "Valentina"
+        },
+        "response": {
+          "type": "pick",
+          "hero_id": "h082",
+          "hero_name": "Terizla"
+        }
+      },
+      "context": {
+        "team_id": "team-devu",
+        "dataset_scope": "single_tournament"
+      },
+      "evidence": {
+        "state_count": 3,
+        "sample_size_games": 3,
+        "sample_size_series": 1,
+        "tournament_count": 1,
+        "global_rate": 0.2222,
+        "team_rate": 0.75,
+        "team_lift": 3.3753,
+        "observed_wins": 0,
+        "observed_losses": 3,
+        "observed_win_rate": 0.0
+      },
+      "classification": {
+        "sample_sufficient": false,
+        "sample_label": "LOW_SAMPLE",
+        "specificity": "HIGH_SPECIFICITY",
+        "persistence": "SINGLE_TOURNAMENT",
+        "team_concentration": "OBSERVED_TEAM_CONCENTRATION"
+      },
+      "patch_breakdown": [
+        {
+          "patch_version": "1.8.44",
+          "state_count": 3,
+          "sample_size_games": 3,
+          "patch_rate": 0.75,
+          "patch_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ],
+      "opponent_breakdown": [
+        {
+          "opponent_team_id": "team-blck",
+          "state_count": 3,
+          "sample_size_games": 3,
+          "opponent_rate": 1.0,
+          "opponent_lift": 1.3333,
+          "context_label": "NEUTRAL"
+        }
+      ]
+    },
+    {
+      "pattern": {
+        "trigger": {
+          "type": "opponent_pick",
+          "hero_id": "h019",
+          "hero_name": "Minotaur"
+        },
+        "response": {
+          "type": "pick",
+          "hero_id": "h065",
+          "hero_name": "Claude"
+        }
+      },
+      "context": {
+        "team_id": "team-blck",
+        "dataset_scope": "single_tournament"
+      },
+      "evidence": {
+        "state_count": 2,
+        "sample_size_games": 2,
+        "sample_size_series": 2,
+        "tournament_count": 1,
+        "global_rate": 0.5,
+        "team_rate": 0.6667,
+        "team_lift": 1.3334,
+        "observed_wins": 1,
+        "observed_losses": 1,
+        "observed_win_rate": 0.5
+      },
+      "classification": {
+        "sample_sufficient": false,
+        "sample_label": "LOW_SAMPLE",
+        "specificity": "MEDIUM_SPECIFICITY",
+        "persistence": "MULTI_SERIES",
+        "team_concentration": "NEUTRAL"
+      },
+      "patch_breakdown": [
+        {
+          "patch_version": "1.8.44",
+          "state_count": 2,
+          "sample_size_games": 2,
+          "patch_rate": 0.6667,
+          "patch_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ],
+      "opponent_breakdown": [
+        {
+          "opponent_team_id": "team-onic",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "opponent_rate": 1.0,
+          "opponent_lift": 1.4999,
+          "context_label": "NEUTRAL"
+        },
+        {
+          "opponent_team_id": "team-fire-flux-esports",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "opponent_rate": 1.0,
+          "opponent_lift": 1.4999,
+          "context_label": "NEUTRAL"
+        }
+      ]
+    },
+    {
+      "pattern": {
+        "trigger": {
+          "type": "opponent_pick",
+          "hero_id": "h102",
+          "hero_name": "Mathilda"
+        },
+        "response": {
+          "type": "pick",
+          "hero_id": "h065",
+          "hero_name": "Claude"
+        }
+      },
+      "context": {
+        "team_id": "team-blck",
+        "dataset_scope": "single_tournament"
+      },
+      "evidence": {
+        "state_count": 2,
+        "sample_size_games": 2,
+        "sample_size_series": 2,
+        "tournament_count": 1,
+        "global_rate": 0.25,
+        "team_rate": 0.6667,
+        "team_lift": 2.6668,
+        "observed_wins": 1,
+        "observed_losses": 1,
+        "observed_win_rate": 0.5
+      },
+      "classification": {
+        "sample_sufficient": false,
+        "sample_label": "LOW_SAMPLE",
+        "specificity": "HIGH_SPECIFICITY",
+        "persistence": "MULTI_SERIES",
+        "team_concentration": "OBSERVED_TEAM_CONCENTRATION"
+      },
+      "patch_breakdown": [
+        {
+          "patch_version": "1.8.44",
+          "state_count": 2,
+          "sample_size_games": 2,
+          "patch_rate": 0.6667,
+          "patch_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ],
+      "opponent_breakdown": [
+        {
+          "opponent_team_id": "team-onic",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "opponent_rate": 1.0,
+          "opponent_lift": 1.4999,
+          "context_label": "NEUTRAL"
+        },
+        {
+          "opponent_team_id": "team-ap.bren",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "opponent_rate": 0.5,
+          "opponent_lift": 0.75,
+          "context_label": "NEUTRAL"
+        }
+      ]
+    },
+    {
+      "pattern": {
+        "trigger": {
+          "type": "opponent_pick",
+          "hero_id": "h110",
+          "hero_name": "Valentina"
+        },
+        "response": {
+          "type": "pick",
+          "hero_id": "h120",
+          "hero_name": "Arlott"
+        }
+      },
+      "context": {
+        "team_id": "team-blck",
+        "dataset_scope": "single_tournament"
+      },
+      "evidence": {
+        "state_count": 2,
+        "sample_size_games": 2,
+        "sample_size_series": 2,
+        "tournament_count": 1,
+        "global_rate": 0.1667,
+        "team_rate": 0.6667,
+        "team_lift": 3.9994,
+        "observed_wins": 0,
+        "observed_losses": 2,
+        "observed_win_rate": 0.0
+      },
+      "classification": {
+        "sample_sufficient": false,
+        "sample_label": "LOW_SAMPLE",
+        "specificity": "HIGH_SPECIFICITY",
+        "persistence": "MULTI_SERIES",
+        "team_concentration": "OBSERVED_TEAM_CONCENTRATION"
+      },
+      "patch_breakdown": [
+        {
+          "patch_version": "1.8.44",
+          "state_count": 2,
+          "sample_size_games": 2,
+          "patch_rate": 0.6667,
+          "patch_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ],
+      "opponent_breakdown": [
+        {
+          "opponent_team_id": "team-onic",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "opponent_rate": 0.5,
+          "opponent_lift": 0.75,
+          "context_label": "NEUTRAL"
+        },
+        {
+          "opponent_team_id": "team-geek-fam-id",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "opponent_rate": 1.0,
+          "opponent_lift": 1.4999,
+          "context_label": "NEUTRAL"
+        }
+      ]
+    },
+    {
+      "pattern": {
+        "trigger": {
+          "type": "opponent_pick",
+          "hero_id": "h019",
+          "hero_name": "Minotaur"
+        },
+        "response": {
+          "type": "pick",
+          "hero_id": "h012",
+          "hero_name": "Bruno"
+        }
+      },
+      "context": {
+        "team_id": "team-burmese-ghouls",
+        "dataset_scope": "single_tournament"
+      },
+      "evidence": {
+        "state_count": 2,
+        "sample_size_games": 2,
+        "sample_size_series": 2,
+        "tournament_count": 1,
+        "global_rate": 0.25,
+        "team_rate": 1.0,
+        "team_lift": 4.0,
+        "observed_wins": 1,
+        "observed_losses": 1,
+        "observed_win_rate": 0.5
+      },
+      "classification": {
+        "sample_sufficient": false,
+        "sample_label": "LOW_SAMPLE",
+        "specificity": "HIGH_SPECIFICITY",
+        "persistence": "MULTI_SERIES",
+        "team_concentration": "OBSERVED_TEAM_CONCENTRATION"
+      },
+      "patch_breakdown": [
+        {
+          "patch_version": "1.8.44",
+          "state_count": 2,
+          "sample_size_games": 2,
+          "patch_rate": 1.0,
+          "patch_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ],
+      "opponent_breakdown": [
+        {
+          "opponent_team_id": "team-geek-fam-id",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "opponent_rate": 1.0,
+          "opponent_lift": 1.0,
+          "context_label": "NEUTRAL"
+        },
+        {
+          "opponent_team_id": "team-see-you-soon",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "opponent_rate": 1.0,
+          "opponent_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ]
+    },
+    {
+      "pattern": {
+        "trigger": {
+          "type": "opponent_pick",
+          "hero_id": "h119",
+          "hero_name": "Novaria"
+        },
+        "response": {
+          "type": "pick",
+          "hero_id": "h120",
+          "hero_name": "Arlott"
+        }
+      },
+      "context": {
+        "team_id": "team-ap.bren",
+        "dataset_scope": "single_tournament"
+      },
+      "evidence": {
+        "state_count": 2,
+        "sample_size_games": 2,
+        "sample_size_series": 2,
+        "tournament_count": 1,
+        "global_rate": 0.375,
+        "team_rate": 1.0,
+        "team_lift": 2.6667,
+        "observed_wins": 0,
+        "observed_losses": 2,
+        "observed_win_rate": 0.0
+      },
+      "classification": {
+        "sample_sufficient": false,
+        "sample_label": "LOW_SAMPLE",
+        "specificity": "HIGH_SPECIFICITY",
+        "persistence": "MULTI_SERIES",
+        "team_concentration": "OBSERVED_TEAM_CONCENTRATION"
+      },
+      "patch_breakdown": [
+        {
+          "patch_version": "1.8.44",
+          "state_count": 2,
+          "sample_size_games": 2,
+          "patch_rate": 1.0,
+          "patch_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ],
+      "opponent_breakdown": [
+        {
+          "opponent_team_id": "team-onic",
+          "state_count": 2,
+          "sample_size_games": 2,
+          "opponent_rate": 1.0,
+          "opponent_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ]
+    },
+    {
+      "pattern": {
+        "trigger": {
+          "type": "opponent_pick",
+          "hero_id": "h076",
+          "hero_name": "Faramis"
+        },
+        "response": {
+          "type": "pick",
+          "hero_id": "h082",
+          "hero_name": "Terizla"
+        }
+      },
+      "context": {
+        "team_id": "team-blck",
+        "dataset_scope": "single_tournament"
+      },
+      "evidence": {
+        "state_count": 2,
+        "sample_size_games": 2,
+        "sample_size_series": 1,
+        "tournament_count": 1,
+        "global_rate": 0.25,
+        "team_rate": 0.4,
+        "team_lift": 1.6,
+        "observed_wins": 2,
+        "observed_losses": 0,
+        "observed_win_rate": 1.0
+      },
+      "classification": {
+        "sample_sufficient": false,
+        "sample_label": "LOW_SAMPLE",
+        "specificity": "MEDIUM_SPECIFICITY",
+        "persistence": "SINGLE_TOURNAMENT",
+        "team_concentration": "OBSERVED_TEAM_CONCENTRATION"
+      },
+      "patch_breakdown": [
+        {
+          "patch_version": "1.8.44",
+          "state_count": 2,
+          "sample_size_games": 2,
+          "patch_rate": 0.4,
+          "patch_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ],
+      "opponent_breakdown": [
+        {
+          "opponent_team_id": "team-geek-fam-id",
+          "state_count": 2,
+          "sample_size_games": 2,
+          "opponent_rate": 1.0,
+          "opponent_lift": 2.5,
+          "context_label": "OPPONENT_LOCALIZED_TENDENCY"
+        }
+      ]
+    },
+    {
+      "pattern": {
+        "trigger": {
+          "type": "opponent_pick",
+          "hero_id": "h110",
+          "hero_name": "Valentina"
+        },
+        "response": {
+          "type": "pick",
+          "hero_id": "h072",
+          "hero_name": "Thamuz"
+        }
+      },
+      "context": {
+        "team_id": "team-ap.bren",
+        "dataset_scope": "single_tournament"
+      },
+      "evidence": {
+        "state_count": 2,
+        "sample_size_games": 2,
+        "sample_size_series": 1,
+        "tournament_count": 1,
+        "global_rate": 0.1111,
+        "team_rate": 1.0,
+        "team_lift": 9.0009,
+        "observed_wins": 2,
+        "observed_losses": 0,
+        "observed_win_rate": 1.0
+      },
+      "classification": {
+        "sample_sufficient": false,
+        "sample_label": "LOW_SAMPLE",
+        "specificity": "HIGH_SPECIFICITY",
+        "persistence": "SINGLE_TOURNAMENT",
+        "team_concentration": "OBSERVED_TEAM_CONCENTRATION"
+      },
+      "patch_breakdown": [
+        {
+          "patch_version": "1.8.44",
+          "state_count": 2,
+          "sample_size_games": 2,
+          "patch_rate": 1.0,
+          "patch_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ],
+      "opponent_breakdown": [
+        {
+          "opponent_team_id": "team-onic",
+          "state_count": 2,
+          "sample_size_games": 2,
+          "opponent_rate": 1.0,
+          "opponent_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ]
+    },
+    {
+      "pattern": {
+        "trigger": {
+          "type": "opponent_pick",
+          "hero_id": "h086",
+          "hero_name": "Lylia"
+        },
+        "response": {
+          "type": "pick",
+          "hero_id": "h082",
+          "hero_name": "Terizla"
+        }
+      },
+      "context": {
+        "team_id": "team-devu",
+        "dataset_scope": "single_tournament"
+      },
+      "evidence": {
+        "state_count": 1,
+        "sample_size_games": 1,
+        "sample_size_series": 1,
+        "tournament_count": 1,
+        "global_rate": 0.2,
+        "team_rate": 0.5,
+        "team_lift": 2.5,
+        "observed_wins": 1,
+        "observed_losses": 0,
+        "observed_win_rate": 1.0
+      },
+      "classification": {
+        "sample_sufficient": false,
+        "sample_label": "LOW_SAMPLE",
+        "specificity": "MEDIUM_SPECIFICITY",
+        "persistence": "SINGLE_TOURNAMENT",
+        "team_concentration": "OBSERVED_TEAM_CONCENTRATION"
+      },
+      "patch_breakdown": [
+        {
+          "patch_version": "1.8.44",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "patch_rate": 0.5,
+          "patch_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ],
+      "opponent_breakdown": [
+        {
+          "opponent_team_id": "team-fire-flux-esports",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "opponent_rate": 0.5,
+          "opponent_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ]
+    },
+    {
+      "pattern": {
+        "trigger": {
+          "type": "opponent_pick",
+          "hero_id": "h111",
+          "hero_name": "Edith"
+        },
+        "response": {
+          "type": "pick",
+          "hero_id": "h100",
+          "hero_name": "Brody"
+        }
+      },
+      "context": {
+        "team_id": "team-devu",
+        "dataset_scope": "single_tournament"
+      },
+      "evidence": {
+        "state_count": 1,
+        "sample_size_games": 1,
+        "sample_size_series": 1,
+        "tournament_count": 1,
+        "global_rate": 1.0,
+        "team_rate": 1.0,
+        "team_lift": 1.0,
+        "observed_wins": 1,
+        "observed_losses": 0,
+        "observed_win_rate": 1.0
+      },
+      "classification": {
+        "sample_sufficient": false,
+        "sample_label": "LOW_SAMPLE",
+        "specificity": "LOW_SPECIFICITY",
+        "persistence": "SINGLE_TOURNAMENT",
+        "team_concentration": "NEUTRAL"
+      },
+      "patch_breakdown": [
+        {
+          "patch_version": "1.8.44",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "patch_rate": 1.0,
+          "patch_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ],
+      "opponent_breakdown": [
+        {
+          "opponent_team_id": "team-fire-flux-esports",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "opponent_rate": 1.0,
+          "opponent_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ]
+    },
+    {
+      "pattern": {
+        "trigger": {
+          "type": "opponent_pick",
+          "hero_id": "h086",
+          "hero_name": "Lylia"
+        },
+        "response": {
+          "type": "pick",
+          "hero_id": "h103",
+          "hero_name": "Paquito"
+        }
+      },
+      "context": {
+        "team_id": "team-devu",
+        "dataset_scope": "single_tournament"
+      },
+      "evidence": {
+        "state_count": 1,
+        "sample_size_games": 1,
+        "sample_size_series": 1,
+        "tournament_count": 1,
+        "global_rate": 0.1,
+        "team_rate": 0.5,
+        "team_lift": 5.0,
+        "observed_wins": 0,
+        "observed_losses": 1,
+        "observed_win_rate": 0.0
+      },
+      "classification": {
+        "sample_sufficient": false,
+        "sample_label": "LOW_SAMPLE",
+        "specificity": "HIGH_SPECIFICITY",
+        "persistence": "SINGLE_TOURNAMENT",
+        "team_concentration": "OBSERVED_TEAM_CONCENTRATION"
+      },
+      "patch_breakdown": [
+        {
+          "patch_version": "1.8.44",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "patch_rate": 0.5,
+          "patch_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ],
+      "opponent_breakdown": [
+        {
+          "opponent_team_id": "team-fire-flux-esports",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "opponent_rate": 0.5,
+          "opponent_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ]
+    },
+    {
+      "pattern": {
+        "trigger": {
+          "type": "opponent_pick",
+          "hero_id": "h006",
+          "hero_name": "Tigreal"
+        },
+        "response": {
+          "type": "pick",
+          "hero_id": "h012",
+          "hero_name": "Bruno"
+        }
+      },
+      "context": {
+        "team_id": "team-devu",
+        "dataset_scope": "single_tournament"
+      },
+      "evidence": {
+        "state_count": 1,
+        "sample_size_games": 1,
+        "sample_size_series": 1,
+        "tournament_count": 1,
+        "global_rate": 0.25,
+        "team_rate": 0.3333,
+        "team_lift": 1.3332,
+        "observed_wins": 0,
+        "observed_losses": 1,
+        "observed_win_rate": 0.0
+      },
+      "classification": {
+        "sample_sufficient": false,
+        "sample_label": "LOW_SAMPLE",
+        "specificity": "LOW_SPECIFICITY",
+        "persistence": "SINGLE_TOURNAMENT",
+        "team_concentration": "NEUTRAL"
+      },
+      "patch_breakdown": [
+        {
+          "patch_version": "1.8.44",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "patch_rate": 0.3333,
+          "patch_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ],
+      "opponent_breakdown": [
+        {
+          "opponent_team_id": "team-fire-flux-esports",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "opponent_rate": 0.5,
+          "opponent_lift": 1.5002,
+          "context_label": "OPPONENT_LOCALIZED_TENDENCY"
+        }
+      ]
+    },
+    {
+      "pattern": {
+        "trigger": {
+          "type": "opponent_pick",
+          "hero_id": "h110",
+          "hero_name": "Valentina"
+        },
+        "response": {
+          "type": "pick",
+          "hero_id": "h085",
+          "hero_name": "Dyrroth"
+        }
+      },
+      "context": {
+        "team_id": "team-devu",
+        "dataset_scope": "single_tournament"
+      },
+      "evidence": {
+        "state_count": 1,
+        "sample_size_games": 1,
+        "sample_size_series": 1,
+        "tournament_count": 1,
+        "global_rate": 0.1667,
+        "team_rate": 0.25,
+        "team_lift": 1.4997,
+        "observed_wins": 1,
+        "observed_losses": 0,
+        "observed_win_rate": 1.0
+      },
+      "classification": {
+        "sample_sufficient": false,
+        "sample_label": "LOW_SAMPLE",
+        "specificity": "LOW_SPECIFICITY",
+        "persistence": "SINGLE_TOURNAMENT",
+        "team_concentration": "NEUTRAL"
+      },
+      "patch_breakdown": [
+        {
+          "patch_version": "1.8.44",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "patch_rate": 0.25,
+          "patch_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ],
+      "opponent_breakdown": [
+        {
+          "opponent_team_id": "team-fire-flux-esports",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "opponent_rate": 1.0,
+          "opponent_lift": 4.0,
+          "context_label": "OPPONENT_LOCALIZED_TENDENCY"
+        }
+      ]
+    },
+    {
+      "pattern": {
+        "trigger": {
+          "type": "opponent_pick",
+          "hero_id": "h035",
+          "hero_name": "Hilda"
+        },
+        "response": {
+          "type": "pick",
+          "hero_id": "h012",
+          "hero_name": "Bruno"
+        }
+      },
+      "context": {
+        "team_id": "team-devu",
+        "dataset_scope": "single_tournament"
+      },
+      "evidence": {
+        "state_count": 1,
+        "sample_size_games": 1,
+        "sample_size_series": 1,
+        "tournament_count": 1,
+        "global_rate": 1.0,
+        "team_rate": 1.0,
+        "team_lift": 1.0,
+        "observed_wins": 1,
+        "observed_losses": 0,
+        "observed_win_rate": 1.0
+      },
+      "classification": {
+        "sample_sufficient": false,
+        "sample_label": "LOW_SAMPLE",
+        "specificity": "LOW_SPECIFICITY",
+        "persistence": "SINGLE_TOURNAMENT",
+        "team_concentration": "NEUTRAL"
+      },
+      "patch_breakdown": [
+        {
+          "patch_version": "1.8.44",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "patch_rate": 1.0,
+          "patch_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ],
+      "opponent_breakdown": [
+        {
+          "opponent_team_id": "team-fire-flux-esports",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "opponent_rate": 1.0,
+          "opponent_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ]
+    },
+    {
+      "pattern": {
+        "trigger": {
+          "type": "opponent_pick",
+          "hero_id": "h119",
+          "hero_name": "Novaria"
+        },
+        "response": {
+          "type": "pick",
+          "hero_id": "h059",
+          "hero_name": "Uranus"
+        }
+      },
+      "context": {
+        "team_id": "team-devu",
+        "dataset_scope": "single_tournament"
+      },
+      "evidence": {
+        "state_count": 1,
+        "sample_size_games": 1,
+        "sample_size_series": 1,
+        "tournament_count": 1,
+        "global_rate": 0.125,
+        "team_rate": 1.0,
+        "team_lift": 8.0,
+        "observed_wins": 1,
+        "observed_losses": 0,
+        "observed_win_rate": 1.0
+      },
+      "classification": {
+        "sample_sufficient": false,
+        "sample_label": "LOW_SAMPLE",
+        "specificity": "HIGH_SPECIFICITY",
+        "persistence": "SINGLE_TOURNAMENT",
+        "team_concentration": "OBSERVED_TEAM_CONCENTRATION"
+      },
+      "patch_breakdown": [
+        {
+          "patch_version": "1.8.44",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "patch_rate": 1.0,
+          "patch_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ],
+      "opponent_breakdown": [
+        {
+          "opponent_team_id": "team-fire-flux-esports",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "opponent_rate": 1.0,
+          "opponent_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ]
+    },
+    {
+      "pattern": {
+        "trigger": {
+          "type": "opponent_pick",
+          "hero_id": "h006",
+          "hero_name": "Tigreal"
+        },
+        "response": {
+          "type": "pick",
+          "hero_id": "h105",
+          "hero_name": "Beatrix"
+        }
+      },
+      "context": {
+        "team_id": "team-devu",
+        "dataset_scope": "single_tournament"
+      },
+      "evidence": {
+        "state_count": 1,
+        "sample_size_games": 1,
+        "sample_size_series": 1,
+        "tournament_count": 1,
+        "global_rate": 0.0833,
+        "team_rate": 0.3333,
+        "team_lift": 4.0012,
+        "observed_wins": 1,
+        "observed_losses": 0,
+        "observed_win_rate": 1.0
+      },
+      "classification": {
+        "sample_sufficient": false,
+        "sample_label": "LOW_SAMPLE",
+        "specificity": "MEDIUM_SPECIFICITY",
+        "persistence": "SINGLE_TOURNAMENT",
+        "team_concentration": "OBSERVED_TEAM_CONCENTRATION"
+      },
+      "patch_breakdown": [
+        {
+          "patch_version": "1.8.44",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "patch_rate": 0.3333,
+          "patch_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ],
+      "opponent_breakdown": [
+        {
+          "opponent_team_id": "team-fire-flux-esports",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "opponent_rate": 0.5,
+          "opponent_lift": 1.5002,
+          "context_label": "OPPONENT_LOCALIZED_TENDENCY"
+        }
+      ]
+    },
+    {
+      "pattern": {
+        "trigger": {
+          "type": "opponent_pick",
+          "hero_id": "h078",
+          "hero_name": "Khufra"
+        },
+        "response": {
+          "type": "pick",
+          "hero_id": "h012",
+          "hero_name": "Bruno"
+        }
+      },
+      "context": {
+        "team_id": "team-blck",
+        "dataset_scope": "single_tournament"
+      },
+      "evidence": {
+        "state_count": 1,
+        "sample_size_games": 1,
+        "sample_size_series": 1,
+        "tournament_count": 1,
+        "global_rate": 1.0,
+        "team_rate": 1.0,
+        "team_lift": 1.0,
+        "observed_wins": 1,
+        "observed_losses": 0,
+        "observed_win_rate": 1.0
+      },
+      "classification": {
+        "sample_sufficient": false,
+        "sample_label": "LOW_SAMPLE",
+        "specificity": "LOW_SPECIFICITY",
+        "persistence": "SINGLE_TOURNAMENT",
+        "team_concentration": "NEUTRAL"
+      },
+      "patch_breakdown": [
+        {
+          "patch_version": "1.8.44",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "patch_rate": 1.0,
+          "patch_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ],
+      "opponent_breakdown": [
+        {
+          "opponent_team_id": "team-onic",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "opponent_rate": 1.0,
+          "opponent_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ]
+    },
+    {
+      "pattern": {
+        "trigger": {
+          "type": "opponent_pick",
+          "hero_id": "h110",
+          "hero_name": "Valentina"
+        },
+        "response": {
+          "type": "pick",
+          "hero_id": "h111",
+          "hero_name": "Edith"
+        }
+      },
+      "context": {
+        "team_id": "team-blck",
+        "dataset_scope": "single_tournament"
+      },
+      "evidence": {
+        "state_count": 1,
+        "sample_size_games": 1,
+        "sample_size_series": 1,
+        "tournament_count": 1,
+        "global_rate": 0.0556,
+        "team_rate": 0.3333,
+        "team_lift": 5.9946,
+        "observed_wins": 0,
+        "observed_losses": 1,
+        "observed_win_rate": 0.0
+      },
+      "classification": {
+        "sample_sufficient": false,
+        "sample_label": "LOW_SAMPLE",
+        "specificity": "MEDIUM_SPECIFICITY",
+        "persistence": "SINGLE_TOURNAMENT",
+        "team_concentration": "OBSERVED_TEAM_CONCENTRATION"
+      },
+      "patch_breakdown": [
+        {
+          "patch_version": "1.8.44",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "patch_rate": 0.3333,
+          "patch_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ],
+      "opponent_breakdown": [
+        {
+          "opponent_team_id": "team-onic",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "opponent_rate": 0.5,
+          "opponent_lift": 1.5002,
+          "context_label": "OPPONENT_LOCALIZED_TENDENCY"
+        }
+      ]
+    },
+    {
+      "pattern": {
+        "trigger": {
+          "type": "opponent_pick",
+          "hero_id": "h062",
+          "hero_name": "Kaja"
+        },
+        "response": {
+          "type": "pick",
+          "hero_id": "h012",
+          "hero_name": "Bruno"
+        }
+      },
+      "context": {
+        "team_id": "team-blck",
+        "dataset_scope": "single_tournament"
+      },
+      "evidence": {
+        "state_count": 1,
+        "sample_size_games": 1,
+        "sample_size_series": 1,
+        "tournament_count": 1,
+        "global_rate": 0.4,
+        "team_rate": 0.3333,
+        "team_lift": 0.8332,
+        "observed_wins": 0,
+        "observed_losses": 1,
+        "observed_win_rate": 0.0
+      },
+      "classification": {
+        "sample_sufficient": false,
+        "sample_label": "LOW_SAMPLE",
+        "specificity": "LOW_SPECIFICITY",
+        "persistence": "SINGLE_TOURNAMENT",
+        "team_concentration": "NEUTRAL"
+      },
+      "patch_breakdown": [
+        {
+          "patch_version": "1.8.44",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "patch_rate": 0.3333,
+          "patch_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ],
+      "opponent_breakdown": [
+        {
+          "opponent_team_id": "team-onic",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "opponent_rate": 0.5,
+          "opponent_lift": 1.5002,
+          "context_label": "OPPONENT_LOCALIZED_TENDENCY"
+        }
+      ]
+    },
+    {
+      "pattern": {
+        "trigger": {
+          "type": "opponent_pick",
+          "hero_id": "h075",
+          "hero_name": "Kadita"
+        },
+        "response": {
+          "type": "pick",
+          "hero_id": "h103",
+          "hero_name": "Paquito"
+        }
+      },
+      "context": {
+        "team_id": "team-blck",
+        "dataset_scope": "single_tournament"
+      },
+      "evidence": {
+        "state_count": 1,
+        "sample_size_games": 1,
+        "sample_size_series": 1,
+        "tournament_count": 1,
+        "global_rate": 0.5,
+        "team_rate": 1.0,
+        "team_lift": 2.0,
+        "observed_wins": 0,
+        "observed_losses": 1,
+        "observed_win_rate": 0.0
+      },
+      "classification": {
+        "sample_sufficient": false,
+        "sample_label": "LOW_SAMPLE",
+        "specificity": "HIGH_SPECIFICITY",
+        "persistence": "SINGLE_TOURNAMENT",
+        "team_concentration": "OBSERVED_TEAM_CONCENTRATION"
+      },
+      "patch_breakdown": [
+        {
+          "patch_version": "1.8.44",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "patch_rate": 1.0,
+          "patch_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ],
+      "opponent_breakdown": [
+        {
+          "opponent_team_id": "team-onic",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "opponent_rate": 1.0,
+          "opponent_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ]
+    },
+    {
+      "pattern": {
+        "trigger": {
+          "type": "opponent_pick",
+          "hero_id": "h076",
+          "hero_name": "Faramis"
+        },
+        "response": {
+          "type": "pick",
+          "hero_id": "h120",
+          "hero_name": "Arlott"
+        }
+      },
+      "context": {
+        "team_id": "team-blck",
+        "dataset_scope": "single_tournament"
+      },
+      "evidence": {
+        "state_count": 1,
+        "sample_size_games": 1,
+        "sample_size_series": 1,
+        "tournament_count": 1,
+        "global_rate": 0.0833,
+        "team_rate": 0.2,
+        "team_lift": 2.401,
+        "observed_wins": 1,
+        "observed_losses": 0,
+        "observed_win_rate": 1.0
+      },
+      "classification": {
+        "sample_sufficient": false,
+        "sample_label": "LOW_SAMPLE",
+        "specificity": "LOW_SPECIFICITY",
+        "persistence": "SINGLE_TOURNAMENT",
+        "team_concentration": "OBSERVED_TEAM_CONCENTRATION"
+      },
+      "patch_breakdown": [
+        {
+          "patch_version": "1.8.44",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "patch_rate": 0.2,
+          "patch_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ],
+      "opponent_breakdown": [
+        {
+          "opponent_team_id": "team-onic",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "opponent_rate": 1.0,
+          "opponent_lift": 5.0,
+          "context_label": "OPPONENT_LOCALIZED_TENDENCY"
+        }
+      ]
+    },
+    {
+      "pattern": {
+        "trigger": {
+          "type": "opponent_pick",
+          "hero_id": "h062",
+          "hero_name": "Kaja"
+        },
+        "response": {
+          "type": "pick",
+          "hero_id": "h065",
+          "hero_name": "Claude"
+        }
+      },
+      "context": {
+        "team_id": "team-blck",
+        "dataset_scope": "single_tournament"
+      },
+      "evidence": {
+        "state_count": 1,
+        "sample_size_games": 1,
+        "sample_size_series": 1,
+        "tournament_count": 1,
+        "global_rate": 0.2,
+        "team_rate": 0.3333,
+        "team_lift": 1.6665,
+        "observed_wins": 0,
+        "observed_losses": 1,
+        "observed_win_rate": 0.0
+      },
+      "classification": {
+        "sample_sufficient": false,
+        "sample_label": "LOW_SAMPLE",
+        "specificity": "LOW_SPECIFICITY",
+        "persistence": "SINGLE_TOURNAMENT",
+        "team_concentration": "OBSERVED_TEAM_CONCENTRATION"
+      },
+      "patch_breakdown": [
+        {
+          "patch_version": "1.8.44",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "patch_rate": 0.3333,
+          "patch_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ],
+      "opponent_breakdown": [
+        {
+          "opponent_team_id": "team-onic",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "opponent_rate": 0.5,
+          "opponent_lift": 1.5002,
+          "context_label": "OPPONENT_LOCALIZED_TENDENCY"
+        }
+      ]
+    },
+    {
+      "pattern": {
+        "trigger": {
+          "type": "opponent_pick",
+          "hero_id": "h119",
+          "hero_name": "Novaria"
+        },
+        "response": {
+          "type": "pick",
+          "hero_id": "h085",
+          "hero_name": "Dyrroth"
+        }
+      },
+      "context": {
+        "team_id": "team-see-you-soon",
+        "dataset_scope": "single_tournament"
+      },
+      "evidence": {
+        "state_count": 1,
+        "sample_size_games": 1,
+        "sample_size_series": 1,
+        "tournament_count": 1,
+        "global_rate": 0.125,
+        "team_rate": 0.5,
+        "team_lift": 4.0,
+        "observed_wins": 0,
+        "observed_losses": 1,
+        "observed_win_rate": 0.0
+      },
+      "classification": {
+        "sample_sufficient": false,
+        "sample_label": "LOW_SAMPLE",
+        "specificity": "HIGH_SPECIFICITY",
+        "persistence": "SINGLE_TOURNAMENT",
+        "team_concentration": "OBSERVED_TEAM_CONCENTRATION"
+      },
+      "patch_breakdown": [
+        {
+          "patch_version": "1.8.44",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "patch_rate": 0.5,
+          "patch_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ],
+      "opponent_breakdown": [
+        {
+          "opponent_team_id": "team-ap.bren",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "opponent_rate": 0.5,
+          "opponent_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ]
+    },
+    {
+      "pattern": {
+        "trigger": {
+          "type": "opponent_pick",
+          "hero_id": "h120",
+          "hero_name": "Arlott"
+        },
+        "response": {
+          "type": "pick",
+          "hero_id": "h065",
+          "hero_name": "Claude"
+        }
+      },
+      "context": {
+        "team_id": "team-see-you-soon",
+        "dataset_scope": "single_tournament"
+      },
+      "evidence": {
+        "state_count": 1,
+        "sample_size_games": 1,
+        "sample_size_series": 1,
+        "tournament_count": 1,
+        "global_rate": 0.6,
+        "team_rate": 0.5,
+        "team_lift": 0.8333,
+        "observed_wins": 0,
+        "observed_losses": 1,
+        "observed_win_rate": 0.0
+      },
+      "classification": {
+        "sample_sufficient": false,
+        "sample_label": "LOW_SAMPLE",
+        "specificity": "LOW_SPECIFICITY",
+        "persistence": "SINGLE_TOURNAMENT",
+        "team_concentration": "NEUTRAL"
+      },
+      "patch_breakdown": [
+        {
+          "patch_version": "1.8.44",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "patch_rate": 0.5,
+          "patch_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ],
+      "opponent_breakdown": [
+        {
+          "opponent_team_id": "team-ap.bren",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "opponent_rate": 0.5,
+          "opponent_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ]
+    },
+    {
+      "pattern": {
+        "trigger": {
+          "type": "opponent_pick",
+          "hero_id": "h119",
+          "hero_name": "Novaria"
+        },
+        "response": {
+          "type": "pick",
+          "hero_id": "h082",
+          "hero_name": "Terizla"
+        }
+      },
+      "context": {
+        "team_id": "team-see-you-soon",
+        "dataset_scope": "single_tournament"
+      },
+      "evidence": {
+        "state_count": 1,
+        "sample_size_games": 1,
+        "sample_size_series": 1,
+        "tournament_count": 1,
+        "global_rate": 0.125,
+        "team_rate": 0.5,
+        "team_lift": 4.0,
+        "observed_wins": 1,
+        "observed_losses": 0,
+        "observed_win_rate": 1.0
+      },
+      "classification": {
+        "sample_sufficient": false,
+        "sample_label": "LOW_SAMPLE",
+        "specificity": "HIGH_SPECIFICITY",
+        "persistence": "SINGLE_TOURNAMENT",
+        "team_concentration": "OBSERVED_TEAM_CONCENTRATION"
+      },
+      "patch_breakdown": [
+        {
+          "patch_version": "1.8.44",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "patch_rate": 0.5,
+          "patch_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ],
+      "opponent_breakdown": [
+        {
+          "opponent_team_id": "team-ap.bren",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "opponent_rate": 0.5,
+          "opponent_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ]
+    },
+    {
+      "pattern": {
+        "trigger": {
+          "type": "opponent_pick",
+          "hero_id": "h006",
+          "hero_name": "Tigreal"
+        },
+        "response": {
+          "type": "pick",
+          "hero_id": "h089",
+          "hero_name": "Wanwan"
+        }
+      },
+      "context": {
+        "team_id": "team-see-you-soon",
+        "dataset_scope": "single_tournament"
+      },
+      "evidence": {
+        "state_count": 1,
+        "sample_size_games": 1,
+        "sample_size_series": 1,
+        "tournament_count": 1,
+        "global_rate": 0.0833,
+        "team_rate": 0.5,
+        "team_lift": 6.0024,
+        "observed_wins": 1,
+        "observed_losses": 0,
+        "observed_win_rate": 1.0
+      },
+      "classification": {
+        "sample_sufficient": false,
+        "sample_label": "LOW_SAMPLE",
+        "specificity": "HIGH_SPECIFICITY",
+        "persistence": "SINGLE_TOURNAMENT",
+        "team_concentration": "OBSERVED_TEAM_CONCENTRATION"
+      },
+      "patch_breakdown": [
+        {
+          "patch_version": "1.8.44",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "patch_rate": 0.5,
+          "patch_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ],
+      "opponent_breakdown": [
+        {
+          "opponent_team_id": "team-ap.bren",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "opponent_rate": 0.5,
+          "opponent_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ]
+    },
+    {
+      "pattern": {
+        "trigger": {
+          "type": "opponent_pick",
+          "hero_id": "h046",
+          "hero_name": "Odette"
+        },
+        "response": {
+          "type": "pick",
+          "hero_id": "h082",
+          "hero_name": "Terizla"
+        }
+      },
+      "context": {
+        "team_id": "team-see-you-soon",
+        "dataset_scope": "single_tournament"
+      },
+      "evidence": {
+        "state_count": 1,
+        "sample_size_games": 1,
+        "sample_size_series": 1,
+        "tournament_count": 1,
+        "global_rate": 1.0,
+        "team_rate": 1.0,
+        "team_lift": 1.0,
+        "observed_wins": 0,
+        "observed_losses": 1,
+        "observed_win_rate": 0.0
+      },
+      "classification": {
+        "sample_sufficient": false,
+        "sample_label": "LOW_SAMPLE",
+        "specificity": "LOW_SPECIFICITY",
+        "persistence": "SINGLE_TOURNAMENT",
+        "team_concentration": "NEUTRAL"
+      },
+      "patch_breakdown": [
+        {
+          "patch_version": "1.8.44",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "patch_rate": 1.0,
+          "patch_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ],
+      "opponent_breakdown": [
+        {
+          "opponent_team_id": "team-ap.bren",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "opponent_rate": 1.0,
+          "opponent_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ]
+    },
+    {
+      "pattern": {
+        "trigger": {
+          "type": "opponent_pick",
+          "hero_id": "h006",
+          "hero_name": "Tigreal"
+        },
+        "response": {
+          "type": "pick",
+          "hero_id": "h040",
+          "hero_name": "Karrie"
+        }
+      },
+      "context": {
+        "team_id": "team-see-you-soon",
+        "dataset_scope": "single_tournament"
+      },
+      "evidence": {
+        "state_count": 1,
+        "sample_size_games": 1,
+        "sample_size_series": 1,
+        "tournament_count": 1,
+        "global_rate": 0.1667,
+        "team_rate": 0.5,
+        "team_lift": 2.9994,
+        "observed_wins": 0,
+        "observed_losses": 1,
+        "observed_win_rate": 0.0
+      },
+      "classification": {
+        "sample_sufficient": false,
+        "sample_label": "LOW_SAMPLE",
+        "specificity": "MEDIUM_SPECIFICITY",
+        "persistence": "SINGLE_TOURNAMENT",
+        "team_concentration": "OBSERVED_TEAM_CONCENTRATION"
+      },
+      "patch_breakdown": [
+        {
+          "patch_version": "1.8.44",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "patch_rate": 0.5,
+          "patch_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ],
+      "opponent_breakdown": [
+        {
+          "opponent_team_id": "team-ap.bren",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "opponent_rate": 0.5,
+          "opponent_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ]
+    },
+    {
+      "pattern": {
+        "trigger": {
+          "type": "opponent_pick",
+          "hero_id": "h076",
+          "hero_name": "Faramis"
+        },
+        "response": {
+          "type": "pick",
+          "hero_id": "h085",
+          "hero_name": "Dyrroth"
+        }
+      },
+      "context": {
+        "team_id": "team-see-you-soon",
+        "dataset_scope": "single_tournament"
+      },
+      "evidence": {
+        "state_count": 1,
+        "sample_size_games": 1,
+        "sample_size_series": 1,
+        "tournament_count": 1,
+        "global_rate": 0.0833,
+        "team_rate": 1.0,
+        "team_lift": 12.0048,
+        "observed_wins": 0,
+        "observed_losses": 1,
+        "observed_win_rate": 0.0
+      },
+      "classification": {
+        "sample_sufficient": false,
+        "sample_label": "LOW_SAMPLE",
+        "specificity": "HIGH_SPECIFICITY",
+        "persistence": "SINGLE_TOURNAMENT",
+        "team_concentration": "OBSERVED_TEAM_CONCENTRATION"
+      },
+      "patch_breakdown": [
+        {
+          "patch_version": "1.8.44",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "patch_rate": 1.0,
+          "patch_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ],
+      "opponent_breakdown": [
+        {
+          "opponent_team_id": "team-ap.bren",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "opponent_rate": 1.0,
+          "opponent_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ]
+    },
+    {
+      "pattern": {
+        "trigger": {
+          "type": "opponent_pick",
+          "hero_id": "h120",
+          "hero_name": "Arlott"
+        },
+        "response": {
+          "type": "pick",
+          "hero_id": "h012",
+          "hero_name": "Bruno"
+        }
+      },
+      "context": {
+        "team_id": "team-see-you-soon",
+        "dataset_scope": "single_tournament"
+      },
+      "evidence": {
+        "state_count": 1,
+        "sample_size_games": 1,
+        "sample_size_series": 1,
+        "tournament_count": 1,
+        "global_rate": 0.4,
+        "team_rate": 0.5,
+        "team_lift": 1.25,
+        "observed_wins": 0,
+        "observed_losses": 1,
+        "observed_win_rate": 0.0
+      },
+      "classification": {
+        "sample_sufficient": false,
+        "sample_label": "LOW_SAMPLE",
+        "specificity": "LOW_SPECIFICITY",
+        "persistence": "SINGLE_TOURNAMENT",
+        "team_concentration": "NEUTRAL"
+      },
+      "patch_breakdown": [
+        {
+          "patch_version": "1.8.44",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "patch_rate": 0.5,
+          "patch_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ],
+      "opponent_breakdown": [
+        {
+          "opponent_team_id": "team-ap.bren",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "opponent_rate": 0.5,
+          "opponent_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ]
+    },
+    {
+      "pattern": {
+        "trigger": {
+          "type": "opponent_pick",
+          "hero_id": "h076",
+          "hero_name": "Faramis"
+        },
+        "response": {
+          "type": "pick",
+          "hero_id": "h059",
+          "hero_name": "Uranus"
+        }
+      },
+      "context": {
+        "team_id": "team-burmese-ghouls",
+        "dataset_scope": "single_tournament"
+      },
+      "evidence": {
+        "state_count": 1,
+        "sample_size_games": 1,
+        "sample_size_series": 1,
+        "tournament_count": 1,
+        "global_rate": 0.0833,
+        "team_rate": 0.5,
+        "team_lift": 6.0024,
+        "observed_wins": 0,
+        "observed_losses": 1,
+        "observed_win_rate": 0.0
+      },
+      "classification": {
+        "sample_sufficient": false,
+        "sample_label": "LOW_SAMPLE",
+        "specificity": "HIGH_SPECIFICITY",
+        "persistence": "SINGLE_TOURNAMENT",
+        "team_concentration": "OBSERVED_TEAM_CONCENTRATION"
+      },
+      "patch_breakdown": [
+        {
+          "patch_version": "1.8.44",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "patch_rate": 0.5,
+          "patch_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ],
+      "opponent_breakdown": [
+        {
+          "opponent_team_id": "team-geek-fam-id",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "opponent_rate": 0.5,
+          "opponent_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ]
+    },
+    {
+      "pattern": {
+        "trigger": {
+          "type": "opponent_pick",
+          "hero_id": "h006",
+          "hero_name": "Tigreal"
+        },
+        "response": {
+          "type": "pick",
+          "hero_id": "h121",
+          "hero_name": "Ixia"
+        }
+      },
+      "context": {
+        "team_id": "team-burmese-ghouls",
+        "dataset_scope": "single_tournament"
+      },
+      "evidence": {
+        "state_count": 1,
+        "sample_size_games": 1,
+        "sample_size_series": 1,
+        "tournament_count": 1,
+        "global_rate": 0.0833,
+        "team_rate": 0.5,
+        "team_lift": 6.0024,
+        "observed_wins": 0,
+        "observed_losses": 1,
+        "observed_win_rate": 0.0
+      },
+      "classification": {
+        "sample_sufficient": false,
+        "sample_label": "LOW_SAMPLE",
+        "specificity": "HIGH_SPECIFICITY",
+        "persistence": "SINGLE_TOURNAMENT",
+        "team_concentration": "OBSERVED_TEAM_CONCENTRATION"
+      },
+      "patch_breakdown": [
+        {
+          "patch_version": "1.8.44",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "patch_rate": 0.5,
+          "patch_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ],
+      "opponent_breakdown": [
+        {
+          "opponent_team_id": "team-geek-fam-id",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "opponent_rate": 1.0,
+          "opponent_lift": 2.0,
+          "context_label": "OPPONENT_LOCALIZED_TENDENCY"
+        }
+      ]
+    },
+    {
+      "pattern": {
+        "trigger": {
+          "type": "opponent_pick",
+          "hero_id": "h110",
+          "hero_name": "Valentina"
+        },
+        "response": {
+          "type": "pick",
+          "hero_id": "h104",
+          "hero_name": "Gloo"
+        }
+      },
+      "context": {
+        "team_id": "team-burmese-ghouls",
+        "dataset_scope": "single_tournament"
+      },
+      "evidence": {
+        "state_count": 1,
+        "sample_size_games": 1,
+        "sample_size_series": 1,
+        "tournament_count": 1,
+        "global_rate": 0.0556,
+        "team_rate": 0.25,
+        "team_lift": 4.4964,
+        "observed_wins": 1,
+        "observed_losses": 0,
+        "observed_win_rate": 1.0
+      },
+      "classification": {
+        "sample_sufficient": false,
+        "sample_label": "LOW_SAMPLE",
+        "specificity": "MEDIUM_SPECIFICITY",
+        "persistence": "SINGLE_TOURNAMENT",
+        "team_concentration": "OBSERVED_TEAM_CONCENTRATION"
+      },
+      "patch_breakdown": [
+        {
+          "patch_version": "1.8.44",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "patch_rate": 0.25,
+          "patch_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ],
+      "opponent_breakdown": [
+        {
+          "opponent_team_id": "team-geek-fam-id",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "opponent_rate": 1.0,
+          "opponent_lift": 4.0,
+          "context_label": "OPPONENT_LOCALIZED_TENDENCY"
+        }
+      ]
+    },
+    {
+      "pattern": {
+        "trigger": {
+          "type": "opponent_pick",
+          "hero_id": "h120",
+          "hero_name": "Arlott"
+        },
+        "response": {
+          "type": "pick",
+          "hero_id": "h065",
+          "hero_name": "Claude"
+        }
+      },
+      "context": {
+        "team_id": "team-burmese-ghouls",
+        "dataset_scope": "single_tournament"
+      },
+      "evidence": {
+        "state_count": 1,
+        "sample_size_games": 1,
+        "sample_size_series": 1,
+        "tournament_count": 1,
+        "global_rate": 0.6,
+        "team_rate": 1.0,
+        "team_lift": 1.6667,
+        "observed_wins": 1,
+        "observed_losses": 0,
+        "observed_win_rate": 1.0
+      },
+      "classification": {
+        "sample_sufficient": false,
+        "sample_label": "LOW_SAMPLE",
+        "specificity": "HIGH_SPECIFICITY",
+        "persistence": "SINGLE_TOURNAMENT",
+        "team_concentration": "OBSERVED_TEAM_CONCENTRATION"
+      },
+      "patch_breakdown": [
+        {
+          "patch_version": "1.8.44",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "patch_rate": 1.0,
+          "patch_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ],
+      "opponent_breakdown": [
+        {
+          "opponent_team_id": "team-geek-fam-id",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "opponent_rate": 1.0,
+          "opponent_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ]
+    },
+    {
+      "pattern": {
+        "trigger": {
+          "type": "opponent_pick",
+          "hero_id": "h076",
+          "hero_name": "Faramis"
+        },
+        "response": {
+          "type": "pick",
+          "hero_id": "h082",
+          "hero_name": "Terizla"
+        }
+      },
+      "context": {
+        "team_id": "team-burmese-ghouls",
+        "dataset_scope": "single_tournament"
+      },
+      "evidence": {
+        "state_count": 1,
+        "sample_size_games": 1,
+        "sample_size_series": 1,
+        "tournament_count": 1,
+        "global_rate": 0.25,
+        "team_rate": 0.5,
+        "team_lift": 2.0,
+        "observed_wins": 1,
+        "observed_losses": 0,
+        "observed_win_rate": 1.0
+      },
+      "classification": {
+        "sample_sufficient": false,
+        "sample_label": "LOW_SAMPLE",
+        "specificity": "MEDIUM_SPECIFICITY",
+        "persistence": "SINGLE_TOURNAMENT",
+        "team_concentration": "OBSERVED_TEAM_CONCENTRATION"
+      },
+      "patch_breakdown": [
+        {
+          "patch_version": "1.8.44",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "patch_rate": 0.5,
+          "patch_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ],
+      "opponent_breakdown": [
+        {
+          "opponent_team_id": "team-geek-fam-id",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "opponent_rate": 0.5,
+          "opponent_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ]
+    },
+    {
+      "pattern": {
+        "trigger": {
+          "type": "opponent_pick",
+          "hero_id": "h101",
+          "hero_name": "Yve"
+        },
+        "response": {
+          "type": "pick",
+          "hero_id": "h059",
+          "hero_name": "Uranus"
+        }
+      },
+      "context": {
+        "team_id": "team-burmese-ghouls",
+        "dataset_scope": "single_tournament"
+      },
+      "evidence": {
+        "state_count": 1,
+        "sample_size_games": 1,
+        "sample_size_series": 1,
+        "tournament_count": 1,
+        "global_rate": 0.3333,
+        "team_rate": 0.5,
+        "team_lift": 1.5002,
+        "observed_wins": 0,
+        "observed_losses": 1,
+        "observed_win_rate": 0.0
+      },
+      "classification": {
+        "sample_sufficient": false,
+        "sample_label": "LOW_SAMPLE",
+        "specificity": "MEDIUM_SPECIFICITY",
+        "persistence": "SINGLE_TOURNAMENT",
+        "team_concentration": "OBSERVED_TEAM_CONCENTRATION"
+      },
+      "patch_breakdown": [
+        {
+          "patch_version": "1.8.44",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "patch_rate": 0.5,
+          "patch_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ],
+      "opponent_breakdown": [
+        {
+          "opponent_team_id": "team-geek-fam-id",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "opponent_rate": 0.5,
+          "opponent_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ]
+    },
+    {
+      "pattern": {
+        "trigger": {
+          "type": "opponent_pick",
+          "hero_id": "h044",
+          "hero_name": "Grock"
+        },
+        "response": {
+          "type": "pick",
+          "hero_id": "h065",
+          "hero_name": "Claude"
+        }
+      },
+      "context": {
+        "team_id": "team-burmese-ghouls",
+        "dataset_scope": "single_tournament"
+      },
+      "evidence": {
+        "state_count": 1,
+        "sample_size_games": 1,
+        "sample_size_series": 1,
+        "tournament_count": 1,
+        "global_rate": 0.5,
+        "team_rate": 1.0,
+        "team_lift": 2.0,
+        "observed_wins": 0,
+        "observed_losses": 1,
+        "observed_win_rate": 0.0
+      },
+      "classification": {
+        "sample_sufficient": false,
+        "sample_label": "LOW_SAMPLE",
+        "specificity": "HIGH_SPECIFICITY",
+        "persistence": "SINGLE_TOURNAMENT",
+        "team_concentration": "OBSERVED_TEAM_CONCENTRATION"
+      },
+      "patch_breakdown": [
+        {
+          "patch_version": "1.8.44",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "patch_rate": 1.0,
+          "patch_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ],
+      "opponent_breakdown": [
+        {
+          "opponent_team_id": "team-geek-fam-id",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "opponent_rate": 1.0,
+          "opponent_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ]
+    },
+    {
+      "pattern": {
+        "trigger": {
+          "type": "opponent_pick",
+          "hero_id": "h101",
+          "hero_name": "Yve"
+        },
+        "response": {
+          "type": "pick",
+          "hero_id": "h104",
+          "hero_name": "Gloo"
+        }
+      },
+      "context": {
+        "team_id": "team-burmese-ghouls",
+        "dataset_scope": "single_tournament"
+      },
+      "evidence": {
+        "state_count": 1,
+        "sample_size_games": 1,
+        "sample_size_series": 1,
+        "tournament_count": 1,
+        "global_rate": 0.3333,
+        "team_rate": 0.5,
+        "team_lift": 1.5002,
+        "observed_wins": 0,
+        "observed_losses": 1,
+        "observed_win_rate": 0.0
+      },
+      "classification": {
+        "sample_sufficient": false,
+        "sample_label": "LOW_SAMPLE",
+        "specificity": "MEDIUM_SPECIFICITY",
+        "persistence": "SINGLE_TOURNAMENT",
+        "team_concentration": "OBSERVED_TEAM_CONCENTRATION"
+      },
+      "patch_breakdown": [
+        {
+          "patch_version": "1.8.44",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "patch_rate": 0.5,
+          "patch_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ],
+      "opponent_breakdown": [
+        {
+          "opponent_team_id": "team-geek-fam-id",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "opponent_rate": 0.5,
+          "opponent_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ]
+    },
+    {
+      "pattern": {
+        "trigger": {
+          "type": "opponent_pick",
+          "hero_id": "h029",
+          "hero_name": "Ruby"
+        },
+        "response": {
+          "type": "pick",
+          "hero_id": "h012",
+          "hero_name": "Bruno"
+        }
+      },
+      "context": {
+        "team_id": "team-burmese-ghouls",
+        "dataset_scope": "single_tournament"
+      },
+      "evidence": {
+        "state_count": 1,
+        "sample_size_games": 1,
+        "sample_size_series": 1,
+        "tournament_count": 1,
+        "global_rate": 0.6667,
+        "team_rate": 1.0,
+        "team_lift": 1.4999,
+        "observed_wins": 0,
+        "observed_losses": 1,
+        "observed_win_rate": 0.0
+      },
+      "classification": {
+        "sample_sufficient": false,
+        "sample_label": "LOW_SAMPLE",
+        "specificity": "MEDIUM_SPECIFICITY",
+        "persistence": "SINGLE_TOURNAMENT",
+        "team_concentration": "NEUTRAL"
+      },
+      "patch_breakdown": [
+        {
+          "patch_version": "1.8.44",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "patch_rate": 1.0,
+          "patch_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ],
+      "opponent_breakdown": [
+        {
+          "opponent_team_id": "team-geek-fam-id",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "opponent_rate": 1.0,
+          "opponent_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ]
+    },
+    {
+      "pattern": {
+        "trigger": {
+          "type": "opponent_pick",
+          "hero_id": "h110",
+          "hero_name": "Valentina"
+        },
+        "response": {
+          "type": "pick",
+          "hero_id": "h085",
+          "hero_name": "Dyrroth"
+        }
+      },
+      "context": {
+        "team_id": "team-onic",
+        "dataset_scope": "single_tournament"
+      },
+      "evidence": {
+        "state_count": 1,
+        "sample_size_games": 1,
+        "sample_size_series": 1,
+        "tournament_count": 1,
+        "global_rate": 0.1667,
+        "team_rate": 0.5,
+        "team_lift": 2.9994,
+        "observed_wins": 1,
+        "observed_losses": 0,
+        "observed_win_rate": 1.0
+      },
+      "classification": {
+        "sample_sufficient": false,
+        "sample_label": "LOW_SAMPLE",
+        "specificity": "MEDIUM_SPECIFICITY",
+        "persistence": "SINGLE_TOURNAMENT",
+        "team_concentration": "OBSERVED_TEAM_CONCENTRATION"
+      },
+      "patch_breakdown": [
+        {
+          "patch_version": "1.8.44",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "patch_rate": 0.5,
+          "patch_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ],
+      "opponent_breakdown": [
+        {
+          "opponent_team_id": "team-devu",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "opponent_rate": 0.5,
+          "opponent_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ]
+    },
+    {
+      "pattern": {
+        "trigger": {
+          "type": "opponent_pick",
+          "hero_id": "h102",
+          "hero_name": "Mathilda"
+        },
+        "response": {
+          "type": "pick",
+          "hero_id": "h089",
+          "hero_name": "Wanwan"
+        }
+      },
+      "context": {
+        "team_id": "team-onic",
+        "dataset_scope": "single_tournament"
+      },
+      "evidence": {
+        "state_count": 1,
+        "sample_size_games": 1,
+        "sample_size_series": 1,
+        "tournament_count": 1,
+        "global_rate": 0.125,
+        "team_rate": 1.0,
+        "team_lift": 8.0,
+        "observed_wins": 1,
+        "observed_losses": 0,
+        "observed_win_rate": 1.0
+      },
+      "classification": {
+        "sample_sufficient": false,
+        "sample_label": "LOW_SAMPLE",
+        "specificity": "HIGH_SPECIFICITY",
+        "persistence": "SINGLE_TOURNAMENT",
+        "team_concentration": "OBSERVED_TEAM_CONCENTRATION"
+      },
+      "patch_breakdown": [
+        {
+          "patch_version": "1.8.44",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "patch_rate": 1.0,
+          "patch_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ],
+      "opponent_breakdown": [
+        {
+          "opponent_team_id": "team-devu",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "opponent_rate": 1.0,
+          "opponent_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ]
+    },
+    {
+      "pattern": {
+        "trigger": {
+          "type": "opponent_pick",
+          "hero_id": "h119",
+          "hero_name": "Novaria"
+        },
+        "response": {
+          "type": "pick",
+          "hero_id": "h117",
+          "hero_name": "Fredrinn"
+        }
+      },
+      "context": {
+        "team_id": "team-onic",
+        "dataset_scope": "single_tournament"
+      },
+      "evidence": {
+        "state_count": 1,
+        "sample_size_games": 1,
+        "sample_size_series": 1,
+        "tournament_count": 1,
+        "global_rate": 0.125,
+        "team_rate": 1.0,
+        "team_lift": 8.0,
+        "observed_wins": 1,
+        "observed_losses": 0,
+        "observed_win_rate": 1.0
+      },
+      "classification": {
+        "sample_sufficient": false,
+        "sample_label": "LOW_SAMPLE",
+        "specificity": "HIGH_SPECIFICITY",
+        "persistence": "SINGLE_TOURNAMENT",
+        "team_concentration": "OBSERVED_TEAM_CONCENTRATION"
+      },
+      "patch_breakdown": [
+        {
+          "patch_version": "1.8.44",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "patch_rate": 1.0,
+          "patch_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ],
+      "opponent_breakdown": [
+        {
+          "opponent_team_id": "team-devu",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "opponent_rate": 1.0,
+          "opponent_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ]
+    },
+    {
+      "pattern": {
+        "trigger": {
+          "type": "opponent_pick",
+          "hero_id": "h055",
+          "hero_name": "Angela"
+        },
+        "response": {
+          "type": "pick",
+          "hero_id": "h065",
+          "hero_name": "Claude"
+        }
+      },
+      "context": {
+        "team_id": "team-onic",
+        "dataset_scope": "single_tournament"
+      },
+      "evidence": {
+        "state_count": 1,
+        "sample_size_games": 1,
+        "sample_size_series": 1,
+        "tournament_count": 1,
+        "global_rate": 0.5,
+        "team_rate": 1.0,
+        "team_lift": 2.0,
+        "observed_wins": 1,
+        "observed_losses": 0,
+        "observed_win_rate": 1.0
+      },
+      "classification": {
+        "sample_sufficient": false,
+        "sample_label": "LOW_SAMPLE",
+        "specificity": "HIGH_SPECIFICITY",
+        "persistence": "SINGLE_TOURNAMENT",
+        "team_concentration": "OBSERVED_TEAM_CONCENTRATION"
+      },
+      "patch_breakdown": [
+        {
+          "patch_version": "1.8.44",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "patch_rate": 1.0,
+          "patch_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ],
+      "opponent_breakdown": [
+        {
+          "opponent_team_id": "team-devu",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "opponent_rate": 1.0,
+          "opponent_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ]
+    },
+    {
+      "pattern": {
+        "trigger": {
+          "type": "opponent_pick",
+          "hero_id": "h110",
+          "hero_name": "Valentina"
+        },
+        "response": {
+          "type": "pick",
+          "hero_id": "h059",
+          "hero_name": "Uranus"
+        }
+      },
+      "context": {
+        "team_id": "team-onic",
+        "dataset_scope": "single_tournament"
+      },
+      "evidence": {
+        "state_count": 1,
+        "sample_size_games": 1,
+        "sample_size_series": 1,
+        "tournament_count": 1,
+        "global_rate": 0.0556,
+        "team_rate": 0.5,
+        "team_lift": 8.9928,
+        "observed_wins": 1,
+        "observed_losses": 0,
+        "observed_win_rate": 1.0
+      },
+      "classification": {
+        "sample_sufficient": false,
+        "sample_label": "LOW_SAMPLE",
+        "specificity": "HIGH_SPECIFICITY",
+        "persistence": "SINGLE_TOURNAMENT",
+        "team_concentration": "OBSERVED_TEAM_CONCENTRATION"
+      },
+      "patch_breakdown": [
+        {
+          "patch_version": "1.8.44",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "patch_rate": 0.5,
+          "patch_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ],
+      "opponent_breakdown": [
+        {
+          "opponent_team_id": "team-devu",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "opponent_rate": 0.5,
+          "opponent_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ]
+    },
+    {
+      "pattern": {
+        "trigger": {
+          "type": "opponent_pick",
+          "hero_id": "h006",
+          "hero_name": "Tigreal"
+        },
+        "response": {
+          "type": "pick",
+          "hero_id": "h012",
+          "hero_name": "Bruno"
+        }
+      },
+      "context": {
+        "team_id": "team-onic",
+        "dataset_scope": "single_tournament"
+      },
+      "evidence": {
+        "state_count": 1,
+        "sample_size_games": 1,
+        "sample_size_series": 1,
+        "tournament_count": 1,
+        "global_rate": 0.25,
+        "team_rate": 1.0,
+        "team_lift": 4.0,
+        "observed_wins": 1,
+        "observed_losses": 0,
+        "observed_win_rate": 1.0
+      },
+      "classification": {
+        "sample_sufficient": false,
+        "sample_label": "LOW_SAMPLE",
+        "specificity": "HIGH_SPECIFICITY",
+        "persistence": "SINGLE_TOURNAMENT",
+        "team_concentration": "OBSERVED_TEAM_CONCENTRATION"
+      },
+      "patch_breakdown": [
+        {
+          "patch_version": "1.8.44",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "patch_rate": 1.0,
+          "patch_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ],
+      "opponent_breakdown": [
+        {
+          "opponent_team_id": "team-devu",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "opponent_rate": 1.0,
+          "opponent_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ]
+    },
+    {
+      "pattern": {
+        "trigger": {
+          "type": "opponent_pick",
+          "hero_id": "h119",
+          "hero_name": "Novaria"
+        },
+        "response": {
+          "type": "pick",
+          "hero_id": "h083",
+          "hero_name": "X.Borg"
+        }
+      },
+      "context": {
+        "team_id": "team-geek-fam-id",
+        "dataset_scope": "single_tournament"
+      },
+      "evidence": {
+        "state_count": 1,
+        "sample_size_games": 1,
+        "sample_size_series": 1,
+        "tournament_count": 1,
+        "global_rate": 0.125,
+        "team_rate": 1.0,
+        "team_lift": 8.0,
+        "observed_wins": 0,
+        "observed_losses": 1,
+        "observed_win_rate": 0.0
+      },
+      "classification": {
+        "sample_sufficient": false,
+        "sample_label": "LOW_SAMPLE",
+        "specificity": "HIGH_SPECIFICITY",
+        "persistence": "SINGLE_TOURNAMENT",
+        "team_concentration": "OBSERVED_TEAM_CONCENTRATION"
+      },
+      "patch_breakdown": [
+        {
+          "patch_version": "1.8.44",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "patch_rate": 1.0,
+          "patch_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ],
+      "opponent_breakdown": [
+        {
+          "opponent_team_id": "team-ap.bren",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "opponent_rate": 1.0,
+          "opponent_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ]
+    },
+    {
+      "pattern": {
+        "trigger": {
+          "type": "opponent_pick",
+          "hero_id": "h110",
+          "hero_name": "Valentina"
+        },
+        "response": {
+          "type": "pick",
+          "hero_id": "h098",
+          "hero_name": "Khaleed"
+        }
+      },
+      "context": {
+        "team_id": "team-geek-fam-id",
+        "dataset_scope": "single_tournament"
+      },
+      "evidence": {
+        "state_count": 1,
+        "sample_size_games": 1,
+        "sample_size_series": 1,
+        "tournament_count": 1,
+        "global_rate": 0.0556,
+        "team_rate": 1.0,
+        "team_lift": 17.9856,
+        "observed_wins": 1,
+        "observed_losses": 0,
+        "observed_win_rate": 1.0
+      },
+      "classification": {
+        "sample_sufficient": false,
+        "sample_label": "LOW_SAMPLE",
+        "specificity": "HIGH_SPECIFICITY",
+        "persistence": "SINGLE_TOURNAMENT",
+        "team_concentration": "OBSERVED_TEAM_CONCENTRATION"
+      },
+      "patch_breakdown": [
+        {
+          "patch_version": "1.8.44",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "patch_rate": 1.0,
+          "patch_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ],
+      "opponent_breakdown": [
+        {
+          "opponent_team_id": "team-ap.bren",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "opponent_rate": 1.0,
+          "opponent_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ]
+    },
+    {
+      "pattern": {
+        "trigger": {
+          "type": "opponent_pick",
+          "hero_id": "h076",
+          "hero_name": "Faramis"
+        },
+        "response": {
+          "type": "pick",
+          "hero_id": "h098",
+          "hero_name": "Khaleed"
+        }
+      },
+      "context": {
+        "team_id": "team-geek-fam-id",
+        "dataset_scope": "single_tournament"
+      },
+      "evidence": {
+        "state_count": 1,
+        "sample_size_games": 1,
+        "sample_size_series": 1,
+        "tournament_count": 1,
+        "global_rate": 0.0833,
+        "team_rate": 0.5,
+        "team_lift": 6.0024,
+        "observed_wins": 0,
+        "observed_losses": 1,
+        "observed_win_rate": 0.0
+      },
+      "classification": {
+        "sample_sufficient": false,
+        "sample_label": "LOW_SAMPLE",
+        "specificity": "HIGH_SPECIFICITY",
+        "persistence": "SINGLE_TOURNAMENT",
+        "team_concentration": "OBSERVED_TEAM_CONCENTRATION"
+      },
+      "patch_breakdown": [
+        {
+          "patch_version": "1.8.44",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "patch_rate": 0.5,
+          "patch_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ],
+      "opponent_breakdown": [
+        {
+          "opponent_team_id": "team-ap.bren",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "opponent_rate": 0.5,
+          "opponent_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ]
+    },
+    {
+      "pattern": {
+        "trigger": {
+          "type": "opponent_pick",
+          "hero_id": "h076",
+          "hero_name": "Faramis"
+        },
+        "response": {
+          "type": "pick",
+          "hero_id": "h095",
+          "hero_name": "Yu Zhong"
+        }
+      },
+      "context": {
+        "team_id": "team-geek-fam-id",
+        "dataset_scope": "single_tournament"
+      },
+      "evidence": {
+        "state_count": 1,
+        "sample_size_games": 1,
+        "sample_size_series": 1,
+        "tournament_count": 1,
+        "global_rate": 0.0833,
+        "team_rate": 0.5,
+        "team_lift": 6.0024,
+        "observed_wins": 0,
+        "observed_losses": 1,
+        "observed_win_rate": 0.0
+      },
+      "classification": {
+        "sample_sufficient": false,
+        "sample_label": "LOW_SAMPLE",
+        "specificity": "HIGH_SPECIFICITY",
+        "persistence": "SINGLE_TOURNAMENT",
+        "team_concentration": "OBSERVED_TEAM_CONCENTRATION"
+      },
+      "patch_breakdown": [
+        {
+          "patch_version": "1.8.44",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "patch_rate": 0.5,
+          "patch_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ],
+      "opponent_breakdown": [
+        {
+          "opponent_team_id": "team-ap.bren",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "opponent_rate": 0.5,
+          "opponent_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ]
+    },
+    {
+      "pattern": {
+        "trigger": {
+          "type": "opponent_pick",
+          "hero_id": "h086",
+          "hero_name": "Lylia"
+        },
+        "response": {
+          "type": "pick",
+          "hero_id": "h098",
+          "hero_name": "Khaleed"
+        }
+      },
+      "context": {
+        "team_id": "team-ap.bren",
+        "dataset_scope": "single_tournament"
+      },
+      "evidence": {
+        "state_count": 1,
+        "sample_size_games": 1,
+        "sample_size_series": 1,
+        "tournament_count": 1,
+        "global_rate": 0.4,
+        "team_rate": 1.0,
+        "team_lift": 2.5,
+        "observed_wins": 0,
+        "observed_losses": 1,
+        "observed_win_rate": 0.0
+      },
+      "classification": {
+        "sample_sufficient": false,
+        "sample_label": "LOW_SAMPLE",
+        "specificity": "HIGH_SPECIFICITY",
+        "persistence": "SINGLE_TOURNAMENT",
+        "team_concentration": "OBSERVED_TEAM_CONCENTRATION"
+      },
+      "patch_breakdown": [
+        {
+          "patch_version": "1.8.44",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "patch_rate": 1.0,
+          "patch_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ],
+      "opponent_breakdown": [
+        {
+          "opponent_team_id": "team-onic",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "opponent_rate": 1.0,
+          "opponent_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ]
+    },
+    {
+      "pattern": {
+        "trigger": {
+          "type": "opponent_pick",
+          "hero_id": "h006",
+          "hero_name": "Tigreal"
+        },
+        "response": {
+          "type": "pick",
+          "hero_id": "h013",
+          "hero_name": "Clint"
+        }
+      },
+      "context": {
+        "team_id": "team-ap.bren",
+        "dataset_scope": "single_tournament"
+      },
+      "evidence": {
+        "state_count": 1,
+        "sample_size_games": 1,
+        "sample_size_series": 1,
+        "tournament_count": 1,
+        "global_rate": 0.0833,
+        "team_rate": 0.5,
+        "team_lift": 6.0024,
+        "observed_wins": 0,
+        "observed_losses": 1,
+        "observed_win_rate": 0.0
+      },
+      "classification": {
+        "sample_sufficient": false,
+        "sample_label": "LOW_SAMPLE",
+        "specificity": "HIGH_SPECIFICITY",
+        "persistence": "SINGLE_TOURNAMENT",
+        "team_concentration": "OBSERVED_TEAM_CONCENTRATION"
+      },
+      "patch_breakdown": [
+        {
+          "patch_version": "1.8.44",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "patch_rate": 0.5,
+          "patch_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ],
+      "opponent_breakdown": [
+        {
+          "opponent_team_id": "team-onic",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "opponent_rate": 0.5,
+          "opponent_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ]
+    },
+    {
+      "pattern": {
+        "trigger": {
+          "type": "opponent_pick",
+          "hero_id": "h044",
+          "hero_name": "Grock"
+        },
+        "response": {
+          "type": "pick",
+          "hero_id": "h065",
+          "hero_name": "Claude"
+        }
+      },
+      "context": {
+        "team_id": "team-ap.bren",
+        "dataset_scope": "single_tournament"
+      },
+      "evidence": {
+        "state_count": 1,
+        "sample_size_games": 1,
+        "sample_size_series": 1,
+        "tournament_count": 1,
+        "global_rate": 0.5,
+        "team_rate": 0.5,
+        "team_lift": 1.0,
+        "observed_wins": 0,
+        "observed_losses": 1,
+        "observed_win_rate": 0.0
+      },
+      "classification": {
+        "sample_sufficient": false,
+        "sample_label": "LOW_SAMPLE",
+        "specificity": "LOW_SPECIFICITY",
+        "persistence": "SINGLE_TOURNAMENT",
+        "team_concentration": "NEUTRAL"
+      },
+      "patch_breakdown": [
+        {
+          "patch_version": "1.8.44",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "patch_rate": 0.5,
+          "patch_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ],
+      "opponent_breakdown": [
+        {
+          "opponent_team_id": "team-onic",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "opponent_rate": 0.5,
+          "opponent_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ]
+    },
+    {
+      "pattern": {
+        "trigger": {
+          "type": "opponent_pick",
+          "hero_id": "h056",
+          "hero_name": "Gusion"
+        },
+        "response": {
+          "type": "pick",
+          "hero_id": "h120",
+          "hero_name": "Arlott"
+        }
+      },
+      "context": {
+        "team_id": "team-ap.bren",
+        "dataset_scope": "single_tournament"
+      },
+      "evidence": {
+        "state_count": 1,
+        "sample_size_games": 1,
+        "sample_size_series": 1,
+        "tournament_count": 1,
+        "global_rate": 1.0,
+        "team_rate": 1.0,
+        "team_lift": 1.0,
+        "observed_wins": 0,
+        "observed_losses": 1,
+        "observed_win_rate": 0.0
+      },
+      "classification": {
+        "sample_sufficient": false,
+        "sample_label": "LOW_SAMPLE",
+        "specificity": "LOW_SPECIFICITY",
+        "persistence": "SINGLE_TOURNAMENT",
+        "team_concentration": "NEUTRAL"
+      },
+      "patch_breakdown": [
+        {
+          "patch_version": "1.8.44",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "patch_rate": 1.0,
+          "patch_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ],
+      "opponent_breakdown": [
+        {
+          "opponent_team_id": "team-onic",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "opponent_rate": 1.0,
+          "opponent_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ]
+    },
+    {
+      "pattern": {
+        "trigger": {
+          "type": "opponent_pick",
+          "hero_id": "h080",
+          "hero_name": "Guinevere"
+        },
+        "response": {
+          "type": "pick",
+          "hero_id": "h012",
+          "hero_name": "Bruno"
+        }
+      },
+      "context": {
+        "team_id": "team-ap.bren",
+        "dataset_scope": "single_tournament"
+      },
+      "evidence": {
+        "state_count": 1,
+        "sample_size_games": 1,
+        "sample_size_series": 1,
+        "tournament_count": 1,
+        "global_rate": 1.0,
+        "team_rate": 1.0,
+        "team_lift": 1.0,
+        "observed_wins": 0,
+        "observed_losses": 1,
+        "observed_win_rate": 0.0
+      },
+      "classification": {
+        "sample_sufficient": false,
+        "sample_label": "LOW_SAMPLE",
+        "specificity": "LOW_SPECIFICITY",
+        "persistence": "SINGLE_TOURNAMENT",
+        "team_concentration": "NEUTRAL"
+      },
+      "patch_breakdown": [
+        {
+          "patch_version": "1.8.44",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "patch_rate": 1.0,
+          "patch_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ],
+      "opponent_breakdown": [
+        {
+          "opponent_team_id": "team-onic",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "opponent_rate": 1.0,
+          "opponent_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ]
+    },
+    {
+      "pattern": {
+        "trigger": {
+          "type": "opponent_pick",
+          "hero_id": "h068",
+          "hero_name": "Lunox"
+        },
+        "response": {
+          "type": "pick",
+          "hero_id": "h111",
+          "hero_name": "Edith"
+        }
+      },
+      "context": {
+        "team_id": "team-blck",
+        "dataset_scope": "single_tournament"
+      },
+      "evidence": {
+        "state_count": 1,
+        "sample_size_games": 1,
+        "sample_size_series": 1,
+        "tournament_count": 1,
+        "global_rate": 1.0,
+        "team_rate": 1.0,
+        "team_lift": 1.0,
+        "observed_wins": 1,
+        "observed_losses": 0,
+        "observed_win_rate": 1.0
+      },
+      "classification": {
+        "sample_sufficient": false,
+        "sample_label": "LOW_SAMPLE",
+        "specificity": "LOW_SPECIFICITY",
+        "persistence": "SINGLE_TOURNAMENT",
+        "team_concentration": "NEUTRAL"
+      },
+      "patch_breakdown": [
+        {
+          "patch_version": "1.8.44",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "patch_rate": 1.0,
+          "patch_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ],
+      "opponent_breakdown": [
+        {
+          "opponent_team_id": "team-fire-flux-esports",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "opponent_rate": 1.0,
+          "opponent_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ]
+    },
+    {
+      "pattern": {
+        "trigger": {
+          "type": "opponent_pick",
+          "hero_id": "h062",
+          "hero_name": "Kaja"
+        },
+        "response": {
+          "type": "pick",
+          "hero_id": "h040",
+          "hero_name": "Karrie"
+        }
+      },
+      "context": {
+        "team_id": "team-blck",
+        "dataset_scope": "single_tournament"
+      },
+      "evidence": {
+        "state_count": 1,
+        "sample_size_games": 1,
+        "sample_size_series": 1,
+        "tournament_count": 1,
+        "global_rate": 0.2,
+        "team_rate": 0.3333,
+        "team_lift": 1.6665,
+        "observed_wins": 1,
+        "observed_losses": 0,
+        "observed_win_rate": 1.0
+      },
+      "classification": {
+        "sample_sufficient": false,
+        "sample_label": "LOW_SAMPLE",
+        "specificity": "LOW_SPECIFICITY",
+        "persistence": "SINGLE_TOURNAMENT",
+        "team_concentration": "OBSERVED_TEAM_CONCENTRATION"
+      },
+      "patch_breakdown": [
+        {
+          "patch_version": "1.8.44",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "patch_rate": 0.3333,
+          "patch_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ],
+      "opponent_breakdown": [
+        {
+          "opponent_team_id": "team-fire-flux-esports",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "opponent_rate": 1.0,
+          "opponent_lift": 3.0003,
+          "context_label": "OPPONENT_LOCALIZED_TENDENCY"
+        }
+      ]
+    },
+    {
+      "pattern": {
+        "trigger": {
+          "type": "opponent_pick",
+          "hero_id": "h086",
+          "hero_name": "Lylia"
+        },
+        "response": {
+          "type": "pick",
+          "hero_id": "h082",
+          "hero_name": "Terizla"
+        }
+      },
+      "context": {
+        "team_id": "team-blck",
+        "dataset_scope": "single_tournament"
+      },
+      "evidence": {
+        "state_count": 1,
+        "sample_size_games": 1,
+        "sample_size_series": 1,
+        "tournament_count": 1,
+        "global_rate": 0.2,
+        "team_rate": 0.2,
+        "team_lift": 1.0,
+        "observed_wins": 0,
+        "observed_losses": 1,
+        "observed_win_rate": 0.0
+      },
+      "classification": {
+        "sample_sufficient": false,
+        "sample_label": "LOW_SAMPLE",
+        "specificity": "LOW_SPECIFICITY",
+        "persistence": "SINGLE_TOURNAMENT",
+        "team_concentration": "NEUTRAL"
+      },
+      "patch_breakdown": [
+        {
+          "patch_version": "1.8.44",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "patch_rate": 0.2,
+          "patch_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ],
+      "opponent_breakdown": [
+        {
+          "opponent_team_id": "team-fire-flux-esports",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "opponent_rate": 0.3333,
+          "opponent_lift": 1.6665,
+          "context_label": "OPPONENT_LOCALIZED_TENDENCY"
+        }
+      ]
+    },
+    {
+      "pattern": {
+        "trigger": {
+          "type": "opponent_pick",
+          "hero_id": "h006",
+          "hero_name": "Tigreal"
+        },
+        "response": {
+          "type": "pick",
+          "hero_id": "h040",
+          "hero_name": "Karrie"
+        }
+      },
+      "context": {
+        "team_id": "team-blck",
+        "dataset_scope": "single_tournament"
+      },
+      "evidence": {
+        "state_count": 1,
+        "sample_size_games": 1,
+        "sample_size_series": 1,
+        "tournament_count": 1,
+        "global_rate": 0.1667,
+        "team_rate": 0.5,
+        "team_lift": 2.9994,
+        "observed_wins": 0,
+        "observed_losses": 1,
+        "observed_win_rate": 0.0
+      },
+      "classification": {
+        "sample_sufficient": false,
+        "sample_label": "LOW_SAMPLE",
+        "specificity": "MEDIUM_SPECIFICITY",
+        "persistence": "SINGLE_TOURNAMENT",
+        "team_concentration": "OBSERVED_TEAM_CONCENTRATION"
+      },
+      "patch_breakdown": [
+        {
+          "patch_version": "1.8.44",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "patch_rate": 0.5,
+          "patch_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ],
+      "opponent_breakdown": [
+        {
+          "opponent_team_id": "team-fire-flux-esports",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "opponent_rate": 0.5,
+          "opponent_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ]
+    },
+    {
+      "pattern": {
+        "trigger": {
+          "type": "opponent_pick",
+          "hero_id": "h086",
+          "hero_name": "Lylia"
+        },
+        "response": {
+          "type": "pick",
+          "hero_id": "h111",
+          "hero_name": "Edith"
+        }
+      },
+      "context": {
+        "team_id": "team-blck",
+        "dataset_scope": "single_tournament"
+      },
+      "evidence": {
+        "state_count": 1,
+        "sample_size_games": 1,
+        "sample_size_series": 1,
+        "tournament_count": 1,
+        "global_rate": 0.1,
+        "team_rate": 0.2,
+        "team_lift": 2.0,
+        "observed_wins": 1,
+        "observed_losses": 0,
+        "observed_win_rate": 1.0
+      },
+      "classification": {
+        "sample_sufficient": false,
+        "sample_label": "LOW_SAMPLE",
+        "specificity": "LOW_SPECIFICITY",
+        "persistence": "SINGLE_TOURNAMENT",
+        "team_concentration": "OBSERVED_TEAM_CONCENTRATION"
+      },
+      "patch_breakdown": [
+        {
+          "patch_version": "1.8.44",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "patch_rate": 0.2,
+          "patch_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ],
+      "opponent_breakdown": [
+        {
+          "opponent_team_id": "team-fire-flux-esports",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "opponent_rate": 0.3333,
+          "opponent_lift": 1.6665,
+          "context_label": "OPPONENT_LOCALIZED_TENDENCY"
+        }
+      ]
+    },
+    {
+      "pattern": {
+        "trigger": {
+          "type": "opponent_pick",
+          "hero_id": "h006",
+          "hero_name": "Tigreal"
+        },
+        "response": {
+          "type": "pick",
+          "hero_id": "h012",
+          "hero_name": "Bruno"
+        }
+      },
+      "context": {
+        "team_id": "team-blck",
+        "dataset_scope": "single_tournament"
+      },
+      "evidence": {
+        "state_count": 1,
+        "sample_size_games": 1,
+        "sample_size_series": 1,
+        "tournament_count": 1,
+        "global_rate": 0.25,
+        "team_rate": 0.5,
+        "team_lift": 2.0,
+        "observed_wins": 1,
+        "observed_losses": 0,
+        "observed_win_rate": 1.0
+      },
+      "classification": {
+        "sample_sufficient": false,
+        "sample_label": "LOW_SAMPLE",
+        "specificity": "MEDIUM_SPECIFICITY",
+        "persistence": "SINGLE_TOURNAMENT",
+        "team_concentration": "OBSERVED_TEAM_CONCENTRATION"
+      },
+      "patch_breakdown": [
+        {
+          "patch_version": "1.8.44",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "patch_rate": 0.5,
+          "patch_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ],
+      "opponent_breakdown": [
+        {
+          "opponent_team_id": "team-fire-flux-esports",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "opponent_rate": 0.5,
+          "opponent_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ]
+    },
+    {
+      "pattern": {
+        "trigger": {
+          "type": "opponent_pick",
+          "hero_id": "h110",
+          "hero_name": "Valentina"
+        },
+        "response": {
+          "type": "pick",
+          "hero_id": "h082",
+          "hero_name": "Terizla"
+        }
+      },
+      "context": {
+        "team_id": "team-burmese-ghouls",
+        "dataset_scope": "single_tournament"
+      },
+      "evidence": {
+        "state_count": 1,
+        "sample_size_games": 1,
+        "sample_size_series": 1,
+        "tournament_count": 1,
+        "global_rate": 0.2222,
+        "team_rate": 0.25,
+        "team_lift": 1.1251,
+        "observed_wins": 0,
+        "observed_losses": 1,
+        "observed_win_rate": 0.0
+      },
+      "classification": {
+        "sample_sufficient": false,
+        "sample_label": "LOW_SAMPLE",
+        "specificity": "LOW_SPECIFICITY",
+        "persistence": "SINGLE_TOURNAMENT",
+        "team_concentration": "NEUTRAL"
+      },
+      "patch_breakdown": [
+        {
+          "patch_version": "1.8.44",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "patch_rate": 0.25,
+          "patch_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ],
+      "opponent_breakdown": [
+        {
+          "opponent_team_id": "team-see-you-soon",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "opponent_rate": 0.3333,
+          "opponent_lift": 1.3332,
+          "context_label": "NEUTRAL"
+        }
+      ]
+    },
+    {
+      "pattern": {
+        "trigger": {
+          "type": "opponent_pick",
+          "hero_id": "h006",
+          "hero_name": "Tigreal"
+        },
+        "response": {
+          "type": "pick",
+          "hero_id": "h043",
+          "hero_name": "Irithel"
+        }
+      },
+      "context": {
+        "team_id": "team-burmese-ghouls",
+        "dataset_scope": "single_tournament"
+      },
+      "evidence": {
+        "state_count": 1,
+        "sample_size_games": 1,
+        "sample_size_series": 1,
+        "tournament_count": 1,
+        "global_rate": 0.0833,
+        "team_rate": 0.5,
+        "team_lift": 6.0024,
+        "observed_wins": 0,
+        "observed_losses": 1,
+        "observed_win_rate": 0.0
+      },
+      "classification": {
+        "sample_sufficient": false,
+        "sample_label": "LOW_SAMPLE",
+        "specificity": "HIGH_SPECIFICITY",
+        "persistence": "SINGLE_TOURNAMENT",
+        "team_concentration": "OBSERVED_TEAM_CONCENTRATION"
+      },
+      "patch_breakdown": [
+        {
+          "patch_version": "1.8.44",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "patch_rate": 0.5,
+          "patch_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ],
+      "opponent_breakdown": [
+        {
+          "opponent_team_id": "team-see-you-soon",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "opponent_rate": 1.0,
+          "opponent_lift": 2.0,
+          "context_label": "OPPONENT_LOCALIZED_TENDENCY"
+        }
+      ]
+    },
+    {
+      "pattern": {
+        "trigger": {
+          "type": "opponent_pick",
+          "hero_id": "h110",
+          "hero_name": "Valentina"
+        },
+        "response": {
+          "type": "pick",
+          "hero_id": "h037",
+          "hero_name": "Lapu-Lapu"
+        }
+      },
+      "context": {
+        "team_id": "team-burmese-ghouls",
+        "dataset_scope": "single_tournament"
+      },
+      "evidence": {
+        "state_count": 1,
+        "sample_size_games": 1,
+        "sample_size_series": 1,
+        "tournament_count": 1,
+        "global_rate": 0.1111,
+        "team_rate": 0.25,
+        "team_lift": 2.2502,
+        "observed_wins": 0,
+        "observed_losses": 1,
+        "observed_win_rate": 0.0
+      },
+      "classification": {
+        "sample_sufficient": false,
+        "sample_label": "LOW_SAMPLE",
+        "specificity": "LOW_SPECIFICITY",
+        "persistence": "SINGLE_TOURNAMENT",
+        "team_concentration": "OBSERVED_TEAM_CONCENTRATION"
+      },
+      "patch_breakdown": [
+        {
+          "patch_version": "1.8.44",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "patch_rate": 0.25,
+          "patch_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ],
+      "opponent_breakdown": [
+        {
+          "opponent_team_id": "team-see-you-soon",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "opponent_rate": 0.3333,
+          "opponent_lift": 1.3332,
+          "context_label": "NEUTRAL"
+        }
+      ]
+    },
+    {
+      "pattern": {
+        "trigger": {
+          "type": "opponent_pick",
+          "hero_id": "h110",
+          "hero_name": "Valentina"
+        },
+        "response": {
+          "type": "pick",
+          "hero_id": "h120",
+          "hero_name": "Arlott"
+        }
+      },
+      "context": {
+        "team_id": "team-burmese-ghouls",
+        "dataset_scope": "single_tournament"
+      },
+      "evidence": {
+        "state_count": 1,
+        "sample_size_games": 1,
+        "sample_size_series": 1,
+        "tournament_count": 1,
+        "global_rate": 0.1667,
+        "team_rate": 0.25,
+        "team_lift": 1.4997,
+        "observed_wins": 0,
+        "observed_losses": 1,
+        "observed_win_rate": 0.0
+      },
+      "classification": {
+        "sample_sufficient": false,
+        "sample_label": "LOW_SAMPLE",
+        "specificity": "LOW_SPECIFICITY",
+        "persistence": "SINGLE_TOURNAMENT",
+        "team_concentration": "NEUTRAL"
+      },
+      "patch_breakdown": [
+        {
+          "patch_version": "1.8.44",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "patch_rate": 0.25,
+          "patch_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ],
+      "opponent_breakdown": [
+        {
+          "opponent_team_id": "team-see-you-soon",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "opponent_rate": 0.3333,
+          "opponent_lift": 1.3332,
+          "context_label": "NEUTRAL"
+        }
+      ]
+    },
+    {
+      "pattern": {
+        "trigger": {
+          "type": "opponent_pick",
+          "hero_id": "h026",
+          "hero_name": "Chou"
+        },
+        "response": {
+          "type": "pick",
+          "hero_id": "h012",
+          "hero_name": "Bruno"
+        }
+      },
+      "context": {
+        "team_id": "team-burmese-ghouls",
+        "dataset_scope": "single_tournament"
+      },
+      "evidence": {
+        "state_count": 1,
+        "sample_size_games": 1,
+        "sample_size_series": 1,
+        "tournament_count": 1,
+        "global_rate": 0.5,
+        "team_rate": 1.0,
+        "team_lift": 2.0,
+        "observed_wins": 0,
+        "observed_losses": 1,
+        "observed_win_rate": 0.0
+      },
+      "classification": {
+        "sample_sufficient": false,
+        "sample_label": "LOW_SAMPLE",
+        "specificity": "HIGH_SPECIFICITY",
+        "persistence": "SINGLE_TOURNAMENT",
+        "team_concentration": "OBSERVED_TEAM_CONCENTRATION"
+      },
+      "patch_breakdown": [
+        {
+          "patch_version": "1.8.44",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "patch_rate": 1.0,
+          "patch_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ],
+      "opponent_breakdown": [
+        {
+          "opponent_team_id": "team-see-you-soon",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "opponent_rate": 1.0,
+          "opponent_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ]
+    },
+    {
+      "pattern": {
+        "trigger": {
+          "type": "opponent_pick",
+          "hero_id": "h029",
+          "hero_name": "Ruby"
+        },
+        "response": {
+          "type": "pick",
+          "hero_id": "h089",
+          "hero_name": "Wanwan"
+        }
+      },
+      "context": {
+        "team_id": "team-blck",
+        "dataset_scope": "single_tournament"
+      },
+      "evidence": {
+        "state_count": 1,
+        "sample_size_games": 1,
+        "sample_size_series": 1,
+        "tournament_count": 1,
+        "global_rate": 0.3333,
+        "team_rate": 1.0,
+        "team_lift": 3.0003,
+        "observed_wins": 0,
+        "observed_losses": 1,
+        "observed_win_rate": 0.0
+      },
+      "classification": {
+        "sample_sufficient": false,
+        "sample_label": "LOW_SAMPLE",
+        "specificity": "HIGH_SPECIFICITY",
+        "persistence": "SINGLE_TOURNAMENT",
+        "team_concentration": "OBSERVED_TEAM_CONCENTRATION"
+      },
+      "patch_breakdown": [
+        {
+          "patch_version": "1.8.44",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "patch_rate": 1.0,
+          "patch_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ],
+      "opponent_breakdown": [
+        {
+          "opponent_team_id": "team-geek-fam-id",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "opponent_rate": 1.0,
+          "opponent_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ]
+    },
+    {
+      "pattern": {
+        "trigger": {
+          "type": "opponent_pick",
+          "hero_id": "h044",
+          "hero_name": "Grock"
+        },
+        "response": {
+          "type": "pick",
+          "hero_id": "h121",
+          "hero_name": "Ixia"
+        }
+      },
+      "context": {
+        "team_id": "team-blck",
+        "dataset_scope": "single_tournament"
+      },
+      "evidence": {
+        "state_count": 1,
+        "sample_size_games": 1,
+        "sample_size_series": 1,
+        "tournament_count": 1,
+        "global_rate": 0.25,
+        "team_rate": 1.0,
+        "team_lift": 4.0,
+        "observed_wins": 1,
+        "observed_losses": 0,
+        "observed_win_rate": 1.0
+      },
+      "classification": {
+        "sample_sufficient": false,
+        "sample_label": "LOW_SAMPLE",
+        "specificity": "HIGH_SPECIFICITY",
+        "persistence": "SINGLE_TOURNAMENT",
+        "team_concentration": "OBSERVED_TEAM_CONCENTRATION"
+      },
+      "patch_breakdown": [
+        {
+          "patch_version": "1.8.44",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "patch_rate": 1.0,
+          "patch_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ],
+      "opponent_breakdown": [
+        {
+          "opponent_team_id": "team-geek-fam-id",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "opponent_rate": 1.0,
+          "opponent_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ]
+    },
+    {
+      "pattern": {
+        "trigger": {
+          "type": "opponent_pick",
+          "hero_id": "h019",
+          "hero_name": "Minotaur"
+        },
+        "response": {
+          "type": "pick",
+          "hero_id": "h040",
+          "hero_name": "Karrie"
+        }
+      },
+      "context": {
+        "team_id": "team-blck",
+        "dataset_scope": "single_tournament"
+      },
+      "evidence": {
+        "state_count": 1,
+        "sample_size_games": 1,
+        "sample_size_series": 1,
+        "tournament_count": 1,
+        "global_rate": 0.125,
+        "team_rate": 0.3333,
+        "team_lift": 2.6664,
+        "observed_wins": 1,
+        "observed_losses": 0,
+        "observed_win_rate": 1.0
+      },
+      "classification": {
+        "sample_sufficient": false,
+        "sample_label": "LOW_SAMPLE",
+        "specificity": "MEDIUM_SPECIFICITY",
+        "persistence": "SINGLE_TOURNAMENT",
+        "team_concentration": "OBSERVED_TEAM_CONCENTRATION"
+      },
+      "patch_breakdown": [
+        {
+          "patch_version": "1.8.44",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "patch_rate": 0.3333,
+          "patch_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ],
+      "opponent_breakdown": [
+        {
+          "opponent_team_id": "team-geek-fam-id",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "opponent_rate": 1.0,
+          "opponent_lift": 3.0003,
+          "context_label": "OPPONENT_LOCALIZED_TENDENCY"
+        }
+      ]
+    },
+    {
+      "pattern": {
+        "trigger": {
+          "type": "opponent_pick",
+          "hero_id": "h120",
+          "hero_name": "Arlott"
+        },
+        "response": {
+          "type": "pick",
+          "hero_id": "h012",
+          "hero_name": "Bruno"
+        }
+      },
+      "context": {
+        "team_id": "team-blck",
+        "dataset_scope": "single_tournament"
+      },
+      "evidence": {
+        "state_count": 1,
+        "sample_size_games": 1,
+        "sample_size_series": 1,
+        "tournament_count": 1,
+        "global_rate": 0.4,
+        "team_rate": 0.5,
+        "team_lift": 1.25,
+        "observed_wins": 1,
+        "observed_losses": 0,
+        "observed_win_rate": 1.0
+      },
+      "classification": {
+        "sample_sufficient": false,
+        "sample_label": "LOW_SAMPLE",
+        "specificity": "LOW_SPECIFICITY",
+        "persistence": "SINGLE_TOURNAMENT",
+        "team_concentration": "NEUTRAL"
+      },
+      "patch_breakdown": [
+        {
+          "patch_version": "1.8.44",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "patch_rate": 0.5,
+          "patch_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ],
+      "opponent_breakdown": [
+        {
+          "opponent_team_id": "team-geek-fam-id",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "opponent_rate": 1.0,
+          "opponent_lift": 2.0,
+          "context_label": "OPPONENT_LOCALIZED_TENDENCY"
+        }
+      ]
+    },
+    {
+      "pattern": {
+        "trigger": {
+          "type": "opponent_pick",
+          "hero_id": "h110",
+          "hero_name": "Valentina"
+        },
+        "response": {
+          "type": "pick",
+          "hero_id": "h037",
+          "hero_name": "Lapu-Lapu"
+        }
+      },
+      "context": {
+        "team_id": "team-see-you-soon",
+        "dataset_scope": "single_tournament"
+      },
+      "evidence": {
+        "state_count": 1,
+        "sample_size_games": 1,
+        "sample_size_series": 1,
+        "tournament_count": 1,
+        "global_rate": 0.1111,
+        "team_rate": 0.5,
+        "team_lift": 4.5005,
+        "observed_wins": 1,
+        "observed_losses": 0,
+        "observed_win_rate": 1.0
+      },
+      "classification": {
+        "sample_sufficient": false,
+        "sample_label": "LOW_SAMPLE",
+        "specificity": "HIGH_SPECIFICITY",
+        "persistence": "SINGLE_TOURNAMENT",
+        "team_concentration": "OBSERVED_TEAM_CONCENTRATION"
+      },
+      "patch_breakdown": [
+        {
+          "patch_version": "1.8.44",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "patch_rate": 0.5,
+          "patch_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ],
+      "opponent_breakdown": [
+        {
+          "opponent_team_id": "team-devu",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "opponent_rate": 0.5,
+          "opponent_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ]
+    },
+    {
+      "pattern": {
+        "trigger": {
+          "type": "opponent_pick",
+          "hero_id": "h062",
+          "hero_name": "Kaja"
+        },
+        "response": {
+          "type": "pick",
+          "hero_id": "h012",
+          "hero_name": "Bruno"
+        }
+      },
+      "context": {
+        "team_id": "team-see-you-soon",
+        "dataset_scope": "single_tournament"
+      },
+      "evidence": {
+        "state_count": 1,
+        "sample_size_games": 1,
+        "sample_size_series": 1,
+        "tournament_count": 1,
+        "global_rate": 0.4,
+        "team_rate": 1.0,
+        "team_lift": 2.5,
+        "observed_wins": 1,
+        "observed_losses": 0,
+        "observed_win_rate": 1.0
+      },
+      "classification": {
+        "sample_sufficient": false,
+        "sample_label": "LOW_SAMPLE",
+        "specificity": "HIGH_SPECIFICITY",
+        "persistence": "SINGLE_TOURNAMENT",
+        "team_concentration": "OBSERVED_TEAM_CONCENTRATION"
+      },
+      "patch_breakdown": [
+        {
+          "patch_version": "1.8.44",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "patch_rate": 1.0,
+          "patch_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ],
+      "opponent_breakdown": [
+        {
+          "opponent_team_id": "team-devu",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "opponent_rate": 1.0,
+          "opponent_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ]
+    },
+    {
+      "pattern": {
+        "trigger": {
+          "type": "opponent_pick",
+          "hero_id": "h086",
+          "hero_name": "Lylia"
+        },
+        "response": {
+          "type": "pick",
+          "hero_id": "h037",
+          "hero_name": "Lapu-Lapu"
+        }
+      },
+      "context": {
+        "team_id": "team-see-you-soon",
+        "dataset_scope": "single_tournament"
+      },
+      "evidence": {
+        "state_count": 1,
+        "sample_size_games": 1,
+        "sample_size_series": 1,
+        "tournament_count": 1,
+        "global_rate": 0.1,
+        "team_rate": 0.5,
+        "team_lift": 5.0,
+        "observed_wins": 1,
+        "observed_losses": 0,
+        "observed_win_rate": 1.0
+      },
+      "classification": {
+        "sample_sufficient": false,
+        "sample_label": "LOW_SAMPLE",
+        "specificity": "HIGH_SPECIFICITY",
+        "persistence": "SINGLE_TOURNAMENT",
+        "team_concentration": "OBSERVED_TEAM_CONCENTRATION"
+      },
+      "patch_breakdown": [
+        {
+          "patch_version": "1.8.44",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "patch_rate": 0.5,
+          "patch_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ],
+      "opponent_breakdown": [
+        {
+          "opponent_team_id": "team-devu",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "opponent_rate": 0.5,
+          "opponent_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ]
+    },
+    {
+      "pattern": {
+        "trigger": {
+          "type": "opponent_pick",
+          "hero_id": "h019",
+          "hero_name": "Minotaur"
+        },
+        "response": {
+          "type": "pick",
+          "hero_id": "h089",
+          "hero_name": "Wanwan"
+        }
+      },
+      "context": {
+        "team_id": "team-see-you-soon",
+        "dataset_scope": "single_tournament"
+      },
+      "evidence": {
+        "state_count": 1,
+        "sample_size_games": 1,
+        "sample_size_series": 1,
+        "tournament_count": 1,
+        "global_rate": 0.125,
+        "team_rate": 0.5,
+        "team_lift": 4.0,
+        "observed_wins": 1,
+        "observed_losses": 0,
+        "observed_win_rate": 1.0
+      },
+      "classification": {
+        "sample_sufficient": false,
+        "sample_label": "LOW_SAMPLE",
+        "specificity": "HIGH_SPECIFICITY",
+        "persistence": "SINGLE_TOURNAMENT",
+        "team_concentration": "OBSERVED_TEAM_CONCENTRATION"
+      },
+      "patch_breakdown": [
+        {
+          "patch_version": "1.8.44",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "patch_rate": 0.5,
+          "patch_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ],
+      "opponent_breakdown": [
+        {
+          "opponent_team_id": "team-devu",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "opponent_rate": 0.5,
+          "opponent_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ]
+    },
+    {
+      "pattern": {
+        "trigger": {
+          "type": "opponent_pick",
+          "hero_id": "h086",
+          "hero_name": "Lylia"
+        },
+        "response": {
+          "type": "pick",
+          "hero_id": "h095",
+          "hero_name": "Yu Zhong"
+        }
+      },
+      "context": {
+        "team_id": "team-see-you-soon",
+        "dataset_scope": "single_tournament"
+      },
+      "evidence": {
+        "state_count": 1,
+        "sample_size_games": 1,
+        "sample_size_series": 1,
+        "tournament_count": 1,
+        "global_rate": 0.1,
+        "team_rate": 0.5,
+        "team_lift": 5.0,
+        "observed_wins": 0,
+        "observed_losses": 1,
+        "observed_win_rate": 0.0
+      },
+      "classification": {
+        "sample_sufficient": false,
+        "sample_label": "LOW_SAMPLE",
+        "specificity": "HIGH_SPECIFICITY",
+        "persistence": "SINGLE_TOURNAMENT",
+        "team_concentration": "OBSERVED_TEAM_CONCENTRATION"
+      },
+      "patch_breakdown": [
+        {
+          "patch_version": "1.8.44",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "patch_rate": 0.5,
+          "patch_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ],
+      "opponent_breakdown": [
+        {
+          "opponent_team_id": "team-devu",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "opponent_rate": 0.5,
+          "opponent_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ]
+    },
+    {
+      "pattern": {
+        "trigger": {
+          "type": "opponent_pick",
+          "hero_id": "h055",
+          "hero_name": "Angela"
+        },
+        "response": {
+          "type": "pick",
+          "hero_id": "h089",
+          "hero_name": "Wanwan"
+        }
+      },
+      "context": {
+        "team_id": "team-see-you-soon",
+        "dataset_scope": "single_tournament"
+      },
+      "evidence": {
+        "state_count": 1,
+        "sample_size_games": 1,
+        "sample_size_series": 1,
+        "tournament_count": 1,
+        "global_rate": 0.5,
+        "team_rate": 1.0,
+        "team_lift": 2.0,
+        "observed_wins": 0,
+        "observed_losses": 1,
+        "observed_win_rate": 0.0
+      },
+      "classification": {
+        "sample_sufficient": false,
+        "sample_label": "LOW_SAMPLE",
+        "specificity": "HIGH_SPECIFICITY",
+        "persistence": "SINGLE_TOURNAMENT",
+        "team_concentration": "OBSERVED_TEAM_CONCENTRATION"
+      },
+      "patch_breakdown": [
+        {
+          "patch_version": "1.8.44",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "patch_rate": 1.0,
+          "patch_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ],
+      "opponent_breakdown": [
+        {
+          "opponent_team_id": "team-devu",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "opponent_rate": 1.0,
+          "opponent_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ]
+    },
+    {
+      "pattern": {
+        "trigger": {
+          "type": "opponent_pick",
+          "hero_id": "h023",
+          "hero_name": "Gord"
+        },
+        "response": {
+          "type": "pick",
+          "hero_id": "h120",
+          "hero_name": "Arlott"
+        }
+      },
+      "context": {
+        "team_id": "team-see-you-soon",
+        "dataset_scope": "single_tournament"
+      },
+      "evidence": {
+        "state_count": 1,
+        "sample_size_games": 1,
+        "sample_size_series": 1,
+        "tournament_count": 1,
+        "global_rate": 0.5,
+        "team_rate": 1.0,
+        "team_lift": 2.0,
+        "observed_wins": 0,
+        "observed_losses": 1,
+        "observed_win_rate": 0.0
+      },
+      "classification": {
+        "sample_sufficient": false,
+        "sample_label": "LOW_SAMPLE",
+        "specificity": "HIGH_SPECIFICITY",
+        "persistence": "SINGLE_TOURNAMENT",
+        "team_concentration": "OBSERVED_TEAM_CONCENTRATION"
+      },
+      "patch_breakdown": [
+        {
+          "patch_version": "1.8.44",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "patch_rate": 1.0,
+          "patch_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ],
+      "opponent_breakdown": [
+        {
+          "opponent_team_id": "team-devu",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "opponent_rate": 1.0,
+          "opponent_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ]
+    },
+    {
+      "pattern": {
+        "trigger": {
+          "type": "opponent_pick",
+          "hero_id": "h019",
+          "hero_name": "Minotaur"
+        },
+        "response": {
+          "type": "pick",
+          "hero_id": "h065",
+          "hero_name": "Claude"
+        }
+      },
+      "context": {
+        "team_id": "team-see-you-soon",
+        "dataset_scope": "single_tournament"
+      },
+      "evidence": {
+        "state_count": 1,
+        "sample_size_games": 1,
+        "sample_size_series": 1,
+        "tournament_count": 1,
+        "global_rate": 0.5,
+        "team_rate": 0.5,
+        "team_lift": 1.0,
+        "observed_wins": 0,
+        "observed_losses": 1,
+        "observed_win_rate": 0.0
+      },
+      "classification": {
+        "sample_sufficient": false,
+        "sample_label": "LOW_SAMPLE",
+        "specificity": "LOW_SPECIFICITY",
+        "persistence": "SINGLE_TOURNAMENT",
+        "team_concentration": "NEUTRAL"
+      },
+      "patch_breakdown": [
+        {
+          "patch_version": "1.8.44",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "patch_rate": 0.5,
+          "patch_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ],
+      "opponent_breakdown": [
+        {
+          "opponent_team_id": "team-devu",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "opponent_rate": 0.5,
+          "opponent_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ]
+    },
+    {
+      "pattern": {
+        "trigger": {
+          "type": "opponent_pick",
+          "hero_id": "h110",
+          "hero_name": "Valentina"
+        },
+        "response": {
+          "type": "pick",
+          "hero_id": "h085",
+          "hero_name": "Dyrroth"
+        }
+      },
+      "context": {
+        "team_id": "team-see-you-soon",
+        "dataset_scope": "single_tournament"
+      },
+      "evidence": {
+        "state_count": 1,
+        "sample_size_games": 1,
+        "sample_size_series": 1,
+        "tournament_count": 1,
+        "global_rate": 0.1667,
+        "team_rate": 0.5,
+        "team_lift": 2.9994,
+        "observed_wins": 0,
+        "observed_losses": 1,
+        "observed_win_rate": 0.0
+      },
+      "classification": {
+        "sample_sufficient": false,
+        "sample_label": "LOW_SAMPLE",
+        "specificity": "MEDIUM_SPECIFICITY",
+        "persistence": "SINGLE_TOURNAMENT",
+        "team_concentration": "OBSERVED_TEAM_CONCENTRATION"
+      },
+      "patch_breakdown": [
+        {
+          "patch_version": "1.8.44",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "patch_rate": 0.5,
+          "patch_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ],
+      "opponent_breakdown": [
+        {
+          "opponent_team_id": "team-devu",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "opponent_rate": 0.5,
+          "opponent_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ]
+    },
+    {
+      "pattern": {
+        "trigger": {
+          "type": "opponent_pick",
+          "hero_id": "h048",
+          "hero_name": "Diggie"
+        },
+        "response": {
+          "type": "pick",
+          "hero_id": "h012",
+          "hero_name": "Bruno"
+        }
+      },
+      "context": {
+        "team_id": "team-see-you-soon",
+        "dataset_scope": "single_tournament"
+      },
+      "evidence": {
+        "state_count": 1,
+        "sample_size_games": 1,
+        "sample_size_series": 1,
+        "tournament_count": 1,
+        "global_rate": 1.0,
+        "team_rate": 1.0,
+        "team_lift": 1.0,
+        "observed_wins": 0,
+        "observed_losses": 1,
+        "observed_win_rate": 0.0
+      },
+      "classification": {
+        "sample_sufficient": false,
+        "sample_label": "LOW_SAMPLE",
+        "specificity": "LOW_SPECIFICITY",
+        "persistence": "SINGLE_TOURNAMENT",
+        "team_concentration": "NEUTRAL"
+      },
+      "patch_breakdown": [
+        {
+          "patch_version": "1.8.44",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "patch_rate": 1.0,
+          "patch_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ],
+      "opponent_breakdown": [
+        {
+          "opponent_team_id": "team-devu",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "opponent_rate": 1.0,
+          "opponent_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ]
+    },
+    {
+      "pattern": {
+        "trigger": {
+          "type": "opponent_pick",
+          "hero_id": "h006",
+          "hero_name": "Tigreal"
+        },
+        "response": {
+          "type": "pick",
+          "hero_id": "h100",
+          "hero_name": "Brody"
+        }
+      },
+      "context": {
+        "team_id": "team-devu",
+        "dataset_scope": "single_tournament"
+      },
+      "evidence": {
+        "state_count": 1,
+        "sample_size_games": 1,
+        "sample_size_series": 1,
+        "tournament_count": 1,
+        "global_rate": 0.1667,
+        "team_rate": 0.3333,
+        "team_lift": 1.9994,
+        "observed_wins": 0,
+        "observed_losses": 1,
+        "observed_win_rate": 0.0
+      },
+      "classification": {
+        "sample_sufficient": false,
+        "sample_label": "LOW_SAMPLE",
+        "specificity": "MEDIUM_SPECIFICITY",
+        "persistence": "SINGLE_TOURNAMENT",
+        "team_concentration": "OBSERVED_TEAM_CONCENTRATION"
+      },
+      "patch_breakdown": [
+        {
+          "patch_version": "1.8.44",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "patch_rate": 0.3333,
+          "patch_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ],
+      "opponent_breakdown": [
+        {
+          "opponent_team_id": "team-blck",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "opponent_rate": 1.0,
+          "opponent_lift": 3.0003,
+          "context_label": "OPPONENT_LOCALIZED_TENDENCY"
+        }
+      ]
+    },
+    {
+      "pattern": {
+        "trigger": {
+          "type": "opponent_pick",
+          "hero_id": "h034",
+          "hero_name": "Estes"
+        },
+        "response": {
+          "type": "pick",
+          "hero_id": "h100",
+          "hero_name": "Brody"
+        }
+      },
+      "context": {
+        "team_id": "team-devu",
+        "dataset_scope": "single_tournament"
+      },
+      "evidence": {
+        "state_count": 1,
+        "sample_size_games": 1,
+        "sample_size_series": 1,
+        "tournament_count": 1,
+        "global_rate": 1.0,
+        "team_rate": 1.0,
+        "team_lift": 1.0,
+        "observed_wins": 0,
+        "observed_losses": 1,
+        "observed_win_rate": 0.0
+      },
+      "classification": {
+        "sample_sufficient": false,
+        "sample_label": "LOW_SAMPLE",
+        "specificity": "LOW_SPECIFICITY",
+        "persistence": "SINGLE_TOURNAMENT",
+        "team_concentration": "NEUTRAL"
+      },
+      "patch_breakdown": [
+        {
+          "patch_version": "1.8.44",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "patch_rate": 1.0,
+          "patch_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ],
+      "opponent_breakdown": [
+        {
+          "opponent_team_id": "team-blck",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "opponent_rate": 1.0,
+          "opponent_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ]
+    },
+    {
+      "pattern": {
+        "trigger": {
+          "type": "opponent_pick",
+          "hero_id": "h014",
+          "hero_name": "Rafaela"
+        },
+        "response": {
+          "type": "pick",
+          "hero_id": "h121",
+          "hero_name": "Ixia"
+        }
+      },
+      "context": {
+        "team_id": "team-devu",
+        "dataset_scope": "single_tournament"
+      },
+      "evidence": {
+        "state_count": 1,
+        "sample_size_games": 1,
+        "sample_size_series": 1,
+        "tournament_count": 1,
+        "global_rate": 1.0,
+        "team_rate": 1.0,
+        "team_lift": 1.0,
+        "observed_wins": 0,
+        "observed_losses": 1,
+        "observed_win_rate": 0.0
+      },
+      "classification": {
+        "sample_sufficient": false,
+        "sample_label": "LOW_SAMPLE",
+        "specificity": "LOW_SPECIFICITY",
+        "persistence": "SINGLE_TOURNAMENT",
+        "team_concentration": "NEUTRAL"
+      },
+      "patch_breakdown": [
+        {
+          "patch_version": "1.8.44",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "patch_rate": 1.0,
+          "patch_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ],
+      "opponent_breakdown": [
+        {
+          "opponent_team_id": "team-blck",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "opponent_rate": 1.0,
+          "opponent_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ]
+    },
+    {
+      "pattern": {
+        "trigger": {
+          "type": "opponent_pick",
+          "hero_id": "h119",
+          "hero_name": "Novaria"
+        },
+        "response": {
+          "type": "pick",
+          "hero_id": "h120",
+          "hero_name": "Arlott"
+        }
+      },
+      "context": {
+        "team_id": "team-blck",
+        "dataset_scope": "single_tournament"
+      },
+      "evidence": {
+        "state_count": 1,
+        "sample_size_games": 1,
+        "sample_size_series": 1,
+        "tournament_count": 1,
+        "global_rate": 0.375,
+        "team_rate": 1.0,
+        "team_lift": 2.6667,
+        "observed_wins": 0,
+        "observed_losses": 1,
+        "observed_win_rate": 0.0
+      },
+      "classification": {
+        "sample_sufficient": false,
+        "sample_label": "LOW_SAMPLE",
+        "specificity": "HIGH_SPECIFICITY",
+        "persistence": "SINGLE_TOURNAMENT",
+        "team_concentration": "OBSERVED_TEAM_CONCENTRATION"
+      },
+      "patch_breakdown": [
+        {
+          "patch_version": "1.8.44",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "patch_rate": 1.0,
+          "patch_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ],
+      "opponent_breakdown": [
+        {
+          "opponent_team_id": "team-ap.bren",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "opponent_rate": 1.0,
+          "opponent_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ]
+    },
+    {
+      "pattern": {
+        "trigger": {
+          "type": "opponent_pick",
+          "hero_id": "h076",
+          "hero_name": "Faramis"
+        },
+        "response": {
+          "type": "pick",
+          "hero_id": "h111",
+          "hero_name": "Edith"
+        }
+      },
+      "context": {
+        "team_id": "team-blck",
+        "dataset_scope": "single_tournament"
+      },
+      "evidence": {
+        "state_count": 1,
+        "sample_size_games": 1,
+        "sample_size_series": 1,
+        "tournament_count": 1,
+        "global_rate": 0.0833,
+        "team_rate": 0.2,
+        "team_lift": 2.401,
+        "observed_wins": 0,
+        "observed_losses": 1,
+        "observed_win_rate": 0.0
+      },
+      "classification": {
+        "sample_sufficient": false,
+        "sample_label": "LOW_SAMPLE",
+        "specificity": "LOW_SPECIFICITY",
+        "persistence": "SINGLE_TOURNAMENT",
+        "team_concentration": "OBSERVED_TEAM_CONCENTRATION"
+      },
+      "patch_breakdown": [
+        {
+          "patch_version": "1.8.44",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "patch_rate": 0.2,
+          "patch_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ],
+      "opponent_breakdown": [
+        {
+          "opponent_team_id": "team-ap.bren",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "opponent_rate": 0.5,
+          "opponent_lift": 2.5,
+          "context_label": "OPPONENT_LOCALIZED_TENDENCY"
+        }
+      ]
+    },
+    {
+      "pattern": {
+        "trigger": {
+          "type": "opponent_pick",
+          "hero_id": "h120",
+          "hero_name": "Arlott"
+        },
+        "response": {
+          "type": "pick",
+          "hero_id": "h065",
+          "hero_name": "Claude"
+        }
+      },
+      "context": {
+        "team_id": "team-blck",
+        "dataset_scope": "single_tournament"
+      },
+      "evidence": {
+        "state_count": 1,
+        "sample_size_games": 1,
+        "sample_size_series": 1,
+        "tournament_count": 1,
+        "global_rate": 0.6,
+        "team_rate": 0.5,
+        "team_lift": 0.8333,
+        "observed_wins": 0,
+        "observed_losses": 1,
+        "observed_win_rate": 0.0
+      },
+      "classification": {
+        "sample_sufficient": false,
+        "sample_label": "LOW_SAMPLE",
+        "specificity": "LOW_SPECIFICITY",
+        "persistence": "SINGLE_TOURNAMENT",
+        "team_concentration": "NEUTRAL"
+      },
+      "patch_breakdown": [
+        {
+          "patch_version": "1.8.44",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "patch_rate": 0.5,
+          "patch_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ],
+      "opponent_breakdown": [
+        {
+          "opponent_team_id": "team-ap.bren",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "opponent_rate": 1.0,
+          "opponent_lift": 2.0,
+          "context_label": "OPPONENT_LOCALIZED_TENDENCY"
+        }
+      ]
+    },
+    {
+      "pattern": {
+        "trigger": {
+          "type": "opponent_pick",
+          "hero_id": "h076",
+          "hero_name": "Faramis"
+        },
+        "response": {
+          "type": "pick",
+          "hero_id": "h103",
+          "hero_name": "Paquito"
+        }
+      },
+      "context": {
+        "team_id": "team-blck",
+        "dataset_scope": "single_tournament"
+      },
+      "evidence": {
+        "state_count": 1,
+        "sample_size_games": 1,
+        "sample_size_series": 1,
+        "tournament_count": 1,
+        "global_rate": 0.0833,
+        "team_rate": 0.2,
+        "team_lift": 2.401,
+        "observed_wins": 0,
+        "observed_losses": 1,
+        "observed_win_rate": 0.0
+      },
+      "classification": {
+        "sample_sufficient": false,
+        "sample_label": "LOW_SAMPLE",
+        "specificity": "LOW_SPECIFICITY",
+        "persistence": "SINGLE_TOURNAMENT",
+        "team_concentration": "OBSERVED_TEAM_CONCENTRATION"
+      },
+      "patch_breakdown": [
+        {
+          "patch_version": "1.8.44",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "patch_rate": 0.2,
+          "patch_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ],
+      "opponent_breakdown": [
+        {
+          "opponent_team_id": "team-ap.bren",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "opponent_rate": 0.5,
+          "opponent_lift": 2.5,
+          "context_label": "OPPONENT_LOCALIZED_TENDENCY"
+        }
+      ]
+    },
+    {
+      "pattern": {
+        "trigger": {
+          "type": "opponent_pick",
+          "hero_id": "h102",
+          "hero_name": "Mathilda"
+        },
+        "response": {
+          "type": "pick",
+          "hero_id": "h105",
+          "hero_name": "Beatrix"
+        }
+      },
+      "context": {
+        "team_id": "team-blck",
+        "dataset_scope": "single_tournament"
+      },
+      "evidence": {
+        "state_count": 1,
+        "sample_size_games": 1,
+        "sample_size_series": 1,
+        "tournament_count": 1,
+        "global_rate": 0.125,
+        "team_rate": 0.3333,
+        "team_lift": 2.6664,
+        "observed_wins": 0,
+        "observed_losses": 1,
+        "observed_win_rate": 0.0
+      },
+      "classification": {
+        "sample_sufficient": false,
+        "sample_label": "LOW_SAMPLE",
+        "specificity": "MEDIUM_SPECIFICITY",
+        "persistence": "SINGLE_TOURNAMENT",
+        "team_concentration": "OBSERVED_TEAM_CONCENTRATION"
+      },
+      "patch_breakdown": [
+        {
+          "patch_version": "1.8.44",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "patch_rate": 0.3333,
+          "patch_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ],
+      "opponent_breakdown": [
+        {
+          "opponent_team_id": "team-ap.bren",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "opponent_rate": 0.5,
+          "opponent_lift": 1.5002,
+          "context_label": "OPPONENT_LOCALIZED_TENDENCY"
+        }
+      ]
+    },
+    {
+      "pattern": {
+        "trigger": {
+          "type": "opponent_pick",
+          "hero_id": "h006",
+          "hero_name": "Tigreal"
+        },
+        "response": {
+          "type": "pick",
+          "hero_id": "h100",
+          "hero_name": "Brody"
+        }
+      },
+      "context": {
+        "team_id": "team-ap.bren",
+        "dataset_scope": "single_tournament"
+      },
+      "evidence": {
+        "state_count": 1,
+        "sample_size_games": 1,
+        "sample_size_series": 1,
+        "tournament_count": 1,
+        "global_rate": 0.1667,
+        "team_rate": 0.5,
+        "team_lift": 2.9994,
+        "observed_wins": 1,
+        "observed_losses": 0,
+        "observed_win_rate": 1.0
+      },
+      "classification": {
+        "sample_sufficient": false,
+        "sample_label": "LOW_SAMPLE",
+        "specificity": "MEDIUM_SPECIFICITY",
+        "persistence": "SINGLE_TOURNAMENT",
+        "team_concentration": "OBSERVED_TEAM_CONCENTRATION"
+      },
+      "patch_breakdown": [
+        {
+          "patch_version": "1.8.44",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "patch_rate": 0.5,
+          "patch_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ],
+      "opponent_breakdown": [
+        {
+          "opponent_team_id": "team-onic",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "opponent_rate": 0.5,
+          "opponent_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ]
+    },
+    {
+      "pattern": {
+        "trigger": {
+          "type": "opponent_pick",
+          "hero_id": "h023",
+          "hero_name": "Gord"
+        },
+        "response": {
+          "type": "pick",
+          "hero_id": "h103",
+          "hero_name": "Paquito"
+        }
+      },
+      "context": {
+        "team_id": "team-ap.bren",
+        "dataset_scope": "single_tournament"
+      },
+      "evidence": {
+        "state_count": 1,
+        "sample_size_games": 1,
+        "sample_size_series": 1,
+        "tournament_count": 1,
+        "global_rate": 0.5,
+        "team_rate": 1.0,
+        "team_lift": 2.0,
+        "observed_wins": 0,
+        "observed_losses": 1,
+        "observed_win_rate": 0.0
+      },
+      "classification": {
+        "sample_sufficient": false,
+        "sample_label": "LOW_SAMPLE",
+        "specificity": "HIGH_SPECIFICITY",
+        "persistence": "SINGLE_TOURNAMENT",
+        "team_concentration": "OBSERVED_TEAM_CONCENTRATION"
+      },
+      "patch_breakdown": [
+        {
+          "patch_version": "1.8.44",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "patch_rate": 1.0,
+          "patch_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ],
+      "opponent_breakdown": [
+        {
+          "opponent_team_id": "team-onic",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "opponent_rate": 1.0,
+          "opponent_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ]
+    },
+    {
+      "pattern": {
+        "trigger": {
+          "type": "opponent_pick",
+          "hero_id": "h029",
+          "hero_name": "Ruby"
+        },
+        "response": {
+          "type": "pick",
+          "hero_id": "h012",
+          "hero_name": "Bruno"
+        }
+      },
+      "context": {
+        "team_id": "team-ap.bren",
+        "dataset_scope": "single_tournament"
+      },
+      "evidence": {
+        "state_count": 1,
+        "sample_size_games": 1,
+        "sample_size_series": 1,
+        "tournament_count": 1,
+        "global_rate": 0.6667,
+        "team_rate": 1.0,
+        "team_lift": 1.4999,
+        "observed_wins": 0,
+        "observed_losses": 1,
+        "observed_win_rate": 0.0
+      },
+      "classification": {
+        "sample_sufficient": false,
+        "sample_label": "LOW_SAMPLE",
+        "specificity": "MEDIUM_SPECIFICITY",
+        "persistence": "SINGLE_TOURNAMENT",
+        "team_concentration": "NEUTRAL"
+      },
+      "patch_breakdown": [
+        {
+          "patch_version": "1.8.44",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "patch_rate": 1.0,
+          "patch_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ],
+      "opponent_breakdown": [
+        {
+          "opponent_team_id": "team-onic",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "opponent_rate": 1.0,
+          "opponent_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ]
+    },
+    {
+      "pattern": {
+        "trigger": {
+          "type": "opponent_pick",
+          "hero_id": "h076",
+          "hero_name": "Faramis"
+        },
+        "response": {
+          "type": "pick",
+          "hero_id": "h037",
+          "hero_name": "Lapu-Lapu"
+        }
+      },
+      "context": {
+        "team_id": "team-ap.bren",
+        "dataset_scope": "single_tournament"
+      },
+      "evidence": {
+        "state_count": 1,
+        "sample_size_games": 1,
+        "sample_size_series": 1,
+        "tournament_count": 1,
+        "global_rate": 0.0833,
+        "team_rate": 0.5,
+        "team_lift": 6.0024,
+        "observed_wins": 1,
+        "observed_losses": 0,
+        "observed_win_rate": 1.0
+      },
+      "classification": {
+        "sample_sufficient": false,
+        "sample_label": "LOW_SAMPLE",
+        "specificity": "HIGH_SPECIFICITY",
+        "persistence": "SINGLE_TOURNAMENT",
+        "team_concentration": "OBSERVED_TEAM_CONCENTRATION"
+      },
+      "patch_breakdown": [
+        {
+          "patch_version": "1.8.44",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "patch_rate": 0.5,
+          "patch_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ],
+      "opponent_breakdown": [
+        {
+          "opponent_team_id": "team-onic",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "opponent_rate": 0.5,
+          "opponent_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ]
+    },
+    {
+      "pattern": {
+        "trigger": {
+          "type": "opponent_pick",
+          "hero_id": "h026",
+          "hero_name": "Chou"
+        },
+        "response": {
+          "type": "pick",
+          "hero_id": "h100",
+          "hero_name": "Brody"
+        }
+      },
+      "context": {
+        "team_id": "team-ap.bren",
+        "dataset_scope": "single_tournament"
+      },
+      "evidence": {
+        "state_count": 1,
+        "sample_size_games": 1,
+        "sample_size_series": 1,
+        "tournament_count": 1,
+        "global_rate": 0.5,
+        "team_rate": 1.0,
+        "team_lift": 2.0,
+        "observed_wins": 1,
+        "observed_losses": 0,
+        "observed_win_rate": 1.0
+      },
+      "classification": {
+        "sample_sufficient": false,
+        "sample_label": "LOW_SAMPLE",
+        "specificity": "HIGH_SPECIFICITY",
+        "persistence": "SINGLE_TOURNAMENT",
+        "team_concentration": "OBSERVED_TEAM_CONCENTRATION"
+      },
+      "patch_breakdown": [
+        {
+          "patch_version": "1.8.44",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "patch_rate": 1.0,
+          "patch_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ],
+      "opponent_breakdown": [
+        {
+          "opponent_team_id": "team-onic",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "opponent_rate": 1.0,
+          "opponent_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ]
+    },
+    {
+      "pattern": {
+        "trigger": {
+          "type": "opponent_pick",
+          "hero_id": "h062",
+          "hero_name": "Kaja"
+        },
+        "response": {
+          "type": "pick",
+          "hero_id": "h089",
+          "hero_name": "Wanwan"
+        }
+      },
+      "context": {
+        "team_id": "team-ap.bren",
+        "dataset_scope": "single_tournament"
+      },
+      "evidence": {
+        "state_count": 1,
+        "sample_size_games": 1,
+        "sample_size_series": 1,
+        "tournament_count": 1,
+        "global_rate": 0.2,
+        "team_rate": 1.0,
+        "team_lift": 5.0,
+        "observed_wins": 1,
+        "observed_losses": 0,
+        "observed_win_rate": 1.0
+      },
+      "classification": {
+        "sample_sufficient": false,
+        "sample_label": "LOW_SAMPLE",
+        "specificity": "HIGH_SPECIFICITY",
+        "persistence": "SINGLE_TOURNAMENT",
+        "team_concentration": "OBSERVED_TEAM_CONCENTRATION"
+      },
+      "patch_breakdown": [
+        {
+          "patch_version": "1.8.44",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "patch_rate": 1.0,
+          "patch_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ],
+      "opponent_breakdown": [
+        {
+          "opponent_team_id": "team-onic",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "opponent_rate": 1.0,
+          "opponent_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ]
+    },
+    {
+      "pattern": {
+        "trigger": {
+          "type": "opponent_pick",
+          "hero_id": "h019",
+          "hero_name": "Minotaur"
+        },
+        "response": {
+          "type": "pick",
+          "hero_id": "h065",
+          "hero_name": "Claude"
+        }
+      },
+      "context": {
+        "team_id": "team-ap.bren",
+        "dataset_scope": "single_tournament"
+      },
+      "evidence": {
+        "state_count": 1,
+        "sample_size_games": 1,
+        "sample_size_series": 1,
+        "tournament_count": 1,
+        "global_rate": 0.5,
+        "team_rate": 1.0,
+        "team_lift": 2.0,
+        "observed_wins": 0,
+        "observed_losses": 1,
+        "observed_win_rate": 0.0
+      },
+      "classification": {
+        "sample_sufficient": false,
+        "sample_label": "LOW_SAMPLE",
+        "specificity": "HIGH_SPECIFICITY",
+        "persistence": "SINGLE_TOURNAMENT",
+        "team_concentration": "OBSERVED_TEAM_CONCENTRATION"
+      },
+      "patch_breakdown": [
+        {
+          "patch_version": "1.8.44",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "patch_rate": 1.0,
+          "patch_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ],
+      "opponent_breakdown": [
+        {
+          "opponent_team_id": "team-onic",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "opponent_rate": 1.0,
+          "opponent_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ]
+    },
+    {
+      "pattern": {
+        "trigger": {
+          "type": "opponent_pick",
+          "hero_id": "h076",
+          "hero_name": "Faramis"
+        },
+        "response": {
+          "type": "pick",
+          "hero_id": "h072",
+          "hero_name": "Thamuz"
+        }
+      },
+      "context": {
+        "team_id": "team-ap.bren",
+        "dataset_scope": "single_tournament"
+      },
+      "evidence": {
+        "state_count": 1,
+        "sample_size_games": 1,
+        "sample_size_series": 1,
+        "tournament_count": 1,
+        "global_rate": 0.0833,
+        "team_rate": 0.5,
+        "team_lift": 6.0024,
+        "observed_wins": 0,
+        "observed_losses": 1,
+        "observed_win_rate": 0.0
+      },
+      "classification": {
+        "sample_sufficient": false,
+        "sample_label": "LOW_SAMPLE",
+        "specificity": "HIGH_SPECIFICITY",
+        "persistence": "SINGLE_TOURNAMENT",
+        "team_concentration": "OBSERVED_TEAM_CONCENTRATION"
+      },
+      "patch_breakdown": [
+        {
+          "patch_version": "1.8.44",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "patch_rate": 0.5,
+          "patch_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ],
+      "opponent_breakdown": [
+        {
+          "opponent_team_id": "team-onic",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "opponent_rate": 0.5,
+          "opponent_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ]
+    },
+    {
+      "pattern": {
+        "trigger": {
+          "type": "opponent_pick",
+          "hero_id": "h044",
+          "hero_name": "Grock"
+        },
+        "response": {
+          "type": "pick",
+          "hero_id": "h089",
+          "hero_name": "Wanwan"
+        }
+      },
+      "context": {
+        "team_id": "team-ap.bren",
+        "dataset_scope": "single_tournament"
+      },
+      "evidence": {
+        "state_count": 1,
+        "sample_size_games": 1,
+        "sample_size_series": 1,
+        "tournament_count": 1,
+        "global_rate": 0.25,
+        "team_rate": 0.5,
+        "team_lift": 2.0,
+        "observed_wins": 0,
+        "observed_losses": 1,
+        "observed_win_rate": 0.0
+      },
+      "classification": {
+        "sample_sufficient": false,
+        "sample_label": "LOW_SAMPLE",
+        "specificity": "MEDIUM_SPECIFICITY",
+        "persistence": "SINGLE_TOURNAMENT",
+        "team_concentration": "OBSERVED_TEAM_CONCENTRATION"
+      },
+      "patch_breakdown": [
+        {
+          "patch_version": "1.8.44",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "patch_rate": 0.5,
+          "patch_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ],
+      "opponent_breakdown": [
+        {
+          "opponent_team_id": "team-onic",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "opponent_rate": 0.5,
+          "opponent_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ]
+    },
+    {
+      "pattern": {
+        "trigger": {
+          "type": "opponent_pick",
+          "hero_id": "h101",
+          "hero_name": "Yve"
+        },
+        "response": {
+          "type": "pick",
+          "hero_id": "h098",
+          "hero_name": "Khaleed"
+        }
+      },
+      "context": {
+        "team_id": "team-ap.bren",
+        "dataset_scope": "single_tournament"
+      },
+      "evidence": {
+        "state_count": 1,
+        "sample_size_games": 1,
+        "sample_size_series": 1,
+        "tournament_count": 1,
+        "global_rate": 0.3333,
+        "team_rate": 1.0,
+        "team_lift": 3.0003,
+        "observed_wins": 1,
+        "observed_losses": 0,
+        "observed_win_rate": 1.0
+      },
+      "classification": {
+        "sample_sufficient": false,
+        "sample_label": "LOW_SAMPLE",
+        "specificity": "HIGH_SPECIFICITY",
+        "persistence": "SINGLE_TOURNAMENT",
+        "team_concentration": "OBSERVED_TEAM_CONCENTRATION"
+      },
+      "patch_breakdown": [
+        {
+          "patch_version": "1.8.44",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "patch_rate": 1.0,
+          "patch_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ],
+      "opponent_breakdown": [
+        {
+          "opponent_team_id": "team-onic",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "opponent_rate": 1.0,
+          "opponent_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ]
+    },
+    {
+      "pattern": {
+        "trigger": {
+          "type": "opponent_pick",
+          "hero_id": "h075",
+          "hero_name": "Kadita"
+        },
+        "response": {
+          "type": "pick",
+          "hero_id": "h100",
+          "hero_name": "Brody"
+        }
+      },
+      "context": {
+        "team_id": "team-ap.bren",
+        "dataset_scope": "single_tournament"
+      },
+      "evidence": {
+        "state_count": 1,
+        "sample_size_games": 1,
+        "sample_size_series": 1,
+        "tournament_count": 1,
+        "global_rate": 0.5,
+        "team_rate": 1.0,
+        "team_lift": 2.0,
+        "observed_wins": 1,
+        "observed_losses": 0,
+        "observed_win_rate": 1.0
+      },
+      "classification": {
+        "sample_sufficient": false,
+        "sample_label": "LOW_SAMPLE",
+        "specificity": "HIGH_SPECIFICITY",
+        "persistence": "SINGLE_TOURNAMENT",
+        "team_concentration": "OBSERVED_TEAM_CONCENTRATION"
+      },
+      "patch_breakdown": [
+        {
+          "patch_version": "1.8.44",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "patch_rate": 1.0,
+          "patch_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ],
+      "opponent_breakdown": [
+        {
+          "opponent_team_id": "team-onic",
+          "state_count": 1,
+          "sample_size_games": 1,
+          "opponent_rate": 1.0,
+          "opponent_lift": 1.0,
+          "context_label": "NEUTRAL"
+        }
+      ]
+    }
+  ]
+}
