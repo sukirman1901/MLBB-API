@@ -1,0 +1,133 @@
+{
+  "revdate": "2026-08-11",
+  "author": "sukirman1901",
+  "data_type": "synthetic",
+  "description": "Synthetic sample esports match dataset for demonstrating chronological draft analytics, performance stats, and canonical item/emblem references",
+  "data": [
+    {
+      "match_id": "match-mpl-s16-w1-01-g1",
+      "series_id": "series-mpl-s16-w1-01",
+      "tournament_id": "mpl-id-s16",
+      "stage": "Regular Season Week 1",
+      "game_number": 1,
+      "date": "2025-08-15",
+      "patch": "1.9.32",
+      "team_a": "team-onic",
+      "team_b": "team-rrq",
+      "blue_side": "team-onic",
+      "red_side": "team-rrq",
+      "winner_team_id": "team-onic",
+      "duration_seconds": 934,
+      "draft": [
+        { "action": 1, "phase": 1, "type": "ban", "team_id": "team-onic", "hero_id": "h017", "player_id": null },
+        { "action": 2, "phase": 1, "type": "ban", "team_id": "team-rrq", "hero_id": "h021", "player_id": null },
+        { "action": 3, "phase": 1, "type": "ban", "team_id": "team-onic", "hero_id": "h125", "player_id": null },
+        { "action": 4, "phase": 1, "type": "ban", "team_id": "team-rrq", "hero_id": "h122", "player_id": null },
+        { "action": 5, "phase": 1, "type": "pick", "team_id": "team-onic", "hero_id": "h084", "player_id": "player-kairi" },
+        { "action": 6, "phase": 1, "type": "pick", "team_id": "team-rrq", "hero_id": "h028", "player_id": "player-sutsujin" },
+        { "action": 7, "phase": 1, "type": "pick", "team_id": "team-rrq", "hero_id": "h052", "player_id": "player-rinz" },
+        { "action": 8, "phase": 1, "type": "pick", "team_id": "team-onic", "hero_id": "h110", "player_id": "player-sanz" },
+        { "action": 9, "phase": 2, "type": "ban", "team_id": "team-rrq", "hero_id": "h102", "player_id": null },
+        { "action": 10, "phase": 2, "type": "ban", "team_id": "team-onic", "hero_id": "h095", "player_id": null },
+        { "action": 11, "phase": 2, "type": "pick", "team_id": "team-onic", "hero_id": "h065", "player_id": "player-cw" },
+        { "action": 12, "phase": 2, "type": "pick", "team_id": "team-rrq", "hero_id": "h105", "player_id": "player-skylar" },
+        { "action": 13, "phase": 2, "type": "pick", "team_id": "team-rrq", "hero_id": "h026", "player_id": "player-branz" },
+        { "action": 14, "phase": 2, "type": "pick", "team_id": "team-onic", "hero_id": "h082", "player_id": "player-lutpiii" },
+        { "action": 15, "phase": 2, "type": "pick", "team_id": "team-onic", "hero_id": "h006", "player_id": "player-kiboy" }
+      ],
+      "player_performances": [
+        {
+          "match_id": "match-mpl-s16-w1-01-g1",
+          "team_id": "team-onic",
+          "player_id": "player-kairi",
+          "hero_id": "h084",
+          "role": "Jungler",
+          "kills": 7,
+          "deaths": 1,
+          "assists": 8,
+          "gold": 12450,
+          "gpm": 799.8,
+          "xp": 14200,
+          "xpm": 912.2,
+          "damage_dealt": 23800,
+          "damage_taken": 9100,
+          "turret_damage": 3400,
+          "hero_damage": 23800,
+          "kill_participation": 0.83,
+          "item_build": [
+            { "item_id": "tough_boots", "slot": 1, "purchase_time": 95 },
+            { "item_id": "sky_piercer", "slot": 2, "purchase_time": 240 },
+            { "item_id": "berserkers_fury", "slot": 3, "purchase_time": 430 },
+            { "item_id": "haas_claws", "slot": 4, "purchase_time": 610 },
+            { "item_id": "malefic_gun", "slot": 5, "purchase_time": 780 },
+            { "item_id": "winter_crown", "slot": 6, "purchase_time": 910 }
+          ],
+          "emblem": {
+            "emblem_id": "assassin",
+            "talents": ["rupture", "master_assassin", "killing_spree"]
+          }
+        },
+        {
+          "match_id": "match-mpl-s16-w1-01-g1",
+          "team_id": "team-onic",
+          "player_id": "player-sanz",
+          "hero_id": "h110",
+          "role": "MidLaner",
+          "kills": 4,
+          "deaths": 2,
+          "assists": 10,
+          "gold": 10800,
+          "gpm": 693.8,
+          "xp": 13100,
+          "xpm": 841.5,
+          "damage_dealt": 28400,
+          "damage_taken": 11200,
+          "turret_damage": 1800,
+          "hero_damage": 28400,
+          "kill_participation": 0.77,
+          "item_build": [
+            { "item_id": "magic_shoes", "slot": 1, "purchase_time": 80 },
+            { "item_id": "enchanted_talisman", "slot": 2, "purchase_time": 270 },
+            { "item_id": "lightning_truncheon", "slot": 3, "purchase_time": 480 },
+            { "item_id": "wishing_lantern", "slot": 4, "purchase_time": 680 },
+            { "item_id": "holy_crystal", "slot": 5, "purchase_time": 850 },
+            { "item_id": "divine_glaive", "slot": 6, "purchase_time": null }
+          ],
+          "emblem": {
+            "emblem_id": "mage",
+            "talents": ["inspire_(talent)", "bargain_hunter", "lethal_ignition"]
+          }
+        },
+        {
+          "match_id": "match-mpl-s16-w1-01-g1",
+          "team_id": "team-rrq",
+          "player_id": "player-sutsujin",
+          "hero_id": "h028",
+          "role": "Jungler",
+          "kills": 2,
+          "deaths": 4,
+          "assists": 3,
+          "gold": 9200,
+          "gpm": 591.0,
+          "xp": 11800,
+          "xpm": 758.0,
+          "damage_dealt": 14200,
+          "damage_taken": 22100,
+          "turret_damage": 600,
+          "hero_damage": 14200,
+          "kill_participation": 0.83,
+          "item_build": [
+            { "item_id": "warrior_boots", "slot": 1, "purchase_time": 100 },
+            { "item_id": "war_axe", "slot": 2, "purchase_time": 310 },
+            { "item_id": "dominance_ice", "slot": 3, "purchase_time": 560 },
+            { "item_id": "oracle", "slot": 4, "purchase_time": 820 }
+          ],
+          "emblem": {
+            "emblem_id": "fighter",
+            "talents": ["firmness", "festival_of_blood", "brave_smite"]
+          }
+        }
+      ]
+    }
+  ]
+}

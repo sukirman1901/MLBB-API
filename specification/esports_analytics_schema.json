@@ -1,94 +1,99 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "title": "MLBB Esports Match & Analytics Schema Specification",
-  "description": "JSON Schema specification for Tournaments, Teams, Players, Match Records, Draft Picks/Bans, and Player Performances",
+  "title": "MLBB Esports Match & Competitive Analytics Schema",
+  "description": "JSON Schema specification for Tournaments, Teams, Players, Series, Matches, Chronological Draft Actions, Player Performances, Itemization, and Emblem Usage",
   "type": "object",
   "properties": {
     "tournament": {
       "type": "object",
+      "required": ["tournament_id", "name", "region", "season", "stage", "tier", "status"],
       "properties": {
         "tournament_id": { "type": "string" },
         "name": { "type": "string" },
+        "organizer": { "type": "string" },
         "region": { "type": "string" },
-        "year": { "type": "integer" },
-        "game_version": { "type": "string" },
-        "participating_teams": { "type": "array", "items": { "type": "string" } }
+        "season": { "type": "integer" },
+        "stage": { "type": "string" },
+        "start_date": { "type": ["string", "null"] },
+        "end_date": { "type": ["string", "null"] },
+        "tier": { "type": "string", "enum": ["S", "A", "B", "C"] },
+        "status": { "type": "string", "enum": ["upcoming", "ongoing", "completed"] }
       }
     },
     "team": {
       "type": "object",
+      "required": ["team_id", "name", "short_name", "region", "status"],
       "properties": {
         "team_id": { "type": "string" },
         "name": { "type": "string" },
         "short_name": { "type": "string" },
         "region": { "type": "string" },
-        "roster": {
-          "type": "array",
-          "items": {
-            "type": "object",
-            "properties": {
-              "player_name": { "type": "string" },
-              "role": { "type": "string", "enum": ["EXP", "Jungle", "Mid", "Gold", "Roam"] }
-            }
-          }
-        }
+        "country": { "type": ["string", "null"] },
+        "logo": { "type": ["string", "null"] },
+        "status": { "type": "string", "enum": ["active", "inactive", "disbanded"] }
       }
     },
     "player": {
       "type": "object",
+      "required": ["player_id", "nickname", "team_id", "primary_role", "status"],
       "properties": {
         "player_id": { "type": "string" },
-        "ign": { "type": "string" },
-        "team": { "type": "string" },
-        "role": { "type": "string", "enum": ["EXP", "Jungle", "Mid", "Gold", "Roam"] },
-        "comfort_heroes": { "type": "array", "items": { "type": "string" } },
-        "signature_pick": { "type": "string" }
+        "nickname": { "type": "string" },
+        "real_name": { "type": ["string", "null"] },
+        "team_id": { "type": "string" },
+        "primary_role": { "type": "string", "enum": ["Jungler", "GoldLaner", "MidLaner", "ExpLaner", "Roamer"] },
+        "secondary_roles": {
+          "type": "array",
+          "items": { "type": "string", "enum": ["Jungler", "GoldLaner", "MidLaner", "ExpLaner", "Roamer"] }
+        },
+        "status": { "type": "string", "enum": ["active", "bench", "retired"] }
+      }
+    },
+    "series": {
+      "type": "object",
+      "required": ["series_id", "tournament_id", "team_a", "team_b", "format", "winner_team_id"],
+      "properties": {
+        "series_id": { "type": "string" },
+        "tournament_id": { "type": "string" },
+        "stage": { "type": "string" },
+        "date": { "type": "string" },
+        "team_a": { "type": "string" },
+        "team_b": { "type": "string" },
+        "format": { "type": "string", "enum": ["BO1", "BO3", "BO5", "BO7"] },
+        "score": { "type": "string" },
+        "winner_team_id": { "type": "string" },
+        "match_ids": { "type": "array", "items": { "type": "string" } }
       }
     },
     "match": {
       "type": "object",
+      "required": ["match_id", "series_id", "tournament_id", "game_number", "patch", "blue_side", "red_side", "winner_team_id", "duration_seconds", "draft", "player_performances"],
       "properties": {
         "match_id": { "type": "string" },
-        "tournament": { "type": "string" },
-        "season": { "type": "integer" },
+        "series_id": { "type": "string" },
+        "tournament_id": { "type": "string" },
+        "stage": { "type": "string" },
+        "game_number": { "type": "integer" },
+        "date": { "type": "string" },
         "patch": { "type": "string" },
+        "team_a": { "type": "string" },
+        "team_b": { "type": "string" },
+        "blue_side": { "type": "string" },
+        "red_side": { "type": "string" },
+        "winner_team_id": { "type": "string" },
         "duration_seconds": { "type": "integer" },
-        "winner": { "type": "string" },
-        "blue_team": {
-          "type": "object",
-          "properties": {
-            "name": { "type": "string" },
-            "bans": { "type": "array", "items": { "type": "string" } },
-            "picks": {
-              "type": "array",
-              "items": {
-                "type": "object",
-                "properties": {
-                  "slot": { "type": "integer" },
-                  "hero": { "type": "string" },
-                  "player": { "type": "string" },
-                  "role": { "type": "string" }
-                }
-              }
-            }
-          }
-        },
-        "red_team": {
-          "type": "object",
-          "properties": {
-            "name": { "type": "string" },
-            "bans": { "type": "array", "items": { "type": "string" } },
-            "picks": {
-              "type": "array",
-              "items": {
-                "type": "object",
-                "properties": {
-                  "slot": { "type": "integer" },
-                  "hero": { "type": "string" },
-                  "player": { "type": "string" },
-                  "role": { "type": "string" }
-                }
-              }
+        "draft": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["action", "phase", "type", "team_id", "hero_id"],
+            "properties": {
+              "action": { "type": "integer", "description": "Chronological action sequence (1..N)" },
+              "phase": { "type": "integer", "description": "Draft phase (1 or 2)" },
+              "type": { "type": "string", "enum": ["ban", "pick"] },
+              "team_id": { "type": "string" },
+              "hero_id": { "type": "string", "description": "Canonical Hero ID referencing v1/hero-meta-final.json" },
+              "player_id": { "type": ["string", "null"], "description": "Assigned player ID for picks" }
             }
           }
         },
@@ -96,28 +101,42 @@
           "type": "array",
           "items": {
             "type": "object",
+            "required": ["match_id", "team_id", "player_id", "hero_id", "role"],
             "properties": {
-              "player": { "type": "string" },
-              "team": { "type": "string" },
-              "hero": { "type": "string" },
-              "role": { "type": "string" },
-              "kda": {
-                "type": "object",
-                "properties": {
-                  "kills": { "type": "integer" },
-                  "deaths": { "type": "integer" },
-                  "assists": { "type": "integer" }
+              "match_id": { "type": "string" },
+              "team_id": { "type": "string" },
+              "player_id": { "type": "string" },
+              "hero_id": { "type": "string" },
+              "role": { "type": "string", "enum": ["Jungler", "GoldLaner", "MidLaner", "ExpLaner", "Roamer"] },
+              "kills": { "type": ["integer", "null"] },
+              "deaths": { "type": ["integer", "null"] },
+              "assists": { "type": ["integer", "null"] },
+              "gold": { "type": ["integer", "null"] },
+              "gpm": { "type": ["number", "null"] },
+              "xp": { "type": ["integer", "null"] },
+              "xpm": { "type": ["number", "null"] },
+              "damage_dealt": { "type": ["integer", "null"] },
+              "damage_taken": { "type": ["integer", "null"] },
+              "turret_damage": { "type": ["integer", "null"] },
+              "hero_damage": { "type": ["integer", "null"] },
+              "kill_participation": { "type": ["number", "null"] },
+              "item_build": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "required": ["item_id", "slot"],
+                  "properties": {
+                    "item_id": { "type": "string" },
+                    "slot": { "type": "integer" },
+                    "purchase_time": { "type": ["integer", "null"] }
+                  }
                 }
               },
-              "gold": { "type": "integer" },
-              "gpm": { "type": "number" },
-              "damage_dealt": { "type": "integer" },
-              "damage_taken": { "type": "integer" },
-              "items": { "type": "array", "items": { "type": "string" } },
               "emblem": {
                 "type": "object",
+                "required": ["emblem_id", "talents"],
                 "properties": {
-                  "main": { "type": "string" },
+                  "emblem_id": { "type": "string" },
                   "talents": { "type": "array", "items": { "type": "string" } }
                 }
               }

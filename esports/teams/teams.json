@@ -1,62 +1,25 @@
 {
   "revdate": "2026-08-11",
   "author": "sukirman1901",
+  "data_type": "sample",
   "data": [
     {
-      "team_id": "fnatic_onic",
+      "team_id": "team-onic",
       "name": "Fnatic ONIC",
       "short_name": "ONIC",
       "region": "ID",
-      "coach": "Yeb",
-      "roster": [
-        { "player_name": "Lutpiii", "role": "EXP" },
-        { "player_name": "Kairi", "role": "Jungle" },
-        { "player_name": "Sanz", "role": "Mid" },
-        { "player_name": "CW", "role": "Gold" },
-        { "player_name": "Kiboy", "role": "Roam" }
-      ]
+      "country": "Indonesia",
+      "logo": "assets/teams/onic.png",
+      "status": "active"
     },
     {
-      "team_id": "rrq_hoshi",
+      "team_id": "team-rrq",
       "name": "RRQ Hoshi",
       "short_name": "RRQ",
       "region": "ID",
-      "coach": "KDA",
-      "roster": [
-        { "player_name": "Idok", "role": "EXP" },
-        { "player_name": "Sutsujin", "role": "Jungle" },
-        { "player_name": "Rinz", "role": "Mid" },
-        { "player_name": "Skylar", "role": "Gold" },
-        { "player_name": "Branz", "role": "Roam" }
-      ]
-    },
-    {
-      "team_id": "team_liquid_id",
-      "name": "Team Liquid ID",
-      "short_name": "TLID",
-      "region": "ID",
-      "coach": "SaintDeLucaz",
-      "roster": [
-        { "player_name": "Jeytm", "role": "EXP" },
-        { "player_name": "Favia", "role": "Jungle" },
-        { "player_name": "Yehezkiel", "role": "Mid" },
-        { "player_name": "AeronnShikii", "role": "Gold" },
-        { "player_name": "Yawi", "role": "Roam" }
-      ]
-    },
-    {
-      "team_id": "evos_glory",
-      "name": "EVOS Glory",
-      "short_name": "EVOS",
-      "region": "ID",
-      "coach": "Striver",
-      "roster": [
-        { "player_name": "Fluffy", "role": "EXP" },
-        { "player_name": "Anavel", "role": "Jungle" },
-        { "player_name": "Claw Kun", "role": "Mid" },
-        { "player_name": "Nats3r", "role": "Gold" },
-        { "player_name": "Dreams", "role": "Roam" }
-      ]
+      "country": "Indonesia",
+      "logo": "assets/teams/rrq.png",
+      "status": "active"
     }
   ]
 }

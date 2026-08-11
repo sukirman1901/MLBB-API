@@ -1,42 +1,97 @@
 {
   "revdate": "2026-08-11",
   "author": "sukirman1901",
+  "data_type": "sample",
   "data": [
     {
-      "player_id": "kairi",
-      "name": "Kairi Ygnacio Rayosdelsol",
-      "ign": "Kairi",
-      "team": "Fnatic ONIC",
-      "role": "Jungle",
-      "comfort_heroes": ["Ling", "Hayabusa", "Fanny", "Lancelot", "Baxia", "Fredrinn"],
-      "signature_pick": "Ling"
+      "player_id": "player-lutpiii",
+      "nickname": "Lutpiii",
+      "real_name": "Lutfi Ardianto",
+      "team_id": "team-onic",
+      "primary_role": "ExpLaner",
+      "secondary_roles": [],
+      "status": "active"
     },
     {
-      "player_id": "sanz",
-      "name": "Gilang",
-      "ign": "Sanz",
-      "team": "Fnatic ONIC",
-      "role": "Mid",
-      "comfort_heroes": ["Valentina", "Lylia", "Pharsa", "Yve", "Faramis", "Novaria"],
-      "signature_pick": "Valentina"
+      "player_id": "player-kairi",
+      "nickname": "Kairi",
+      "real_name": "Kairi Ygnacio Rayosdelsol",
+      "team_id": "team-onic",
+      "primary_role": "Jungler",
+      "secondary_roles": [],
+      "status": "active"
     },
     {
-      "player_id": "skylar",
-      "name": "Schevenko David Tendean",
-      "ign": "Skylar",
-      "team": "RRQ Hoshi",
-      "role": "Gold",
-      "comfort_heroes": ["Claude", "Beatrix", "Irithel", "Brody", "Moskov", "Karrie"],
-      "signature_pick": "Claude"
+      "player_id": "player-sanz",
+      "nickname": "Sanz",
+      "real_name": "Gilang",
+      "team_id": "team-onic",
+      "primary_role": "MidLaner",
+      "secondary_roles": [],
+      "status": "active"
     },
     {
-      "player_id": "sutsujin",
-      "name": "Michael Giovanni",
-      "ign": "Sutsujin",
-      "team": "RRQ Hoshi",
-      "role": "Jungle",
-      "comfort_heroes": ["Alpha", "Suyou", "Ling", "Suyou", "Akai"],
-      "signature_pick": "Alpha"
+      "player_id": "player-cw",
+      "nickname": "CW",
+      "real_name": "Calvin Winata",
+      "team_id": "team-onic",
+      "primary_role": "GoldLaner",
+      "secondary_roles": [],
+      "status": "active"
+    },
+    {
+      "player_id": "player-kiboy",
+      "nickname": "Kiboy",
+      "real_name": "Nicky Fernando",
+      "team_id": "team-onic",
+      "primary_role": "Roamer",
+      "secondary_roles": [],
+      "status": "active"
+    },
+    {
+      "player_id": "player-idok",
+      "nickname": "Idok",
+      "real_name": "Said Ali",
+      "team_id": "team-rrq",
+      "primary_role": "ExpLaner",
+      "secondary_roles": [],
+      "status": "active"
+    },
+    {
+      "player_id": "player-sutsujin",
+      "nickname": "Sutsujin",
+      "real_name": "Michael Giovanni",
+      "team_id": "team-rrq",
+      "primary_role": "Jungler",
+      "secondary_roles": [],
+      "status": "active"
+    },
+    {
+      "player_id": "player-rinz",
+      "nickname": "Rinz",
+      "real_name": "Hajizzah",
+      "team_id": "team-rrq",
+      "primary_role": "MidLaner",
+      "secondary_roles": [],
+      "status": "active"
+    },
+    {
+      "player_id": "player-skylar",
+      "nickname": "Skylar",
+      "real_name": "Schevenko David Tendean",
+      "team_id": "team-rrq",
+      "primary_role": "GoldLaner",
+      "secondary_roles": [],
+      "status": "active"
+    },
+    {
+      "player_id": "player-branz",
+      "nickname": "Branz",
+      "real_name": "Jabran Bagus Wiloko",
+      "team_id": "team-rrq",
+      "primary_role": "Roamer",
+      "secondary_roles": ["GoldLaner"],
+      "status": "active"
     }
   ]
 }

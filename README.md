@@ -8,24 +8,52 @@ Welcome to **MLBB-API**, an open-source Mobile Legends: Bang Bang (MLBB) Attribu
 
 ---
 
-## 🏗️ Project Architecture: V0 vs V1
+## 🏗️ Project Architecture & Long-Term Roadmap
 
 ```text
-                 MLBB-API ENGINE
-                        │
-       ┌────────────────┴────────────────┐
-       │                                 │
-  V0: STATIC KNOWLEDGE            V1: ESPORTS MATCH DATASET
-       │                                 │
- Heroes (132)                     Tournaments (MPL/M-Series)
- Items (89)                       Teams & Rosters
- Emblems (7 Sets + 26 Talents)    Player Profiles
- Image Assets (247 PNGs/WebPs)    Matches & Draft Picks/Bans
-       │                                 │
-       └────────────────┬────────────────┘
-                        ↓
-                 ANALYTICS ENGINE
-             (Draft & Meta Tracing)
+Static Game Knowledge (V0: Heroes, Items, Emblems)
+        ↓
+Esports Match Dataset (V1: Tournaments, Teams, Players, Matches, Draft Sequences)
+        ↓
+Draft Analytics (V2: Pick/Ban Priority, Response Picks, Side Win Rates)
+        ↓
+Meta Tracing (Dynamic Meta Shifts & Patch Performance)
+        ↓
+In-Game Tracking (Timeline & Objective Events)
+        ↓
+VOD / Event Dataset (Computer Vision & Timestamp Events)
+        ↓
+Data Science & ML Models (Win Prediction & Draft Optimizer)
+        ↓
+AI Analyst (Scouting Reports & Tactical Recommender)
+```
+
+---
+
+## 🎮 Why This Esports Dataset Exists
+
+Static game knowledge alone (hero stats, item passives) cannot reveal how competitive games are won or lost.
+
+The **Esports Match Dataset** establishes a bridge between static knowledge and real competitive performance:
+
+* **Static Game Knowledge (V0):** Answers *"What does hero X do?"* and *"What stats does item Y provide?"*
+* **Esports Match Dataset (V1):** Answers *"How often is hero X banned on blue side?"*, *"Which item build does Player Y use against hero Z?"*, and *"Which first picks yield the highest win rate?"*
+
+---
+
+## 📐 Entity Relationships
+
+```mermaid
+erDiagram
+    TOURNAMENT ||--o{ SERIES : contains
+    SERIES ||--o{ MATCH : contains
+    TEAM ||--o{ PLAYER : employs
+    MATCH ||--o{ DRAFT_ACTION : sequences
+    MATCH ||--o{ PLAYER_PERFORMANCE : tracks
+    PLAYER ||--o{ PLAYER_PERFORMANCE : executes
+    HERO_META ||--o{ DRAFT_ACTION : references
+    ITEM_META ||--o{ PLAYER_PERFORMANCE : itemizes
+    EMBLEM_META ||--o{ PLAYER_PERFORMANCE : equips
 ```
 
 ---
@@ -38,79 +66,81 @@ Welcome to **MLBB-API**, an open-source Mobile Legends: Bang Bang (MLBB) Attribu
 * 🛡️ **Emblem Data (7 Sets + 26 Talents):** [`v1/emblem-meta-final.json`](https://github.com/sukirman1901/MLBB-API/blob/main/v1/emblem-meta-final.json)
 
 ### 2. V1 — Esports Match Datasets (`esports/`)
-* 🏆 **Tournaments:** [`esports/tournaments/mpl_id_s16.json`](https://github.com/sukirman1901/MLBB-API/blob/main/esports/tournaments/mpl_id_s16.json)
+* 🏆 **Tournaments:** [`esports/tournaments/tournaments.json`](https://github.com/sukirman1901/MLBB-API/blob/main/esports/tournaments/tournaments.json)
 * 🛡️ **Teams & Rosters:** [`esports/teams/teams.json`](https://github.com/sukirman1901/MLBB-API/blob/main/esports/teams/teams.json)
 * 👤 **Player Profiles:** [`esports/players/players.json`](https://github.com/sukirman1901/MLBB-API/blob/main/esports/players/players.json)
-* 🎮 **Matches & Draft Picks:** [`esports/matches/mpl_id_s16_g1.json`](https://github.com/sukirman1901/MLBB-API/blob/main/esports/matches/mpl_id_s16_g1.json)
+* ⚔️ **Series Containers:** [`esports/matches/series.json`](https://github.com/sukirman1901/MLBB-API/blob/main/esports/matches/series.json)
+* 🎮 **Sample Matches & Chronological Drafts:** [`esports/matches/sample_matches.json`](https://github.com/sukirman1901/MLBB-API/blob/main/esports/matches/sample_matches.json)
 * 📐 **Esports Analytics Schema:** [`specification/esports_analytics_schema.json`](https://github.com/sukirman1901/MLBB-API/blob/main/specification/esports_analytics_schema.json)
 
 ---
 
-## ✅ Data Completeness & Status
+## 🔑 Key Schema Concepts
 
-| Category | Total Entries | Attributes & Coverage Included |
-| :--- | :---: | :--- |
-| **Hero Metadata** | **132 Heroes** | 100% Complete (Skills, Cooldowns, Mana Costs, Base Stats HP/Mana/Def/Atk/Speed, Counters, Synergies, Recommended Builds, Tiers) |
-| **Equipment Items** | **89 Items** | 100% Complete (Stats Modifiers, Unique Passives e.g., *Armor Buster*, *Malefic Energy*, Prices & Build Paths) |
-| **Emblem System** | **7 Sets + 26 Talents** | 100% Complete (2025/2026 Role-based Emblems: Common, Tank, Assassin, Mage, Fighter, Support, Marksman) |
-| **Esports Match Data** | **Match & Draft Records** | Draft Picks & Bans (Blue/Red side), Player Performance KDA, GPM, Damage Dealt/Taken, Itemization & Emblem Choices |
+### 1. Match vs Series Distinction
+A **Series** (e.g. BO3 or BO5 match set) contains multiple individual **Matches** (Game 1, Game 2, Game 3). The schema explicitly separates:
+* `series_id`: Links all games in a competitive series.
+* `match_id`: Records individual game statistics, side assignments, and duration.
+
+### 2. Chronological Draft Representation
+Instead of saving only the final 5 hero compositions, the draft array preserves exact chronological action sequence:
+```json
+{
+  "action": 5,
+  "phase": 1,
+  "type": "pick",
+  "team_id": "team-onic",
+  "hero_id": "h084",
+  "player_id": "player-kairi"
+}
+```
+This enables analysis of **Phase 1 Ban Priority**, **First-Pick Advantage**, and **Response Picks**.
+
+### 3. Decoupling Competitive Role from Hero Class
+A player's role is recorded as their in-game competitive position (`Jungler`, `GoldLaner`, `MidLaner`, `ExpLaner`, `Roamer`), independently of the hero's default class:
+```text
+player_role = "Jungler"
+hero_id = "h084" (Ling)
+```
+
+### 4. Canonical Item & Emblem References
+Player itemization and emblem setups reference canonical identifiers from `v1/item-meta-final.json` and `v1/emblem-meta-final.json` without duplicating full static definitions.
 
 ---
 
-## ⚡ Automation & Scraper Scripts (`scripts/`)
+## ⚡ Maintainer & Validation Scripts (`scripts/`)
 
-All maintainer scripts are stored inside the `scripts/` directory:
+### 1. Dataset Integrity Validator (`scripts/validate_esports.py`)
+Validates entity ID references, draft sequencing rules, and item/emblem references:
+```bash
+python3 scripts/validate_esports.py
+```
 
-### 1. Hero Data Scraper (`scripts/heroes.py`)
-Fetches complete hero skills, base stats, counters, synergies, and tiers directly from official APIs.
+### 2. Hero Data Scraper (`scripts/heroes.py`)
 ```bash
 python3 scripts/heroes.py
 ```
 
-### 2. Equipment Data Scraper (`scripts/equipment.py`)
-Parses equipment stats, unique passives, costs, and build paths directly from Fandom MediaWiki API.
+### 3. Equipment Data Scraper (`scripts/equipment.py`)
 ```bash
 python3 scripts/equipment.py
 ```
 
-### 3. Asset Downloader (`scripts/assets.py`)
-Downloads and syncs high-resolution PNG image assets into `assets/hero/`, `assets/item/`, and `assets/emblem/`.
+### 4. Asset Downloader (`scripts/assets.py`)
 ```bash
 python3 scripts/assets.py
 ```
 
-### 4. Data Transformation (`scripts/transform.py`)
-Transforms raw payloads into standardized MLBB-API JSON schemas.
-```bash
-python3 scripts/transform.py
-```
-
 ---
 
-## 💻 Usage Examples
+## 💡 Analytics Capabilities Enabled
 
-### Python: Linking Static Knowledge to Match Data
-```python
-import json
-
-# Load Static Hero Knowledge & Match Data
-with open('v1/hero-meta-final.json', 'r') as f:
-    heroes = json.load(f)['data']
-
-with open('esports/matches/mpl_id_s16_g1.json', 'r') as f:
-    match = json.load(f)
-
-print(f"Match: {match['blue_team']['name']} vs {match['red_team']['name']} (Winner: {match['winner']})")
-print("Blue Bans:", match['blue_team']['bans'])
-print("Blue Picks:", [p['hero'] for p in match['blue_team']['picks']])
-
-# Inspect Player Performance for Kairi (Ling)
-kairi_perf = next(p for p in match['player_performances'] if p['player'] == 'Kairi')
-print(f"\nPlayer: {kairi_perf['player']} | Hero: {kairi_perf['hero']}")
-print(f"KDA: {kairi_perf['kda']['kills']}/{kairi_perf['kda']['deaths']}/{kairi_perf['kda']['assists']} | GPM: {kairi_perf['gpm']}")
-print("Build Items:", kairi_perf['items'])
-print("Emblem:", kairi_perf['emblem'])
-```
+With this foundation, the dataset enables:
+1. **First-Pick Priority & Win Rates:** Calculate blue vs red side win rates and first-pick win rates per patch.
+2. **Phase 1 Ban Priority:** Identify heroes banned most frequently in Phase 1 across tournaments.
+3. **Player Comfort Pools:** Analyze comfort hero win rates and pocket picks for specific players.
+4. **Draft Combination Synergy:** Evaluate win rates of specific 2-hero or 3-hero draft pairings.
+5. **Item Build Tendencies:** Trace itemization path timing per hero/player.
 
 ---
 
